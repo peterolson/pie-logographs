@@ -107,9 +107,11 @@ const parsed = parse(input);
 const renderedBopomofo = render(parsed, "bopomofo");
 const renderedHiragana = render(parsed, "hiragana");
 const renderedKatakana = render(parsed, "katakana");
+const renderedHangul = render(parsed, "hangul");
 
 console.log(input);
 console.log(parsed);
 console.log(renderedBopomofo);
 console.log(renderedHiragana);
 console.log(renderedKatakana);
+console.log(renderedHangul);

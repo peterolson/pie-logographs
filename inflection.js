@@ -38,6 +38,90 @@ const katakanaTable = {
     p: ["パ", "ピ", "プ", "ペ", "ポ", "ピャ", "ピュ", "ピョ"],
 };
 
+const hangulInitials = [
+    "ㄱ",
+    "ㄲ",
+    "ㄴ",
+    "ㄷ",
+    "ㄸ",
+    "ㄹ",
+    "ㅁ",
+    "ㅂ",
+    "ㅃ",
+    "ㅅ",
+    "ㅆ",
+    "ㅇ",
+    "ㅈ",
+    "ㅉ",
+    "ㅊ",
+    "ㅋ",
+    "ㅌ",
+    "ㅍ",
+    "ㅎ",
+];
+const hangulMedials = [
+    "ㅏ",
+    "ㅐ",
+    "ㅑ",
+    "ㅒ",
+    "ㅓ",
+    "ㅔ",
+    "ㅕ",
+    "ㅖ",
+    "ㅗ",
+    "ㅘ",
+    "ㅙ",
+    "ㅚ",
+    "ㅛ",
+    "ㅜ",
+    "ㅝ",
+    "ㅞ",
+    "ㅟ",
+    "ㅠ",
+    "ㅡ",
+    "ㅢ",
+    "ㅣ",
+];
+const hangulFinals = [
+    "",
+    "ㄱ",
+    "ㄲ",
+    "ㄳ",
+    "ㄴ",
+    "ㄵ",
+    "ㄶ",
+    "ㄷ",
+    "ㄹ",
+    "ㄺ",
+    "ㄻ",
+    "ㄼ",
+    "ㄽ",
+    "ㄾ",
+    "ㄿ",
+    "ㅀ",
+    "ㅁ",
+    "ㅂ",
+    "ㅄ",
+    "ㅅ",
+    "ㅆ",
+    "ㅇ",
+    "ㅈ",
+    "ㅊ",
+    "ㅋ",
+    "ㅌ",
+    "ㅍ",
+    "ㅎ",
+];
+
+function hangulSyllable(initial, medial, final) {
+    const initialIndex = hangulInitials.indexOf(initial);
+    const medialIndex = hangulMedials.indexOf(medial);
+    const finalIndex = hangulFinals.indexOf(final);
+    return String.fromCharCode(
+        44032 + initialIndex * 588 + medialIndex * 28 + finalIndex
+    );
+}
+
 const inflectionConverters = {
     bopomofo: {
         adj: (n, g, c) => {
@@ -245,6 +329,64 @@ const inflectionConverters = {
                 syllable += "ン";
             }
             return syllable;
+        },
+    },
+    hangul: {
+        adj: (n, g, c) => {
+            const caseIndex = cases.indexOf(c);
+            const initials = ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅅ", "ㅈ"];
+            const initial = initials[caseIndex];
+            const vowels = {
+                sg: "ㅏ",
+                dual: "ㅗ",
+                pl: "ㅜ",
+            };
+            const vowel = vowels[n];
+            const finals = {
+                m: "",
+                f: "ㄴ",
+                n: "ㅇ",
+            };
+            const final = finals[g];
+            return hangulSyllable(initial, vowel, final);
+        },
+        verb: (n, p, t, v) => {
+            if (t === "part") {
+                if (v === "active") {
+                    return "파";
+                }
+                return "포";
+            }
+            const initials = {
+                active: {
+                    pres: "ㅇ",
+                    past: "ㄱ",
+                    imp: "ㅅ",
+                    subj: "ㄹ",
+                    opt: "ㅂ",
+                },
+                middle: {
+                    pres: "ㄴ",
+                    past: "ㅁ",
+                    imp: "ㅈ",
+                    subj: "ㄷ",
+                    opt: "ㅎ",
+                },
+            };
+            const initial = initials[v][t];
+            const vowels = {
+                sg: "ㅏ",
+                dual: "ㅗ",
+                pl: "ㅜ",
+            };
+            const vowel = vowels[n];
+            const finals = {
+                1: "ㄹ",
+                2: "ㅇ",
+                3: "",
+            };
+            const final = finals[p];
+            return hangulSyllable(initial, vowel, final);
         },
     },
 };
