@@ -1,0 +1,54 @@
+72 suffixes
+https://en.wiktionary.org/wiki/Category:Proto-Indo-European_suffixes
+
+10 prefixes
+https://en.wiktionary.org/wiki/Category:Proto-Indo-European_prefixes
+
+1 infix
+https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-n%C3%A9-
+
+phonology
+
+consonants
+m   n
+p   t   ḱ   k   kʷ
+(b) d   ǵ   g   gʷ
+bʰ  dʰ  ǵʰ  gʰ  gʷʰ
+    s               h₁, h₂, h₃
+    r l
+        y   w
+
+vowels
+e   o
+i   u
+
+Bopomofo equivalent
+m   ㄇ
+n   ㄋ
+p   ㄆ
+t   ㄊ
+ḱ   ㄑ
+k   ㄎ
+kʷ  ㄔ
+d   ㄉ
+ǵ   ㄐ
+g   ㄍ
+gʷ  ㄓ
+bʰ  ㄅ
+dʰ  ㄗ
+ǵʰ  ㄒ
+gʰ  ㄏ
+gʷʰ ㄕ
+s   ㄙ
+h₁  ㄘ
+h₂  
+h₃
+r   ㄖ
+l   ㄌ
+y
+w
+
+e   ㄜ
+o   ㄛ
+i   ㄧ
+u   ㄨ
