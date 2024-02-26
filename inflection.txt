@@ -1,3 +1,126 @@
+hangul
+
+noun/adjective
+
+ㄱ  masculine singular
+ㄲ  masculine dual
+ㅋ  masculine plural
+ㅅ  feminine singular
+ㅆ  feminine dual
+ㅈ  feminine plural
+ㄷ  neuter singular
+ㄸ  neuter dual
+ㅁ  neuter plural
+
+ㅣ  nominative
+ㅏ  vocative
+ㅡ  accusative
+ㅗ  genitive
+ㅜ  dative
+ㅓ  instrumental
+ㅐ  locative
+ㅔ  ablative
+
+verb
+
+person/number
+
+ㄱ    1st person singular
+ㄲ    1st person dual
+ㅋ    1st person plural
+ㅅ    2nd person singular
+ㅆ    2nd person dual
+ㅈ    2nd person plural
+ㄷ    3rd person singular
+ㄸ    3rd person dual
+ㅁ    3rd person plural
+ㄴ    participle
+
+tense/aspect/mood
+
+ㅏ  primary active 
+ㅓ  secondary active 
+ㅑ  thematic vowel + primary active (subjunctive active eventive)
+ㅕ  thematic vowel + secondary active (optative active eventive)
+ㅣ  imperative active 
+ㅐ  participle active 
+
+ㅗ  primary middle 
+ㅜ  secondary middle 
+ㅛ	thematic vowel + primary middle (subjunctive middle)
+ㅠ  thematic vowel + secondary middle (optative middle)
+ㅡ  imperative middle 
+ㅢ  participle middle 
+
+ㅔ  stative
+ㅘ  participle stative
+
+formation type
+
+-   imperfective root athematic
+ㅇ  imperfective root athematic (Narten type)
+ㄱ  imperfective root thematic
+ㄷ  imperfective root thematic (tudati type)
+ㄵ  imperfective e-reduplicated athematic
+ㄶ  imperfective i-reduplicated athematic
+ㄲ  imperfective reduplicated thematic
+ㅁ  imperfective nasal infix
+
+ㅅ  perfective root athematic
+ㅈ  perfective root thematic
+ㅆ  perfective reduplicated thematic
+
+ㅂ  stative root
+ㅍ  stative reduplicated
+
+
+imperfective verb
+athematic example: *bʰéh₂ti https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0%C3%A9h%E2%82%82ti
+thematic example: *bʰéreti https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0%C3%A9reti
+
+
+present indicative active   primary active eventive 
+past indicative active      secondary active eventive
+imperative active           imperative active eventive
+subjunctive active          thematic vowel + primary active eventive
+optative active             thematic vowel + secondary active eventive
+participle active           participle active eventive
+
+present indicative middle   primary middle eventive
+past indicative middle      secondary middle eventive
+imperative middle           imperative middle eventive
+subjunctive middle          thematic vowel + primary middle eventive
+optative middle             thematic vowel + secondary middle eventive
+participle middle           participle middle eventive
+
+
+perfective verb
+athematic example: *dḗyḱst https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%E1%B8%97y%E1%B8%B1st
+thematic example: *h₁ludʰét https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81lud%CA%B0%C3%A9t
+
+indicative active   secondary active eventive 
+imperative active   imperative active eventive 
+subjunctive active  thematic vowel + primary active eventive
+optative active     thematic vowel + secondary active eventive
+participle active   participle active eventive
+
+indicative middle   secondary middle eventive
+imperative middle   imperative middle eventive
+subjunctive middle  thematic vowel + primary middle eventive
+optative middle     thematic vowel + secondary middle eventive
+participle middle   participle middle eventive
+
+
+stative verb 
+example: *wóyde https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%B3yde
+
+indicative active   stative
+imperative active   imperative active eventive
+subjunctive active  thematic vowel + primary active eventive
+optative active     thematic vowel + secondary active eventive
+participle active   participle stative
+
+
 72 suffixes
 https://en.wiktionary.org/wiki/Category:Proto-Indo-European_suffixes
 
@@ -8,63 +131,50 @@ https://en.wiktionary.org/wiki/Category:Proto-Indo-European_prefixes
 https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-n%C3%A9-
 
 
-exceptions
--dʰh₁eti from root
+hiragana
 
-*-dʰlom=*-dʰrom=*(é)-trom
+consonants
+m   も
+n   の
 
-*(Ø)-éh₁yeti=*-éh₁ti + *-yeti.
+p   ま
+t   つ
+ḱ   に
+k   な
+*kʷ ぬ
 
--eh₂yéti=*-éh₂ + *-yéti
+b   し
+d   て
+ǵ   き
+g   か
+gʷ  く
 
-*(o)-éh₂=*(é)-(o)-h₂
+bʰ  じ
+dʰ  づ
+ǵʰ  ぎ
+gʰ  が
+gʷʰ ぐ
 
--eh₂tos = *-éh₂ + *-tos
+s   す
 
-*(Ø)-lós=*-nós=*-rós=*-yós
+h₁  ふ
+h₂  ぶ
+h₃  ぷ
 
-*(Ø)-mḗn=*(é)-mō=*(é)-mn̥
+r   ろ
+l   り
 
-*(ó)-mos=*(Ø)-mós
+y   や
+w   わ
 
-suffixes
-*(é)-dʰ(h₁)eti  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-d%CA%B0h%E2%82%81eti
-Forms resultative verbs.    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0eh%E2%82%81-
+vowels
 
-*-dʰlom
-Alternative form of *-trom
-*-dʰrom
-Alternative form of *-trom
-*(é)-trom
-Forms nouns denoting a tool or instrument.  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-trom
+e   え
+o   お
+ē   あ
+ō   よ
+i   い
+u   う
 
-*(Ø)-ḗn
-Derives nouns from roots.   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%E1%B8%97n
-
-*(Ø)-éh₁ti (oblique stem *(Ø)-h₁-?)
-Creates inchoative (or fientive) verbs from perfective roots.
-Creates inchoative (or fientive) verbs from nominals.   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9h%E2%82%81ti
-
-*(Ø)-éh₁yeti
-Thematicization of the athematic stative verbal suffix; see *-yeti. https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9h%E2%82%81yeti
-
-*(é)-yeti
-Creates transitive imperfective verbs from roots.   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-yeti#English
-
-*(o)-éh₂ f
-Creates collective nouns and mass nouns.
-Creates action nouns and abstract nouns.
-https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9h%E2%82%82
-
-*(é)-ēs
-Primarily forms adjectival bahuvrīhi compounds
-https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C4%93s
-
-*(o)-éyeti
-Forms causative imperfective verbs from roots.
-Forms iterative or frequentative imperfective verbs from roots.
-https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9yeti
-
-*(Ø)-éyti
-Forms aktionsart verbs from roots.
-https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9yti
+accent
+ー
