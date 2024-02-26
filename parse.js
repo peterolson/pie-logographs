@@ -7,7 +7,12 @@ import {
     verbTypes,
     voices,
     addInflection,
+    suffixes,
+    addSuffixes,
+    formationTypes,
+    addFormationType,
 } from "./inflection.js";
+import { texts } from "./texts.js";
 
 function parseLine(line) {
     const tokens = line.split(" ");
@@ -40,6 +45,13 @@ function parseLine(line) {
         }
         if (voices.includes(token)) {
             currentWord.voice = token;
+        }
+        if (token in suffixes) {
+            currentWord.suffix = currentWord.suffix || [];
+            currentWord.suffix.push(token);
+        }
+        if (token in formationTypes) {
+            currentWord.formationType = token;
         }
     }
     if (currentWord) {
@@ -90,7 +102,12 @@ function parse(input) {
 function renderLine(words, inflectionType) {
     return words
         .map((word) => {
-            return word.char + addInflection(inflectionType, word);
+            return (
+                word.char +
+                addFormationType(inflectionType, word) +
+                addSuffixes(inflectionType, word) +
+                addInflection(inflectionType, word)
+            );
         })
         .join("");
 }
@@ -99,19 +116,18 @@ function render(parsed, inflectionType) {
     return parsed.map((x) => renderLine(x, inflectionType)).join("\n");
 }
 
-const input = `
-SHEEP nom HORSE nom AND
-SHEEP dat IT f sg dat HAIR *-néh₂ f sg nom NOT BE 3 sg , THIS HORSE acc pl SEE past 3 sg .
-`;
-const parsed = parse(input);
-const renderedBopomofo = render(parsed, "bopomofo");
-const renderedHiragana = render(parsed, "hiragana");
-const renderedKatakana = render(parsed, "katakana");
-const renderedHangul = render(parsed, "hangul");
+for (const { title, text } of texts) {
+    console.log(title);
+    const parsed = parse(text);
+    const renderedBopomofo = render(parsed, "bopomofo");
+    const renderedHiragana = render(parsed, "hiragana");
+    const renderedKatakana = render(parsed, "katakana");
+    const renderedHangul = render(parsed, "hangul");
 
-console.log(input);
-console.log(parsed);
-console.log(renderedBopomofo);
-console.log(renderedHiragana);
-console.log(renderedKatakana);
-console.log(renderedHangul);
+    console.log(text);
+    console.log(parsed);
+    console.log(renderedBopomofo);
+    console.log(renderedHiragana);
+    console.log(renderedKatakana);
+    console.log(renderedHangul);
+}

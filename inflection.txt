@@ -7,48 +7,64 @@ https://en.wiktionary.org/wiki/Category:Proto-Indo-European_prefixes
 1 infix
 https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-n%C3%A9-
 
-phonology
 
-consonants
-m   n
-p   t   ḱ   k   kʷ
-(b) d   ǵ   g   gʷ
-bʰ  dʰ  ǵʰ  gʰ  gʷʰ
-    s               h₁, h₂, h₃
-    r l
-        y   w
+exceptions
+-dʰh₁eti from root
 
-vowels
-e   o
-i   u
+*-dʰlom=*-dʰrom=*(é)-trom
 
-Bopomofo equivalent
-m   ㄇ
-n   ㄋ
-p   ㄆ
-t   ㄊ
-ḱ   ㄑ
-k   ㄎ
-kʷ  ㄔ
-d   ㄉ
-ǵ   ㄐ
-g   ㄍ
-gʷ  ㄓ
-bʰ  ㄅ
-dʰ  ㄗ
-ǵʰ  ㄒ
-gʰ  ㄏ
-gʷʰ ㄕ
-s   ㄙ
-h₁  ㄘ
-h₂  
-h₃
-r   ㄖ
-l   ㄌ
-y
-w
+*(Ø)-éh₁yeti=*-éh₁ti + *-yeti.
 
-e   ㄜ
-o   ㄛ
-i   ㄧ
-u   ㄨ
+-eh₂yéti=*-éh₂ + *-yéti
+
+*(o)-éh₂=*(é)-(o)-h₂
+
+-eh₂tos = *-éh₂ + *-tos
+
+*(Ø)-lós=*-nós=*-rós=*-yós
+
+*(Ø)-mḗn=*(é)-mō=*(é)-mn̥
+
+*(ó)-mos=*(Ø)-mós
+
+suffixes
+*(é)-dʰ(h₁)eti  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-d%CA%B0h%E2%82%81eti
+Forms resultative verbs.    https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0eh%E2%82%81-
+
+*-dʰlom
+Alternative form of *-trom
+*-dʰrom
+Alternative form of *-trom
+*(é)-trom
+Forms nouns denoting a tool or instrument.  https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-trom
+
+*(Ø)-ḗn
+Derives nouns from roots.   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%E1%B8%97n
+
+*(Ø)-éh₁ti (oblique stem *(Ø)-h₁-?)
+Creates inchoative (or fientive) verbs from perfective roots.
+Creates inchoative (or fientive) verbs from nominals.   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9h%E2%82%81ti
+
+*(Ø)-éh₁yeti
+Thematicization of the athematic stative verbal suffix; see *-yeti. https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9h%E2%82%81yeti
+
+*(é)-yeti
+Creates transitive imperfective verbs from roots.   https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-yeti#English
+
+*(o)-éh₂ f
+Creates collective nouns and mass nouns.
+Creates action nouns and abstract nouns.
+https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9h%E2%82%82
+
+*(é)-ēs
+Primarily forms adjectival bahuvrīhi compounds
+https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C4%93s
+
+*(o)-éyeti
+Forms causative imperfective verbs from roots.
+Forms iterative or frequentative imperfective verbs from roots.
+https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9yeti
+
+*(Ø)-éyti
+Forms aktionsart verbs from roots.
+https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-%C3%A9yti
