@@ -12,6 +12,7 @@ import {
     formationTypes,
 } from "./inflection.js";
 import { texts } from "./texts.js";
+import { renderPIE } from "./langs/pie.js";
 
 function parseLine(line) {
     const tokens = line.split(" ");
@@ -98,16 +99,17 @@ function renderLine(words) {
         .join("");
 }
 
-function render(parsed) {
-    return parsed.map(renderLine).join("\n");
+function render(parsed, renderer) {
+    return parsed.map(renderer).join("\n");
 }
 
 for (const { title, text } of texts) {
     console.log(title);
     const parsed = parse(text);
-    const rendered = render(parsed);
+    const rendered = render(parsed, renderLine);
+    const renderedPIE = render(parsed, renderPIE);
 
-    console.log(text);
     console.log(parsed);
     console.log(rendered);
+    console.log(renderedPIE);
 }
