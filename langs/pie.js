@@ -14,7 +14,11 @@ export function renderPIE(words) {
             tokens.push(word + "_");
             continue;
         }
-        const suffix = data.suffix ? data.suffix.join(" ") + " " : "";
+        const prefix = data.prefix?.length
+            ? data.prefix.map((x) => x.word).join(" ") + " "
+            : "";
+        const suffix = data.suffix?.length ? data.suffix.join(" ") + " " : "";
+        const keyStart = `${prefix}${suffix}`;
         const dictEntry = pie[word];
         if (!dictEntry) {
             console.error("Unknown word: " + word);
@@ -26,13 +30,13 @@ export function renderPIE(words) {
         }
         let key = "";
         if (pos === "noun") {
-            key = `${suffix}${data.number} ${data.case}`;
+            key = `${keyStart}${data.number} ${data.case}`;
         }
         if (pos === "adj") {
-            key = `${suffix}${data.gender} ${data.number} ${data.case}`;
+            key = `${keyStart}${data.gender} ${data.number} ${data.case}`;
         }
         if (pos === "verb") {
-            key = `${suffix}${data.formation} ${data.voice} ${data.verbType} ${data.number} ${data.person}`;
+            key = `${keyStart}${data.formation} ${data.voice} ${data.verbType} ${data.number} ${data.person}`;
         }
         if (!key) {
             console.error("No handler for", word, data);

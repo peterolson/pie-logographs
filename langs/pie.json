@@ -167,5 +167,20 @@
     "DO": "爲",
     "ELEPHANT": "象",
     "EXTEND": "及",
-    "MASTER": "主"
+    "MASTER": "主",
+    "STRAIGHT": {
+        "noun": {
+            "s sg nom": "h₃rḗǵs"
+        }
+    },
+    "SKY": {
+        "noun": {
+            "o_s sg nom": "deywós"
+        }
+    },
+    "CHILD": {
+        "adj": {
+            "NOT- los m sg nom": "n̥putlós"
+        }
+    }
 }

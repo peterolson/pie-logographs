@@ -1,6 +1,6 @@
 export const texts = [
     {
-        title: "Schleicher's fable",
+        title: "Schleicher's Fable",
         text: `
         SHEEP nom HORSE nom AND
 
@@ -15,5 +15,14 @@ export const texts = [
         The sheep said to the horses: "My heart pains me, seeing a man driving horses." 
         The horses said: "Listen, sheep, our hearts pain us when we see this: a man, the master, makes the wool of the sheep into a warm garment for himself. And the sheep has no wool." 
         Having heard this, the sheep fled into the plain`,
+    },
+    {
+        title: "The King and the God",
+        text: `STRAIGHT s nom SKY o_s nom AND
+        
+        STRAIGHT s nom BE _ira 3 sg sec ; THIS m nom NOT- CHILD los m nom .`,
+        translation: `The king and the god
+        
+        Once there was a king. He was childless. The king wanted a son. He asked his priest: "May a son be born to me!" The priest said to the king: "Pray to the god Werunos." The king approached the god Werunos to pray now to the god. "Hear me, father Werunos!" The god Werunos came down from heaven. "What do you want?" "I want a son." "Let this be so," said the bright god Werunos. The king's lady bore a son.`,
     },
 ];

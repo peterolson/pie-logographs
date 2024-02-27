@@ -17,6 +17,7 @@ import { renderPIE } from "./langs/pie.js";
 function parseLine(line) {
     const tokens = line.split(" ");
     let currentWord = null;
+    let prefix = [];
     const result = [];
     for (const token of tokens) {
         if (token.trim() === "") continue;
@@ -24,10 +25,20 @@ function parseLine(line) {
             if (currentWord) {
                 result.push(currentWord);
             }
+            if (token.endsWith("-")) {
+                prefix.push({
+                    word: token,
+                    char: lexicon[token],
+                });
+                currentWord = null;
+                continue;
+            }
             currentWord = {
                 word: token,
                 char: lexicon[token],
+                prefix: prefix,
             };
+            prefix = [];
         } else if (numbers.includes(token)) {
             currentWord.number = token;
         } else if (genders.includes(token)) {
@@ -94,7 +105,12 @@ function parse(input) {
 function renderLine(words) {
     return words
         .map((word) => {
-            return word.char + addSuffixes(word) + addInflection(word);
+            return (
+                renderLine(word.prefix || []) +
+                word.char +
+                addSuffixes(word) +
+                addInflection(word)
+            );
         })
         .join("");
 }
