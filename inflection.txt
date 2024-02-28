@@ -178,3 +178,82 @@ u   う
 
 accent
 ー
+
+hangul
+
+consonants
+m   ᄆ   ᆷ 
+n   ᄂ   ᆫ 
+
+p   ᄑ   ᇁ
+t   ᄐ   ᇀ
+ḱ   ᄎ   ᆾ
+k   ᄏ   ᆿ
+*kʷ ᅀ   ᇫ
+
+b   ᄇ   ᆸ
+d   ᄃ   ᆮ
+ǵ   ᄌ   ᆽ
+g   ᄀ   ᆨ
+gʷ  ᅌ   ᇰ
+
+bʰ  ᄈ   ퟦ
+dʰ  ᄄ   ퟍ
+ǵʰ  ᄍ   ퟹ
+gʰ  ᄁ   ᆩ
+gʷʰ ᅇ   ᇮ
+
+s   ᄉ   ᆺ
+
+h₁  ᅙ   ᇹ
+h₂  ᄒ   ᇂ
+h₃  ᅘ   ퟶ
+
+r   ᄅ   ᆯ
+l   ᄙ   ᇐ
+
+null initial: ᄋ
+
+vowels
+
+null vowel ᆞ
+
+a   ᅢ
+e   ᅥ
+o   ᅡ
+ē   ᅦ
+ō   ᅩ
+i   ᅵ
+u   ᅮ
+
+y   ᅵ
+w   ᅮ
+
+?   ᅳ
+
+ya/ia  ᅤ
+ye/ie  ᅧ
+yo/io  ᅣ
+yē/ie  ᅨ
+yō/iō  ᅭ
+yi/ii  ퟄ
+yu/iu  ᅲ
+
+wa/ua  ᅫ
+we/ue  ᅿ
+wo/uo  ᅪ
+wē/uē  ᆀ
+wō/uō  ᆂ
+wi/ui  ᅬ
+wu/uu  ᆃ
+
+ai/ay   ힾ   
+ei/ey   ힿ
+oi/oy   ᆘ
+ēi/ēy   ퟀ
+ōi/ōy   ᆚ
+ii/iy   ퟄ
+ui/uy   ᅬ
+
+accent
+ー
