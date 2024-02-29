@@ -179,11 +179,13 @@
     {
         "PIE": "*tend-",
         "char": "及",
-        "meanings": "; to stretch, to extend",
+        "meanings": "to stretch, to extend",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tend-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tend-",
+            "https://www.dong-chinese.com/wiki/及"
+        ],
+        "character_hint": "Pictograph of a hand (又) reaching to grab a person (人)."
     },
     {
         "PIE": "*h₁óh₃s",
@@ -191,17 +193,21 @@
         "meanings": "mouth",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3h%E2%82%83s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3h%E2%82%83s",
+            "https://www.dong-chinese.com/wiki/口"
+        ],
+        "character_hint": "Pictograph of a mouth."
     },
     {
         "PIE": "*-kʷe",
         "char": "合",
-        "meanings": "and *h₂ówis *h₁éḱwōskʷe ― the sheep and the horses (literally, “[the] sheep [the] horses-and”) Antonym: *-wē (“or”); Forms distributives from interrogatives.",
+        "meanings": "and; Forms distributives from interrogatives.",
         "pos": "conj",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e",
+            "https://www.dong-chinese.com/wiki/合"
+        ],
+        "character_hint": "Depicts two mouths talking to each other."
     },
     {
         "PIE": "*sewh₁-",
@@ -209,8 +215,10 @@
         "meanings": "to bear (a child); to give birth",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sewH-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sewH-",
+            "https://www.dong-chinese.com/wiki/育"
+        ],
+        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first."
     },
     {
         "PIE": "*semh₂-",
@@ -218,8 +226,10 @@
         "meanings": "summer (season); year",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/semh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/semh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/夏"
+        ],
+        "character_hint": "Pictograph of a person, represented by their head (頁) and feet (夂), being heated underneath the sun (日). The sun component was later omitted for brevity during the Warring States period."
     },
     {
         "PIE": "*méǵh₂s",
@@ -14398,14 +14408,6 @@
         ]
     },
     {
-        "char": "合",
-        "character_hint": "Depicts two mouths talking to each other.",
-        "meanings": "to join",
-        "references": [
-            "https://www.dong-chinese.com/wiki/合"
-        ]
-    },
-    {
         "char": "厘",
         "character_hint": "Simplified form of 釐. Phonosemantic compound. 𠩺 represents the meaning and 里 represents the sound.",
         "meanings": "fraction, manage",
@@ -14462,14 +14464,6 @@
         ]
     },
     {
-        "char": "及",
-        "character_hint": "Pictograph of a hand (又) reaching to grab a person (人).",
-        "meanings": "extend",
-        "references": [
-            "https://www.dong-chinese.com/wiki/及"
-        ]
-    },
-    {
         "char": "吅",
         "character_hint": "Duplicate of 口 (mouth). Depicts multiple mouths making lots of noise.",
         "meanings": "noise",
@@ -14523,14 +14517,6 @@
         "meanings": "receive",
         "references": [
             "https://www.dong-chinese.com/wiki/受"
-        ]
-    },
-    {
-        "char": "口",
-        "character_hint": "Pictograph of a mouth.",
-        "meanings": "mouth",
-        "references": [
-            "https://www.dong-chinese.com/wiki/口"
         ]
     },
     {
@@ -16691,14 +16677,6 @@
         "meanings": "return",
         "references": [
             "https://www.dong-chinese.com/wiki/复"
-        ]
-    },
-    {
-        "char": "夏",
-        "character_hint": "Pictograph of a person, represented by their head (頁) and feet (夂), being heated underneath the sun (日). The sun component was later omitted for brevity during the Warring States period.",
-        "meanings": "summer",
-        "references": [
-            "https://www.dong-chinese.com/wiki/夏"
         ]
     },
     {
@@ -27107,14 +27085,6 @@
         "meanings": "dog meat",
         "references": [
             "https://www.dong-chinese.com/wiki/肰"
-        ]
-    },
-    {
-        "char": "育",
-        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first.",
-        "meanings": "to have children",
-        "references": [
-            "https://www.dong-chinese.com/wiki/育"
         ]
     },
     {

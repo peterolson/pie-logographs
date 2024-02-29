@@ -31,7 +31,6 @@
 			...data,
 			...entry
 		};
-		console.log(updatedEntry);
 		const res = await fetch(`/lexicon/update`, {
 			method: 'PUT',
 			headers: {
