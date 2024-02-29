@@ -6,9 +6,9 @@
 	import 'ag-grid-community/styles/ag-grid.css';
 	import 'ag-grid-community/styles/ag-theme-quartz.css';
 	import { AbstractCellRenderer, cellRendererFactory } from '$lib/CellRenderer';
-	import './lexiconStore';
+	import '../../lib/lexicon';
 	import type { LexiconEntry } from '$lib/lexicon.types';
-	import { getLexicon, updateLexicon } from './lexiconStore';
+	import { getLexicon, updateLexicon } from '../../lib/lexicon';
 
 	let gridContainer: HTMLDivElement;
 	let quickFilterText = '';
@@ -53,6 +53,9 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Lexicon</title>
+</svelte:head>
 <label
 	>Search:
 	<input

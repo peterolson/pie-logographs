@@ -1,11 +1,11 @@
 <script lang="ts">
 	import type { LexiconEntry } from '$lib/lexicon.types';
-	import { getLexicon } from './lexiconStore';
+	import { getLexicon } from '../../lib/lexicon';
 
 	export let data: LexiconEntry;
 	export let onSave: (lexicon: LexiconEntry[]) => void;
 	export let close: () => void;
-	let { PIE, char, pos, meanings, character_hint, references } = data;
+	let { id, PIE, char, pos, meanings, character_hint, references } = data;
 
 	const partsOfSpeech = [
 		'adj',
@@ -59,6 +59,8 @@
 
 <h2>Entry editor!</h2>
 <div class="input-grid">
+	<span>ID</span>
+	<input type="text" bind:value={id} />
 	<span>PIE</span>
 	<input type="text" bind:value={PIE} />
 	<span>Character</span>
@@ -85,7 +87,7 @@
 </div>
 <button
 	on:click={() => {
-		updateEntry({ PIE, char, pos, meanings, character_hint, references });
+		updateEntry({ id, PIE, char, pos, meanings, character_hint, references });
 	}}>Save</button
 >
 {#if !character_hint && char}
