@@ -6,14 +6,21 @@
 	import 'ag-grid-community/styles/ag-grid.css';
 	import 'ag-grid-community/styles/ag-theme-quartz.css';
 	import { AbstractCellRenderer, cellRendererFactory } from '$lib/CellRenderer';
-	import lexicon from '$lib/lexicon.json';
+	import './lexiconStore';
 	import type { LexiconEntry } from '$lib/lexicon.types';
+	import { getLexicon, updateLexicon } from './lexiconStore';
 
 	let gridContainer: HTMLDivElement;
 	let quickFilterText = '';
 	let gridApi: GridApi;
 
-	onMount(() => {
+	function onSave(lexicon: LexiconEntry[]) {
+		updateLexicon(lexicon);
+		gridApi.setGridOption('rowData', lexicon);
+	}
+
+	onMount(async () => {
+		const lexicon = await getLexicon();
 		gridApi = createGrid(gridContainer, {
 			rowData: lexicon as LexiconEntry[],
 			defaultColDef: { resizable: true, sortable: true, filter: true },
@@ -36,7 +43,7 @@
 					headerName: 'Tools',
 					cellRenderer: cellRendererFactory(
 						(c: AbstractCellRenderer, p: ICellRendererParams<any, any, any>) => {
-							new EntryEditorModal({ target: c.eGui, props: { data: p.data } });
+							new EntryEditorModal({ target: c.eGui, props: { data: p.data, onSave } });
 						}
 					),
 					width: 90

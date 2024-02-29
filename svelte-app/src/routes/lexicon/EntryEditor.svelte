@@ -1,8 +1,11 @@
 <script lang="ts">
 	import type { LexiconEntry } from '$lib/lexicon.types';
+	import { getLexicon } from './lexiconStore';
 
 	export let data: LexiconEntry;
-	let { PIE, char, pos, meanings, character_hint } = data;
+	export let onSave: (lexicon: LexiconEntry[]) => void;
+	export let close: () => void;
+	let { PIE, char, pos, meanings, character_hint, references } = data;
 
 	const partsOfSpeech = [
 		'adj',
@@ -19,6 +22,40 @@
 		'root',
 		'verb'
 	];
+
+	let characterEntryIndex = -1;
+
+	async function updateEntry(entry: Partial<LexiconEntry>) {
+		const lexicon = await getLexicon();
+		const updatedEntry = {
+			...data,
+			...entry
+		};
+		console.log(updatedEntry);
+		const res = await fetch(`/lexicon/update`, {
+			method: 'PUT',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				updatedEntry,
+				characterEntryIndex,
+				entryIndex: lexicon.findIndex((e) => e === data),
+				lexicon
+			})
+		});
+		const updatedLexicon = await res.json();
+		onSave(updatedLexicon);
+		close();
+	}
+
+	async function importCharacter() {
+		const lexicon = await getLexicon();
+		characterEntryIndex = lexicon.findIndex((e) => e.char === char && e.character_hint);
+		const characterEntry = lexicon[characterEntryIndex];
+		character_hint = characterEntry.character_hint;
+		references = [...(references || []), ...(characterEntry.references || [])];
+	}
 </script>
 
 <h2>Entry editor!</h2>
@@ -40,13 +77,21 @@
 	<input type="text" bind:value={character_hint} />
 	<span>References</span>
 	<ul>
-		{#each data.references || [] as href}
+		{#each references || [] as href}
 			{@const url = new URL(href)}
 			{@const displayText = url.hostname.split('.').slice(-2).join('.')}
 			<li><a {href} target="_blank">{displayText}</a></li>
 		{/each}
 	</ul>
 </div>
+<button
+	on:click={() => {
+		updateEntry({ PIE, char, pos, meanings, character_hint, references });
+	}}>Save</button
+>
+{#if !character_hint && char}
+	<button on:click={importCharacter}>Import character</button>
+{/if}
 
 <style>
 	.input-grid {

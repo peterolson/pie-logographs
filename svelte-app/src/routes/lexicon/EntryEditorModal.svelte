@@ -3,6 +3,7 @@
 	import EntryEditor from './EntryEditor.svelte';
 
 	export let data: LexiconEntry;
+	export let onSave: (lexicon: LexiconEntry[]) => void;
 
 	let isOpen = false;
 	let portalNode: HTMLDivElement;
@@ -10,7 +11,6 @@
 	function open() {
 		isOpen = true;
 		queueMicrotask(() => {
-			console.log('portalNode', portalNode);
 			document.body.appendChild(portalNode);
 		});
 	}
@@ -29,7 +29,7 @@
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div bind:this={portalNode} class="portal" on:click={close}>
 		<div class="modal" on:click={(e) => e.stopPropagation()}>
-			<EntryEditor {data} />
+			<EntryEditor {data} {onSave} {close} />
 			<button on:click={close}>Close</button>
 		</div>
 	</div>
