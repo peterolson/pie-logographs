@@ -8,6 +8,12 @@ import type {
 	Voice
 } from './inflection';
 
+export type Inflection = {
+	[suffix: string]: {
+		[pos: string]: Record<string, string>;
+	};
+};
+
 export type LexiconEntry = {
 	id?: string;
 	PIE?: string;
@@ -16,6 +22,7 @@ export type LexiconEntry = {
 	character_hint?: string;
 	pos?: string;
 	references?: string[];
+	inflections?: Record<string, Inflection>;
 };
 
 export type ParsedWord = {

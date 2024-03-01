@@ -33,7 +33,70 @@
             "https://www.dong-chinese.com/wiki/之"
         ],
         "character_hint": "Pictograph of a foot (止) going out of an area. The current meaning is a phonetic loan.",
-        "id": "IT"
+        "id": "IT",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "m sg nom": "h₁e",
+                        "m sg voc": "h₁e",
+                        "m sg acc": "im",
+                        "m sg gen": "h₁éso",
+                        "m sg abl": "h₁esmōd",
+                        "m sg dat": "h₁esmōy",
+                        "m sg loc": "h₁esmi",
+                        "m sg ins": "h₁ey",
+                        "f sg ins": "h₁ey",
+                        "n sg ins": "h₁ey",
+                        "m pl nom": "h₁ey",
+                        "m dual nom": "",
+                        "m dual voc": "",
+                        "m dual acc": "",
+                        "m dual gen": "",
+                        "m dual abl": "",
+                        "m pl abl": "h₁eyos",
+                        "m dual dat": "",
+                        "m dual loc": "",
+                        "f sg nom": "ih₂",
+                        "f sg voc": "ih₂",
+                        "f sg acc": "ih₂m̥",
+                        "f sg gen": "h₁eseh₂s",
+                        "f sg abl": "h₁esmōd",
+                        "f sg dat": "h₁esieh₂ey",
+                        "f sg loc": "h₁esyeh₂i",
+                        "n sg abl": "h₁esmōd",
+                        "n sg nom": "id",
+                        "n sg voc": "id",
+                        "n sg acc": "id",
+                        "n sg gen": "h₁éso",
+                        "n sg dat": "h₁esmōy",
+                        "n sg loc": "h₁esmi",
+                        "n pl nom": "ih₂",
+                        "n pl voc": "ih₂",
+                        "n pl acc": "ih₂",
+                        "f pl acc": "ih₂n̥s",
+                        "m pl acc": "ins",
+                        "n pl abl": "h₁eyos",
+                        "f pl abl": "h₁eyos",
+                        "n pl gen": "h₁ésom",
+                        "f pl gen": "h₁ésom",
+                        "m pl gen": "h₁ésom",
+                        "m pl voc": "h₁ey",
+                        "f pl nom": "ih₂es",
+                        "f pl voc": "ih₂es",
+                        "m pl dat": "h₁eymus",
+                        "f pl dat": "h₁eymus",
+                        "n pl dat": "h₁eymus",
+                        "m pl loc": "h₁eysu",
+                        "f pl loc": "h₁eysu",
+                        "n pl loc": "h₁eysu",
+                        "m pl ins": "h₁eybʰi",
+                        "f pl ins": "h₁eybʰi",
+                        "n pl ins": "h₁eybʰi"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁es-",
@@ -45,7 +108,33 @@
             "https://www.dong-chinese.com/wiki/也"
         ],
         "character_hint": "Depicts a child opening its mouth to cry. Original form of 嗁. The modern meaning is a phonetic loan.",
-        "id": "BE"
+        "id": "BE",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ira active prim sg 1": "h₁ésmi",
+                        "_ira active prim sg 2": "h₁ési",
+                        "_ira active prim sg 3": "h₁ésti",
+                        "_ira active prim dual 1": "h₁swós",
+                        "_ira active prim dual 2": "h₁stés",
+                        "_ira active prim dual 3": "h₁stés",
+                        "_ira active prim pl 1": "h₁smós",
+                        "_ira active prim pl 2": "h₁sté",
+                        "_ira active prim pl 3": "h₁sénti",
+                        "_ira active sec sg 1": "h₁ésm̥",
+                        "_ira active sec sg 2": "h₁és",
+                        "_ira active sec sg 3": "h₁ést",
+                        "_ira active sec dual 1": "h₁swé",
+                        "_ira active sec dual 2": "h₁stóm",
+                        "_ira active sec dual 3": "h₁stā́m",
+                        "_ira active sec pl 1": "h₁smé",
+                        "_ira active sec pl 2": "h₁sté",
+                        "_ira active sec pl 3": "h₁sént"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*mon-",
@@ -250,7 +339,23 @@
             "https://www.dong-chinese.com/wiki/大"
         ],
         "id": "BIG",
-        "character_hint": "Depicts an adult man facing forward and standing erect."
+        "character_hint": "Depicts an adult man facing forward and standing erect.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "m sg nom": "méǵh₂s",
+                        "m sg voc": "méǵh₂",
+                        "m sg acc": "méǵh₂m̥",
+                        "m sg gen": "m̥ǵh₂és",
+                        "m sg abl": "m̥ǵh₂és",
+                        "m sg dat": "m̥ǵh₂éy",
+                        "m sg loc": "méǵh₂i",
+                        "m sg ins": "m̥ǵh₂éh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*méǵh₂yōs",
@@ -526,7 +631,69 @@
             "https://www.dong-chinese.com/wiki/此"
         ],
         "id": "THIS",
-        "character_hint": "Origin unclear. Two possible explanations are (1) depicts a person (人) stopping (止), meaning \"here\", and (2) depicts a foot (止) kicking a person (人), based on an earlier meaning \"to kick\" (跐)."
+        "character_hint": "Origin unclear. Two possible explanations are (1) depicts a person (人) stopping (止), meaning \"here\", and (2) depicts a foot (止) kicking a person (人), based on an earlier meaning \"to kick\" (跐).",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "m sg nom": "só",
+                        "m dual nom": "tóh₁",
+                        "m dual voc": "tóh₁",
+                        "m pl nom": "tóy",
+                        "m sg voc": "só",
+                        "m sg acc": "tóm",
+                        "m sg gen": "tósyo",
+                        "m sg abl": "tósmead",
+                        "m sg dat": "tósmey",
+                        "m sg loc": "tósmi",
+                        "m sg ins": "tónoh₁",
+                        "m pl voc": "tóy",
+                        "m pl acc": "tóms",
+                        "m pl gen": "tóysoHom",
+                        "m pl abl": "tóymos",
+                        "m pl dat": "tóymos",
+                        "m pl loc": "tóysu",
+                        "m pl ins": "tóysu",
+                        "f sg nom": "séh₂",
+                        "f sg voc": "séh₂",
+                        "f sg acc": "tā́m",
+                        "f sg gen": "tósyeh₂s",
+                        "f sg abl": "tósyeh₂s",
+                        "f sg dat": "tósyeh₂ey",
+                        "f sg loc": "tósyeh₂",
+                        "f sg ins": "téh₂(e)h₁",
+                        "f pl nom": "téh₂es",
+                        "f pl voc": "téh₂es",
+                        "f pl acc": "téh₂m̥s",
+                        "f pl gen": "téh₂soHom",
+                        "f pl abl": "téh₂mos",
+                        "f pl dat": "téh₂mos",
+                        "f pl loc": "téh₂su",
+                        "f pl ins": "téh₂mis",
+                        "n dual nom": "tóy",
+                        "n dual voc": "tóy",
+                        "n dual acc": "tóy",
+                        "m dual acc": "tóh₁",
+                        "n sg nom": "tód",
+                        "n sg voc": "tód",
+                        "n sg acc": "tód",
+                        "n sg gen": "tósyo",
+                        "n sg abl": "tósmead",
+                        "n sg dat": "tósmey",
+                        "n sg loc": "tósmi",
+                        "n sg ins": "tónoh₁",
+                        "n pl nom": "téh₂",
+                        "n pl voc": "téh₂",
+                        "n pl acc": "téh₂",
+                        "n pl gen": "tóysoHom",
+                        "n pl abl": "tóymos",
+                        "n pl dat": "tóymos",
+                        "n pl loc": "tóysu",
+                        "n pl ins": "tóysu"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*méh₂tēr",
@@ -547,7 +714,23 @@
             "https://www.dong-chinese.com/wiki/毛"
         ],
         "id": "HAIR",
-        "character_hint": "Pictograph of a feather."
+        "character_hint": "Pictograph of a feather.",
+        "inflections": {
+            "pie": {
+                "nos": {
+                    "noun": {
+                        "sg nom": "h₂wĺ̥h₁neh₂",
+                        "sg voc": "h₂wĺ̥h₁neh₂",
+                        "sg acc": "h₂wĺ̥h₁nām",
+                        "sg gen": "h₂wĺ̥h₁neh₂s",
+                        "sg abl": "h₂wĺ̥h₁neh₂s",
+                        "sg dat": "h₂wĺ̥h₁neh₂ey",
+                        "sg loc": "h₂wĺ̥h₁neh₂i",
+                        "sg ins": "h₂wĺ̥h₁neh₂h₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wed-",
@@ -838,7 +1021,34 @@
             "https://www.dong-chinese.com/wiki/羊"
         ],
         "id": "SHEEP",
-        "character_hint": "Pictograph of the head of a sheep with horns."
+        "character_hint": "Pictograph of the head of a sheep with horns.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "h₂ówis",
+                        "sg gen": "h₂éwis",
+                        "sg dat": "h₂éwyey",
+                        "sg ins": "h₂éwih₁",
+                        "sg acc": "h₂ówim",
+                        "sg voc": "h₂ówi",
+                        "sg abl": "h₂éwis",
+                        "sg loc": "h₂éwi",
+                        "dual nom": "h₂ówih₁e",
+                        "dual voc": "h₂ówih₁e",
+                        "dual acc": "h₂ówih₁e",
+                        "pl nom": "h₂óweyes",
+                        "pl voc": "h₂óweyes",
+                        "pl acc": "h₂ówims",
+                        "pl gen": "h₂éwyoHom",
+                        "pl abl": "h₂éwimos",
+                        "pl dat": "h₂éwimos",
+                        "pl loc": "h₂éwimos",
+                        "pl ins": "h₂éwimis"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*welh₁-",
@@ -916,7 +1126,24 @@
             "https://www.dong-chinese.com/wiki/見"
         ],
         "id": "SEE",
-        "character_hint": "Pictograph of a person (儿) using their eye (目) to see (見)."
+        "character_hint": "Pictograph of a person (儿) using their eye (目) to see (見).",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_pra active sec sg 1": "derḱm̥",
+                        "_pra active sec sg 2": "derḱs",
+                        "_pra active sec sg 3": "derḱt",
+                        "_pra active sec dual 1": "derḱwé",
+                        "_pra active sec dual 2": "derḱtóm",
+                        "_pra active sec dual 3": "derḱtā́m",
+                        "_pra active sec pl 1": "derḱmé",
+                        "_pra active sec pl 2": "derḱté",
+                        "_pra active sec pl 3": "derḱént"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁el-",
@@ -937,7 +1164,30 @@
             "https://www.dong-chinese.com/wiki/負"
         ],
         "id": "CARRY",
-        "character_hint": "Depicts a person (人) carrying shells (貝) on their back."
+        "character_hint": "Depicts a person (人) carrying shells (貝) on their back.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_irt active sec sg 1": "bʰérom",
+                        "_irt active sec sg 2": "bʰéres",
+                        "_irt active sec sg 3": "bʰéret"
+                    }
+                },
+                "o_s": {
+                    "adj": {
+                        "m sg nom": "bʰérōs",
+                        "m sg voc": "bʰéros",
+                        "m sg acc": "bʰérosm̥",
+                        "m sg gen": "bʰérosos",
+                        "m sg abl": "bʰérosos",
+                        "m sg dat": "bʰérosey",
+                        "m sg loc": "bʰérosi",
+                        "m sg ins": "bʰérosh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*bʰóros",
@@ -967,7 +1217,46 @@
             "https://www.dong-chinese.com/wiki/輦"
         ],
         "id": "TRANSPORT",
-        "character_hint": "Depicts two people (夫) pulling a chariot (車) together."
+        "character_hint": "Depicts two people (夫) pulling a chariot (車) together.",
+        "inflections": {
+            "pie": {
+                "o_s": {
+                    "adj": {
+                        "m sg nom": "weǵʰōs",
+                        "m sg voc": "weǵʰōs",
+                        "m sg acc": "weǵʰosm̥",
+                        "m sg gen": "weǵʰosos",
+                        "m sg abl": "weǵʰosos",
+                        "m sg dat": "weǵʰosey",
+                        "m sg loc": "weǵʰosi",
+                        "m sg ins": "weǵʰosh₁"
+                    }
+                },
+                "": {
+                    "verb": {
+                        "_irt active sec sg 1": "wéǵʰom",
+                        "_irt active sec sg 2": "wéǵʰes",
+                        "_irt active sec sg 3": "wéǵʰet",
+                        "_irt active sec dual 1": "wéǵʰowe",
+                        "_irt active sec dual 2": "wéǵʰetom",
+                        "_irt active sec dual 3": "wéǵʰetām",
+                        "_irt active sec pl 1": "wéǵʰome",
+                        "_irt active sec pl 2": "wéǵʰete",
+                        "_irt active sec pl 3": "wéǵʰont",
+                        "_irt active prim sg 1": "wéǵʰoh₂",
+                        "_irt active prim sg 2": "wéǵʰesi",
+                        "_irt active prim sg 3": "wéǵʰeti",
+                        "_irt active prim dual 1": "wéǵʰowos",
+                        "_irt active prim dual 2": "wéǵʰetes",
+                        "_irt active prim dual 3": "wéǵʰetes",
+                        "_irt active prim pl 1": "wéǵʰomos",
+                        "_irt active prim pl 2": "wéǵʰete",
+                        "_irt active prim pl 3": "wéǵʰonti",
+                        "_irt active part sg 3": "wéǵʰonts"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*gʷreh₂-",
@@ -979,7 +1268,23 @@
             "https://www.dong-chinese.com/wiki/重"
         ],
         "id": "HEAVY",
-        "character_hint": "Pictograph of a person (亻) carrying a heavy basket (東) on their back."
+        "character_hint": "Pictograph of a person (亻) carrying a heavy basket (東) on their back.",
+        "inflections": {
+            "pie": {
+                "us": {
+                    "adj": {
+                        "m sg nom": "gʷréh₂us",
+                        "m sg voc": "gʷréh₂u",
+                        "m sg acc": "gʷréh₂um",
+                        "m sg gen": "gʷr̥h₂éws",
+                        "m sg abl": "gʷr̥h₂éws",
+                        "m sg dat": "gʷr̥h₂éwey",
+                        "m sg loc": "gʷr̥h₂éwi",
+                        "m sg ins": "gʷr̥h₂úh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*gʷréh₂us",
@@ -1057,7 +1362,34 @@
             "https://www.dong-chinese.com/wiki/馬"
         ],
         "id": "HORSE",
-        "character_hint": "Pictograph of a horse."
+        "character_hint": "Pictograph of a horse.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "h₁éḱwos",
+                        "sg voc": "h₁éḱwe",
+                        "sg acc": "h₁éḱwom",
+                        "sg gen": "h₁éḱwosyo",
+                        "sg abl": "h₁éḱwead",
+                        "sg dat": "h₁éḱwoey",
+                        "sg loc": "h₁éḱwoy",
+                        "sg ins": "h₁éḱwoh₁",
+                        "dual nom": "h₁éḱwoh₁",
+                        "dual voc": "h₁éḱwoh₁",
+                        "dual acc": "h₁éḱwoh₁",
+                        "pl nom": "h₁éḱwoes",
+                        "pl voc": "h₁éḱwoes",
+                        "pl acc": "h₁éḱwoms",
+                        "pl gen": "h₁éḱwoHom",
+                        "pl abl": "h₁éḱwomos",
+                        "pl dat": "h₁éḱwomos",
+                        "pl loc": "h₁éḱwoysu",
+                        "pl ins": "h₁éḱwōys"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*(s)ptyew-",
@@ -38277,25 +38609,25 @@
     },
     {
         "id": "``",
-        "PIE": "``",
+        "PIE": "“",
         "char": "「",
         "pos": "punct"
     },
     {
         "id": "''",
-        "PIE": "''",
+        "PIE": "”",
         "char": "」",
         "pos": "punct"
     },
     {
         "id": "`",
-        "PIE": "`",
+        "PIE": "‘",
         "char": "『",
         "pos": "punct"
     },
     {
         "id": "'",
-        "PIE": "'",
+        "PIE": "’",
         "char": "』",
         "pos": "punct"
     },

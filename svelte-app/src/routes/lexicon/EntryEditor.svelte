@@ -1,11 +1,12 @@
 <script lang="ts">
 	import type { LexiconEntry } from '$lib/lexicon.types';
 	import { getLexicon } from '../../lib/lexicon';
+	import InflectionEditor from './InflectionEditor.svelte';
 
 	export let data: LexiconEntry;
 	export let onSave: (lexicon: LexiconEntry[]) => void;
 	export let close: () => void;
-	let { id, PIE, char, pos, meanings, character_hint, references } = data;
+	let { id, PIE, char, pos, meanings, character_hint, references, inflections } = data;
 
 	const partsOfSpeech = [
 		'adj',
@@ -85,9 +86,10 @@
 		{/each}
 	</ul>
 </div>
+<InflectionEditor bind:inflections lexiconEntry={data} />
 <button
 	on:click={() => {
-		updateEntry({ id, PIE, char, pos, meanings, character_hint, references });
+		updateEntry({ id, PIE, char, pos, meanings, character_hint, references, inflections });
 	}}>Save</button
 >
 {#if !character_hint && char}

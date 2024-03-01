@@ -679,12 +679,17 @@ export function addInflection(word: ParsedWord) {
 		if (!word.formation && !word.suffixes) {
 			console.error('No formation for', word.id);
 		}
+		word.number = word.number || 'sg';
+		word.person = word.person || '3';
+		word.voice = word.voice || 'active';
+		word.verbType = word.verbType || 'sec';
+		word.formation = word.formation || '_ira';
 		return convertVerbInflection(
-			word.number || 'sg',
-			word.person || '3',
-			word.voice || 'active',
-			word.verbType || 'sec',
-			word.formation || '_ira'
+			word.number,
+			word.person,
+			word.voice,
+			word.verbType,
+			word.formation
 		);
 	}
 	return '';

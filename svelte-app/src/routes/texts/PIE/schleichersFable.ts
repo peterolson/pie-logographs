@@ -4,9 +4,9 @@ export const schleichersFable = {
 	text: `
         SHEEP nom HORSE nom AND  
   
-        SHEEP dat IT f sg dat HAIR nos sg nom NOT BE _ira 3 sg sec , THIS f nom HORSE acc pl SEE _pra sec 3 sg .
+        SHEEP dat IT m sg dat HAIR nos sg nom NOT BE _ira 3 sg sec , THIS m nom HORSE acc pl SEE _pra sec 3 sg .
         THIS m nom HEAVY us m sg acc TRANSPORT o_s m sg acc TRANSPORT _irt sec 3 sg ;
-        THIS m nom BIG sg acc m CARRY o_s sg acc ;
+        THIS m nom BIG m sg acc m CARRY o_s m sg acc ;
         THIS m nom EARTHLING o sg acc SHARP us n sg acc CARRY _irt sec 3 sg .  
         SHEEP nom HORSE dat pl SPEAK _prr sec 3 sg :
         \`\` EARTHLING o sg acc LOOK yeti prim 1 sg HORSE acc pl AND DRIVE _irt prim 3 sg , HEART I gen sg UPSET newti middle prim 3 sg . ''  
@@ -21,5 +21,5 @@ export const schleichersFable = {
         A sheep that had no wool saw horses, one of them pulling a heavy wagon, one carrying a big load, and one carrying a man quickly. 
         The sheep said to the horses: "My heart pains me, seeing a man driving horses." 
         The horses said: "Listen, sheep, our hearts pain us when we see this: a man, the master, makes the wool of the sheep into a warm garment for himself. And the sheep has no wool." 
-        Having heard this, the sheep fled into the plain`
+        Having heard this, the sheep fled into the plain.`
 };

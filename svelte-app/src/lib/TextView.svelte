@@ -1,20 +1,25 @@
 <script lang="ts">
-	import { pieTextToHangul } from './hangul';
-	import { addInflection, addSuffixes } from './inflection';
 	import type { LexiconEntry } from './lexicon.types';
 	import { parse } from './parse';
+	import { renderWord } from './render/renderWords';
 
 	export let text: string;
 	export let lexicon: LexiconEntry[];
 
+	let selectedLanguage = 'default';
+
 	const parsedText = parse(text, lexicon);
-	console.log(parsedText);
 </script>
 
+Read as: <select bind:value={selectedLanguage}>
+	<option value="default">Default</option>
+	<option value="pie">Proto-Indo-European</option>
+</select>
+
 {#each parsedText as line}
-	<p>
-		{#each line as word}
-			{word.char}{addSuffixes(word)}{addInflection(word)}
+	<p class:cjk={selectedLanguage === 'default'}>
+		{#each line as word, i}
+			{renderWord(word, line[i - 1], line[i + 1], selectedLanguage, lexicon)}
 		{/each}
 	</p>
 {/each}
@@ -23,6 +28,13 @@
 	p {
 		margin: 0;
 		min-height: 8px;
-		font-size: 2em;
+		font-size: 1.5em;
+		font-style: normal;
+	}
+
+	p.cjk {
+		font-family: 'Noto Sans KR', 'Noto Sans TC', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
 	}
 </style>
