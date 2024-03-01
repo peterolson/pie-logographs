@@ -239,7 +239,8 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%A9p%C5%8Dts",
             "https://www.dong-chinese.com/wiki/后"
         ],
-        "character_hint": "Depicts a queen mother (母) giving birth to her heir (𠫓). Based on the original meaning \"heir to the throne\". The meaning later expanded to \"ruler\", \"successor\", and \"after\"."
+        "character_hint": "Depicts a queen mother (母) giving birth to her heir (𠫓). Based on the original meaning \"heir to the throne\". The meaning later expanded to \"ruler\", \"successor\", and \"after\".",
+        "id": "DESCENDANT"
     },
     {
         "PIE": "*h₂egʰ-",
@@ -360,7 +361,8 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3h%E2%82%83s",
             "https://www.dong-chinese.com/wiki/口"
         ],
-        "character_hint": "Pictograph of a mouth."
+        "character_hint": "Pictograph of a mouth.",
+        "id": "MOUTH"
     },
     {
         "PIE": "*-kʷe",
@@ -383,7 +385,8 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sewH-",
             "https://www.dong-chinese.com/wiki/育"
         ],
-        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first."
+        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first.",
+        "id": "SON"
     },
     {
         "PIE": "*semh₂-",
@@ -439,8 +442,11 @@
         "meanings": "to be bright, to shine; sky, heaven",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dyew-",
+            "https://www.dong-chinese.com/wiki/天"
+        ],
+        "id": "SKY",
+        "character_hint": "Depicts a person (大) with an emphasized head. Based on the original meaning \"head\". The meaning later shifted to \"top\", \"high\", and \"sky\"."
     },
     {
         "PIE": "*wiHrós",
@@ -990,8 +996,27 @@
         "meanings": "to produce, to beget, to give birth",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5enh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5enh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/生"
+        ],
+        "id": "BIRTH",
+        "character_hint": "Pictograph of a sprout emerging from the ground.",
+        "inflections": {
+            "pie": {
+                "ye_ti": {
+                    "verb": {
+                        "_ira active prim sg 1": "ǵenh₁yóh₂",
+                        "_ira active prim sg 2": "ǵenh₁yési",
+                        "_ira active prim sg 3": "ǵenh₁yéti",
+                        "_ira middle prim sg 1": "ǵenh₁yóh₂er",
+                        "_ira middle prim sg 2": "ǵenh₁yéth₂er",
+                        "_ira middle prim sg 3": "ǵenh₁yétor",
+                        "_ira middle imp sg 2": "ǵenh₁yéso",
+                        "_ira middle imp sg 3": "ǵenh₁yétod"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ǵénh₁mn̥",
@@ -1090,8 +1115,11 @@
         "meanings": "to straighten; to righten",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83re%C7%B5-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83re%C7%B5-",
+            "https://www.dong-chinese.com/wiki/直"
+        ],
+        "id": "STRAIGHT",
+        "character_hint": "Pictograph of a straight line coming from the eye, to depict looking straight at something. The purpose of the stroke at the bottom is unclear."
     },
     {
         "PIE": "*h₃réǵeti",
@@ -1240,8 +1268,11 @@
         "meanings": "to choose; to want",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/welh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/welh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/羡"
+        ],
+        "id": "WANT",
+        "character_hint": "Depicts a person salivating (㳄) when seeing a tasty sheep (羊) that they have a desire to eat."
     },
     {
         "PIE": "*h₂ṓws",
@@ -1375,15 +1406,15 @@
                     }
                 },
                 "o_s": {
-                    "adj": {
-                        "m sg nom": "bʰérōs",
-                        "m sg voc": "bʰéros",
-                        "m sg acc": "bʰérosm̥",
-                        "m sg gen": "bʰérosos",
-                        "m sg abl": "bʰérosos",
-                        "m sg dat": "bʰérosey",
-                        "m sg loc": "bʰérosi",
-                        "m sg ins": "bʰérosh₁"
+                    "noun": {
+                        "sg nom": "bʰérōs",
+                        "sg voc": "bʰéros",
+                        "sg acc": "bʰérosm̥",
+                        "sg gen": "bʰérosos",
+                        "sg abl": "bʰérosos",
+                        "sg dat": "bʰérosey",
+                        "sg loc": "bʰérosi",
+                        "sg ins": "bʰérosh₁"
                     }
                 }
             }
@@ -3640,12 +3671,15 @@
     },
     {
         "PIE": "*dn̥ǵʰwéh₂s",
-        "char": "",
+        "char": "舌",
         "meanings": "tongue",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dn%CC%A5%C7%B5%CA%B0w%C3%A9h%E2%82%82s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dn%CC%A5%C7%B5%CA%B0w%C3%A9h%E2%82%82s",
+            "https://www.dong-chinese.com/wiki/舌"
+        ],
+        "id": "TONGUE",
+        "character_hint": "Depicts a tongue sticking out of a mouth."
     },
     {
         "PIE": "*dṓm",
@@ -4130,8 +4164,11 @@
         "meanings": "to pour",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ew-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ew-",
+            "https://www.dong-chinese.com/wiki/畐"
+        ],
+        "id": "POUR",
+        "character_hint": "Depicts a drinking vessel full of wine."
     },
     {
         "PIE": "*ǵʰewd-",
@@ -4846,12 +4883,25 @@
     },
     {
         "PIE": "*h₁eǵ-",
-        "char": "",
+        "char": "告",
         "meanings": "to say",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81e%C7%B5-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81e%C7%B5-",
+            "https://www.dong-chinese.com/wiki/告"
+        ],
+        "id": "SAY",
+        "character_hint": "Pictograph of a tongue extending from an open mouth. Visually similar to 舌 (tongue).",
+        "inflections": {
+            "pie": {
+                "ye_ti": {
+                    "verb": {
+                        "_ira middle imp sg 2": "h₁eǵyéso",
+                        "_ira middle sec sg 3": "h₁eǵyéto"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁eǵʰis",
@@ -5494,12 +5544,25 @@
     },
     {
         "PIE": "*h₁wer-",
-        "char": "",
+        "char": "凡",
         "meanings": "broad",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81wer-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81wer-",
+            "https://www.dong-chinese.com/wiki/凡"
+        ],
+        "id": "BROAD",
+        "character_hint": "Depicts a wide, flat, object, such as a tray or plate.",
+        "inflections": {
+            "pie": {
+                "usnos": {
+                    "noun": {
+                        "sg nom": "h₁werunos",
+                        "sg acc": "h₁werunom"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁wers-",
@@ -9921,8 +9984,11 @@
         "meanings": "to ask",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pre%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pre%E1%B8%B1-",
+            "https://www.dong-chinese.com/wiki/訊"
+        ],
+        "id": "ASK",
+        "character_hint": "Depicts a mouth (口) interrogating a captured prisoner of war (卂). 卂 also represents the sound. The 口 (mouth) component was later reanalyzed as 言 (speech)."
     },
     {
         "PIE": "*prep-",
@@ -11861,12 +11927,15 @@
     },
     {
         "PIE": "*upér",
-        "char": "",
+        "char": "上",
         "meanings": "above; over",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/up%C3%A9r"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/up%C3%A9r",
+            "https://www.dong-chinese.com/wiki/上"
+        ],
+        "id": "ABOVE",
+        "character_hint": "Originally a small line or dot above a longer line, indicating \"up\". The vertical line was added to distinguish the character from 二 (two). Opposite of 下."
     },
     {
         "PIE": "*upéri",
@@ -11879,12 +11948,15 @@
     },
     {
         "PIE": "*upó",
-        "char": "",
+        "char": "下",
         "meanings": "under, below",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/up%C3%B3"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/up%C3%B3",
+            "https://www.dong-chinese.com/wiki/下"
+        ],
+        "id": "BELOW",
+        "character_hint": "Originally a small line or dot below a longer line, indicating \"down\". The vertical line was added to distinguish the character from 二 (two). Opposite of 上."
     },
     {
         "PIE": "*wáy",
@@ -12153,8 +12225,11 @@
         "meanings": "to speak, say",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/werh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/werh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/言"
+        ],
+        "id": "WORD",
+        "character_hint": "Pictograph of a tongue (舌) sticking out of a mouth. In old scripts 言 was written the same as 舌 but with an extra line."
     },
     {
         "PIE": "*wern-",
@@ -13790,14 +13865,6 @@
         "meanings": "winter; tip, extremity",
         "references": [
             "https://www.dong-chinese.com/wiki/冬"
-        ]
-    },
-    {
-        "char": "凡",
-        "character_hint": "Depicts a wide, flat, object, such as a tray or plate. The current meaning is a phonetic loan.",
-        "meanings": "all; tray",
-        "references": [
-            "https://www.dong-chinese.com/wiki/凡"
         ]
     },
     {
@@ -15665,14 +15732,6 @@
         ]
     },
     {
-        "char": "上",
-        "character_hint": "Originally a small line or dot above a longer line, indicating \"up\". The vertical line was added to distinguish the character from 二 (two). Opposite of 下.",
-        "meanings": "up",
-        "references": [
-            "https://www.dong-chinese.com/wiki/上"
-        ]
-    },
-    {
         "char": "不",
         "character_hint": "Pictograph of sepals of a flower. The modern meaning \"no\" is a phonetic loan.",
         "meanings": "no; sepal",
@@ -16038,14 +16097,6 @@
         "meanings": "axe handle",
         "references": [
             "https://www.dong-chinese.com/wiki/丂"
-        ]
-    },
-    {
-        "char": "下",
-        "character_hint": "Originally a small line or dot below a longer line, indicating \"down\". The vertical line was added to distinguish the character from 二 (two). Opposite of 上.",
-        "meanings": "under",
-        "references": [
-            "https://www.dong-chinese.com/wiki/下"
         ]
     },
     {
@@ -17441,14 +17492,6 @@
         ]
     },
     {
-        "char": "天",
-        "character_hint": "Depicts a person (大) with an emphasized head. Based on the original meaning \"head\". The meaning later shifted to \"top\", \"high\", and \"sky\".",
-        "meanings": "sky; head",
-        "references": [
-            "https://www.dong-chinese.com/wiki/天"
-        ]
-    },
-    {
         "char": "央",
         "character_hint": "Pictograph of a person (大) with a cangue (torture device for punishing criminals) around his neck. People wearing such devices were not able to reach their mouth with their own hands, and were forced to beg for food.",
         "meanings": "beg",
@@ -18790,14 +18833,6 @@
         "meanings": "winding; building",
         "references": [
             "https://www.dong-chinese.com/wiki/宛"
-        ]
-    },
-    {
-        "char": "告",
-        "character_hint": "Pictograph of a tongue extending from an open mouth. Visually similar to 舌 (tongue).",
-        "meanings": "tell",
-        "references": [
-            "https://www.dong-chinese.com/wiki/告"
         ]
     },
     {
@@ -28225,14 +28260,6 @@
         ]
     },
     {
-        "char": "舌",
-        "character_hint": "Depicts a tongue sticking out of a mouth.",
-        "meanings": "tongue",
-        "references": [
-            "https://www.dong-chinese.com/wiki/舌"
-        ]
-    },
-    {
         "char": "艸",
         "character_hint": "Pictograph of blades of grass.",
         "meanings": "grass",
@@ -29609,14 +29636,6 @@
         ]
     },
     {
-        "char": "畐",
-        "character_hint": "Depicts a drinking vessel full of wine.",
-        "meanings": "to fill",
-        "references": [
-            "https://www.dong-chinese.com/wiki/畐"
-        ]
-    },
-    {
         "char": "番",
         "character_hint": "Depicts an animal's claw (釆) with their paw shown. 釆 also represents the sound. Based on the original meaning \"animal's paw\", now written as 蹯. The current meaning is a phonetic loan.",
         "meanings": "to take turns; animal's paw",
@@ -29646,14 +29665,6 @@
         "meanings": "to detain",
         "references": [
             "https://www.dong-chinese.com/wiki/畱"
-        ]
-    },
-    {
-        "char": "生",
-        "character_hint": "Pictograph of a sprout emerging from the ground.",
-        "meanings": "life",
-        "references": [
-            "https://www.dong-chinese.com/wiki/生"
         ]
     },
     {
@@ -30206,14 +30217,6 @@
         "meanings": "watch carefully",
         "references": [
             "https://www.dong-chinese.com/wiki/監"
-        ]
-    },
-    {
-        "char": "直",
-        "character_hint": "Pictograph of a straight line coming from the eye, to depict looking straight at something. The purpose of the stroke at the bottom is unclear.",
-        "meanings": "straight",
-        "references": [
-            "https://www.dong-chinese.com/wiki/直"
         ]
     },
     {
@@ -31713,14 +31716,6 @@
         ]
     },
     {
-        "char": "言",
-        "character_hint": "Pictograph of a tongue (舌) sticking out of a mouth. In old scripts 言 was written the same as 舌 but with an extra line.",
-        "meanings": "speech",
-        "references": [
-            "https://www.dong-chinese.com/wiki/言"
-        ]
-    },
-    {
         "char": "討",
         "character_hint": "Depicts using speech (言) and one's hands (寸) to manage or govern. The meaning later shifted to \"discuss\" and \"ask for\".",
         "meanings": "to discuss; manage, govern",
@@ -31918,14 +31913,6 @@
         "meanings": "calculate",
         "references": [
             "https://www.dong-chinese.com/wiki/計"
-        ]
-    },
-    {
-        "char": "訊",
-        "character_hint": "Depicts a mouth (口) interrogating a captured prisoner of war (卂). 卂 also represents the sound. The 口 (mouth) component was later reanalyzed as 言 (speech).",
-        "meanings": "inquire",
-        "references": [
-            "https://www.dong-chinese.com/wiki/訊"
         ]
     },
     {
@@ -34086,14 +34073,6 @@
         "meanings": "little lamb",
         "references": [
             "https://www.dong-chinese.com/wiki/羍"
-        ]
-    },
-    {
-        "char": "羡",
-        "character_hint": "Depicts a person salivating (㳄) when seeing a tasty sheep (羊) that they have a desire to eat.",
-        "meanings": "desire, envy",
-        "references": [
-            "https://www.dong-chinese.com/wiki/羡"
         ]
     },
     {
@@ -38836,72 +38815,84 @@
         "id": ".",
         "PIE": ".",
         "char": "。",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "period"
     },
     {
         "id": ",",
         "PIE": ",",
         "char": "，",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "comma"
     },
     {
         "id": "?",
         "PIE": "?",
         "char": "？",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "question mark"
     },
     {
         "id": "!",
         "PIE": "!",
         "char": "！",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "exclamation mark"
     },
     {
         "id": "``",
         "PIE": "“",
         "char": "「",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "open double quote"
     },
     {
         "id": "''",
         "PIE": "”",
         "char": "」",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "close double quote"
     },
     {
         "id": "`",
         "PIE": "‘",
         "char": "『",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "open single quote"
     },
     {
         "id": "'",
         "PIE": "’",
         "char": "』",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "close single quote"
     },
     {
         "id": "(",
         "PIE": "(",
         "char": "（",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "open parenthesis"
     },
     {
         "id": ")",
         "PIE": ")",
         "char": "）",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "close parenthesis"
     },
     {
         "id": ";",
         "PIE": ";",
         "char": "；",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "semicolon"
     },
     {
         "id": ":",
         "PIE": ":",
         "char": "：",
-        "pos": "punct"
+        "pos": "punct",
+        "meanings": "colon"
     }
 ]

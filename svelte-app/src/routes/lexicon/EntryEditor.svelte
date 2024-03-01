@@ -21,7 +21,8 @@
 		'part, root',
 		'pron',
 		'root',
-		'verb'
+		'verb',
+		'punct'
 	];
 
 	let characterEntryIndex = -1;

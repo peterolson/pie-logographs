@@ -38,4 +38,5 @@ export type ParsedWord = {
 	formation?: FormationType;
 	suffixes?: string[];
 	pos?: 'adj' | 'noun' | 'verb';
+	gloss?: string;
 };

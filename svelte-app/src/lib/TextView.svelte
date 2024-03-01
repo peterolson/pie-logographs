@@ -7,10 +7,11 @@
 
 	export let text: string;
 	export let lexicon: LexiconEntry[];
+	export let gloss: string;
 
 	let selectedLanguage = 'default';
 
-	const parsedText = parse(text, lexicon);
+	const parsedText = parse(text, lexicon, gloss);
 
 	let selectedWord: ParsedWord;
 
@@ -42,12 +43,13 @@ Read as: <select bind:value={selectedLanguage}>
 {#if selectedWord}
 	{@const lexiconEntry = lexicon.find((entry) => entry.id === selectedWord.id)}
 	<div class="details">
+		{selectedWord.gloss || ''}
 		{selectedWord.id}
 		{selectedWord.pos || ''}
 		{#if lexiconEntry}
 			{lexiconEntry.PIE}
 			{lexiconEntry.char}
-			{lexiconEntry.character_hint}
+			{lexiconEntry.character_hint || ''}
 			<References data={lexiconEntry} />
 		{/if}
 		{#each selectedWord.suffixes || [] as suffix}

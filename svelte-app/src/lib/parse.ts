@@ -83,9 +83,21 @@ function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
 	return result;
 }
 
-export function parse(input: string, lexicon: LexiconEntry[]): ParsedWord[][] {
-	return input
+export function parse(input: string, lexicon: LexiconEntry[], gloss: string): ParsedWord[][] {
+	const parsedLines = input
 		.trim()
 		.split('  \n')
 		.map((x) => parseLine(x, lexicon));
+	const glossTokens = gloss.trim().split(/\s+/);
+	let glossIndex = 0;
+	for (const line of parsedLines) {
+		for (const word of line) {
+			const gloss = glossTokens[glossIndex];
+			if (gloss) {
+				word.gloss = gloss;
+			}
+			glossIndex++;
+		}
+	}
+	return parsedLines;
 }

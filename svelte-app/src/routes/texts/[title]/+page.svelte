@@ -20,7 +20,11 @@
 <h1>{title}</h1>
 
 {#if text}
-	<TextView text={text.text} {lexicon} />
+	<aside>
+		<a href={text.link} target="_blank"><cite>{text?.link}</cite></a>
+	</aside>
+	<br />
+	<TextView text={text.text} gloss={text.gloss} {lexicon} />
 	{@const translationLines = text.translation.split('\n')}
 	{#each translationLines as line}
 		<p>{line}</p>
