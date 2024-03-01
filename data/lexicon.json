@@ -446,7 +446,43 @@
             "https://www.dong-chinese.com/wiki/天"
         ],
         "id": "SKY",
-        "character_hint": "Depicts a person (大) with an emphasized head. Based on the original meaning \"head\". The meaning later shifted to \"top\", \"high\", and \"sky\"."
+        "character_hint": "Depicts a person (大) with an emphasized head. Based on the original meaning \"head\". The meaning later shifted to \"top\", \"high\", and \"sky\".",
+        "inflections": {
+            "pie": {
+                "o_s": {
+                    "noun": {
+                        "sg nom": "deywós",
+                        "sg voc": "deywé",
+                        "sg acc": "deywóm",
+                        "sg gen": "deywósyo",
+                        "sg abl": "deywéad",
+                        "sg dat": "deywóey",
+                        "sg loc": "deywóy",
+                        "sg ins": "deywóh₁",
+                        "pl nom": "deywóes",
+                        "pl voc": "deywóes",
+                        "pl acc": "deywóms",
+                        "pl gen": "deywóHom",
+                        "pl abl": "deywómos",
+                        "pl dat": "deywómos",
+                        "pl loc": "deywóysu",
+                        "pl ins": "deywṓys"
+                    }
+                },
+                "s": {
+                    "noun": {
+                        "sg nom": "dyḗws",
+                        "sg voc": "dyéw",
+                        "sg acc": "dyḗm",
+                        "sg gen": "diwés",
+                        "sg abl": "diwés",
+                        "sg dat": "diwéy",
+                        "sg loc": "dyéwi",
+                        "sg ins": "diwéh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wiHrós",
@@ -614,7 +650,7 @@
                         "sg acc": "h₁me",
                         "sg gen": "h₁moy",
                         "sg abl": "h₁med",
-                        "sg dat": "h₁méǵʰyo",
+                        "sg dat": "h₁moy",
                         "sg loc": "h₁moy",
                         "sg ins": "h₁mos"
                     }
@@ -4541,12 +4577,24 @@
     },
     {
         "PIE": "*gʷeh₂-",
-        "char": "",
+        "char": "步",
         "meanings": "to step; to go; to stand",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7eh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7eh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/步"
+        ],
+        "id": "STEP",
+        "character_hint": "Pictograph of one foot in front of another, depicting footsteps.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "gʷeht"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*gʷeh₂bʰ-",
@@ -5558,7 +5606,8 @@
                 "usnos": {
                     "noun": {
                         "sg nom": "h₁werunos",
-                        "sg acc": "h₁werunom"
+                        "sg acc": "h₁werunom",
+                        "sg voc": "h₁werune"
                     }
                 }
             }
@@ -9683,12 +9732,39 @@
     },
     {
         "PIE": "*ph₂tḗr",
-        "char": "",
+        "char": "父",
         "meanings": "father Synonyms: *átta, *tata-",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ph%E2%82%82t%E1%B8%97r"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ph%E2%82%82t%E1%B8%97r",
+            "https://www.dong-chinese.com/wiki/父"
+        ],
+        "id": "FATHER",
+        "character_hint": "Pictograph of a hand holding something. The exact nature of the object is unclear. Variously explained as a rod or a hatchet.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "ph₂tḗr",
+                        "sg voc": "ph₂tḗr",
+                        "sg acc": "ph₂térm̥",
+                        "sg gen": "ph₂trés",
+                        "sg abl": "ph₂trés",
+                        "sg dat": "ph₂tréy",
+                        "sg loc": "ph₂téri",
+                        "sg ins": "ph₂tréh₁",
+                        "pl nom": "ph₂téres",
+                        "pl voc": "ph₂téres",
+                        "pl acc": "ph₂térm̥s",
+                        "pl gen": "ph₂tróHom",
+                        "pl abl": "ph₂tr̥mós",
+                        "pl dat": "ph₂tr̥mós",
+                        "pl loc": "ph₂tr̥sú",
+                        "pl ins": "ph₂tr̥mís"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*píbeti",
@@ -23452,14 +23528,6 @@
         ]
     },
     {
-        "char": "步",
-        "character_hint": "Pictograph of one foot in front of another, depicting footsteps.",
-        "meanings": "step",
-        "references": [
-            "https://www.dong-chinese.com/wiki/步"
-        ]
-    },
-    {
         "char": "毋",
         "character_hint": "Originally written and pronounced the same as 母 (mother). Later it was slightly altered so the two characters could be distinguished.",
         "meanings": "do not",
@@ -24441,14 +24509,6 @@
         "meanings": "pick up",
         "references": [
             "https://www.dong-chinese.com/wiki/爯"
-        ]
-    },
-    {
-        "char": "父",
-        "character_hint": "Pictograph of a hand holding something. The exact nature of the object is unclear. Variously explained as a rod or a hatchet.",
-        "meanings": "father",
-        "references": [
-            "https://www.dong-chinese.com/wiki/父"
         ]
     },
     {

@@ -21,7 +21,8 @@ export const kingAndGod = {
     STRAIGHT s nom SON us m acc WANT _irt sec 3 sg .  
     THIS n sg gen POUR tor acc ASK _ira sec 3 sg : \`\` SON us m nom I gen sg BIRTH ye_ti middle 3 sg imp  ''  
     POUR tor nom sg THIS m acc sg STRAIGHT s acc SPEAK _prr sec 3 sg : \`\` SAY ye_ti middle imp 2 SKY o_s acc BROAD us nos acc ''  
-    BELOW STRAIGHT s nom SKY o_s acc BROAD us nos acc ??SESOLE?? NOW SKY o_s acc SAY ye_ti sec middle 3 `,
+    BELOW STRAIGHT s nom SKY o_s acc BROAD us nos acc ??SESOLE?? NOW SKY o_s acc SAY ye_ti sec middle 3  
+    \`\` HEAR _pra imp 2 sg I dat , FATHER voc BROAD us nos voc ! '' SKY o_s nom BROAD us nos nom SKY s abl STEP _ira sec 3 sg .`,
 	gloss: `
     king god and
     
@@ -37,8 +38,8 @@ export const kingAndGod = {
     The king wanted a son. He asked his priest: "May a son be born to me!" 
     The priest said to the king: "Pray to the god Werunos." 
     The king approached the god Werunos to pray now to the god. 
-    "Hear me, father Werunos!" 
-    The god Werunos came down from heaven. "What do you want?" 
+    "Hear me, father Werunos!" The god Werunos came down from heaven. 
+    "What do you want?" 
     "I want a son." 
     "Let this be so," said the bright god Werunos. 
     The king's lady bore a son.`
