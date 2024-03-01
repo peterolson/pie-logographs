@@ -13,9 +13,9 @@ export const schleichersFable = {
         HORSE nom NOW SPEAK _prr sec 3 pl :
         \`\` HEAR _pra imp 2 sg , SHEEP voc sg !
         THIS n acc sg LOOK yeti prim 1 pl , WE dat UPSET newti middle prim 3 sg HEART :
-        EARTHLING o sg , MASTER , SELF SHEEP gen sg HAIR nos sg nom WARM mos acc sg CLOTHE trom acc sg WORK _pra 3 sg sec ,
+        EARTHLING o nom sg , MASTER , SELF acc SHEEP gen sg HAIR nos sg nom WARM mos acc sg CLOTHE trom acc sg WORK _pra 3 sg sec ,
         SHEEP dat pl NOW HAIR nos sg nom NOT BE _ira prim 3 sg . ''  
-        THIS n acc sg HEAR _srr part , SHEEP nom FIELD acc sg FLEE _prt sec 3 sg .`,
+        THIS n acc sg HEAR _srr part , SHEEP nom FIELD acc sg FLEE _irt sec 3 sg .`,
 	translation: `The Sheep and the Horses
 
         A sheep that had no wool saw horses, one of them pulling a heavy wagon, one carrying a big load, and one carrying a man quickly. 

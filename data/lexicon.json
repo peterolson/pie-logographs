@@ -157,7 +157,17 @@
             "https://www.dong-chinese.com/wiki/令"
         ],
         "character_hint": "Depicts a person (卩) receiving commands from a mouth (口) above them. ",
-        "id": "HEAR"
+        "id": "HEAR",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_pra active imp sg 2": "ḱludʰí",
+                        "_srr active part sg 3": "ḱeḱluwṓs"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ḱlews-",
@@ -196,7 +206,29 @@
             "https://www.dong-chinese.com/wiki/余"
         ],
         "character_hint": "Pictograph of a small shelter. Based on the original meaning \"residence\", now written as 舍. The current meaning is a phonetic loan.",
-        "id": "WE"
+        "id": "WE",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "wey",
+                        "pl nom": "wey",
+                        "sg voc": "wey",
+                        "pl acc": "n̥smé",
+                        "sg acc": "n̥smé",
+                        "pl voc": "wey",
+                        "sg gen": "nos",
+                        "pl gen": "nos",
+                        "sg abl": "n̥smed",
+                        "pl abl": "n̥smed",
+                        "sg dat": "n̥smey",
+                        "pl dat": "n̥smey",
+                        "sg loc": "n̥smi",
+                        "pl loc": "n̥smi"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*(h₂)népōts",
@@ -219,7 +251,25 @@
             "https://www.dong-chinese.com/wiki/凶"
         ],
         "character_hint": "Pictograph of a trap in the ground.",
-        "id": "UPSET"
+        "id": "UPSET",
+        "inflections": {
+            "pie": {
+                "newti": {
+                    "verb": {
+                        "_ira middle prim sg 1": "h₂egʰnuh₂ér",
+                        "_ira middle prim sg 2": "h₂egʰnuth₂ér",
+                        "_ira middle prim sg 3": "h₂egʰnutór",
+                        "_ira middle prim dual 1": "h₂egʰnuwósdʰh₂",
+                        "_ira middle prim dual 2": "",
+                        "_ira middle prim dual 3": "",
+                        "_ira middle prim pl 1": "h₂egʰnumósdʰh₂",
+                        "_ira middle prim pl 2": "h₂egʰnudʰh₂wé",
+                        "_ira middle prim pl 3": "h₂egʰnurór",
+                        "_ira middle part sg 3": "h₂egʰn̥wm̥h₁nós"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₃ep-",
@@ -231,7 +281,24 @@
             "https://www.dong-chinese.com/wiki/力"
         ],
         "character_hint": "Pictograph of a plow, which requires strength to operate.",
-        "id": "WORK"
+        "id": "WORK",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_pra active sec sg 1": "h₃epm̥",
+                        "_pra active sec sg 2": "h₃eps",
+                        "_pra active sec sg 3": "h₃ept",
+                        "_pra active sec dual 1": "h₃epwe",
+                        "_pra active sec dual 2": "h₃eptom",
+                        "_pra active sec dual 3": "h₃eptām",
+                        "_pra active sec pl 1": "h₃epme",
+                        "_pra active sec pl 2": "h₃epte",
+                        "_pra active sec pl 3": "h₃epn̥t"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*séh₂ls",
@@ -394,7 +461,25 @@
             "https://www.dong-chinese.com/wiki/奔"
         ],
         "id": "FLEE",
-        "character_hint": "Like 走 (walk), depicts a 大 (man) but with more than one 止 (foot) to indicate faster movement."
+        "character_hint": "Like 走 (walk), depicts a 大 (man) but with more than one 止 (foot) to indicate faster movement.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_irt active sec sg 1": "bʰegʷom",
+                        "_irt active sec sg 2": "bʰegʷes",
+                        "_irt active sec sg 3": "bʰegʷet",
+                        "_irt active sec dual 1": "bʰegʷowe",
+                        "_irt active sec dual 2": "bʰegʷetom",
+                        "_irt active sec dual 3": "bʰegʷetām",
+                        "_irt active sec pl 1": "bʰegʷome",
+                        "_irt active sec pl 2": "bʰegʷete",
+                        "_irt active sec pl 3": "bʰegʷont",
+                        "_irt active part sg 3": "bʰegʷonts"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*bʰewg-",
@@ -469,7 +554,18 @@
             "https://www.dong-chinese.com/wiki/己"
         ],
         "id": "SELF",
-        "character_hint": "Origin unclear. Possibly a pictograph of a silk rope, in which case would be the original form of 紀."
+        "character_hint": "Origin unclear. Possibly a pictograph of a silk rope, in which case would be the original form of 紀.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg acc": "swé",
+                        "sg gen": "sewe",
+                        "sg dat": "sebʰyo"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ḱḗr",
@@ -502,7 +598,23 @@
             "https://www.dong-chinese.com/wiki/我"
         ],
         "id": "I",
-        "character_hint": "Pictograph of a weapon with a forked blade and long handle. The meaning \"I; me\" is a phonetic loan."
+        "character_hint": "Pictograph of a weapon with a forked blade and long handle. The meaning \"I; me\" is a phonetic loan.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "h₁eg",
+                        "sg voc": "h₁eg",
+                        "sg acc": "h₁me",
+                        "sg gen": "h₁moy",
+                        "sg abl": "h₁med",
+                        "sg dat": "h₁méǵʰyo",
+                        "sg loc": "h₁moy",
+                        "sg ins": "h₁mos"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*eǵh₂óm",
@@ -541,7 +653,23 @@
             "https://www.dong-chinese.com/wiki/才"
         ],
         "id": "SHARP",
-        "character_hint": "Originally a pictograph of a wooden post, similar to 弋."
+        "character_hint": "Originally a pictograph of a wooden post, similar to 弋.",
+        "inflections": {
+            "pie": {
+                "us": {
+                    "adj": {
+                        "n sg nom": "h₂eḱu",
+                        "n sg voc": "h₂eḱu",
+                        "n sg acc": "h₂eḱu",
+                        "n sg gen": "h₂eḱéws",
+                        "n sg abl": "h₂eḱéws",
+                        "n sg dat": "h₂eḱéwey",
+                        "n sg loc": "h₂eḱéwi",
+                        "n sg ins": "h₂eḱúh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*sóh₂wl̥",
@@ -562,7 +690,23 @@
             "https://www.dong-chinese.com/wiki/昜"
         ],
         "id": "WARM",
-        "character_hint": "Depicts rays (彡) of sunlight (日) shining through tree branches (丂)."
+        "character_hint": "Depicts rays (彡) of sunlight (日) shining through tree branches (丂).",
+        "inflections": {
+            "pie": {
+                "mos": {
+                    "noun": {
+                        "sg nom": "gʷʰermós",
+                        "sg voc": "gʷʰermé",
+                        "sg acc": "gʷʰermóm",
+                        "sg gen": "gʷʰermósyo",
+                        "sg abl": "gʷʰerméad",
+                        "sg dat": "gʷʰermóey",
+                        "sg loc": "gʷʰerméy",
+                        "sg ins": "gʷʰermóh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*gʷʰéros",
@@ -592,7 +736,25 @@
             "https://www.dong-chinese.com/wiki/曰"
         ],
         "id": "SPEAK",
-        "character_hint": "Depicts a line, representing speech, coming out of a mouth (口)."
+        "character_hint": "Depicts a line, representing speech, coming out of a mouth (口).",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_prr active sec sg 1": "wéwkom",
+                        "_prr active sec sg 2": "wéwkes",
+                        "_prr active sec sg 3": "wéwket",
+                        "_prr active sec dual 1": "wéwkowe",
+                        "_prr active sec dual 2": "wéwketom",
+                        "_prr active sec dual 3": "wéwketām",
+                        "_prr active sec pl 1": "wéwkome",
+                        "_prr active sec pl 2": "wéwkete",
+                        "_prr active sec pl 3": "wéwkont",
+                        "_prr active part sg 3": "wéwkonts"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wéwket",
@@ -814,18 +976,6 @@
         ]
     },
     {
-        "PIE": "*h₂éǵeti",
-        "char": "爰",
-        "meanings": "to be driving",
-        "pos": "verb",
-        "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%C7%B5eti",
-            "https://www.dong-chinese.com/wiki/爰"
-        ],
-        "id": "",
-        "character_hint": "Pictograph of two hands pulling a rope."
-    },
-    {
         "PIE": "*dʰeh₁-",
         "char": "爲",
         "meanings": "to do; to put, place",
@@ -898,7 +1048,23 @@
             "https://www.dong-chinese.com/wiki/田"
         ],
         "id": "FIELD",
-        "character_hint": "Pictograph of a field."
+        "character_hint": "Pictograph of a field.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "h₂éǵros",
+                        "sg voc": "h₂éǵre",
+                        "sg acc": "h₂éǵrom",
+                        "sg gen": "h₂éǵrosyo",
+                        "sg abl": "h₂éǵread",
+                        "sg dat": "h₂éǵroey",
+                        "sg loc": "h₂éǵrey",
+                        "sg ins": "h₂éǵroh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂éǵr̥yos",
@@ -973,7 +1139,25 @@
             "https://www.dong-chinese.com/wiki/看"
         ],
         "id": "LOOK",
-        "character_hint": "Phonosemantic compound. 目 represents the meaning and 倝 represents the sound."
+        "character_hint": "Phonosemantic compound. 目 represents the meaning and 倝 represents the sound.",
+        "inflections": {
+            "pie": {
+                "yeti": {
+                    "verb": {
+                        "_ira active prim sg 1": "spéḱyoh₂",
+                        "_ira active prim sg 2": "spéḱyesi",
+                        "_ira active prim sg 3": "spéḱyeti",
+                        "_ira active prim dual 1": "spéḱyowos",
+                        "_ira active prim dual 2": "spéḱyetes",
+                        "_ira active prim dual 3": "spéḱyetes",
+                        "_ira active prim pl 1": "spéḱyomos",
+                        "_ira active prim pl 2": "spéḱyete",
+                        "_ira active prim pl 3": "spéḱyonti",
+                        "_ira active part sg 3": "spéḱyonts"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*spéḱs",
@@ -1096,7 +1280,23 @@
             "https://www.dong-chinese.com/wiki/衣"
         ],
         "id": "CLOTHE",
-        "character_hint": "Pictograph of a shirt or coat."
+        "character_hint": "Pictograph of a shirt or coat.",
+        "inflections": {
+            "pie": {
+                "trom": {
+                    "noun": {
+                        "sg nom": "westrom",
+                        "sg voc": "westrom",
+                        "sg acc": "westrom",
+                        "sg gen": "westrosyo",
+                        "sg abl": "westread",
+                        "sg dat": "westroey",
+                        "sg loc": "westrey",
+                        "sg ins": "westroh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wéstis",
@@ -1410,7 +1610,35 @@
             "https://www.dong-chinese.com/wiki/𡈼"
         ],
         "id": "EARTHLING",
-        "character_hint": "Pictograph of a person (亻) standing upright on the ground (土)."
+        "character_hint": "Pictograph of a person (亻) standing upright on the ground (土).",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "dʰéǵʰōm",
+                        "sg voc": "dʰéǵʰōm",
+                        "sg acc": "dʰéǵʰōm",
+                        "sg gen": "ǵʰmés",
+                        "sg abl": "ǵʰmés",
+                        "sg dat": "ǵʰméy",
+                        "sg loc": "ǵʰémi",
+                        "sg ins": "ǵʰméh₁"
+                    }
+                },
+                "o": {
+                    "noun": {
+                        "sg nom": "dʰǵʰémō",
+                        "sg voc": "dʰǵʰémon",
+                        "sg acc": "dʰǵʰémonm̥",
+                        "sg gen": "dʰǵʰémnés",
+                        "sg abl": "dʰǵʰémnés",
+                        "sg dat": "dʰǵʰémnéy",
+                        "sg loc": "dʰǵʰéméni",
+                        "sg ins": "dʰǵʰémnéh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*(H)pós",
@@ -5360,9 +5588,30 @@
         "meanings": "to drive",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%C7%B5eti",
+            "https://www.dong-chinese.com/wiki/爰"
         ],
-        "id": "DRIVE"
+        "id": "DRIVE",
+        "character_hint": "Pictograph of two hands pulling a rope.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_irt active prim sg 1": "h₂éǵoh₂",
+                        "_irt active prim sg 2": "h₂éǵesi",
+                        "_irt active prim sg 3": "h₂éǵeti",
+                        "_irt active prim dual 1": "h₂éǵowos",
+                        "_irt active prim dual 2": "h₂éǵetes",
+                        "_irt active prim dual 3": "h₂éǵetes",
+                        "_irt active prim pl 1": "h₂éǵomos",
+                        "_irt active prim pl 2": "h₂éǵete",
+                        "_irt active prim pl 3": "h₂éǵonti",
+                        "_irt active part sg 3": "h₂éǵonts"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂eǵʰ-",

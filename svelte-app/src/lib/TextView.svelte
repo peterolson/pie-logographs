@@ -19,7 +19,7 @@ Read as: <select bind:value={selectedLanguage}>
 {#each parsedText as line}
 	<p class:cjk={selectedLanguage === 'default'}>
 		{#each line as word, i}
-			{renderWord(word, line[i - 1], line[i + 1], selectedLanguage, lexicon)}
+			<span>{renderWord(word, line[i - 1], line[i + 1], selectedLanguage, lexicon)}</span>
 		{/each}
 	</p>
 {/each}
@@ -30,6 +30,11 @@ Read as: <select bind:value={selectedLanguage}>
 		min-height: 8px;
 		font-size: 1.5em;
 		font-style: normal;
+	}
+
+	p span:hover {
+		background-color: #ffffba;
+		cursor: pointer;
 	}
 
 	p.cjk {

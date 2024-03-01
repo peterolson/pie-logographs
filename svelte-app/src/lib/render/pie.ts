@@ -21,10 +21,10 @@ export function renderPIEWord(
 		pie = pie.slice(1);
 	}
 	let afterSpace = ' ';
-	if (noSpaceBefore.has(nextWord?.id ?? '')) {
+	if (noSpaceBefore.has(nextWord?.id?.trim() ?? '')) {
 		afterSpace = '';
 	}
-	if (noSpaceAfter.has(word.id)) {
+	if (noSpaceAfter.has(word.id.trim())) {
 		afterSpace = '';
 	}
 	if (nextWord?.id) {
@@ -49,27 +49,36 @@ export function renderPIEWord(
 			.join('');
 		rawSuffixText = word.suffixes.join('');
 	}
-	if (lexiconEntry.inflections) {
-		const pieInflection = lexiconEntry.inflections['pie'];
 
-		if (pieInflection) {
-			const inflection = pieInflection[rawSuffixText];
-			if (inflection) {
-				if (inflection.noun && word.pos === 'noun') {
-					return inflection.noun[`${word.number} ${word.case}`] + afterSpace;
-				}
-				if (inflection.adj && word.pos === 'adj') {
-					return inflection.adj[`${word.gender} ${word.number} ${word.case}`] + afterSpace;
-				}
-				if (inflection.verb && word.pos === 'verb') {
-					return (
-						inflection.verb[
-							`${word.formation} ${word.voice} ${word.verbType} ${word.number} ${word.person}`
-						] + afterSpace
-					);
-				}
-			}
+	if (word.pos) {
+		const missingInflection = `${pie}${suffixText}{MISSING INFLECTION}${afterSpace}`;
+		if (!lexiconEntry.inflections) {
+			return missingInflection;
 		}
+		const pieInflection = lexiconEntry.inflections['pie'];
+		if (!pieInflection) {
+			return missingInflection;
+		}
+		const suffixInflection = pieInflection[rawSuffixText];
+		if (!suffixInflection) {
+			return missingInflection;
+		}
+		const posInflection = suffixInflection[word.pos];
+		if (!posInflection) {
+			return missingInflection;
+		}
+		let key = '';
+		if (word.pos === 'noun') {
+			key = `${word.number} ${word.case}`;
+		} else if (word.pos === 'adj') {
+			key = `${word.gender} ${word.number} ${word.case}`;
+		} else if (word.pos === 'verb') {
+			key = `${word.formation} ${word.voice} ${word.verbType} ${word.number} ${word.person}`;
+		}
+		if (!posInflection[key]) {
+			return `${pie}${suffixText}{unmatched key: ${key}}${afterSpace}`;
+		}
+		return `${posInflection[key]}${afterSpace}`;
 	}
 
 	return `${pie}${suffixText}${afterSpace}`;

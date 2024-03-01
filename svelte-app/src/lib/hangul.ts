@@ -168,10 +168,10 @@ function stripAccents(text: string) {
 export function pieTextToHangul(text: string): string {
 	const [initial, rest] = match(text, initialKeys, initialConsonants);
 	const [vowel, rest2] = match(stripAccents(rest), vowelKeys, vowels);
-	let accent = '';
-	if (rest !== stripAccents(rest)) {
-		accent = '\u302e';
-	}
+	const accent = '';
+	// if (rest !== stripAccents(rest)) {
+	// 	accent = '\u302e';
+	// }
 	const [final, rest3] = match(rest2, finalKeys, finals);
 	if (rest3 === stripAccents(text)) {
 		if (text === '') return text;
