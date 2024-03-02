@@ -22,7 +22,7 @@ export const schleichersFable = {
         HORSE pl nom NOW SPEAK _prr sec 3 pl :
         \`\` HEAR _pra imp 2 sg , SHEEP voc sg !
         THIS n acc sg LOOK yeti prim 1 pl , WE dat UPSET newti middle prim 3 sg HEART :
-        EARTHLING o nom sg , MASTER nom , SELF acc SHEEP gen sg HAIR nos sg nom WARM mos acc sg CLOTHE trom acc sg WORK _pra 3 sg sec ,
+        EARTHLING o nom sg , MASTER nom , SELF acc SHEEP gen sg HAIR nos sg nom WARM mos acc sg CLOTHE trom acc sg TOIL _pra 3 sg sec ,
         SHEEP dat pl NOW HAIR nos sg nom NOT BE _ira prim 3 sg . ''  
         THIS n acc sg HEAR _srr part , SHEEP nom FIELD acc sg FLEE _irt sec 3 sg .`,
 	gloss: `

@@ -70,7 +70,7 @@
 
 <style>
 	#lexicon-grid {
-		height: calc(100svh - 64px);
+		height: calc(100svh - 80px);
 		width: 100%;
 		margin-top: 8px;
 	}

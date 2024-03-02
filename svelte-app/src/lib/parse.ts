@@ -75,7 +75,15 @@ function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
 	return result;
 }
 
-export function parse(input: string, lexicon: LexiconEntry[], gloss: string): ParsedWord[][] {
+export function parse(
+	input: string,
+	lexicon: LexiconEntry[],
+	gloss: string,
+	translation: string
+): {
+	words: ParsedWord[];
+	translation: string;
+}[] {
 	const parsedLines = input
 		.trim()
 		.split('  \n')
@@ -91,5 +99,14 @@ export function parse(input: string, lexicon: LexiconEntry[], gloss: string): Pa
 			glossIndex++;
 		}
 	}
-	return parsedLines;
+	const translationLines = translation
+		.trim()
+		.split('\n')
+		.map((x) => x.trim());
+	return parsedLines.map((words, i) => {
+		return {
+			words,
+			translation: translationLines[i]
+		};
+	});
 }

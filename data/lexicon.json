@@ -316,7 +316,7 @@
             "https://www.dong-chinese.com/wiki/力"
         ],
         "character_hint": "Pictograph of a plow, which requires strength to operate.",
-        "id": "WORK",
+        "id": "TOIL",
         "inflections": {
             "pie": {
                 "": {
@@ -364,7 +364,8 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/teh%E2%82%82g-",
             "https://www.dong-chinese.com/wiki/又"
         ],
-        "character_hint": "Pictograph of a hand."
+        "character_hint": "Pictograph of a hand.",
+        "id": "GRASP"
     },
     {
         "PIE": "*ten-",
@@ -384,7 +385,8 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tend-",
             "https://www.dong-chinese.com/wiki/及"
         ],
-        "character_hint": "Pictograph of a hand (又) reaching to grab a person (人)."
+        "character_hint": "Pictograph of a hand (又) reaching to grab a person (人).",
+        "id": "STRETCH"
     },
     {
         "PIE": "*h₁óh₃s",
@@ -725,7 +727,8 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0es-"
-        ]
+        ],
+        "id": "HAND"
     },
     {
         "PIE": "*ǵʰésōr",
@@ -1063,11 +1066,14 @@
     {
         "PIE": "*tek-",
         "char": "爪",
-        "meanings": "; to take by the hand; to receive, obtain",
+        "meanings": "to take by the hand; to receive, obtain",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tek-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tek-",
+            "https://www.dong-chinese.com/wiki/爪"
+        ],
+        "id": "TAKE",
+        "character_hint": "Pictograph of a hand or claw pointing downwards."
     },
     {
         "PIE": "*dʰeh₁-",
@@ -1099,8 +1105,10 @@
                         "_ira middle prim sg 1": "ǵenh₁yóh₂er",
                         "_ira middle prim sg 2": "ǵenh₁yéth₂er",
                         "_ira middle prim sg 3": "ǵenh₁yétor",
-                        "_ira middle imp sg 2": "ǵenh₁yéso",
-                        "_ira middle imp sg 3": "ǵenh₁yétod"
+                        "_ira middle imp sg 2": "",
+                        "_ira middle imp sg 3": "",
+                        "_ira active imp sg 3": "ǵenh₁yétod",
+                        "_ira active imp sg 2": "ǵenh₁yédʰi"
                     }
                 },
                 "": {
@@ -1852,12 +1860,15 @@
     },
     {
         "PIE": "*(h₁)sewyós",
-        "char": "",
+        "char": "左",
         "meanings": "left, left-hand",
         "pos": "adj",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sewy%C3%B3s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sewy%C3%B3s",
+            "https://www.dong-chinese.com/wiki/左"
+        ],
+        "id": "LEFT",
+        "character_hint": "Pictograph of a left hand. The 工 (work) component was added later to represent the meaning \"help; assist\", now written as 佐."
     },
     {
         "PIE": "*(me)mógʰe",
@@ -3194,12 +3205,15 @@
     },
     {
         "PIE": "*déḱs",
-        "char": "",
+        "char": "右",
         "meanings": "right (side)",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9%E1%B8%B1s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9%E1%B8%B1s",
+            "https://www.dong-chinese.com/wiki/右"
+        ],
+        "id": "RIGHT",
+        "character_hint": "Pictograph of a right hand. The 口 (mouth) component was added later to distinguish the character from 又."
     },
     {
         "PIE": "*delh₁-",
@@ -3866,12 +3880,15 @@
     },
     {
         "PIE": "*dóws",
-        "char": "",
+        "char": "寸",
         "meanings": "arm",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%B3ws"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%B3ws",
+            "https://www.dong-chinese.com/wiki/寸"
+        ],
+        "id": "ARM",
+        "character_hint": "Pictograph of a hand with a line marking a spot on the wrist. In traditional Chinese medicine this spot on the wrist where the pulse can be taken is called the 寸口. "
     },
     {
         "PIE": "*drem-",
@@ -5296,12 +5313,15 @@
     },
     {
         "PIE": "*h₁ewH-",
-        "char": "",
+        "char": "佐",
         "meanings": "to help, to assist; to protect",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ewH-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ewH-",
+            "https://www.dong-chinese.com/wiki/佐"
+        ],
+        "id": "HELP",
+        "character_hint": "Phonosemantic compound. 亻 represents the meaning and 左 represents the sound. "
     },
     {
         "PIE": "*h₁ews-",
@@ -7579,12 +7599,15 @@
     },
     {
         "PIE": "*kelH-",
-        "char": "",
+        "char": "阜",
         "meanings": "to rise, to be tall; hill",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kelH-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kelH-",
+            "https://www.dong-chinese.com/wiki/阜"
+        ],
+        "id": "HILL",
+        "character_hint": "Depicts steps on a hillside."
     },
     {
         "PIE": "*kelh₁-",
@@ -7987,12 +8010,15 @@
     },
     {
         "PIE": "*ḱóm",
-        "char": "",
+        "char": "附",
         "meanings": "beside, near, by, with",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m",
+            "https://www.dong-chinese.com/wiki/附"
+        ],
+        "id": "NEARBY",
+        "character_hint": "Phonosemantic compound. 阝 represents the meaning and 付 represents the sound. "
     },
     {
         "PIE": "*ḱoph₂ós",
@@ -8302,12 +8328,15 @@
     },
     {
         "PIE": "*kʷey-",
-        "char": "",
+        "char": "付",
         "meanings": "to pay; to avenge",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7ey-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7ey-",
+            "https://www.dong-chinese.com/wiki/付"
+        ],
+        "id": "PAY",
+        "character_hint": "Depicts a hand (寸) giving payment to a person (亻)."
     },
     {
         "PIE": "*kʷeys-",
@@ -12552,12 +12581,15 @@
     },
     {
         "PIE": "*werǵ-",
-        "char": "",
+        "char": "工",
         "meanings": "to make",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wer%C7%B5-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wer%C7%B5-",
+            "https://www.dong-chinese.com/wiki/工"
+        ],
+        "id": "WORK",
+        "character_hint": "Depicts a tool with a blade."
     },
     {
         "PIE": "*wérǵom",
@@ -13000,8 +13032,11 @@
         "meanings": "to hold, restrain; to take, seize",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yem-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yem-",
+            "https://www.dong-chinese.com/wiki/卂"
+        ],
+        "id": "RESTRAIN",
+        "character_hint": "Depicts a captive prisoner with their hands tied behind their back. Based on the original meaning \"captured prisoner of war\". The current meaning is a phonetic loan."
     },
     {
         "PIE": "*yemH-",
@@ -15177,14 +15212,6 @@
         ]
     },
     {
-        "char": "卂",
-        "character_hint": "Depicts a captive prisoner with their hands tied behind their back. Based on the original meaning \"captured prisoner of war\". The current meaning is a phonetic loan.",
-        "meanings": "to fly rapidly; captured prisoner of war",
-        "references": [
-            "https://www.dong-chinese.com/wiki/卂"
-        ]
-    },
-    {
         "char": "半",
         "character_hint": "Depicts separating a cow (牛) into two halves (八).",
         "meanings": "half",
@@ -15398,14 +15425,6 @@
         "meanings": "sentence; bent",
         "references": [
             "https://www.dong-chinese.com/wiki/句"
-        ]
-    },
-    {
-        "char": "右",
-        "character_hint": "Pictograph of a right hand. The 口 (mouth) component was added later to distinguish the character from 又.",
-        "meanings": "right",
-        "references": [
-            "https://www.dong-chinese.com/wiki/右"
         ]
     },
     {
@@ -16601,14 +16620,6 @@
         ]
     },
     {
-        "char": "付",
-        "character_hint": "Depicts a hand (寸) giving payment to a person (亻).",
-        "meanings": "pay",
-        "references": [
-            "https://www.dong-chinese.com/wiki/付"
-        ]
-    },
-    {
         "char": "份",
         "character_hint": "Phonosemantic compound. 亻 represents the meaning and 分 represents the sound. ",
         "meanings": "portion",
@@ -17078,14 +17089,6 @@
         "meanings": "he",
         "references": [
             "https://www.dong-chinese.com/wiki/他"
-        ]
-    },
-    {
-        "char": "佐",
-        "character_hint": "Phonosemantic compound. 亻 represents the meaning and 左 represents the sound. ",
-        "meanings": "assist",
-        "references": [
-            "https://www.dong-chinese.com/wiki/佐"
         ]
     },
     {
@@ -18606,14 +18609,6 @@
         "meanings": "broad",
         "references": [
             "https://www.dong-chinese.com/wiki/寬"
-        ]
-    },
-    {
-        "char": "寸",
-        "character_hint": "Pictograph of a hand with a line marking a spot on the wrist. In traditional Chinese medicine this spot on the wrist where the pulse can be taken is called the 寸口. ",
-        "meanings": "(hand), inch; pulse point on wrist",
-        "references": [
-            "https://www.dong-chinese.com/wiki/寸"
         ]
     },
     {
@@ -21953,14 +21948,6 @@
         ]
     },
     {
-        "char": "工",
-        "character_hint": "Depicts a tool with a blade.",
-        "meanings": "work",
-        "references": [
-            "https://www.dong-chinese.com/wiki/工"
-        ]
-    },
-    {
         "char": "巾",
         "character_hint": "Pictograph of a cloth hanging downwards.",
         "meanings": "cloth",
@@ -22030,14 +22017,6 @@
         "meanings": "hat",
         "references": [
             "https://www.dong-chinese.com/wiki/帽"
-        ]
-    },
-    {
-        "char": "左",
-        "character_hint": "Pictograph of a left hand. The 工 (work) component was added later to represent the meaning \"help; assist\", now written as 佐.",
-        "meanings": "left",
-        "references": [
-            "https://www.dong-chinese.com/wiki/左"
         ]
     },
     {
@@ -24590,14 +24569,6 @@
         "meanings": "rotten",
         "references": [
             "https://www.dong-chinese.com/wiki/爛"
-        ]
-    },
-    {
-        "char": "爪",
-        "character_hint": "Pictograph of a hand or claw pointing downwards.",
-        "meanings": "hand, claw",
-        "references": [
-            "https://www.dong-chinese.com/wiki/爪"
         ]
     },
     {
@@ -35961,14 +35932,6 @@
         ]
     },
     {
-        "char": "附",
-        "character_hint": "Phonosemantic compound. 阝 represents the meaning and 付 represents the sound. ",
-        "meanings": "attach, be near",
-        "references": [
-            "https://www.dong-chinese.com/wiki/附"
-        ]
-    },
-    {
         "char": "院",
         "character_hint": "Phonosemantic compound. 阝 represents the meaning and 完 represents the sound. ",
         "meanings": "courtyard",
@@ -36014,14 +35977,6 @@
         "meanings": "flash; peek",
         "references": [
             "https://www.dong-chinese.com/wiki/闪"
-        ]
-    },
-    {
-        "char": "阜",
-        "character_hint": "Depicts steps on a hillside.",
-        "meanings": "mound",
-        "references": [
-            "https://www.dong-chinese.com/wiki/阜"
         ]
     },
     {
