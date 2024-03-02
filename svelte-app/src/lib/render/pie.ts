@@ -11,15 +11,6 @@ export function renderPIEWord(
 	lexicon: LexiconEntry[]
 ) {
 	const lexiconEntry = lexicon.find((entry) => entry.id === word.id);
-	if (!lexiconEntry) return word.id;
-	let pie = lexiconEntry.PIE;
-	if (!pie) return word.id;
-	if (pie.startsWith('*')) {
-		pie = pie.slice(1);
-	}
-	if (pie.startsWith('-')) {
-		pie = pie.slice(1);
-	}
 	let afterSpace = ' ';
 	if (noSpaceBefore.has(nextWord?.id?.trim() ?? '')) {
 		afterSpace = '';
@@ -30,6 +21,22 @@ export function renderPIEWord(
 	if (word.id.endsWith('-')) {
 		afterSpace = '';
 	}
+
+	if (!lexiconEntry) {
+		if (word.determiner) {
+			return word.phonetic + afterSpace;
+		}
+		return word.id + afterSpace;
+	}
+	let pie = lexiconEntry.PIE;
+	if (!pie) return word.id;
+	if (pie.startsWith('*')) {
+		pie = pie.slice(1);
+	}
+	if (pie.startsWith('-')) {
+		pie = pie.slice(1);
+	}
+
 	if (nextWord?.id) {
 		const nextLexiconEntry = lexicon.find((entry) => entry.id === nextWord.id);
 		const nextPIE = nextLexiconEntry?.PIE;

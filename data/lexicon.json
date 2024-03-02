@@ -1692,11 +1692,12 @@
     {
         "PIE": "*bʰel-",
         "char": "音",
-        "meanings": "; to sound; to speak, roar, bark",
+        "meanings": "to sound; to speak, roar, bark",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0el-"
-        ]
+        ],
+        "id": "BELL"
     },
     {
         "PIE": "*ḱerh₂-",
@@ -4832,12 +4833,15 @@
     },
     {
         "PIE": "*gʷḗn",
-        "char": "",
+        "char": "女",
         "meanings": "woman",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%E1%B8%97n"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%E1%B8%97n",
+            "https://www.dong-chinese.com/wiki/女"
+        ],
+        "id": "WOMAN",
+        "character_hint": "Depicts a woman sitting or squatting down."
     },
     {
         "PIE": "*gʷerH-",
@@ -5795,6 +5799,18 @@
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81w%C3%A9rus"
         ]
+    },
+    {
+        "PIE": "*h₁su-",
+        "char": "好",
+        "meanings": "good",
+        "pos": "root",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81su-",
+            "https://www.dong-chinese.com/wiki/好"
+        ],
+        "id": "GOOD",
+        "character_hint": "It is good (好) for a woman (女) and her child (子) to be together."
     },
     {
         "PIE": "*h₁wésus",
@@ -17916,14 +17932,6 @@
         ]
     },
     {
-        "char": "女",
-        "character_hint": "Depicts a woman sitting or squatting down.",
-        "meanings": "woman",
-        "references": [
-            "https://www.dong-chinese.com/wiki/女"
-        ]
-    },
-    {
         "char": "如",
         "character_hint": "Depicts a woman (女) obeying spoken (口) orders. Based on the original meaning \"obey\". The meaning later shifted to \"be similar\" and \"like\". 女 also serves as a sound component.",
         "meanings": "be like; obey",
@@ -18025,14 +18033,6 @@
         "meanings": "father's sister",
         "references": [
             "https://www.dong-chinese.com/wiki/姑"
-        ]
-    },
-    {
-        "char": "好",
-        "character_hint": "It is good (好) for a woman (女) and her child (子) to be together.",
-        "meanings": "good",
-        "references": [
-            "https://www.dong-chinese.com/wiki/好"
         ]
     },
     {

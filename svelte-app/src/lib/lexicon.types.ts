@@ -39,4 +39,6 @@ export type ParsedWord = {
 	suffixes?: string[];
 	pos?: 'adj' | 'noun' | 'verb';
 	gloss?: string;
+	determiner?: string;
+	phonetic?: string;
 };

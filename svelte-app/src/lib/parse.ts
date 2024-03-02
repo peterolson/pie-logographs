@@ -13,7 +13,9 @@ import {
 	type Person,
 	type VerbType,
 	type Voice,
-	type FormationType
+	type FormationType,
+	isDeterminer,
+	parseDeterminer
 } from './inflection.js';
 import type { LexiconEntry, ParsedWord } from './lexicon.types.js';
 
@@ -24,6 +26,15 @@ function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
 	const result: ParsedWord[] = [];
 	for (const token of tokens) {
 		if (token.trim() === '') continue;
+		if (isDeterminer(token)) {
+			if (currentWord) {
+				result.push(currentWord);
+			}
+			const parsed = parseDeterminer(token);
+			currentWord = parsed;
+			currentWord.pos = 'noun';
+			continue;
+		}
 		const lexiconEntry = lexicon.find((x) => x.id === token.trim());
 		if (lexiconEntry) {
 			if (currentWord) {

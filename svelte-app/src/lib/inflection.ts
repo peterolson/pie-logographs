@@ -667,7 +667,7 @@ export function addInflection(word: ParsedWord) {
 	if (word.pos === 'noun') {
 		word.number = word.number || 'sg';
 		word.case = word.case || 'nom';
-		if (word.number === 'sg' && word.case === 'nom' && !word.suffixes?.length) {
+		if (word.number === 'sg' && word.case === 'nom' && !word.suffixes?.length && !word.determiner) {
 			return '';
 		}
 		return convertAdjInflection('', word.number, word.case);
@@ -693,4 +693,29 @@ export function addInflection(word: ParsedWord) {
 		);
 	}
 	return '';
+}
+
+//https://en.wikipedia.org/wiki/Hittite_cuneiform#Determiners
+export const determiners = {
+	M: ['イ', 'Male personal name'], // イ人
+	MUNUS: ['め', 'Female personal name'], // め女
+	URU: ['ち', 'City'], // ち市
+	ID: ['つ', 'River'] // つ川
+};
+
+export function isDeterminer(token: string) {
+	if (token.split(':')[0] in determiners) {
+		return true;
+	}
+}
+
+export function parseDeterminer(token: string) {
+	const [determiner, value] = token.split(':');
+	const [prefix, desc] = determiners[determiner as keyof typeof determiners];
+	return {
+		id: 'DETERMINER',
+		determiner: desc,
+		char: prefix + pieTextToHangul(value),
+		phonetic: value
+	};
 }
