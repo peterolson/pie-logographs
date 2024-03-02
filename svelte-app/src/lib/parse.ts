@@ -18,7 +18,7 @@ import {
 import type { LexiconEntry, ParsedWord } from './lexicon.types.js';
 
 function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
-	const tokens = line.split(' ');
+	const tokens = line.split(' ').map((x) => x.trim());
 	let currentWord: ParsedWord | null = null;
 	let prefix: { id: string; char?: string }[] = [];
 	const result: ParsedWord[] = [];
@@ -28,14 +28,6 @@ function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
 		if (lexiconEntry) {
 			if (currentWord) {
 				result.push(currentWord);
-			}
-			if (token.endsWith('-')) {
-				prefix.push({
-					id: token,
-					char: lexiconEntry.char
-				});
-				currentWord = null;
-				continue;
 			}
 			currentWord = {
 				id: token,

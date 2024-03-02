@@ -54,12 +54,17 @@
 		const lexicon = await getLexicon();
 		characterEntryIndex = lexicon.findIndex((e) => e.char === char && e.character_hint);
 		const characterEntry = lexicon[characterEntryIndex];
+		if (characterEntry.PIE) {
+			characterEntryIndex = -1;
+		}
 		character_hint = characterEntry.character_hint;
-		references = [...(references || []), ...(characterEntry.references || [])];
+		references = [
+			...(references || []),
+			...(characterEntry.references || []).filter((x) => x.includes('dong-chinese'))
+		];
 	}
 </script>
 
-<h2>Entry editor!</h2>
 <div class="input-grid">
 	<span>ID</span>
 	<input type="text" bind:value={id} />

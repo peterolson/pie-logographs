@@ -27,6 +27,9 @@ export function renderPIEWord(
 	if (noSpaceAfter.has(word.id.trim())) {
 		afterSpace = '';
 	}
+	if (word.id.endsWith('-')) {
+		afterSpace = '';
+	}
 	if (nextWord?.id) {
 		const nextLexiconEntry = lexicon.find((entry) => entry.id === nextWord.id);
 		const nextPIE = nextLexiconEntry?.PIE;

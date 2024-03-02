@@ -1,5 +1,17 @@
 [
     {
+        "PIE": "n̥-",
+        "pos": "part",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%CC%A5-",
+            "https://www.dong-chinese.com/wiki/非"
+        ],
+        "id": "UN-",
+        "char": "非",
+        "meanings": "not, un-",
+        "character_hint": "Depicts two people facing opposite directions."
+    },
+    {
         "PIE": "*nu",
         "char": "且",
         "meanings": "now; well (as an interjection); and",
@@ -21,7 +33,23 @@
             "https://www.dong-chinese.com/wiki/主"
         ],
         "character_hint": "Pictograph of a memorial tablet used for spiritual rituals, similar to 示.",
-        "id": "MASTER"
+        "id": "MASTER",
+        "inflections": {
+            "pie": {
+                "ih2": {
+                    "noun": {
+                        "sg nom": "pótnih₂",
+                        "sg voc": "pótnih₂",
+                        "sg acc": "pótnih₂m̥"
+                    }
+                },
+                "": {
+                    "noun": {
+                        "sg nom": "pótis"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ís",
@@ -130,7 +158,13 @@
                         "_ira active sec dual 3": "h₁stā́m",
                         "_ira active sec pl 1": "h₁smé",
                         "_ira active sec pl 2": "h₁sté",
-                        "_ira active sec pl 3": "h₁sént"
+                        "_ira active sec pl 3": "h₁sént",
+                        "_ira active imp sg 2": "h₁és",
+                        "_ira active imp sg 3": "h₁éstu",
+                        "_ira active imp dual 2": "h₁stóm",
+                        "_ira active imp dual 3": "h₁stā́m",
+                        "_ira active imp pl 2": "h₁sté",
+                        "_ira active imp pl 3": "h₁séntu"
                     }
                 }
             }
@@ -378,15 +412,31 @@
     },
     {
         "PIE": "*sewh₁-",
-        "char": "育",
+        "char": "子",
         "meanings": "to bear (a child); to give birth",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sewH-",
-            "https://www.dong-chinese.com/wiki/育"
+            "https://www.dong-chinese.com/wiki/子"
         ],
-        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first.",
-        "id": "SON"
+        "character_hint": "Pictograph of a small child with its two arms outstretched.",
+        "id": "SON",
+        "inflections": {
+            "pie": {
+                "us": {
+                    "noun": {
+                        "sg nom": "suHnús",
+                        "sg voc": "suHnów",
+                        "sg acc": "suHnúm",
+                        "sg gen": "suHnóws",
+                        "sg abl": "suHnóws",
+                        "sg dat": "suHnéwey",
+                        "sg loc": "suHnḗw",
+                        "sg ins": "suHnwéh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*semh₂-",
@@ -397,7 +447,8 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/semh%E2%82%82-",
             "https://www.dong-chinese.com/wiki/夏"
         ],
-        "character_hint": "Pictograph of a person, represented by their head (頁) and feet (夂), being heated underneath the sun (日). The sun component was later omitted for brevity during the Warring States period."
+        "character_hint": "Pictograph of a person, represented by their head (頁) and feet (夂), being heated underneath the sun (日). The sun component was later omitted for brevity during the Warring States period.",
+        "id": "SUMMER"
     },
     {
         "PIE": "*méǵh₂s",
@@ -720,7 +771,8 @@
         "pos": "noun",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C3%B3h%E2%82%82wl%CC%A5"
-        ]
+        ],
+        "id": "SUN"
     },
     {
         "PIE": "*gʷʰer-",
@@ -1050,6 +1102,17 @@
                         "_ira middle imp sg 2": "ǵenh₁yéso",
                         "_ira middle imp sg 3": "ǵenh₁yétod"
                     }
+                },
+                "": {
+                    "verb": {
+                        "_ira active prim sg 1": "ǵenh₁mi",
+                        "_ira active prim sg 2": "ǵenh₁si",
+                        "_ira active prim sg 3": "ǵenh₁ti",
+                        "_ire active prim sg 1": "",
+                        "_irr active prim sg 1": "",
+                        "_irr active prim sg 3": "ǵíǵn̥h₁eti",
+                        "_irr active sec sg 3": "ǵíǵn̥h₁et"
+                    }
                 }
             }
         }
@@ -1155,7 +1218,23 @@
             "https://www.dong-chinese.com/wiki/直"
         ],
         "id": "STRAIGHT",
-        "character_hint": "Pictograph of a straight line coming from the eye, to depict looking straight at something. The purpose of the stroke at the bottom is unclear."
+        "character_hint": "Pictograph of a straight line coming from the eye, to depict looking straight at something. The purpose of the stroke at the bottom is unclear.",
+        "inflections": {
+            "pie": {
+                "s": {
+                    "noun": {
+                        "sg nom": "h₃rḗǵs",
+                        "sg voc": "h₃réǵ",
+                        "sg acc": "h₃réǵm̥",
+                        "sg gen": "h₃réǵs",
+                        "sg abl": "h₃réǵs",
+                        "sg dat": "h₃réǵey",
+                        "sg loc": "h₃réǵi",
+                        "sg ins": "h₃réǵh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₃réǵeti",
@@ -1308,7 +1387,34 @@
             "https://www.dong-chinese.com/wiki/羡"
         ],
         "id": "WANT",
-        "character_hint": "Depicts a person salivating (㳄) when seeing a tasty sheep (羊) that they have a desire to eat."
+        "character_hint": "Depicts a person salivating (㳄) when seeing a tasty sheep (羊) that they have a desire to eat.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ira active prim sg 1": "welh₁mi",
+                        "_ira active prim sg 2": "welh₁si",
+                        "_ira active prim sg 3": "welh₁ti",
+                        "_ira active sec sg 1": "welh₁m",
+                        "_ira active sec sg 2": "welh₁s",
+                        "_ira active sec sg 3": "welh₁t",
+                        "_ira active opt sg 1": "welh₁yéh₁m̥",
+                        "_ira active opt sg 2": "welh₁yéh₁s",
+                        "_ira active opt sg 3": "welh₁yéh₁t",
+                        "_ira active imp sg 1": "",
+                        "_ira active imp sg 2": "",
+                        "_ira active imp sg 3": "",
+                        "_ira active subj sg 1": "welh₁oh₂",
+                        "_ira active subj sg 2": "welh₁esi",
+                        "_ira active subj sg 3": "welh₁eti",
+                        "_ira active part sg 3": "welh₁ónts",
+                        "_ira middle sec sg 1": "welh₁h₂é",
+                        "_ira middle sec sg 2": "welh₁th₂é",
+                        "_ira middle sec sg 3": "welh₁tó"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂ṓws",
@@ -1419,7 +1525,8 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81el-"
-        ]
+        ],
+        "id": "ELK"
     },
     {
         "PIE": "*bʰer-",
@@ -1934,12 +2041,31 @@
     },
     {
         "PIE": "*(s)mal-",
-        "char": "",
+        "char": "小",
         "meanings": "small; little",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)mal-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)mal-",
+            "https://www.dong-chinese.com/wiki/小"
+        ],
+        "id": "SMALL",
+        "character_hint": "Depicts three small dots, representing the meaning \"small\".",
+        "inflections": {
+            "pie": {
+                "los": {
+                    "noun": {
+                        "sg nom": "putlós",
+                        "sg voc": "putlé",
+                        "sg acc": "putlóm",
+                        "sg gen": "putlósyo",
+                        "sg abl": "putléad",
+                        "sg dat": "putlóey",
+                        "sg loc": "putlóy",
+                        "sg ins": "putlóh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*(s)meh₂-",
@@ -3644,12 +3770,15 @@
     },
     {
         "PIE": "*dʰwer-",
-        "char": "",
+        "char": "門",
         "meanings": "door",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0wer-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0wer-",
+            "https://www.dong-chinese.com/wiki/門"
+        ],
+        "id": "DOOR",
+        "character_hint": "Pictograph of a gate."
     },
     {
         "PIE": "*dʰwes-",
@@ -4204,7 +4333,23 @@
             "https://www.dong-chinese.com/wiki/畐"
         ],
         "id": "POUR",
-        "character_hint": "Depicts a drinking vessel full of wine."
+        "character_hint": "Depicts a drinking vessel full of wine.",
+        "inflections": {
+            "pie": {
+                "tor": {
+                    "noun": {
+                        "sg nom": "ǵʰewtōr",
+                        "sg voc": "ǵʰewtor",
+                        "sg acc": "ǵʰewtorm̥",
+                        "sg gen": "ǵʰewtrés",
+                        "sg abl": "ǵʰewtrés",
+                        "sg dat": "ǵʰewtréy",
+                        "sg loc": "ǵʰewtéri",
+                        "sg ins": "ǵʰewtréh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ǵʰewd-",
@@ -4590,7 +4735,7 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "gʷeht"
+                        "_ira active sec sg 3": "gʷeh₂t"
                     }
                 }
             }
@@ -5943,12 +6088,15 @@
     },
     {
         "PIE": "*h₂ems-",
-        "char": "",
+        "char": "育",
         "meanings": "to give birth, beget",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ems-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ems-",
+            "https://www.dong-chinese.com/wiki/育"
+        ],
+        "id": "BEGET",
+        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first."
     },
     {
         "PIE": "*h₂en-",
@@ -6537,12 +6685,15 @@
     },
     {
         "PIE": "*h₂óḱris",
-        "char": "",
+        "char": "方",
         "meanings": "top, protrusion; sharp edge, corner",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%B3%E1%B8%B1ris"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%B3%E1%B8%B1ris",
+            "https://www.dong-chinese.com/wiki/方"
+        ],
+        "id": "EDGE",
+        "character_hint": "Depicts the cutting edge (一) of a knife blade (刀). Similar in origin to 亡."
     },
     {
         "PIE": "*h₂ṓms",
@@ -7536,12 +7687,15 @@
     },
     {
         "PIE": "*ḱes-",
-        "char": "",
-        "meanings": "to cut. Synonym: *sek-",
+        "char": "匃",
+        "meanings": "to cut",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1es-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1es-",
+            "https://www.dong-chinese.com/wiki/匃"
+        ],
+        "id": "CUT",
+        "character_hint": "Depicts the blade of a knife. Similar in origin to 亡 and 方."
     },
     {
         "PIE": "*ḱewh₁-",
@@ -8193,12 +8347,68 @@
     },
     {
         "PIE": "*kʷís",
-        "char": "",
+        "char": "曷",
         "meanings": "who, what (interrogative); who, which, that (relative)",
         "pos": "det, pron",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7%C3%ADs"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7%C3%ADs",
+            "https://www.dong-chinese.com/wiki/曷"
+        ],
+        "id": "WHAT",
+        "character_hint": "Phonosemantic compound. 曰 represents the meaning and 匃 represents the sound. ",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "m sg nom": "kʷís",
+                        "f sg nom": "kʷís",
+                        "n sg nom": "kʷíd",
+                        "n sg voc": "kʷíd",
+                        "n sg acc": "kʷíd",
+                        "f sg voc": "kʷís",
+                        "m sg voc": "kʷís",
+                        "m sg acc": "kʷím",
+                        "f sg acc": "kʷím",
+                        "m sg gen": "kʷésyo",
+                        "f sg gen": "kʷésyo",
+                        "n sg gen": "kʷésyo",
+                        "m sg abl": "kʷéd",
+                        "f sg abl": "kʷéd",
+                        "n sg abl": "kʷéd",
+                        "m sg dat": "kʷésmey",
+                        "f sg dat": "kʷésmey",
+                        "n sg dat": "kʷésmey",
+                        "m sg loc": "kʷésmi",
+                        "f sg loc": "kʷésmi",
+                        "n sg loc": "kʷésmi",
+                        "m sg ins": "kʷéy",
+                        "f sg ins": "kʷéy",
+                        "n sg ins": "kʷéy",
+                        "m pl nom": "kʷéyes",
+                        "f pl nom": "kʷéyes",
+                        "n pl nom": "kʷíh₂",
+                        "n pl acc": "kʷíh₂",
+                        "f pl acc": "kʷíms",
+                        "m pl acc": "kʷíms",
+                        "m pl gen": "kʷéysom",
+                        "f pl gen": "kʷéysom",
+                        "n pl gen": "kʷéysom",
+                        "n pl voc": "kʷíh₂",
+                        "m pl voc": "kʷéyes",
+                        "f pl voc": "kʷéyes",
+                        "m pl dat": "kʷeybʰ",
+                        "m pl abl": "kʷeybʰ",
+                        "f pl abl": "kʷeybʰ",
+                        "f pl dat": "kʷeybʰ",
+                        "n pl abl": "kʷeybʰ",
+                        "n pl dat": "kʷeybʰ",
+                        "m pl loc": "kʷeysu",
+                        "f pl loc": "kʷeysu",
+                        "n pl loc": "kʷeysu"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ḱwṓ",
@@ -8472,12 +8682,31 @@
     },
     {
         "PIE": "*lewk-",
-        "char": "",
+        "char": "明",
         "meanings": "bright; to shine; to see",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/lewk-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/lewk-",
+            "https://www.dong-chinese.com/wiki/明"
+        ],
+        "id": "BRIGHT",
+        "character_hint": "The character originally depicted moonlight (月) shining through a window (囧). The 囧 component was later reanalyzed as 日 (sun).",
+        "inflections": {
+            "pie": {
+                "o_s": {
+                    "noun": {
+                        "sg nom": "lewkós",
+                        "sg voc": "lewké",
+                        "sg acc": "lewkóm",
+                        "sg gen": "lewkósyo",
+                        "sg abl": "lewkéad",
+                        "sg dat": "lewkóey",
+                        "sg loc": "lewkóy",
+                        "sg ins": "lewkóh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*léwks",
@@ -8715,12 +8944,15 @@
     },
     {
         "PIE": "*mḗh₁n̥s",
-        "char": "",
+        "char": "月",
         "meanings": "moon; month",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%E1%B8%97h%E2%82%81n%CC%A5s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%E1%B8%97h%E2%82%81n%CC%A5s",
+            "https://www.dong-chinese.com/wiki/月"
+        ],
+        "id": "MOON",
+        "character_hint": "Pictograph of the moon."
     },
     {
         "PIE": "*meh₂-",
@@ -8823,12 +9055,15 @@
     },
     {
         "PIE": "*mer-",
-        "char": "",
-        "meanings": "; to die; ; to disappear",
+        "char": "亡",
+        "meanings": "to die; to disappear",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mer-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mer-",
+            "https://www.dong-chinese.com/wiki/亡"
+        ],
+        "id": "DIE",
+        "character_hint": "Depicts the tip of a knife blade (刀). Similar in origin to 方."
     },
     {
         "PIE": "*mért",
@@ -9399,12 +9634,25 @@
     },
     {
         "PIE": "*peh₂w-",
-        "char": "",
+        "char": "少",
         "meanings": "few, little; smallness",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peh%E2%82%82w-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/peh%E2%82%82w-",
+            "https://www.dong-chinese.com/wiki/少"
+        ],
+        "id": "FEW",
+        "character_hint": "Depicts four dots, representing the meaning \"few\". Originally the same character as 小. The small dots possibly represent grains of sand (沙).",
+        "inflections": {
+            "pie": {
+                "los": {
+                    "noun": {
+                        "sg nom": "putlós",
+                        "sg acc": "putlóm"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*peh₃-",
@@ -10064,7 +10312,16 @@
             "https://www.dong-chinese.com/wiki/訊"
         ],
         "id": "ASK",
-        "character_hint": "Depicts a mouth (口) interrogating a captured prisoner of war (卂). 卂 also represents the sound. The 口 (mouth) component was later reanalyzed as 言 (speech)."
+        "character_hint": "Depicts a mouth (口) interrogating a captured prisoner of war (卂). 卂 also represents the sound. The 口 (mouth) component was later reanalyzed as 言 (speech).",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "preḱt"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*prep-",
@@ -10293,12 +10550,15 @@
     },
     {
         "PIE": "*sek-",
-        "char": "",
-        "meanings": "to cut, cut off, sever Synonym: *ḱes-",
+        "char": "刀",
+        "meanings": "to cut, cut off, sever",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek-",
+            "https://www.dong-chinese.com/wiki/刀"
+        ],
+        "id": "SEVER",
+        "character_hint": "Pictograph of a knife."
     },
     {
         "PIE": "*sekʷ-",
@@ -10320,12 +10580,25 @@
     },
     {
         "PIE": "*sel-",
-        "char": "",
-        "meanings": "jump, spring",
+        "char": "夭",
+        "meanings": "jump, spring, run",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sel-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sel-",
+            "https://www.dong-chinese.com/wiki/夭"
+        ],
+        "id": "JUMP",
+        "character_hint": "Depicts a person swaying their arms while walking quickly.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_srr active prim sg 3": "",
+                        "_srr stative prim sg 3": "sesole"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*selǵ-",
@@ -14160,14 +14433,6 @@
         ]
     },
     {
-        "char": "刀",
-        "character_hint": "Pictograph of a knife.",
-        "meanings": "knife",
-        "references": [
-            "https://www.dong-chinese.com/wiki/刀"
-        ]
-    },
-    {
         "char": "切",
         "character_hint": "Phonosemantic compound. 刀 represents the meaning and 七 represents the sound. ",
         "meanings": "cut",
@@ -14341,14 +14606,6 @@
         "meanings": "help",
         "references": [
             "https://www.dong-chinese.com/wiki/助"
-        ]
-    },
-    {
-        "char": "匃",
-        "character_hint": "Variant form of 丐. Depicts the blade of a knife. Similar in origin to 亡 and 方. Based on the original meaning \"cut\". The current meaning is a phonetic loan.",
-        "meanings": "beggar; cut",
-        "references": [
-            "https://www.dong-chinese.com/wiki/匃"
         ]
     },
     {
@@ -16896,14 +17153,6 @@
         ]
     },
     {
-        "char": "亡",
-        "character_hint": "Depicts the tip of a knife blade (刀). Similar in origin to 方. Based on the original meaning \"tip of a blade\", now written as 芒. The current meaning is a phonetic loan.",
-        "meanings": "death; tip of a blade",
-        "references": [
-            "https://www.dong-chinese.com/wiki/亡"
-        ]
-    },
-    {
         "char": "亦",
         "character_hint": "Pictograph of a person, with two dots at the armpits. Based on the original meaning \"armpit\", now written as 腋. The current meaning is a phonetic loan.",
         "meanings": "also",
@@ -17533,14 +17782,6 @@
         "meanings": "to turn over when asleep",
         "references": [
             "https://www.dong-chinese.com/wiki/夗"
-        ]
-    },
-    {
-        "char": "夭",
-        "character_hint": "Depicts a person walking quickly. Original form of 走. Relation to current meaning unclear.",
-        "meanings": "die young",
-        "references": [
-            "https://www.dong-chinese.com/wiki/夭"
         ]
     },
     {
@@ -18752,22 +18993,6 @@
         ]
     },
     {
-        "char": "小",
-        "character_hint": "Depicts three small dots, representing the meaning \"small\". Originally the same character as 少. The small dots possibly represent grains of sand (沙).",
-        "meanings": "small",
-        "references": [
-            "https://www.dong-chinese.com/wiki/小"
-        ]
-    },
-    {
-        "char": "少",
-        "character_hint": "Depicts four dots, representing the meaning \"few\". Originally the same character as 小. The small dots possibly represent grains of sand (沙).",
-        "meanings": "few",
-        "references": [
-            "https://www.dong-chinese.com/wiki/少"
-        ]
-    },
-    {
         "char": "宫",
         "character_hint": "Simplified form of 宮. Pictograph of a building (宀) with multiple rooms.",
         "meanings": "palace",
@@ -18829,14 +19054,6 @@
         "meanings": "tail",
         "references": [
             "https://www.dong-chinese.com/wiki/尾"
-        ]
-    },
-    {
-        "char": "子",
-        "character_hint": "Pictograph of a small child with its two arms outstretched.",
-        "meanings": "child",
-        "references": [
-            "https://www.dong-chinese.com/wiki/子"
         ]
     },
     {
@@ -25504,14 +25721,6 @@
         ]
     },
     {
-        "char": "方",
-        "character_hint": "Depicts the cutting edge (一) of a knife blade (刀). Similar in origin to 亡. Based on the original meaning \"cutting edge\". The meaning later expanded to \"perimeter\", \"area\", and \"square\".",
-        "meanings": "square; cutting edge",
-        "references": [
-            "https://www.dong-chinese.com/wiki/方"
-        ]
-    },
-    {
         "char": "无",
         "character_hint": "Pictograph of a person (大) dancing with decorations (革) hanging from his arms, conveying the meaning \"dance\". Original form of 舞 (dance). The current form is a phonetic loan. The simplified character 无 was adapted from the cursive form of the traditional character 無.",
         "meanings": "negative",
@@ -25664,14 +25873,6 @@
         ]
     },
     {
-        "char": "月",
-        "character_hint": "Pictograph of the moon.",
-        "meanings": "moon",
-        "references": [
-            "https://www.dong-chinese.com/wiki/月"
-        ]
-    },
-    {
         "char": "昌",
         "character_hint": "Originally composed of 口 (mouth) and 日 (sun), representing a call in the morning to wake people up at sunrise to start working. Based on the original meaning \"call loudly\", now written as 唱. The current meaning is a phonetic loan.",
         "meanings": "prosperous; call loudly",
@@ -25789,14 +25990,6 @@
         "meanings": "early",
         "references": [
             "https://www.dong-chinese.com/wiki/早"
-        ]
-    },
-    {
-        "char": "明",
-        "character_hint": "The character was originally depicted moonlight (月) shining through a window (囧). The 囧 component was later reanalyzed as 日 (sun).",
-        "meanings": "bright",
-        "references": [
-            "https://www.dong-chinese.com/wiki/明"
         ]
     },
     {
@@ -26045,14 +26238,6 @@
         "meanings": "warm",
         "references": [
             "https://www.dong-chinese.com/wiki/暖"
-        ]
-    },
-    {
-        "char": "曷",
-        "character_hint": "Phonosemantic compound. 曰 represents the meaning and 匃 represents the sound. ",
-        "meanings": "why? what? where?",
-        "references": [
-            "https://www.dong-chinese.com/wiki/曷"
         ]
     },
     {
@@ -35613,14 +35798,6 @@
         "meanings": "mirror",
         "references": [
             "https://www.dong-chinese.com/wiki/镜"
-        ]
-    },
-    {
-        "char": "門",
-        "character_hint": "Pictograph of a gate.",
-        "meanings": "door",
-        "references": [
-            "https://www.dong-chinese.com/wiki/門"
         ]
     },
     {
