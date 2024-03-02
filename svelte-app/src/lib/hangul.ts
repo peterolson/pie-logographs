@@ -24,7 +24,7 @@ const initialConsonants = {
 	'h₂': 'ᄒ',
 	'h₃': 'ᅘ',
 	r: 'ᄅ',
-	l: 'ᄙ',
+	l: 'ᄅ', // I'm gonna tolerate some ambiguity here because ᄙ is fugly
 	// combinations
 	ng: 'ᄓ',
 	nd: 'ᄕ',
@@ -49,7 +49,7 @@ const initialConsonants = {
 };
 
 const vowels = {
-	'': 'ᆞ',
+	'': 'ᅳ',
 	a: 'ᅢ',
 	e: 'ᅥ',
 	o: 'ᅡ',

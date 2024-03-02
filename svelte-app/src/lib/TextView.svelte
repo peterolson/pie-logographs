@@ -79,6 +79,7 @@ Read as: <select bind:value={selectedLanguage}>
 	a {
 		text-decoration: none;
 		color: inherit;
+		white-space: nowrap;
 	}
 
 	a.selected {
