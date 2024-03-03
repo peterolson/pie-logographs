@@ -56,12 +56,14 @@ export function getInflectedForm(
 				return suffix;
 			})
 			.join('');
-		rawSuffixText = word.suffixes.join('');
+		rawSuffixText = word.suffixes.join(' ');
 	}
 
 	if (word.pos) {
 		console.log(lexiconEntry.inflections, word);
-		const missingInflection = { form: `${word.id}${suffixText}{MISSING INFLECTION}${afterSpace}` };
+		const missingInflection = {
+			form: `${word.id}${rawSuffixText}{MISSING INFLECTION}${afterSpace}`
+		};
 		if (!lexiconEntry.inflections) {
 			return missingInflection;
 		}

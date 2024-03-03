@@ -5836,29 +5836,22 @@
         "inflections": {
             "pie": {
                 "us": {
-                    "noun": {
-                        "sg nom": "h₁wésus",
-                        "sg voc": "h₁wésu",
-                        "sg acc": "h₁wésum",
-                        "sg gen": "h₁uséws",
-                        "sg abl": "h₁uséws",
-                        "sg dat": "h₁uséwey",
-                        "sg loc": "h₁uséwi",
-                        "sg ins": "h₁usúh₁"
+                    "adj": {
+                        "m sg nom": "h₁wésus",
+                        "m sg voc": "h₁wésu",
+                        "m sg acc": "h₁wésum",
+                        "m sg gen": "h₁uséws",
+                        "m sg abl": "h₁uséws",
+                        "m sg dat": "h₁uséwey",
+                        "m sg loc": "h₁uséwi",
+                        "m sg ins": "h₁uséwi"
                     }
                 }
             },
             "hittite": {
                 "us": {
-                    "noun": {
-                        "sg nom": "LUGAL",
-                        "sg voc": "LUGAL",
-                        "sg acc": "LUGAL",
-                        "sg gen": "LUGAL",
-                        "sg abl": "LUGAL",
-                        "sg dat": "LUGAL",
-                        "sg loc": "LUGAL",
-                        "sg ins": "LUGAL"
+                    "adj": {
+                        "m sg nom": "a-as-su-us"
                     }
                 }
             }
@@ -5920,12 +5913,16 @@
     },
     {
         "PIE": "*h₂éd",
-        "char": "",
+        "char": "在",
         "meanings": "to, at",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9d"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9d",
+            "https://www.dong-chinese.com/wiki/在"
+        ],
+        "id": "AT",
+        "hittite": "as-ta",
+        "character_hint": "Composed of 才 and 士, which both represent the sound."
     },
     {
         "PIE": "*h₂eǵ-",
@@ -6184,7 +6181,38 @@
             "https://www.dong-chinese.com/wiki/育"
         ],
         "id": "BEGET",
-        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first."
+        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first.",
+        "hittite": "hāss",
+        "inflections": {
+            "pie": {
+                "us s": {
+                    "noun": {
+                        "sg nom": "h₂emsus",
+                        "sg voc": "h₂emsu",
+                        "sg acc": "h₂emsum",
+                        "sg gen": "h₂emséws",
+                        "sg abl": "h₂emséws",
+                        "sg dat": "h₂emséwey",
+                        "sg loc": "h₂emséwi",
+                        "sg ins": "h₂emsúh₁"
+                    }
+                }
+            },
+            "hittite": {
+                "us s": {
+                    "noun": {
+                        "sg nom": "LUGAL",
+                        "sg voc": "LUGAL",
+                        "sg acc": "LUGAL",
+                        "sg gen": "LUGAL",
+                        "sg abl": "LUGAL",
+                        "sg dat": "LUGAL",
+                        "sg loc": "LUGAL",
+                        "sg ins": "LUGAL"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂en-",
@@ -6737,12 +6765,15 @@
     },
     {
         "PIE": "*h₂nḗr",
-        "char": "",
+        "char": "士",
         "meanings": "man; power, force, vital energy",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r",
+            "https://www.dong-chinese.com/wiki/士"
+        ],
+        "id": "MANPOWER",
+        "character_hint": "Pictograph of the head of an axe. Used to represent a soldier."
     },
     {
         "PIE": "*h₂n̥tbʰóh₁",
@@ -9420,12 +9451,39 @@
     },
     {
         "PIE": "*nebʰ-",
-        "char": "",
+        "char": "云",
         "meanings": "to become damp, cloudy",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/neb%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/neb%CA%B0-",
+            "https://www.dong-chinese.com/wiki/云"
+        ],
+        "id": "CLOUD",
+        "hittite": "ne-pi-is",
+        "character_hint": "Depicts a swirl of clouds up (上) in the sky.",
+        "inflections": {
+            "pie": {
+                "os": {
+                    "noun": {
+                        "sg nom": "nébʰos",
+                        "sg voc": "nébʰos",
+                        "sg acc": "nébʰos",
+                        "sg gen": "nébʰesos",
+                        "sg abl": "nébʰesos",
+                        "sg dat": "nébʰesey",
+                        "sg loc": "nébʰesi",
+                        "sg ins": "nébʰesh₁"
+                    }
+                }
+            },
+            "hittite": {
+                "os": {
+                    "noun": {
+                        "sg gen": "ne-pi-is-za"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*nébʰos",
@@ -17012,14 +17070,6 @@
         ]
     },
     {
-        "char": "云",
-        "character_hint": "Depicts a swirl of clouds up (上) in the sky.",
-        "meanings": "clouds",
-        "references": [
-            "https://www.dong-chinese.com/wiki/云"
-        ]
-    },
-    {
         "char": "伙",
         "character_hint": "Phonosemantic compound. 亻 represents the meaning and 火 represents the sound. Simplified form of 夥. ",
         "meanings": "companion",
@@ -17881,14 +17931,6 @@
         "meanings": "beg",
         "references": [
             "https://www.dong-chinese.com/wiki/央"
-        ]
-    },
-    {
-        "char": "士",
-        "character_hint": "Pictograph of the head of an axe. Used to represent a soldier.",
-        "meanings": "scholar, soldier; soldier",
-        "references": [
-            "https://www.dong-chinese.com/wiki/士"
         ]
     },
     {
@@ -19945,14 +19987,6 @@
         "meanings": "circle",
         "references": [
             "https://www.dong-chinese.com/wiki/圓"
-        ]
-    },
-    {
-        "char": "在",
-        "character_hint": "Composed of 才 and 士, which both represent the sound.",
-        "meanings": "be at",
-        "references": [
-            "https://www.dong-chinese.com/wiki/在"
         ]
     },
     {
