@@ -1,8 +1,6 @@
 import { suffixes, type Case, type GrammaticalNumber } from '$lib/inflection';
 import type { LexiconEntry, ParsedWord } from '$lib/lexicon.types';
-
-const noSpaceBefore = new Set(['.', ',', ':', ';', '?', '!', ')', "'", "''"]);
-const noSpaceAfter = new Set(['(', '`', '``']);
+import { getAfterSpace, getInflectedForm } from './util';
 
 export function renderPIEWord(
 	word: ParsedWord,
@@ -10,21 +8,17 @@ export function renderPIEWord(
 	nextWord: ParsedWord | undefined,
 	lexicon: LexiconEntry[]
 ) {
+	const afterSpace = getAfterSpace(word, nextWord, lexicon);
 	const lexiconEntry = lexicon.find((entry) => entry.id === word.id);
-	let afterSpace = ' ';
-	if (noSpaceBefore.has(nextWord?.id?.trim() ?? '')) {
-		afterSpace = '';
-	}
-	if (noSpaceAfter.has(word.id.trim())) {
-		afterSpace = '';
-	}
-	if (word.id.endsWith('-')) {
-		afterSpace = '';
-	}
-
 	if (!lexiconEntry) {
 		if (word.determiner) {
-			return word.phonetic + afterSpace;
+			let phonetic = word.phonetic;
+			if (phonetic?.includes('-')) {
+				const joined = phonetic.split('-').join('');
+				// remove duplicate vowels
+				phonetic = joined.replace(/([aeiou])\1+/g, '$1');
+			}
+			return phonetic + afterSpace;
 		}
 		return word.id + afterSpace;
 	}
@@ -37,61 +31,12 @@ export function renderPIEWord(
 		pie = pie.slice(1);
 	}
 
-	if (nextWord?.id) {
-		const nextLexiconEntry = lexicon.find((entry) => entry.id === nextWord.id);
-		const nextPIE = nextLexiconEntry?.PIE;
-		if (nextPIE?.startsWith('*-') || nextPIE?.startsWith('-')) {
-			afterSpace = '';
-		}
-	}
 	if (pie.endsWith('-')) pie = pie.slice(0, -1);
-	let suffixText = '';
-	let rawSuffixText = '';
-	if (word.suffixes) {
-		suffixText = word.suffixes
-			.map((suffix) => {
-				const suffixInfo = suffixes[suffix];
-				if (suffixInfo) {
-					return suffixInfo.form;
-				}
-				return suffix;
-			})
-			.join('');
-		rawSuffixText = word.suffixes.join('');
-	}
 
-	if (word.pos) {
-		const missingInflection = `${pie}${suffixText}{MISSING INFLECTION}${afterSpace}`;
-		if (!lexiconEntry.inflections) {
-			return missingInflection;
-		}
-		const pieInflection = lexiconEntry.inflections['pie'];
-		if (!pieInflection) {
-			return missingInflection;
-		}
-		const suffixInflection = pieInflection[rawSuffixText];
-		if (!suffixInflection) {
-			return missingInflection;
-		}
-		const posInflection = suffixInflection[word.pos];
-		if (!posInflection) {
-			return missingInflection;
-		}
-		let key = '';
-		if (word.pos === 'noun') {
-			key = `${word.number} ${word.case}`;
-		} else if (word.pos === 'adj') {
-			key = `${word.gender} ${word.number} ${word.case}`;
-		} else if (word.pos === 'verb') {
-			key = `${word.formation} ${word.voice} ${word.verbType} ${word.number} ${word.person}`;
-		}
-		if (!posInflection[key]) {
-			return `${pie}${suffixText}{unmatched key: ${key}}${afterSpace}`;
-		}
-		return `${posInflection[key]}${afterSpace}`;
-	}
-
-	return `${pie}${suffixText}${afterSpace}`;
+	const inflectedForm = getInflectedForm('pie', word, lexicon, afterSpace);
+	if (typeof inflectedForm.suffixText === 'string')
+		return `${pie}${inflectedForm.suffixText}${afterSpace}`;
+	return inflectedForm.form;
 }
 
 export function getPIENounInflection(entry: LexiconEntry, number: GrammaticalNumber, c: Case) {

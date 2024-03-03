@@ -11,23 +11,27 @@
 	export let translation: string;
 
 	let selectedLanguage = 'default';
-
 	const parsedText = parse(text, lexicon, gloss, translation);
 
-	let selectedWord: ParsedWord;
+	let selectedOrthography = 'cuneiform';
 
-	function viewDetails(word: ParsedWord) {
-		selectedWord = word;
-	}
+	let selectedWord: ParsedWord;
 </script>
 
 Read as: <select bind:value={selectedLanguage}>
 	<option value="default">Default</option>
 	<option value="pie">Proto-Indo-European</option>
+	<option value="hittite">Hittite</option>
 </select>
+{#if selectedLanguage === 'hittite'}
+	Orthography: <select bind:value={selectedOrthography}>
+		<option value="cuneiform">Cuneiform</option>
+		<option value="latin">Latin</option>
+	</select>
+{/if}
 
 {#each parsedText as { words, translation }}
-	<p class:cjk={selectedLanguage === 'default'}>
+	<p class:cjk={selectedLanguage === 'default'} class:hittite={selectedLanguage === 'hittite'}>
 		{#each words as word, i}
 			<a
 				href="/lexicon/{word.id}"
@@ -35,7 +39,15 @@ Read as: <select bind:value={selectedLanguage}>
 				on:click={(e) => {
 					e.preventDefault();
 					selectedWord = word;
-				}}>{renderWord(word, words[i - 1], words[i + 1], selectedLanguage, lexicon)}</a
+				}}
+				>{renderWord(
+					word,
+					words[i - 1],
+					words[i + 1],
+					selectedLanguage,
+					lexicon,
+					selectedOrthography
+				)}</a
 			>
 		{/each}
 	</p>
@@ -92,6 +104,10 @@ Read as: <select bind:value={selectedLanguage}>
 		font-family: 'Noto Sans KR', 'Noto Sans TC', sans-serif;
 		font-optical-sizing: auto;
 		font-weight: 400;
+	}
+
+	p.hittite {
+		font-family: 'Noto Sans Cuneiform', sans-serif;
 	}
 
 	.translation {

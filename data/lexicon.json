@@ -437,6 +437,20 @@
                         "sg ins": "suHnwéh₁"
                     }
                 }
+            },
+            "hittite": {
+                "us": {
+                    "noun": {
+                        "sg nom": "DUMU",
+                        "sg voc": "DUMU",
+                        "sg acc": "DUMU",
+                        "sg gen": "DUMU",
+                        "sg abl": "DUMU",
+                        "sg dat": "DUMU",
+                        "sg loc": "DUMU",
+                        "sg ins": "DUMU"
+                    }
+                }
             }
         }
     },
@@ -847,7 +861,15 @@
                         "_prr active sec pl 1": "wéwkome",
                         "_prr active sec pl 2": "wéwkete",
                         "_prr active sec pl 3": "wéwkont",
-                        "_prr active part sg 3": "wéwkonts"
+                        "_prr active part sg 3": "wéwkonts",
+                        "_ira active imp sg 2": "wekʷdʰí"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ira active imp sg 2": "QÍ-BÍ"
                     }
                 }
             }
@@ -5810,7 +5832,37 @@
             "https://www.dong-chinese.com/wiki/好"
         ],
         "id": "GOOD",
-        "character_hint": "It is good (好) for a woman (女) and her child (子) to be together."
+        "character_hint": "It is good (好) for a woman (女) and her child (子) to be together.",
+        "inflections": {
+            "pie": {
+                "us": {
+                    "noun": {
+                        "sg nom": "h₁wésus",
+                        "sg voc": "h₁wésu",
+                        "sg acc": "h₁wésum",
+                        "sg gen": "h₁uséws",
+                        "sg abl": "h₁uséws",
+                        "sg dat": "h₁uséwey",
+                        "sg loc": "h₁uséwi",
+                        "sg ins": "h₁usúh₁"
+                    }
+                }
+            },
+            "hittite": {
+                "us": {
+                    "noun": {
+                        "sg nom": "LUGAL",
+                        "sg voc": "LUGAL",
+                        "sg acc": "LUGAL",
+                        "sg gen": "LUGAL",
+                        "sg abl": "LUGAL",
+                        "sg dat": "LUGAL",
+                        "sg loc": "LUGAL",
+                        "sg ins": "LUGAL"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁wésus",
@@ -7818,13 +7870,17 @@
         ]
     },
     {
-        "PIE": "*ḱi- ~ *ḱe- ~ *ḱo-",
-        "char": "",
+        "PIE": "*ḱi",
+        "char": "其",
         "meanings": "Deictic particle, here; Post-positional demonstrative particle, this",
         "pos": "part",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1e"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1e",
+            "https://www.dong-chinese.com/wiki/其"
+        ],
+        "id": "DEICTIC",
+        "character_hint": "Pictograph of a basket, now written as 箕. The current meaning is a phonetic loan.",
+        "hittite": "MA"
     },
     {
         "PIE": "*ḱís",
@@ -14321,14 +14377,6 @@
         "meanings": "cold",
         "references": [
             "https://www.dong-chinese.com/wiki/冷"
-        ]
-    },
-    {
-        "char": "其",
-        "character_hint": "Pictograph of a basket, now written as 箕. The current meaning is a phonetic loan.",
-        "meanings": "its, his, (3p possessive); basket",
-        "references": [
-            "https://www.dong-chinese.com/wiki/其"
         ]
     },
     {

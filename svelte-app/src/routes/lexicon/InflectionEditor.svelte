@@ -8,7 +8,8 @@
 	export let lexiconEntry: LexiconEntry;
 
 	const languages: Record<string, string> = {
-		pie: 'Proto-Indo-European'
+		pie: 'Proto-Indo-European',
+		hittite: 'Hittite'
 	};
 	const pos: Record<string, string> = {
 		noun: 'Noun',

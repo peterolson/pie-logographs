@@ -712,10 +712,18 @@ export function isDeterminer(token: string) {
 export function parseDeterminer(token: string) {
 	const [determiner, value] = token.split(':');
 	const [prefix, desc] = determiners[determiner as keyof typeof determiners];
+	let transcription = pieTextToHangul(value);
+	if (value.includes('-')) {
+		let joined = value.split('-').join('');
+		// remove duplicated vowels
+		joined = joined.replace(/([aeiou])\1+/g, '$1');
+		transcription = pieTextToHangul(joined);
+	}
 	return {
 		id: 'DETERMINER',
 		determiner: desc,
-		char: prefix + pieTextToHangul(value),
+		determinerKey: determiner,
+		char: prefix + transcription,
 		phonetic: value
 	};
 }

@@ -17,6 +17,7 @@ export type Inflection = {
 export type LexiconEntry = {
 	id?: string;
 	PIE?: string;
+	hittite?: string;
 	char?: string;
 	meanings?: string;
 	character_hint?: string;
@@ -40,5 +41,6 @@ export type ParsedWord = {
 	pos?: 'adj' | 'noun' | 'verb';
 	gloss?: string;
 	determiner?: string;
+	determinerKey?: string;
 	phonetic?: string;
 };

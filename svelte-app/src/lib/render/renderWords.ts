@@ -1,5 +1,6 @@
 import { addInflection, addSuffixes, type Case, type GrammaticalNumber } from '../inflection';
 import type { LexiconEntry, ParsedWord } from '../lexicon.types';
+import { renderHittiteWord } from './hittite';
 import { getPIENounInflection, renderPIEWord } from './pie';
 
 const renderers: Record<
@@ -8,10 +9,12 @@ const renderers: Record<
 		word: ParsedWord,
 		prevWord: ParsedWord | undefined,
 		nextWord: ParsedWord | undefined,
-		lexicon: LexiconEntry[]
+		lexicon: LexiconEntry[],
+		orthography: string
 	) => string
 > = {
-	pie: renderPIEWord
+	pie: renderPIEWord,
+	hittite: renderHittiteWord
 };
 
 export function renderWord(
@@ -19,10 +22,11 @@ export function renderWord(
 	prevWord: ParsedWord | undefined,
 	nextWord: ParsedWord | undefined,
 	selectedLanguage: string,
-	lexicon: LexiconEntry[]
+	lexicon: LexiconEntry[],
+	orthography: string
 ) {
 	if (selectedLanguage in renderers) {
-		return renderers[selectedLanguage](word, prevWord, nextWord, lexicon);
+		return renderers[selectedLanguage](word, prevWord, nextWord, lexicon, orthography);
 	}
 	return `${word.char}${addSuffixes(word)}${addInflection(word)}`;
 }

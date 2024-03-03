@@ -6,7 +6,7 @@
 	export let data: LexiconEntry;
 	export let onSave: (lexicon: LexiconEntry[]) => void;
 	export let close: () => void;
-	let { id, PIE, char, pos, meanings, character_hint, references, inflections } = data;
+	let { id, PIE, hittite, char, pos, meanings, character_hint, references, inflections } = data;
 
 	const partsOfSpeech = [
 		'adj',
@@ -70,6 +70,8 @@
 	<input type="text" bind:value={id} />
 	<span>PIE</span>
 	<input type="text" bind:value={PIE} />
+	<span>Hittite</span>
+	<input type="text" bind:value={hittite} />
 	<span>Character</span>
 	<input type="text" bind:value={char} />
 	<span>POS</span>
@@ -95,7 +97,7 @@
 <InflectionEditor bind:inflections lexiconEntry={data} />
 <button
 	on:click={() => {
-		updateEntry({ id, PIE, char, pos, meanings, character_hint, references, inflections });
+		updateEntry({ id, PIE, hittite, char, pos, meanings, character_hint, references, inflections });
 	}}>Save</button
 >
 {#if !character_hint && char}
