@@ -13,8 +13,6 @@
 	let selectedLanguage = 'default';
 	const parsedText = parse(text, lexicon, gloss, translation);
 
-	let selectedOrthography = 'cuneiform';
-
 	let selectedWord: ParsedWord;
 </script>
 
@@ -23,12 +21,6 @@ Read as: <select bind:value={selectedLanguage}>
 	<option value="pie">Proto-Indo-European</option>
 	<option value="hittite">Hittite</option>
 </select>
-{#if selectedLanguage === 'hittite'}
-	Orthography: <select bind:value={selectedOrthography}>
-		<option value="cuneiform">Cuneiform</option>
-		<option value="latin">Latin</option>
-	</select>
-{/if}
 
 {#each parsedText as { words, translation }}
 	<p class:cjk={selectedLanguage === 'default'} class:hittite={selectedLanguage === 'hittite'}>
@@ -40,14 +32,25 @@ Read as: <select bind:value={selectedLanguage}>
 					e.preventDefault();
 					selectedWord = word;
 				}}
-				>{renderWord(
-					word,
-					words[i - 1],
-					words[i + 1],
-					selectedLanguage,
-					lexicon,
-					selectedOrthography
-				)}</a
+				><span
+					>{renderWord(
+						word,
+						words[i - 1],
+						words[i + 1],
+						selectedLanguage,
+						lexicon,
+						'cuneiform'
+					)}</span
+				>{#if selectedLanguage === 'hittite'}<span class="transliteration"
+						>{renderWord(
+							word,
+							words[i - 1],
+							words[i + 1],
+							selectedLanguage,
+							lexicon,
+							'latin'
+						)}</span
+					>{/if}</a
 			>
 		{/each}
 	</p>
@@ -108,6 +111,18 @@ Read as: <select bind:value={selectedLanguage}>
 
 	p.hittite {
 		font-family: 'Noto Sans Cuneiform', sans-serif;
+	}
+
+	p.hittite a {
+		display: inline-flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.transliteration {
+		font-size: 0.8em;
+		opacity: 0.7;
+		padding: 0px 2px;
 	}
 
 	.translation {
