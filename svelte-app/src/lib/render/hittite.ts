@@ -133,18 +133,28 @@ export const hittiteDeterminers: Record<string, [string, string]> = {
 	M: ['𒁹', 'ᵐ'],
 	MUNUS: ['𒊩', 'ᴹᵁᴺᵁˢ'],
 	URU: ['𒌷', 'ᵁᴿᵁ'],
-	ID: ['𒀀𒇉', 'ᴵᴰ']
+	ID: ['𒀀𒇉', 'ᴵᴰ'],
+	D: ['𒀭', 'ᴰ']
 };
 
 export const sumerograms: Record<string, string> = {
 	DUMU: '𒌉', // https://en.wiktionary.org/wiki/%F0%92%8C%89
-	LUGAL: '𒈗' // https://en.wikipedia.org/wiki/Lugal
+	LUGAL: '𒈗', // https://en.wikipedia.org/wiki/Lugal,
+	ISKUR: '𒅎' // https://en.wiktionary.org/wiki/%F0%92%80%AD%F0%92%85%8E
 };
 
-function renderCuneiformSyllables(word: string) {
+function renderCuneiformSyllables(word: string): string {
+	const [determiner, rest] = word.split(':');
+	if (determiner in hittiteDeterminers) {
+		return hittiteDeterminers[determiner][0] + renderCuneiformSyllables(rest);
+	}
 	return word
 		.split('-')
-		.map((x) => cuneiformSyllables[x] ?? `${x}`)
+		.map((x) => {
+			if (x in cuneiformSyllables) return cuneiformSyllables[x];
+			if (x in sumerograms) return sumerograms[x];
+			return x;
+		})
 		.join('');
 }
 

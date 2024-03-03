@@ -167,6 +167,13 @@
                         "_ira active imp pl 3": "h₁séntu"
                     }
                 }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "e-es-ta"
+                    }
+                }
             }
         }
     },
@@ -11994,12 +12001,38 @@
     },
     {
         "PIE": "*terh₂-",
-        "char": "",
+        "char": "克",
         "meanings": "to cross over, pass through, overcome",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/terh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/terh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/克"
+        ],
+        "id": "OVERCOME",
+        "character_hint": "Pictograph of a person (人) carrying a heavy weight on their back.",
+        "inflections": {
+            "pie": {
+                "onts": {
+                    "noun": {
+                        "sg nom": "terh₂ónts",
+                        "sg voc": "terh₂ónt",
+                        "sg acc": "terh₂óntm̥",
+                        "sg gen": "terh₂n̥tés",
+                        "sg abl": "terh₂n̥tés",
+                        "sg dat": "terh₂n̥téy",
+                        "sg loc": "terh₂énti",
+                        "sg ins": "terh₂n̥téh₁"
+                    }
+                }
+            },
+            "hittite": {
+                "onts": {
+                    "noun": {
+                        "sg dat": "D:ISKUR-un-ni"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*térh₂t",
@@ -14107,14 +14140,6 @@
         "meanings": "entire; pure jade",
         "references": [
             "https://www.dong-chinese.com/wiki/全"
-        ]
-    },
-    {
-        "char": "克",
-        "character_hint": "Pictograph of a person (人) carrying a heavy weight on their back.",
-        "meanings": "subdue",
-        "references": [
-            "https://www.dong-chinese.com/wiki/克"
         ]
     },
     {

@@ -18,6 +18,9 @@ export function renderPIEWord(
 				// remove duplicate vowels
 				phonetic = joined.replace(/([aeiou])\1+/g, '$1');
 			}
+			if (word.case && phonetic && word.number) {
+				phonetic = getPIENounInflection({ PIE: phonetic }, word.number, word.case);
+			}
 			return phonetic + afterSpace;
 		}
 		return word.id + afterSpace;
@@ -39,7 +42,7 @@ export function renderPIEWord(
 	return inflectedForm.form;
 }
 
-export function getPIENounInflection(entry: LexiconEntry, number: GrammaticalNumber, c: Case) {
+export function getPIENounInflection(entry: { PIE: string }, number: GrammaticalNumber, c: Case) {
 	let root = entry.PIE || '';
 	if (root.startsWith('*')) {
 		root = root.slice(1);

@@ -700,7 +700,8 @@ export const determiners = {
 	M: ['イ', 'Male personal name'], // イ人
 	MUNUS: ['め', 'Female personal name'], // め女
 	URU: ['ち', 'City'], // ち市
-	ID: ['つ', 'River'] // つ川
+	ID: ['つ', 'River'], // つ川
+	D: ['ネ', 'Deity'] // ネ神
 };
 
 export function isDeterminer(token: string) {
