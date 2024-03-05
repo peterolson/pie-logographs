@@ -35,7 +35,7 @@ const nounInflectors: Record<
 	string,
 	(entry: LexiconEntry, number: GrammaticalNumber, c: Case) => string
 > = {
-	pie: getPIENounInflection
+	pie: (entry, number, c) => getPIENounInflection({ PIE: entry.PIE }, number, c)
 };
 
 export function getNounInflection(

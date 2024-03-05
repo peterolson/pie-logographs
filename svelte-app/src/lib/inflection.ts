@@ -716,6 +716,9 @@ export function parseDeterminer(token: string) {
 	let transcription = pieTextToHangul(value);
 	if (value.includes('-')) {
 		let joined = value.split('-').join('');
+		if (joined.includes('|')) {
+			joined = joined.split('|')[0];
+		}
 		// remove duplicated vowels
 		joined = joined.replace(/([aeiou])\1+/g, '$1');
 		transcription = pieTextToHangul(joined);

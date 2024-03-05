@@ -14,7 +14,10 @@ export function renderPIEWord(
 		if (word.determiner) {
 			let phonetic = word.phonetic;
 			if (phonetic?.includes('-')) {
-				const joined = phonetic.split('-').join('');
+				let joined = phonetic.split('-').join('');
+				if (joined.includes('|')) {
+					joined = joined.split('|')[0];
+				}
 				// remove duplicate vowels
 				phonetic = joined.replace(/([aeiou])\1+/g, '$1');
 			}
@@ -42,7 +45,11 @@ export function renderPIEWord(
 	return inflectedForm.form;
 }
 
-export function getPIENounInflection(entry: { PIE: string }, number: GrammaticalNumber, c: Case) {
+export function getPIENounInflection(
+	entry: { PIE: string | undefined },
+	number: GrammaticalNumber,
+	c: Case
+) {
 	let root = entry.PIE || '';
 	if (root.startsWith('*')) {
 		root = root.slice(1);

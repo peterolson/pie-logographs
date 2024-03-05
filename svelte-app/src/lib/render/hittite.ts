@@ -151,6 +151,7 @@ function renderCuneiformSyllables(word: string): string {
 	return word
 		.split('-')
 		.map((x) => {
+			if (x.startsWith('|')) x = x.slice(1);
 			if (x in cuneiformSyllables) return cuneiformSyllables[x];
 			if (x in sumerograms) return sumerograms[x];
 			return x;
@@ -169,7 +170,7 @@ export function renderHittiteWord(
 	const isCuneiform = orthography === 'cuneiform';
 	if (isCuneiform) afterSpace = '';
 	if (isPunctuation(word)) {
-		if (isCuneiform) return word.char;
+		if (isCuneiform && word.char) return word.char;
 		return word.id + afterSpace;
 	}
 	if (word.determiner && word.determinerKey) {
@@ -178,7 +179,7 @@ export function renderHittiteWord(
 			const phonetic = renderCuneiformSyllables(word.phonetic);
 			return determiner + phonetic + afterSpace;
 		}
-		return determiner + word.phonetic + afterSpace;
+		return determiner + word.phonetic?.replaceAll('|', '') + afterSpace;
 	}
 	const inflectedForm = getInflectedForm('hittite', word, lexicon, afterSpace);
 	if (inflectedForm.form) {

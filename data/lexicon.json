@@ -1,5 +1,25 @@
 [
     {
+        "PIE": "…",
+        "pos": "punct",
+        "id": "...",
+        "char": "⋯⋯",
+        "meanings": "ellipsis; unknown text"
+    },
+    {
+        "PIE": "*sme",
+        "pos": "adv",
+        "references": [
+            "https://lrc.la.utexas.edu/lex/master/1788",
+            "https://www.dong-chinese.com/wiki/乃"
+        ],
+        "meanings": "really, truly (emphatic particle)",
+        "id": "TRULY",
+        "hittite": "ma-a-an",
+        "char": "乃",
+        "character_hint": "Origin unclear. Various explanations include: (1) a person standing sideways with protruding breasts, which could be the original form of 奶 or (2) a rope being thrown, which could possibly be the original form of 扔."
+    },
+    {
         "PIE": "n̥-",
         "pos": "part",
         "references": [
@@ -21,7 +41,8 @@
             "https://www.dong-chinese.com/wiki/且"
         ],
         "character_hint": "Originally a pictograph of a sacrificial altar. The current meaning \"moreover\" is a phonetic loan.",
-        "id": "NOW"
+        "id": "NOW",
+        "hittite": "nu"
     },
     {
         "PIE": "*pótis",
@@ -1468,8 +1489,11 @@
         "meanings": "flesh, meat",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mems-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mems-",
+            "https://www.dong-chinese.com/wiki/肉"
+        ],
+        "id": "MEAT",
+        "character_hint": "Pictograph of a piece of meat."
     },
     {
         "PIE": "*mḗms",
@@ -6208,12 +6232,12 @@
             "hittite": {
                 "us s": {
                     "noun": {
-                        "sg nom": "LUGAL",
+                        "sg nom": "LUGAL-us",
                         "sg voc": "LUGAL",
                         "sg acc": "LUGAL",
                         "sg gen": "LUGAL",
                         "sg abl": "LUGAL",
-                        "sg dat": "LUGAL",
+                        "sg dat": "LUGAL-i",
                         "sg loc": "LUGAL",
                         "sg ins": "LUGAL"
                     }
@@ -9831,12 +9855,15 @@
     },
     {
         "PIE": "*peḱ-",
-        "char": "",
-        "meanings": "; to pluck (wool, hair)",
+        "char": "彡",
+        "meanings": "to pluck (wool, hair)",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pe%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pe%E1%B8%B1-",
+            "https://www.dong-chinese.com/wiki/彡"
+        ],
+        "id": "PLUCK",
+        "character_hint": "Pictograph of strands of hair."
     },
     {
         "PIE": "*péḱu",
@@ -11074,12 +11101,15 @@
     },
     {
         "PIE": "*smeḱ-",
-        "char": "",
+        "char": "須",
         "meanings": "beard; chin",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sme%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sme%E1%B8%B1-",
+            "https://www.dong-chinese.com/wiki/須"
+        ],
+        "id": "BEARD",
+        "character_hint": "Pictograph of a person with a bearded face. Based on the original meaning \"beard\", now written as 鬚. The current meaning is a phonetic loan."
     },
     {
         "PIE": "*sméḱom",
@@ -16444,14 +16474,6 @@
         "meanings": "line",
         "references": [
             "https://www.dong-chinese.com/wiki/丿"
-        ]
-    },
-    {
-        "char": "乃",
-        "character_hint": "Origin unclear. Various explanations include: (1) a person standing sideways with protruding breasts, which could be the original form of 奶 or (2) a rope being thrown, which could possibly be the original form of 扔.",
-        "meanings": "then",
-        "references": [
-            "https://www.dong-chinese.com/wiki/乃"
         ]
     },
     {
@@ -22703,14 +22725,6 @@
         ]
     },
     {
-        "char": "彡",
-        "character_hint": "Pictograph of strands of hair.",
-        "meanings": "hair",
-        "references": [
-            "https://www.dong-chinese.com/wiki/彡"
-        ]
-    },
-    {
         "char": "廷",
         "character_hint": "Phonosemantic compound. 廴 represents the meaning and 𡈼 represents the sound. ",
         "meanings": "palace courtyard",
@@ -28116,14 +28130,6 @@
         "meanings": "skin",
         "references": [
             "https://www.dong-chinese.com/wiki/肤"
-        ]
-    },
-    {
-        "char": "肉",
-        "character_hint": "Pictograph of a piece of meat.",
-        "meanings": "meat",
-        "references": [
-            "https://www.dong-chinese.com/wiki/肉"
         ]
     },
     {
@@ -36708,14 +36714,6 @@
         "meanings": "shoes",
         "references": [
             "https://www.dong-chinese.com/wiki/鞵"
-        ]
-    },
-    {
-        "char": "須",
-        "character_hint": "Pictograph of a person with a bearded face. Based on the original meaning \"beard\", now written as 鬚. The current meaning is a phonetic loan.",
-        "meanings": "must; beard",
-        "references": [
-            "https://www.dong-chinese.com/wiki/須"
         ]
     },
     {
