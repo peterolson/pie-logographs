@@ -1,5 +1,30 @@
 [
     {
+        "char": "出去",
+        "id": "AWAY_GO",
+        "pos": "verb",
+        "PIE": "*h₂ewh₁ey-",
+        "meanings": "*h₂ew + *h₁ey- \"away go\", come",
+        "character_hint": "出 + 去",
+        "hittite": "ú-e",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "h₂ewh₁éyt"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "ú-e-et"
+                    }
+                }
+            }
+        }
+    },
+    {
         "PIE": "…",
         "pos": "punct",
         "id": "...",
@@ -6542,15 +6567,16 @@
     },
     {
         "PIE": "*h₂ew",
-        "char": "咅",
+        "char": "出",
         "meanings": "away from, off; again",
         "pos": "adv",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ew",
-            "https://www.dong-chinese.com/wiki/咅"
+            "https://www.dong-chinese.com/wiki/咅",
+            "https://www.dong-chinese.com/wiki/出"
         ],
         "id": "AWAY",
-        "character_hint": "Depicts spit coming out of a mouth (口)."
+        "character_hint": "Pictograph of a foot (止) exiting a cave (凵)."
     },
     {
         "PIE": "*h₂ew-",
@@ -9794,12 +9820,15 @@
     },
     {
         "PIE": "*nókʷts",
-        "char": "",
+        "char": "夕",
         "meanings": "night (or possibly 'evening')",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%B3k%CA%B7ts"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%B3k%CA%B7ts",
+            "https://www.dong-chinese.com/wiki/夕"
+        ],
+        "id": "NIGHT",
+        "character_hint": "Pictograph of the moon. Used to express \"evening\" or \"night\"."
     },
     {
         "PIE": "*oḱtódḱomt",
@@ -14821,14 +14850,6 @@
         ]
     },
     {
-        "char": "出",
-        "character_hint": "Pictograph of a foot (止) exiting a cave (凵).",
-        "meanings": "go out",
-        "references": [
-            "https://www.dong-chinese.com/wiki/出"
-        ]
-    },
-    {
         "char": "刃",
         "character_hint": "Pictograph of a knife. Similar to 刀 (knife), with an added dot marking where the blade is.",
         "meanings": "knife edge",
@@ -17850,14 +17871,6 @@
         "meanings": "jar",
         "references": [
             "https://www.dong-chinese.com/wiki/壺"
-        ]
-    },
-    {
-        "char": "夕",
-        "character_hint": "Pictograph of the moon. Used to express \"evening\" or \"night\".",
-        "meanings": "evening",
-        "references": [
-            "https://www.dong-chinese.com/wiki/夕"
         ]
     },
     {
