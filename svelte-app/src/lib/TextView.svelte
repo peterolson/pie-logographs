@@ -122,6 +122,7 @@ Read as: <select bind:value={selectedLanguage}>
 		display: inline-flex;
 		flex-direction: column;
 		text-align: center;
+		padding-top: 8px;
 	}
 
 	.transliteration {
