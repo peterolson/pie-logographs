@@ -2433,12 +2433,15 @@
     },
     {
         "PIE": "*albʰós",
-        "char": "",
+        "char": "白",
         "meanings": "white",
         "pos": "adj",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/alb%CA%B0%C3%B3s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/alb%CA%B0%C3%B3s",
+            "https://www.dong-chinese.com/wiki/白"
+        ],
+        "id": "WHITE",
+        "character_hint": "Origin unclear. Possibly depicts a thumb."
     },
     {
         "PIE": "*átta",
@@ -3306,12 +3309,15 @@
     },
     {
         "PIE": "*déḱm̥",
-        "char": "",
+        "char": "十",
         "meanings": "ten",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9%E1%B8%B1m%CC%A5"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%A9%E1%B8%B1m%CC%A5",
+            "https://www.dong-chinese.com/wiki/十"
+        ],
+        "id": "TEN",
+        "character_hint": "A single vertical line, representing one set of ten. Analagous to the archaic characters 廿 (twenty) and 卅 (thirty). Possibly originally a picture of a needle, now written as 針."
     },
     {
         "PIE": "*déḱos",
@@ -4065,12 +4071,15 @@
     },
     {
         "PIE": "*dwóh₁",
-        "char": "",
+        "char": "二",
         "meanings": "two",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dw%C3%B3h%E2%82%81"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dw%C3%B3h%E2%82%81",
+            "https://www.dong-chinese.com/wiki/二"
+        ],
+        "id": "TWO",
+        "character_hint": "Two horizontal strokes, representing the number two."
     },
     {
         "PIE": "*dyḗws",
@@ -5621,12 +5630,15 @@
     },
     {
         "PIE": "*h₁néwn̥",
-        "char": "",
+        "char": "九",
         "meanings": "nine",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81n%C3%A9wn%CC%A5"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81n%C3%A9wn%CC%A5",
+            "https://www.dong-chinese.com/wiki/九"
+        ],
+        "id": "NINE",
+        "character_hint": "Depicts an elbow. Based on the original meaning \"elbow\", now written as 肘. The current meaning is a phonetic loan."
     },
     {
         "PIE": "*h₁néwn̥dḱomt",
@@ -5711,12 +5723,15 @@
     },
     {
         "PIE": "*h₁rebʰ-",
-        "char": "",
+        "char": "宀",
         "meanings": "to cover, to roof; rib",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81reb%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81reb%CA%B0-",
+            "https://www.dong-chinese.com/wiki/宀"
+        ],
+        "id": "ROOF",
+        "character_hint": "Pictograph of a roof."
     },
     {
         "PIE": "*h₁regʷ-",
@@ -6625,12 +6640,15 @@
     },
     {
         "PIE": "*h₂ews-",
-        "char": "",
-        "meanings": "to become  light; ;  to dawn",
+        "char": "旦",
+        "meanings": "to become  light;  to dawn",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ews-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ews-",
+            "https://www.dong-chinese.com/wiki/旦"
+        ],
+        "id": "DAWN",
+        "character_hint": "Depicts the sun (日) rising above the horizon (一) at dawn. In Oracle script the bottom component was the phonetic 丁, which was later reanalyzed as the earth or a horizon."
     },
     {
         "PIE": "*h₂ewsér",
@@ -8180,12 +8198,15 @@
     },
     {
         "PIE": "*ḱm̥tóm",
-        "char": "",
+        "char": "百",
         "meanings": "hundred",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1m%CC%A5t%C3%B3m"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1m%CC%A5t%C3%B3m",
+            "https://www.dong-chinese.com/wiki/百"
+        ],
+        "id": "HUNDRED",
+        "character_hint": "Phonosemantic compound. 一 represents the meaning and 白 represents the sound. "
     },
     {
         "PIE": "*kn̥h₂ónks",
@@ -8539,12 +8560,15 @@
     },
     {
         "PIE": "*kʷetwóres",
-        "char": "",
+        "char": "亖",
         "meanings": "four",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7etw%C3%B3res"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7etw%C3%B3res",
+            "https://www.dong-chinese.com/wiki/亖"
+        ],
+        "id": "FOUR",
+        "character_hint": "Four horizontal strokes, representing the number four."
     },
     {
         "PIE": "*kʷétwr̥dḱomt",
@@ -9841,12 +9865,15 @@
     },
     {
         "PIE": "*oḱtṓw",
-        "char": "",
+        "char": "八",
         "meanings": "eight",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/o%E1%B8%B1t%E1%B9%93w"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/o%E1%B8%B1t%E1%B9%93w",
+            "https://www.dong-chinese.com/wiki/八"
+        ],
+        "id": "EIGHT",
+        "character_hint": "Pictograph of two lines facing away from each other. The current meaning \"eight\" is a phonetic loan. The original meaning \"separate\" is now written as 別."
     },
     {
         "PIE": "*p(t)erH-",
@@ -10019,12 +10046,15 @@
     },
     {
         "PIE": "*pénkʷe",
-        "char": "",
+        "char": "五",
         "meanings": "five",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9nk%CA%B7e"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%A9nk%CA%B7e",
+            "https://www.dong-chinese.com/wiki/五"
+        ],
+        "id": "FIVE",
+        "character_hint": "Origin unclear. Originally an X-shape."
     },
     {
         "PIE": "*pénkʷedḱomt",
@@ -11004,12 +11034,15 @@
     },
     {
         "PIE": "*septḿ̥",
-        "char": "",
+        "char": "七",
         "meanings": "seven",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sept%E1%B8%BF%CC%A5"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sept%E1%B8%BF%CC%A5",
+            "https://www.dong-chinese.com/wiki/%E4%B8%83"
+        ],
+        "id": "SEVEN",
+        "character_hint": "Depicts two lines crossing. Based on the original meaning \"cut\", now written as 切. The current meaning is a phonetic loan."
     },
     {
         "PIE": "*septḿ̥dḱomt",
@@ -11799,12 +11832,15 @@
     },
     {
         "PIE": "*swéḱs",
-        "char": "",
+        "char": "六",
         "meanings": "six",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sw%C3%A9%E1%B8%B1s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sw%C3%A9%E1%B8%B1s",
+            "https://www.dong-chinese.com/wiki/六"
+        ],
+        "id": "SIX",
+        "character_hint": "Origin unclear. Various explainations include (1) possibly derives from 入 (enter), with two strokes on the bottom to distinguish it from 入 (enter) or (2) a pictograph of a hut, which is thought to be the original form of 廬. Either way, the current meaning is a phoentic loan."
     },
     {
         "PIE": "*swéḱsdḱomt",
@@ -12455,12 +12491,15 @@
     },
     {
         "PIE": "*tréyes",
-        "char": "",
+        "char": "三",
         "meanings": "three",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tr%C3%A9yes"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tr%C3%A9yes",
+            "https://www.dong-chinese.com/wiki/三"
+        ],
+        "id": "THREE",
+        "character_hint": "Three horizontal strokes, representing the number three."
     },
     {
         "PIE": "*tr̥h₂és",
@@ -14050,14 +14089,6 @@
         ]
     },
     {
-        "char": "六",
-        "character_hint": "Origin unclear. Various explainations include (1) possibly derives from 入 (enter), with two strokes on the bottom to distinguish it from 入 (enter) or (2) a pictograph of a hut, which is thought to be the original form of 廬. Either way, the current meaning is a phoentic loan.",
-        "meanings": "six",
-        "references": [
-            "https://www.dong-chinese.com/wiki/六"
-        ]
-    },
-    {
         "char": "关",
         "character_hint": "Phonosemantic compound. 門 represents the meaning and 𢇇 represents the sound.  The simplified character 关 was adapted from the cursive form of the traditional character 關. The traditional component 門 was removed for simplification.",
         "meanings": "to close",
@@ -14079,14 +14110,6 @@
         "meanings": "first",
         "references": [
             "https://www.dong-chinese.com/wiki/先"
-        ]
-    },
-    {
-        "char": "八",
-        "character_hint": "Pictograph of two lines facing away from each other. The current meaning \"eight\" is a phonetic loan. The original meaning \"separate\" is now written as 別.",
-        "meanings": "eight",
-        "references": [
-            "https://www.dong-chinese.com/wiki/八"
         ]
     },
     {
@@ -15039,14 +15062,6 @@
         "meanings": "power",
         "references": [
             "https://www.dong-chinese.com/wiki/勢"
-        ]
-    },
-    {
-        "char": "十",
-        "character_hint": "A single vertical line, representing one set of ten. Analagous to the archaic characters 廿 (twenty) and 卅 (thirty). Possibly originally a picture of a needle, now written as 針.",
-        "meanings": "ten",
-        "references": [
-            "https://www.dong-chinese.com/wiki/十"
         ]
     },
     {
@@ -16306,14 +16321,6 @@
         ]
     },
     {
-        "char": "三",
-        "character_hint": "Three horizontal strokes, representing the number three.",
-        "meanings": "three",
-        "references": [
-            "https://www.dong-chinese.com/wiki/三"
-        ]
-    },
-    {
         "char": "丐",
         "character_hint": "Depicts the blade of a knife. Similar in origin to 亡 and 方. Based on the original meaning \"cut\". The current meaning is a phonetic loan.",
         "meanings": "beggar; cut",
@@ -16415,14 +16422,6 @@
         "meanings": "pong",
         "references": [
             "https://www.dong-chinese.com/wiki/乓"
-        ]
-    },
-    {
-        "char": "九",
-        "character_hint": "Depicts an elbow. Based on the original meaning \"elbow\", now written as 肘. The current meaning is a phonetic loan.",
-        "meanings": "nine; elbow",
-        "references": [
-            "https://www.dong-chinese.com/wiki/九"
         ]
     },
     {
@@ -16738,22 +16737,6 @@
         ]
     },
     {
-        "char": "二",
-        "character_hint": "Two horizontal strokes, representing the number two.",
-        "meanings": "two",
-        "references": [
-            "https://www.dong-chinese.com/wiki/二"
-        ]
-    },
-    {
-        "char": "亖",
-        "character_hint": "Four horizontal strokes, representing the number four.",
-        "meanings": "four",
-        "references": [
-            "https://www.dong-chinese.com/wiki/亖"
-        ]
-    },
-    {
         "char": "亢",
         "character_hint": "Pictograph of a person with a line through their legs. Original meaning unclear.",
         "meanings": "high",
@@ -16823,14 +16806,6 @@
         "meanings": "occupy by force",
         "references": [
             "https://www.dong-chinese.com/wiki/佔"
-        ]
-    },
-    {
-        "char": "五",
-        "character_hint": "Origin unclear. Originally an X-shape.",
-        "meanings": "five",
-        "references": [
-            "https://www.dong-chinese.com/wiki/五"
         ]
     },
     {
@@ -18935,14 +18910,6 @@
         "meanings": "orphan",
         "references": [
             "https://www.dong-chinese.com/wiki/孤"
-        ]
-    },
-    {
-        "char": "宀",
-        "character_hint": "Pictograph of a roof.",
-        "meanings": "roof",
-        "references": [
-            "https://www.dong-chinese.com/wiki/宀"
         ]
     },
     {
@@ -26466,14 +26433,6 @@
         ]
     },
     {
-        "char": "旦",
-        "character_hint": "Depicts the sun (日) rising above the horizon (一) at dawn. In Oracle script the bottom component was the phonetic 丁, which was later reanalyzed as the earth or a horizon.",
-        "meanings": "dawn",
-        "references": [
-            "https://www.dong-chinese.com/wiki/旦"
-        ]
-    },
-    {
         "char": "晒",
         "character_hint": "Simplified form of 曬. Phonosemantic compound. 日 represents the meaning and 麗 represents the sound.",
         "meanings": "be in sunshine",
@@ -30282,14 +30241,6 @@
         ]
     },
     {
-        "char": "百",
-        "character_hint": "Phonosemantic compound. 一 represents the meaning and 白 represents the sound. ",
-        "meanings": "one hundred",
-        "references": [
-            "https://www.dong-chinese.com/wiki/百"
-        ]
-    },
-    {
         "char": "皿",
         "character_hint": "Pictograph of a container for holding food.",
         "meanings": "dish",
@@ -30583,14 +30534,6 @@
         "meanings": "rise",
         "references": [
             "https://www.dong-chinese.com/wiki/登"
-        ]
-    },
-    {
-        "char": "白",
-        "character_hint": "Origin unclear. Possibly depicts a thumb.",
-        "meanings": "white",
-        "references": [
-            "https://www.dong-chinese.com/wiki/白"
         ]
     },
     {

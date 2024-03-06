@@ -19,18 +19,35 @@
 		gridApi.setGridOption('rowData', lexicon);
 	}
 
+	function comparator(
+		a: string | undefined,
+		b: string | undefined,
+		nodeA: unknown,
+		nodeB: unknown,
+		isInverted: boolean
+	) {
+		if (a === b) return 0;
+		if (!a) {
+			return isInverted ? -1 : 1;
+		}
+		if (!b) {
+			return isInverted ? 1 : -1;
+		}
+		return a.localeCompare(b);
+	}
+
 	onMount(async () => {
 		const lexicon = await getLexicon();
 		gridApi = createGrid(gridContainer, {
 			rowData: lexicon as LexiconEntry[],
 			defaultColDef: { resizable: true, sortable: true, filter: true },
 			columnDefs: [
-				{ field: 'id', width: 150 },
-				{ field: 'PIE', width: 150 },
-				{ field: 'pos', width: 75 },
-				{ field: 'char', width: 80 },
-				{ field: 'meanings', flex: 1 },
-				{ field: 'character_hint', headerName: 'Character Hint', flex: 1 },
+				{ field: 'id', width: 150, comparator },
+				{ field: 'PIE', width: 150, comparator },
+				{ field: 'pos', width: 75, comparator },
+				{ field: 'char', width: 80, comparator },
+				{ field: 'meanings', flex: 1, comparator },
+				{ field: 'character_hint', headerName: 'Character Hint', flex: 1, comparator },
 				{
 					field: 'references',
 					cellRenderer: cellRendererFactory(
