@@ -25,6 +25,7 @@ const initialConsonants = {
 	'h₂': 'ᄒ',
 	'h₃': 'ᅘ',
 	r: 'ᄅ',
+	r̥: 'ᄅ',
 	l: 'ᄅ', // I'm gonna tolerate some ambiguity here because ᄙ is fugly
 	// combinations
 	ng: 'ᄓ',
@@ -140,6 +141,7 @@ const finals = {
 	'h₂': 'ᇂ',
 	'h₃': 'ퟶ',
 	r: 'ᆯ',
+	r̥: 'ᆯ',
 	l: 'ᇐ'
 };
 

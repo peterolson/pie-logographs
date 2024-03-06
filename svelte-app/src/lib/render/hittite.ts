@@ -123,6 +123,7 @@ export const cuneiformSyllables: Record<string, string> = {
 	úr: '𒌫',
 	us: '𒍑',
 	uz: '𒊻',
+	kat: '𒃰',
 	// Akkadian cuneiform https://akkadian.fandom.com/wiki/Cuneiform
 	QÍ: '𒆠',
 	BÍ: '𒉈',
@@ -140,7 +141,8 @@ export const hittiteDeterminers: Record<string, [string, string]> = {
 export const sumerograms: Record<string, string> = {
 	DUMU: '𒌉', // https://en.wiktionary.org/wiki/%F0%92%8C%89
 	LUGAL: '𒈗', // https://en.wikipedia.org/wiki/Lugal,
-	ISKUR: '𒅎' // https://en.wiktionary.org/wiki/%F0%92%80%AD%F0%92%85%8E
+	ISKUR: '𒅎', // https://en.wiktionary.org/wiki/%F0%92%80%AD%F0%92%85%8E
+	URU: '𒌷' // https://en.wiktionary.org/wiki/%F0%92%8C%B7
 };
 
 function renderCuneiformSyllables(word: string): string {
@@ -172,6 +174,13 @@ export function renderHittiteWord(
 	if (isPunctuation(word)) {
 		if (isCuneiform && word.char) return word.char;
 		return word.id + afterSpace;
+	}
+	if (word.id === 'NOW' && nextWord) {
+		// check if next word starts with "a", nu -> na
+		const nextLexiconEntry = lexicon.find((entry) => entry.id === nextWord.id);
+		if (nextLexiconEntry?.hittite?.startsWith('a')) {
+			return isCuneiform ? renderCuneiformSyllables('na') : 'na';
+		}
 	}
 	if (word.determiner && word.determinerKey) {
 		const determiner = hittiteDeterminers[word.determinerKey][isCuneiform ? 0 : 1];

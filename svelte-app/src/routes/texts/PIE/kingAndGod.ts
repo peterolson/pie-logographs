@@ -22,7 +22,7 @@ export const kingAndGod = {
     THIS n sg gen POUR tor acc ASK _ira sec 3 sg : \`\` SON us nom I gen sg BIRTH ye_ti 3 sg imp . ''  
     POUR tor nom sg THIS m acc sg STRAIGHT s acc SPEAK _prr sec 3 sg : \`\` SAY ye_ti middle imp 2 SKY o_s acc BROAD us nos acc . ''  
     BELOW STRAIGHT s nom SKY o_s acc BROAD us nos acc JUMP _srr stative prim 3 sg NOW SKY o_s acc SAY ye_ti sec middle 3 .  
-    \`\` HEAR _pra imp 2 sg I dat , FATHER voc BROAD us nos voc ! '' SKY o_s nom BROAD us nos nom SKY s abl NEARBY STEP _ira sec 3 sg .  
+    \`\` HEAR _pra imp 2 sg I dat , FATHER voc BROAD us nos voc ! '' SKY o_s nom BROAD us nos nom SKY s abl NEARBY teh2 nom STEP _ira sec 3 sg .  
     \`\` WHAT n acc WANT _ira prim 2 ? ''  
     \`\` SON us acc WANT _ira prim 1 . ''  
     \`\` THIS n nom BE _ira 3 sg imp , '' SPEAK _prr sec 3 sg BRIGHT o_s nom sg STRAIGHT s nom BROAD us nos nom .  
@@ -35,7 +35,7 @@ export const kingAndGod = {
     his priest asked : " son I born . "
     priest him king said : " pray god Varuna . "
     down king god Varuna approached now god pray .
-    " hear me , father Varuna ! " god Varuna heaven came .
+    " hear me , father Varuna ! " god Varuna heaven down_from came .
     " what want ? "
     " son want . "
     " this be , " said bright god Varuna .

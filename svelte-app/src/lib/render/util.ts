@@ -60,7 +60,6 @@ export function getInflectedForm(
 	}
 
 	if (word.pos) {
-		console.log(lexiconEntry.inflections, word);
 		const missingInflection = {
 			form: `${word.id}${rawSuffixText}{MISSING INFLECTION}${afterSpace}`
 		};

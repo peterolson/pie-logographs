@@ -431,7 +431,7 @@ export const suffixes: Record<
 	yo_s: {
 		form: 'yós',
 		link: 'https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-y%C3%B3s',
-		desc: 'Creates adjectives from verb stems.'
+		desc: 'Creates adjectives from noun stems'
 	},
 	yoos: {
 		form: 'yōs',

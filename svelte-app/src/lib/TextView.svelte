@@ -109,8 +109,13 @@ Read as: <select bind:value={selectedLanguage}>
 		font-weight: 400;
 	}
 
+	@font-face {
+		font-family: UllikummiA;
+		src: url('/UllikummiA.ttf');
+	}
+
 	p.hittite {
-		font-family: 'Noto Sans Cuneiform', sans-serif;
+		font-family: UllikummiA, sans-serif;
 	}
 
 	p.hittite a {
@@ -120,9 +125,10 @@ Read as: <select bind:value={selectedLanguage}>
 	}
 
 	.transliteration {
-		font-size: 0.8em;
+		font-size: 0.7em;
 		opacity: 0.7;
 		padding: 0px 2px;
+		font-family: system-ui;
 	}
 
 	.translation {

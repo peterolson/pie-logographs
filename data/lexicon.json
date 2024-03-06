@@ -4,7 +4,8 @@
         "pos": "punct",
         "id": "...",
         "char": "⋯⋯",
-        "meanings": "ellipsis; unknown text"
+        "meanings": "ellipsis; unknown text",
+        "hittite": "⋯⋯"
     },
     {
         "PIE": "*sme",
@@ -358,6 +359,18 @@
                         "_pra active sec pl 1": "h₃epme",
                         "_pra active sec pl 2": "h₃epte",
                         "_pra active sec pl 3": "h₃epn̥t"
+                    }
+                },
+                "r yo_s": {
+                    "noun": {
+                        "sg abl": "h₃epr̥yéad"
+                    }
+                }
+            },
+            "hittite": {
+                "r yo_s": {
+                    "noun": {
+                        "sg abl": "URU-az"
                     }
                 }
             }
@@ -2593,12 +2606,39 @@
     },
     {
         "PIE": "*bʰenǵʰ-",
-        "char": "",
+        "char": "㐱",
         "meanings": "thick",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0en%C7%B5%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0en%C7%B5%CA%B0-",
+            "https://www.dong-chinese.com/wiki/㐱"
+        ],
+        "id": "THICK",
+        "character_hint": "Variant of 鬒. Depicts a person (人) with thick hair (彡).",
+        "inflections": {
+            "pie": {
+                "us": {
+                    "adj": {
+                        "m sg nom": "bʰénǵʰus"
+                    }
+                },
+                "ros": {
+                    "adj": {
+                        "m sg ins": "",
+                        "m pl ins": "bʰénǵʰrṓys"
+                    }
+                }
+            },
+            "hittite": {
+                "ros": {
+                    "adj": {
+                        "m sg nom": "",
+                        "m sg ins": "",
+                        "m pl ins": "pa-an-ga-ri-it"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*bʰénǵʰus",
@@ -5391,12 +5431,15 @@
     },
     {
         "PIE": "*h₁ey-",
-        "char": "",
+        "char": "去",
         "meanings": "to go",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ey-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ey-",
+            "https://www.dong-chinese.com/wiki/去"
+        ],
+        "id": "GO",
+        "character_hint": "Depicts opening the mouth (口) wide (大) to let a yawn leave the mouth."
     },
     {
         "PIE": "*h₁eyg-",
@@ -5825,11 +5868,11 @@
         "character_hint": "Depicts a wide, flat, object, such as a tray or plate.",
         "inflections": {
             "pie": {
-                "usnos": {
+                "us nos": {
                     "noun": {
                         "sg nom": "h₁werunos",
-                        "sg acc": "h₁werunom",
-                        "sg voc": "h₁werune"
+                        "sg voc": "h₁werune",
+                        "sg acc": "h₁werune"
                     }
                 }
             }
@@ -6499,12 +6542,15 @@
     },
     {
         "PIE": "*h₂ew",
-        "char": "",
+        "char": "咅",
         "meanings": "away from, off; again",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ew"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ew",
+            "https://www.dong-chinese.com/wiki/咅"
+        ],
+        "id": "AWAY",
+        "character_hint": "Depicts spit coming out of a mouth (口)."
     },
     {
         "PIE": "*h₂ew-",
@@ -8152,7 +8198,30 @@
             "https://www.dong-chinese.com/wiki/附"
         ],
         "id": "NEARBY",
-        "character_hint": "Phonosemantic compound. 阝 represents the meaning and 付 represents the sound. "
+        "character_hint": "Phonosemantic compound. 阝 represents the meaning and 付 represents the sound. ",
+        "inflections": {
+            "pie": {
+                "teh2": {
+                    "noun": {
+                        "sg nom": "km̥teh₂",
+                        "sg voc": "km̥teh₂",
+                        "sg acc": "km̥tām",
+                        "sg gen": "km̥teh₂s",
+                        "sg abl": "km̥teh₂s",
+                        "sg dat": "km̥teh₂ey",
+                        "sg loc": "km̥teh₂i",
+                        "sg ins": "km̥teh₂h₁"
+                    }
+                }
+            },
+            "hittite": {
+                "teh2": {
+                    "noun": {
+                        "sg nom": "kat-ta"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ḱoph₂ós",
@@ -10581,12 +10650,15 @@
     },
     {
         "PIE": "*pró",
-        "char": "",
+        "char": "向",
         "meanings": "toward, leading to",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pr%C3%B3"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pr%C3%B3",
+            "https://www.dong-chinese.com/wiki/向"
+        ],
+        "id": "TOWARD",
+        "character_hint": "Depicts a mouth (口) in a closed space (宀) making an echo sound. Based on the original meaning \"echo; sound\", now written as 響. The meaning later shifted to \"direction\" and \"toward\"."
     },
     {
         "PIE": "*prot-",
@@ -13557,14 +13629,6 @@
         ]
     },
     {
-        "char": "㐱",
-        "character_hint": "Variant of 鬒. Depicts a person (人) with thick hair (彡).",
-        "meanings": "thick hair",
-        "references": [
-            "https://www.dong-chinese.com/wiki/㐱"
-        ]
-    },
-    {
         "char": "㒸",
         "character_hint": "豕 represents the sound and the top two strokes disambiguate 㒸 from 豕.",
         "meanings": "obey",
@@ -15797,14 +15861,6 @@
         ]
     },
     {
-        "char": "向",
-        "character_hint": "Depicts a mouth (口) in a closed space (宀) making an echo sound. Based on the original meaning \"echo; sound\", now written as 響. The meaning later shifted to \"direction\" and \"toward\".",
-        "meanings": "toward",
-        "references": [
-            "https://www.dong-chinese.com/wiki/向"
-        ]
-    },
-    {
         "char": "叔",
         "character_hint": "Depicts holding a sharp wooden stick (弋) in the hand (又) to dig up dirt. Based on the original meaning \"to dig\". The current meaning is a phonetic loan.",
         "meanings": "uncle; to dig",
@@ -16066,14 +16122,6 @@
         "meanings": "forearm",
         "references": [
             "https://www.dong-chinese.com/wiki/厷"
-        ]
-    },
-    {
-        "char": "去",
-        "character_hint": "Depicts opening the mouth (口) wide (大) to let a yawn leave the mouth. Original form of 呿.\n",
-        "meanings": "go away",
-        "references": [
-            "https://www.dong-chinese.com/wiki/去"
         ]
     },
     {
@@ -19506,14 +19554,6 @@
         "meanings": "which? where? how?",
         "references": [
             "https://www.dong-chinese.com/wiki/哪"
-        ]
-    },
-    {
-        "char": "咅",
-        "character_hint": "Depicts spit coming out of a mouth (口).",
-        "meanings": "to spit out",
-        "references": [
-            "https://www.dong-chinese.com/wiki/咅"
         ]
     },
     {
