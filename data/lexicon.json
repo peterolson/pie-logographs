@@ -7272,11 +7272,40 @@
     {
         "PIE": "*h₃ed-",
         "char": "",
-        "meanings": "; to smell, stink",
+        "meanings": "to smell, stink",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83ed-"
         ]
+    },
+    {
+        "PIE": "*h₃ed-",
+        "char": "辛",
+        "meanings": "to hate",
+        "pos": "root",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83ed-#Root_2",
+            "https://www.dong-chinese.com/wiki/辛"
+        ],
+        "id": "HATE",
+        "character_hint": "Pictograph of a chisel-like tool. The meaning later shifted to \"hard\" and \"laborious\".",
+        "inflections": {
+            "pie": {
+                "los us": {
+                    "adj": {
+                        "n sg gen": "",
+                        "n sg acc": "h₃edlu"
+                    }
+                }
+            },
+            "hittite": {
+                "los us": {
+                    "adj": {
+                        "n sg acc": "i-da-a-lu"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₃edʰḗs",
@@ -37941,14 +37970,6 @@
         "meanings": "a hand-cart",
         "references": [
             "https://www.dong-chinese.com/wiki/辇"
-        ]
-    },
-    {
-        "char": "辛",
-        "character_hint": "Pictograph of a chisel-like tool. The meaning later shifted to \"hard\" and \"laborious\".",
-        "meanings": "laborious; chisel",
-        "references": [
-            "https://www.dong-chinese.com/wiki/辛"
         ]
     },
     {
