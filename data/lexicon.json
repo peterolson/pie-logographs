@@ -500,7 +500,8 @@
                         "sg abl": "suHnóws",
                         "sg dat": "suHnéwey",
                         "sg loc": "suHnḗw",
-                        "sg ins": "suHnwéh₁"
+                        "sg ins": "suHnwéh₁",
+                        "pl dat": "suHnúbʰ"
                     }
                 }
             },
@@ -514,7 +515,8 @@
                         "sg abl": "DUMU",
                         "sg dat": "DUMU",
                         "sg loc": "DUMU",
-                        "sg ins": "DUMU"
+                        "sg ins": "DUMU",
+                        "pl dat": "DUMU-MEŠ"
                     }
                 }
             }
@@ -3164,13 +3166,17 @@
         ]
     },
     {
-        "PIE": "*de ~ *do",
-        "char": "",
+        "PIE": "*de",
+        "char": "而",
         "meanings": "Emphatic or contrastive particle, and, but[2]; Postpositive demonstrative particle, towards",
         "pos": "part",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/de"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/de",
+            "https://www.dong-chinese.com/wiki/而"
+        ],
+        "id": "BUT",
+        "hittite": "Ù",
+        "character_hint": "Originally a pictograph of a beard, now written as 耏. The current use as a conjunction is a phonetic loan."
     },
     {
         "PIE": "*dédeh₃ti",
@@ -3246,12 +3252,38 @@
     },
     {
         "PIE": "*deh₃-",
-        "char": "",
+        "char": "㝵",
         "meanings": "to give",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deh%E2%82%83-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deh%E2%82%83-",
+            "https://www.dong-chinese.com/wiki/㝵"
+        ],
+        "id": "GIVE",
+        "character_hint": "Original form of 得. Depicts a hand (寸) grabbing a shell (貝), used as currency in ancient China, to convey the meaning \"get\".",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_pra active sec sg 1": "déh₃m̥",
+                        "_pra active sec sg 2": "déh₃s",
+                        "_pra active sec sg 3": "déh₃t",
+                        "_ira active sec sg 3": "déh₃t",
+                        "_ira active sec sg 2": "déh₃s",
+                        "_ira active sec sg 1": "déh₃m̥"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "da-a-as",
+                        "_ira active sec sg 2": "da-a-at-ta",
+                        "_ira active sec sg 1": "da-a-ah-hu-un"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*déh₃nom",
@@ -5354,12 +5386,31 @@
     },
     {
         "PIE": "*h₁ep-",
-        "char": "",
-        "meanings": "Alternative reconstruction of the root *h₂ep-; see there for more; to grab, snatch, get",
+        "char": "寽",
+        "meanings": "to grab, snatch, get",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ep-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ep-",
+            "https://www.dong-chinese.com/wiki/寽"
+        ],
+        "id": "SNATCH",
+        "character_hint": "Depicts a hand (寸) taking away an object from a hand (爪). Similar in origin to 𠬪. Original form of 捋.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "h₁ept"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "IṢ-BAT"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁epi",
@@ -5651,12 +5702,15 @@
     },
     {
         "PIE": "*h₁nómn̥",
-        "char": "",
-        "meanings": "name *h₁nómn̥ *déh₃the gave a name(literally, “[a] name gave [he]”)",
+        "char": "名",
+        "meanings": "name",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81n%C3%B3mn%CC%A5"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81n%C3%B3mn%CC%A5",
+            "https://www.dong-chinese.com/wiki/名"
+        ],
+        "id": "NAME",
+        "character_hint": "You identify yourself at night (夕) by saying (口) your name (名) because is too dark for others to see you."
     },
     {
         "PIE": "*h₁ógʷʰis",
@@ -6317,7 +6371,7 @@
                     "noun": {
                         "sg nom": "LUGAL-us",
                         "sg voc": "LUGAL",
-                        "sg acc": "LUGAL",
+                        "sg acc": "LUGAL-un",
                         "sg gen": "LUGAL",
                         "sg abl": "LUGAL",
                         "sg dat": "LUGAL-i",
@@ -6877,12 +6931,31 @@
     },
     {
         "PIE": "*h₂neḱ-",
-        "char": "",
+        "char": "至",
         "meanings": "to reach, to attain",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ne%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ne%E1%B8%B1-",
+            "https://www.dong-chinese.com/wiki/至"
+        ],
+        "id": "ATTAIN",
+        "character_hint": "Pictograph of an arrow hitting its target.",
+        "inflections": {
+            "pie": {
+                "es": {
+                    "noun": {
+                        "sg ins": "h₂neḱesh₁"
+                    }
+                }
+            },
+            "hittite": {
+                "es": {
+                    "noun": {
+                        "sg ins": "na-ak-ki-it"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂nḗr",
@@ -8542,12 +8615,15 @@
     },
     {
         "PIE": "*kwep-",
-        "char": "",
+        "char": "亦",
         "meanings": "to smoke, to steam; to boil; aroma, strong odor",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kwep-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/kwep-",
+            "https://www.dong-chinese.com/wiki/亦"
+        ],
+        "id": "ODOR",
+        "character_hint": "Pictograph of a person, with two dots at the armpits. Armpits give off a strong odor."
     },
     {
         "PIE": "*kʷer-",
@@ -8757,12 +8833,31 @@
     },
     {
         "PIE": "*kʷséps",
-        "char": "",
+        "char": "夜",
         "meanings": "night",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7s%C3%A9ps"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7s%C3%A9ps",
+            "https://www.dong-chinese.com/wiki/夜"
+        ],
+        "id": "NIGHTTIME",
+        "character_hint": "Phonosemantic compound. 夕 represents the meaning and 亦 represents the sound. ",
+        "inflections": {
+            "pie": {
+                "o_nts": {
+                    "noun": {
+                        "sg dat": "kʷspentéy"
+                    }
+                }
+            },
+            "hittite": {
+                "o_nts": {
+                    "noun": {
+                        "sg dat": "is-pa-an-di"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*kʷyeh₁-",
@@ -13777,14 +13872,6 @@
         ]
     },
     {
-        "char": "㝵",
-        "character_hint": "Original form of 得. Depicts a hand (寸) grabbing a shell (貝), used as currency in ancient China, to convey the meaning \"get\".",
-        "meanings": "to get",
-        "references": [
-            "https://www.dong-chinese.com/wiki/㝵"
-        ]
-    },
-    {
         "char": "㞢",
         "character_hint": "Ancient variant of 之/止, depicting a foot.",
         "meanings": "(ancient form of 之) to arrive at",
@@ -15969,14 +16056,6 @@
         ]
     },
     {
-        "char": "名",
-        "character_hint": "You identify yourself at night (夕) by saying (口) your name (名) because is too dark for others to see you.",
-        "meanings": "name",
-        "references": [
-            "https://www.dong-chinese.com/wiki/名"
-        ]
-    },
-    {
         "char": "卯",
         "character_hint": "Depicts two knives side-by-side. Based on the original meaning \"butcher's knife\". The current meaning is a phonetic loan.",
         "meanings": "4th terrestrial branch; butcher's knife",
@@ -17361,14 +17440,6 @@
         ]
     },
     {
-        "char": "亦",
-        "character_hint": "Pictograph of a person, with two dots at the armpits. Based on the original meaning \"armpit\", now written as 腋. The current meaning is a phonetic loan.",
-        "meanings": "also",
-        "references": [
-            "https://www.dong-chinese.com/wiki/亦"
-        ]
-    },
-    {
         "char": "价",
         "character_hint": "Phonosemantic compound. 亻 represents the meaning and 介 represents the sound. Simplified form of 價. ",
         "meanings": "price",
@@ -17846,14 +17917,6 @@
         "meanings": "jar",
         "references": [
             "https://www.dong-chinese.com/wiki/壺"
-        ]
-    },
-    {
-        "char": "夜",
-        "character_hint": "Phonosemantic compound. 夕 represents the meaning and 亦 represents the sound. ",
-        "meanings": "night",
-        "references": [
-            "https://www.dong-chinese.com/wiki/夜"
         ]
     },
     {
@@ -18822,14 +18885,6 @@
         "meanings": "treasure",
         "references": [
             "https://www.dong-chinese.com/wiki/宝"
-        ]
-    },
-    {
-        "char": "寽",
-        "character_hint": "Depicts a hand (寸) taking away an object from a hand (爪). Similar in origin to 𠬪. Original form of 捋.",
-        "meanings": "to take, to seize",
-        "references": [
-            "https://www.dong-chinese.com/wiki/寽"
         ]
     },
     {
@@ -28313,14 +28368,6 @@
         ]
     },
     {
-        "char": "至",
-        "character_hint": "Pictograph of an arrow hitting its target.",
-        "meanings": "reach",
-        "references": [
-            "https://www.dong-chinese.com/wiki/至"
-        ]
-    },
-    {
         "char": "舘",
         "character_hint": "Variant of 館.",
         "meanings": "a mansion",
@@ -34702,14 +34749,6 @@
         "meanings": "ye (sound)",
         "references": [
             "https://www.dong-chinese.com/wiki/耶"
-        ]
-    },
-    {
-        "char": "而",
-        "character_hint": "Originally a pictograph of a beard, now written as 耏. The current use as a conjunction is a phonetic loan.",
-        "meanings": "and; beard",
-        "references": [
-            "https://www.dong-chinese.com/wiki/而"
         ]
     },
     {

@@ -127,7 +127,10 @@ export const cuneiformSyllables: Record<string, string> = {
 	// Akkadian cuneiform https://akkadian.fandom.com/wiki/Cuneiform
 	QÍ: '𒆠',
 	BÍ: '𒉈',
-	MA: '𒈠'
+	MA: '𒈠',
+	IṢ: '𒅖',
+	BAT: '𒁁',
+	Ù: '𒌋'
 };
 
 export const hittiteDeterminers: Record<string, [string, string]> = {
@@ -142,7 +145,8 @@ export const sumerograms: Record<string, string> = {
 	DUMU: '𒌉', // https://en.wiktionary.org/wiki/%F0%92%8C%89
 	LUGAL: '𒈗', // https://en.wikipedia.org/wiki/Lugal,
 	ISKUR: '𒅎', // https://en.wiktionary.org/wiki/%F0%92%80%AD%F0%92%85%8E
-	URU: '𒌷' // https://en.wiktionary.org/wiki/%F0%92%8C%B7
+	URU: '𒌷', // https://en.wiktionary.org/wiki/%F0%92%8C%B7
+	MEŠ: '𒈨𒌍' // https://en.wikipedia.org/wiki/Me%C5%A1
 };
 
 function renderCuneiformSyllables(word: string): string {
