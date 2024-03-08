@@ -7,6 +7,7 @@
 	export let onSave: (lexicon: LexiconEntry[]) => void;
 	export let close: () => void;
 	let { id, PIE, hittite, char, pos, meanings, character_hint, references, inflections } = data;
+	let referenceText = '';
 
 	const partsOfSpeech = [
 		'adj',
@@ -63,6 +64,12 @@
 			...(characterEntry.references || []).filter((x) => x.includes('dong-chinese'))
 		];
 	}
+
+	function addReference() {
+		console.log('HELLO!', referenceText);
+		references = [...(references || []), referenceText];
+		referenceText = '';
+	}
 </script>
 
 <div class="input-grid">
@@ -88,10 +95,25 @@
 	<span>References</span>
 	<ul>
 		{#each references || [] as href}
-			{@const url = new URL(href)}
-			{@const displayText = url.hostname.split('.').slice(-2).join('.')}
-			<li><a {href} target="_blank">{displayText}</a></li>
+			<li>
+				{#if href.includes('http')}
+					{@const url = new URL(href)}
+					{@const displayText = url.hostname.split('.').slice(-2).join('.')}
+					<a {href} target="_blank">{displayText}</a>
+				{:else}
+					{href}
+				{/if}
+				<button
+					on:click={() => {
+						references = (references || []).filter((x) => x !== href);
+					}}>Remove</button
+				>
+			</li>
 		{/each}
+		<li>
+			<input type="text" bind:value={referenceText} />
+			<button on:click={addReference}>Add</button>
+		</li>
 	</ul>
 </div>
 <InflectionEditor bind:inflections lexiconEntry={data} />

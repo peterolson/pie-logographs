@@ -1,5 +1,45 @@
 [
     {
+        "char": "曷其",
+        "id": "WHAT_DEICTIC",
+        "pos": "pron",
+        "PIE": "*kʷísḱe",
+        "meanings": "whoever, anyone",
+        "character_hint": "曷 + 其",
+        "hittite": "",
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 490-491"
+        ],
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg dat": "kʷésmeyḱe"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "noun": {
+                        "sg dat": "ku-e-da-ni-ik-ki"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "char": "非此",
+        "id": "NOT_THIS",
+        "pos": "part",
+        "PIE": "*netó",
+        "meanings": "not",
+        "character_hint": "非 + 此",
+        "hittite": "na-at-ta",
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 597"
+        ]
+    },
+    {
         "char": "出去",
         "id": "AWAY_GO",
         "pos": "verb",
@@ -22,7 +62,10 @@
                     }
                 }
             }
-        }
+        },
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 992-993"
+        ]
     },
     {
         "PIE": "…",
@@ -1051,7 +1094,29 @@
         "pos": "noun",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9h%E2%82%82t%C4%93r"
-        ]
+        ],
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "méh₂tēr",
+                        "sg voc": "méh₂ter",
+                        "sg acc": "méh₂term̥",
+                        "pl nom": "méh₂teres",
+                        "pl voc": "méh₂teres",
+                        "pl acc": "méh₂term̥s"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "noun": {
+                        "pl acc": "an-nu-us"
+                    }
+                }
+            }
+        },
+        "id": "MOTHER"
     },
     {
         "PIE": "*h₂welh₁-",
@@ -2246,12 +2311,15 @@
     },
     {
         "PIE": "*(s)neh₁-",
-        "char": "",
+        "char": "糸",
         "meanings": "to spin (thread), to sew",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)neh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(s)neh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/糸"
+        ],
+        "id": "SEW",
+        "character_hint": "Pictograph of silk threads."
     },
     {
         "PIE": "*(s)neh₂-",
@@ -2447,12 +2515,34 @@
     },
     {
         "PIE": "*átta",
-        "char": "",
+        "char": "爹",
         "meanings": "father Synonyms: *ph₂tḗr, *tata-",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C3%A1tta"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C3%A1tta",
+            "https://www.dong-chinese.com/wiki/%E7%88%B9"
+        ],
+        "id": "DAD",
+        "character_hint": "Phonosemantic compound. 父 represents the meaning and 多 represents the sound.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg acc": "áttanm̥",
+                        "sg nom": "átta",
+                        "pl nom": "áttanes",
+                        "pl acc": "áttanm̥s"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "noun": {
+                        "pl acc": "at-tu-us"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*bak-",
@@ -8739,7 +8829,8 @@
         "pos": "det, pron",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7%C3%ADs",
-            "https://www.dong-chinese.com/wiki/曷"
+            "https://www.dong-chinese.com/wiki/曷",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 488-491"
         ],
         "id": "WHAT",
         "character_hint": "Phonosemantic compound. 曰 represents the meaning and 匃 represents the sound. ",
@@ -8792,6 +8883,13 @@
                         "m pl loc": "kʷeysu",
                         "f pl loc": "kʷeysu",
                         "n pl loc": "kʷeysu"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "m sg dat": "ku-e-da-ni"
                     }
                 }
             }
@@ -9143,12 +9241,15 @@
     },
     {
         "PIE": "*leyǵ-",
-        "char": "",
+        "char": "束",
         "meanings": "to bind, tie",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ley%C7%B5-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ley%C7%B5-",
+            "https://www.dong-chinese.com/wiki/束"
+        ],
+        "id": "TIE",
+        "character_hint": "Pictograph of a bag tied at both ends."
     },
     {
         "PIE": "*leyǵʰ-",
@@ -10143,12 +10244,15 @@
     },
     {
         "PIE": "*pel-",
-        "char": "",
-        "meanings": "to cover, to wrap; ;  skin, hide, cloth",
+        "char": "包",
+        "meanings": "to cover, to wrap;  skin, hide, cloth",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-",
+            "https://www.dong-chinese.com/wiki/包"
+        ],
+        "id": "WRAP",
+        "character_hint": "Pictograph of an unborn baby contained inside its mother."
     },
     {
         "PIE": "*pelH-",
@@ -12381,12 +12485,32 @@
     },
     {
         "PIE": "*tetḱ-",
-        "char": "",
+        "char": "系",
         "meanings": "to create, produce; to cut, hew",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tet%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tet%E1%B8%B1-",
+            "https://www.dong-chinese.com/wiki/系",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 813-814"
+        ],
+        "id": "CREATE",
+        "character_hint": "Pictograph of a hand (又) holding a group of threads (糸) that are connected together (系).",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "tetḱt"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "tak-ki-is-ta"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*tétḱō",
@@ -12453,12 +12577,15 @@
     },
     {
         "PIE": "*tewtéh₂",
-        "char": "",
+        "char": "多",
         "meanings": "heap, pile; crowd ?; people, tribe",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tewt%C3%A9h%E2%82%82"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tewt%C3%A9h%E2%82%82",
+            "https://www.dong-chinese.com/wiki/多"
+        ],
+        "id": "TOTAL",
+        "character_hint": "Depicts two pieces of meat together to convey the meaning \"much\" or \"plentiful\". In ancient China meat was a rare treat. Unrelated to 夕."
     },
     {
         "PIE": "*tḱey-",
@@ -13046,7 +13173,24 @@
             "https://www.dong-chinese.com/wiki/工"
         ],
         "id": "WORK",
-        "character_hint": "Depicts a tool with a blade."
+        "character_hint": "Depicts a tool with a blade.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_irt active sec sg 3": "wr̥ǵet",
+                        "_ira active sec sg 3": "wr̥ǵet"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ira active sec sg 3": "i-e-et"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wérǵom",
@@ -15330,14 +15474,6 @@
         "meanings": "victory",
         "references": [
             "https://www.dong-chinese.com/wiki/勝"
-        ]
-    },
-    {
-        "char": "包",
-        "character_hint": "Pictograph of an unborn baby contained inside its mother.",
-        "meanings": "wrap",
-        "references": [
-            "https://www.dong-chinese.com/wiki/包"
         ]
     },
     {
@@ -18002,14 +18138,6 @@
         "meanings": "enough",
         "references": [
             "https://www.dong-chinese.com/wiki/夠"
-        ]
-    },
-    {
-        "char": "多",
-        "character_hint": "Depicts two pieces of meat together to convey the meaning \"much\" or \"plentiful\". In ancient China meat was a rare treat. Unrelated to 夕.",
-        "meanings": "much",
-        "references": [
-            "https://www.dong-chinese.com/wiki/多"
         ]
     },
     {
@@ -26917,14 +27045,6 @@
         ]
     },
     {
-        "char": "束",
-        "character_hint": "Pictograph of a bag tied at both ends.",
-        "meanings": "bind",
-        "references": [
-            "https://www.dong-chinese.com/wiki/束"
-        ]
-    },
-    {
         "char": "杵",
         "character_hint": "Phonosemantic compound. 木 represents the meaning and 午 represents the sound. Originally written as 午, a pictograph of a pestle used for pounding rice.",
         "meanings": "pestle",
@@ -33973,14 +34093,6 @@
         ]
     },
     {
-        "char": "糸",
-        "character_hint": "Pictograph of silk threads.",
-        "meanings": "silk",
-        "references": [
-            "https://www.dong-chinese.com/wiki/糸"
-        ]
-    },
-    {
         "char": "紐",
         "character_hint": "Phonosemantic compound. 糹 represents the meaning and 丑 represents the sound. ",
         "meanings": "knot, button",
@@ -34018,14 +34130,6 @@
         "meanings": "agreement; bind",
         "references": [
             "https://www.dong-chinese.com/wiki/約"
-        ]
-    },
-    {
-        "char": "系",
-        "character_hint": "Pictograph of a hand (又) holding a group of threads (糸) that are connected together (系).",
-        "meanings": "system",
-        "references": [
-            "https://www.dong-chinese.com/wiki/系"
         ]
     },
     {
