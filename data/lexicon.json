@@ -519,7 +519,8 @@
             "https://www.dong-chinese.com/wiki/合"
         ],
         "character_hint": "Depicts two mouths talking to each other.",
-        "id": "AND"
+        "id": "AND",
+        "hittite": "ya"
     },
     {
         "PIE": "*sewh₁-",
@@ -833,6 +834,13 @@
                         "sg ins": "h₁mos"
                     }
                 }
+            },
+            "hittite": {
+                "": {
+                    "noun": {
+                        "sg gen": "ma-as"
+                    }
+                }
             }
         }
     },
@@ -1120,8 +1128,46 @@
     },
     {
         "PIE": "*h₂welh₁-",
+        "meanings": "to rule; strong, powerful",
+        "pos": "root",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82welh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/武"
+        ],
+        "id": "POWERFUL",
+        "char": "武",
+        "character_hint": "Depicts marching (止) with a weapon (戈).",
+        "inflections": {
+            "pie": {
+                "nos": {
+                    "adj": {
+                        "f sg acc": "h₂welh₁nā́m"
+                    }
+                },
+                "": {
+                    "verb": {
+                        "_ira active sec sg 1": "h₂welh₁m̥"
+                    }
+                }
+            },
+            "hittite": {
+                "nos": {
+                    "adj": {
+                        "f sg acc": "hu-ul-la-an-za-an"
+                    }
+                },
+                "": {
+                    "verb": {
+                        "_ira active sec sg 1": "hu-ul-la-nu-un"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "PIE": "*h₂welh₁-",
         "char": "毛",
-        "meanings": "to rule; strong, powerful; hair; wool",
+        "meanings": "hair; wool",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82welh%E2%82%81-",
@@ -1983,12 +2029,33 @@
     },
     {
         "PIE": "*(H)pós",
-        "char": "",
+        "char": "後",
         "meanings": "afterwards, post; by, at",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%B3s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%B3s",
+            "https://www.dong-chinese.com/wiki/後"
+        ],
+        "id": "AFTER",
+        "hittite": "a-ap-pa",
+        "character_hint": "Depicts someone's foot (夂) being held back by a rope (幺), preventing them from being able to walk （彳） forward.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "Hpós",
+                        "sg acc": "Hpóm"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "noun": {
+                        "sg acc": "a-ap-pa-an"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*(H)resg-",
@@ -2531,14 +2598,16 @@
                         "sg acc": "áttanm̥",
                         "sg nom": "átta",
                         "pl nom": "áttanes",
-                        "pl acc": "áttanm̥s"
+                        "pl acc": "áttanm̥s",
+                        "sg gen": "áttas"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "noun": {
-                        "pl acc": "at-tu-us"
+                        "pl acc": "at-tu-us",
+                        "sg gen": "at-ta-as"
                     }
                 }
             }
@@ -5849,12 +5918,15 @@
     },
     {
         "PIE": "*h₁óynos",
-        "char": "",
+        "char": "一",
         "meanings": "one; single Synonym: *sḗm",
         "pos": "num",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3ynos"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3ynos",
+            "https://www.dong-chinese.com/wiki/一"
+        ],
+        "id": "ONE",
+        "character_hint": "A single horizontal stroke, representing the number one."
     },
     {
         "PIE": "*h₁óytos",
@@ -11190,12 +11262,31 @@
     },
     {
         "PIE": "*sem-",
-        "char": "",
+        "char": "个",
         "meanings": "together, one",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sem-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sem-",
+            "https://www.dong-chinese.com/wiki/个"
+        ],
+        "id": "SINGLE",
+        "character_hint": "Pictograph of one stalk of bamboo. Same as one half of the character for bamboo (竹).",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "m sg loc": "sémi"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "m sg loc": "sa-ni"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*sḗm",
@@ -13269,12 +13360,33 @@
     },
     {
         "PIE": "*wet-",
-        "char": "",
+        "char": "年",
         "meanings": "year; year-old",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wet-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wet-",
+            "https://www.dong-chinese.com/wiki/年"
+        ],
+        "id": "YEAR",
+        "character_hint": "Pictograph of a person (人) harvesting grain (禾). The harvest season is a yearly event.",
+        "inflections": {
+            "pie": {
+                "os": {
+                    "noun": {
+                        "sg dat": "",
+                        "sg loc": "wétesi"
+                    }
+                }
+            },
+            "hittite": {
+                "os": {
+                    "noun": {
+                        "sg ins": "",
+                        "sg loc": "ú-et-ti"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*weth₂-",
@@ -16533,14 +16645,6 @@
         ]
     },
     {
-        "char": "个",
-        "character_hint": "Pictograph of one stalk of bamboo. Same as one half of the character for bamboo (竹).",
-        "meanings": "[measure word]",
-        "references": [
-            "https://www.dong-chinese.com/wiki/个"
-        ]
-    },
-    {
         "char": "丵",
         "character_hint": "Depicts a chisel-shaped tool or weapon. Related to 鑿 (chisel). Used in 對 to depict a tool to develop land, in 業 as a weapon to conquer territory, and in 菐 as an implement to pound something with.",
         "meanings": "chisel",
@@ -16674,14 +16778,6 @@
         "meanings": "hometown",
         "references": [
             "https://www.dong-chinese.com/wiki/乡"
-        ]
-    },
-    {
-        "char": "一",
-        "character_hint": "A single horizontal stroke, representing the number one.",
-        "meanings": "one",
-        "references": [
-            "https://www.dong-chinese.com/wiki/一"
         ]
     },
     {
@@ -22613,14 +22709,6 @@
         ]
     },
     {
-        "char": "年",
-        "character_hint": "Pictograph of a person (人) harvesting grain (禾). The harvest season is a yearly event.",
-        "meanings": "year",
-        "references": [
-            "https://www.dong-chinese.com/wiki/年"
-        ]
-    },
-    {
         "char": "嵗",
         "character_hint": "Variant of 歲.",
         "meanings": "year",
@@ -23477,14 +23565,6 @@
         ]
     },
     {
-        "char": "後",
-        "character_hint": "Depicts someone's foot (夂) being held back by a rope (幺), preventing them from being able to walk （彳） forward.",
-        "meanings": "behind",
-        "references": [
-            "https://www.dong-chinese.com/wiki/後"
-        ]
-    },
-    {
         "char": "廢",
         "character_hint": "Phonosemantic compound. 广 represents the meaning and 發 represents the sound. ",
         "meanings": "discard, abandon",
@@ -24026,14 +24106,6 @@
         "meanings": "happy, joyous",
         "references": [
             "https://www.dong-chinese.com/wiki/欣"
-        ]
-    },
-    {
-        "char": "武",
-        "character_hint": "Depicts marching (止) with a weapon (戈).",
-        "meanings": "military",
-        "references": [
-            "https://www.dong-chinese.com/wiki/武"
         ]
     },
     {
