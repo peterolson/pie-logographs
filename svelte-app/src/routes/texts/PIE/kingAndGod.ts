@@ -13,7 +13,7 @@
 export const kingAndGod = {
 	title: 'The King and the God',
 	link: 'https://en.wikipedia.org/wiki/The_king_and_the_god',
-	lang: 'PIE',
+	lang: 'pie',
 	text: `
     STRAIGHT s nom SKY o_s nom AND  
         

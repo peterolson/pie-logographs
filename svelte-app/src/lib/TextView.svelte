@@ -10,11 +10,12 @@
 	export let lexicon: LexiconEntry[];
 	export let gloss: string;
 	export let translation: string;
+	export let lang: string;
 
 	let selectedLanguage = 'default';
 	let showTranslation = true;
 	let showTransliteration = true;
-	const parsedText = parse(text, lexicon, gloss, translation);
+	const parsedText = parse(text, lexicon, gloss, translation, lang);
 
 	let selectedWord: ParsedWord;
 </script>
@@ -55,7 +56,7 @@ Read as: <select bind:value={selectedLanguage}>
 				}}
 				>{#if selectedLanguage === 'default'}<Character char={word.char || ''} /><Character
 						char={addSuffixes(word)}
-					/><Character char={addInflection(word)} />{:else}<span>{renderedWord}</span
+					/><Character char={addInflection(word, lexicon)} />{:else}<span>{renderedWord}</span
 					>{/if}{#if selectedLanguage === 'hittite' && showTransliteration}<span
 						class="transliteration"
 						>{renderWord(

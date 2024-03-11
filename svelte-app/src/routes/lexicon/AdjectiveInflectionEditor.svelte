@@ -9,6 +9,14 @@
 	export let adjInflections: Record<string, string>;
 </script>
 
+<label>
+	Default gender:
+	<select bind:value={adjInflections['default_gender']}>
+		{#each genders as gen}
+			<option value={gen}>{gen}</option>
+		{/each}
+	</select>
+</label>
 <div>
 	{#each genders as gen}
 		<table>
