@@ -1,4 +1,5 @@
 import type {
+	AdjNounFormationType,
 	Case,
 	FormationType,
 	Gender,
@@ -33,6 +34,7 @@ export type ParsedWord = {
 	number?: GrammaticalNumber;
 	gender?: Gender;
 	case?: Case;
+	adjNounFormation?: AdjNounFormationType;
 	person?: Person;
 	verbType?: VerbType;
 	voice?: Voice;

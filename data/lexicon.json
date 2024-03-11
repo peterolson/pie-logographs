@@ -51,14 +51,14 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "h₂ewh₁éyt"
+                        "_std active sec sg 3": "h₂ewh₁éyt"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "ú-e-et"
+                        "_std active sec sg 3": "ú-e-et"
                     }
                 }
             }
@@ -231,37 +231,37 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active prim sg 1": "h₁ésmi",
-                        "_ira active prim sg 2": "h₁ési",
-                        "_ira active prim sg 3": "h₁ésti",
-                        "_ira active prim dual 1": "h₁swós",
-                        "_ira active prim dual 2": "h₁stés",
-                        "_ira active prim dual 3": "h₁stés",
-                        "_ira active prim pl 1": "h₁smós",
-                        "_ira active prim pl 2": "h₁sté",
-                        "_ira active prim pl 3": "h₁sénti",
-                        "_ira active sec sg 1": "h₁ésm̥",
-                        "_ira active sec sg 2": "h₁és",
-                        "_ira active sec sg 3": "h₁ést",
-                        "_ira active sec dual 1": "h₁swé",
-                        "_ira active sec dual 2": "h₁stóm",
-                        "_ira active sec dual 3": "h₁stā́m",
-                        "_ira active sec pl 1": "h₁smé",
-                        "_ira active sec pl 2": "h₁sté",
-                        "_ira active sec pl 3": "h₁sént",
-                        "_ira active imp sg 2": "h₁és",
-                        "_ira active imp sg 3": "h₁éstu",
-                        "_ira active imp dual 2": "h₁stóm",
-                        "_ira active imp dual 3": "h₁stā́m",
-                        "_ira active imp pl 2": "h₁sté",
-                        "_ira active imp pl 3": "h₁séntu"
+                        "_std active prim sg 1": "h₁ésmi",
+                        "_std active prim sg 2": "h₁ési",
+                        "_std active prim sg 3": "h₁ésti",
+                        "_std active prim dual 1": "h₁swós",
+                        "_std active prim dual 2": "h₁stés",
+                        "_std active prim dual 3": "h₁stés",
+                        "_std active prim pl 1": "h₁smós",
+                        "_std active prim pl 2": "h₁sté",
+                        "_std active prim pl 3": "h₁sénti",
+                        "_std active sec sg 1": "h₁ésm̥",
+                        "_std active sec sg 2": "h₁és",
+                        "_std active sec sg 3": "h₁ést",
+                        "_std active sec dual 1": "h₁swé",
+                        "_std active sec dual 2": "h₁stóm",
+                        "_std active sec dual 3": "h₁stā́m",
+                        "_std active sec pl 1": "h₁smé",
+                        "_std active sec pl 2": "h₁sté",
+                        "_std active sec pl 3": "h₁sént",
+                        "_std active imp sg 2": "h₁és",
+                        "_std active imp sg 3": "h₁éstu",
+                        "_std active imp dual 2": "h₁stóm",
+                        "_std active imp dual 3": "h₁stā́m",
+                        "_std active imp pl 2": "h₁sté",
+                        "_std active imp pl 3": "h₁séntu"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "e-es-ta"
+                        "_std active sec sg 3": "e-es-ta"
                     }
                 }
             }
@@ -280,21 +280,21 @@
     },
     {
         "PIE": "*ḱlew-",
-        "char": "令",
+        "char": "聆",
         "meanings": "to hear",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1lew-",
-            "https://www.dong-chinese.com/wiki/令"
+            "https://www.dong-chinese.com/wiki/%E8%81%86"
         ],
-        "character_hint": "Depicts a person (卩) receiving commands from a mouth (口) above them. ",
+        "character_hint": "Repesents an ear (耳) hearing a command (令).",
         "id": "HEAR",
         "inflections": {
             "pie": {
                 "": {
                     "verb": {
-                        "_pra active imp sg 2": "ḱludʰí",
-                        "_srr active part sg 3": "ḱeḱluwṓs"
+                        "_std active imp sg 2": "ḱludʰí",
+                        "_dup active part sg 3": "ḱeḱluwṓs"
                     }
                 }
             }
@@ -375,29 +375,29 @@
     },
     {
         "PIE": "*h₂egʰ-",
-        "char": "凶",
+        "char": "悲",
         "meanings": "to be upset, afraid",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eg%CA%B0-",
-            "https://www.dong-chinese.com/wiki/凶"
+            "https://www.dong-chinese.com/wiki/悲"
         ],
-        "character_hint": "Pictograph of a trap in the ground.",
+        "character_hint": "Represents the heart (心) in a negative (非) mood.",
         "id": "UPSET",
         "inflections": {
             "pie": {
-                "newti": {
+                "": {
                     "verb": {
-                        "_ira middle prim sg 1": "h₂egʰnuh₂ér",
-                        "_ira middle prim sg 2": "h₂egʰnuth₂ér",
-                        "_ira middle prim sg 3": "h₂egʰnutór",
-                        "_ira middle prim dual 1": "h₂egʰnuwósdʰh₂",
-                        "_ira middle prim dual 2": "",
-                        "_ira middle prim dual 3": "",
-                        "_ira middle prim pl 1": "h₂egʰnumósdʰh₂",
-                        "_ira middle prim pl 2": "h₂egʰnudʰh₂wé",
-                        "_ira middle prim pl 3": "h₂egʰnurór",
-                        "_ira middle part sg 3": "h₂egʰn̥wm̥h₁nós"
+                        "_newti middle prim sg 1": "h₂egʰnuh₂ér",
+                        "_newti middle prim sg 2": "h₂egʰnuth₂ér",
+                        "_newti middle prim sg 3": "h₂egʰnutór",
+                        "_newti middle prim dual 1": "h₂egʰnuwósdʰh₂",
+                        "_newti middle prim dual 2": "",
+                        "_newti middle prim dual 3": "",
+                        "_newti middle prim pl 1": "h₂egʰnumósdʰh₂",
+                        "_newti middle prim pl 2": "h₂egʰnudʰh₂wé",
+                        "_newti middle prim pl 3": "h₂egʰnurór",
+                        "_newti middle part sg 3": "h₂egʰn̥wm̥h₁nós"
                     }
                 }
             }
@@ -405,28 +405,28 @@
     },
     {
         "PIE": "*h₃ep-",
-        "char": "力",
+        "char": "功",
         "meanings": "to work, toil, make; ability, force",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83ep-",
-            "https://www.dong-chinese.com/wiki/力"
+            "https://www.dong-chinese.com/wiki/功"
         ],
-        "character_hint": "Pictograph of a plow, which requires strength to operate.",
+        "character_hint": "Represents using one's power (力) to do work (工).",
         "id": "TOIL",
         "inflections": {
             "pie": {
                 "": {
                     "verb": {
-                        "_pra active sec sg 1": "h₃epm̥",
-                        "_pra active sec sg 2": "h₃eps",
-                        "_pra active sec sg 3": "h₃ept",
-                        "_pra active sec dual 1": "h₃epwe",
-                        "_pra active sec dual 2": "h₃eptom",
-                        "_pra active sec dual 3": "h₃eptām",
-                        "_pra active sec pl 1": "h₃epme",
-                        "_pra active sec pl 2": "h₃epte",
-                        "_pra active sec pl 3": "h₃epn̥t"
+                        "_std active sec sg 1": "h₃epm̥",
+                        "_std active sec sg 2": "h₃eps",
+                        "_std active sec sg 3": "h₃ept",
+                        "_std active sec dual 1": "h₃epwe",
+                        "_std active sec dual 2": "h₃eptom",
+                        "_std active sec dual 3": "h₃eptām",
+                        "_std active sec pl 1": "h₃epme",
+                        "_std active sec pl 2": "h₃epte",
+                        "_std active sec pl 3": "h₃epn̥t"
                     }
                 },
                 "r yo_s": {
@@ -511,14 +511,15 @@
     },
     {
         "PIE": "*-kʷe",
-        "char": "合",
+        "char": "並",
         "meanings": "and; Forms distributives from interrogatives.",
         "pos": "conj",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e",
-            "https://www.dong-chinese.com/wiki/合"
+            "https://www.dong-chinese.com/wiki/合",
+            "https://www.dong-chinese.com/wiki/並"
         ],
-        "character_hint": "Depicts two mouths talking to each other.",
+        "character_hint": "Depits two people standing (立) side by side.",
         "id": "AND",
         "hittite": "ya"
     },
@@ -674,29 +675,29 @@
     },
     {
         "PIE": "*bʰegʷ-",
-        "char": "奔",
+        "char": "逃",
         "meanings": "to flee; to run",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0eg%CA%B7-",
-            "https://www.dong-chinese.com/wiki/奔"
+            "https://www.dong-chinese.com/wiki/逃"
         ],
         "id": "FLEE",
-        "character_hint": "Like 走 (walk), depicts a 大 (man) but with more than one 止 (foot) to indicate faster movement.",
+        "character_hint": "Originally written as 兆, a pictograph of two people escaping a flood. The 辶 (walk) component was added later to clarify the meaning.",
         "inflections": {
             "pie": {
                 "": {
                     "verb": {
-                        "_irt active sec sg 1": "bʰegʷom",
-                        "_irt active sec sg 2": "bʰegʷes",
-                        "_irt active sec sg 3": "bʰegʷet",
-                        "_irt active sec dual 1": "bʰegʷowe",
-                        "_irt active sec dual 2": "bʰegʷetom",
-                        "_irt active sec dual 3": "bʰegʷetām",
-                        "_irt active sec pl 1": "bʰegʷome",
-                        "_irt active sec pl 2": "bʰegʷete",
-                        "_irt active sec pl 3": "bʰegʷont",
-                        "_irt active part sg 3": "bʰegʷonts"
+                        "_std active sec sg 1": "bʰegʷom",
+                        "_std active sec sg 2": "bʰegʷes",
+                        "_std active sec sg 3": "bʰegʷet",
+                        "_std active sec dual 1": "bʰegʷowe",
+                        "_std active sec dual 2": "bʰegʷetom",
+                        "_std active sec dual 3": "bʰegʷetām",
+                        "_std active sec pl 1": "bʰegʷome",
+                        "_std active sec pl 2": "bʰegʷete",
+                        "_std active sec pl 3": "bʰegʷont",
+                        "_std active part sg 3": "bʰegʷonts"
                     }
                 }
             }
@@ -874,18 +875,18 @@
     },
     {
         "PIE": "*h₂eḱ-",
-        "char": "才",
+        "char": "利",
         "meanings": "sharp",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%E1%B8%B1-",
-            "https://www.dong-chinese.com/wiki/才"
+            "https://www.dong-chinese.com/wiki/利"
         ],
         "id": "SHARP",
-        "character_hint": "Originally a pictograph of a wooden post, similar to 弋.",
+        "character_hint": "Depicts harvesting grain (禾) with a blade (刂).",
         "inflections": {
             "pie": {
-                "us": {
+                "": {
                     "adj": {
                         "n sg nom": "h₂eḱu",
                         "n sg voc": "h₂eḱu",
@@ -912,27 +913,27 @@
     },
     {
         "PIE": "*gʷʰer-",
-        "char": "昜",
+        "char": "溫",
         "meanings": "warm, hot",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%CA%B0er-",
-            "https://www.dong-chinese.com/wiki/昜"
+            "https://www.dong-chinese.com/wiki/溫"
         ],
         "id": "WARM",
-        "character_hint": "Depicts rays (彡) of sunlight (日) shining through tree branches (丂).",
+        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 𥁕 represents the sound. ",
         "inflections": {
             "pie": {
-                "mos": {
-                    "noun": {
-                        "sg nom": "gʷʰermós",
-                        "sg voc": "gʷʰermé",
-                        "sg acc": "gʷʰermóm",
-                        "sg gen": "gʷʰermósyo",
-                        "sg abl": "gʷʰerméad",
-                        "sg dat": "gʷʰermóey",
-                        "sg loc": "gʷʰerméy",
-                        "sg ins": "gʷʰermóh₁"
+                "": {
+                    "adj": {
+                        "m sg nom": "gʷʰermós",
+                        "m sg voc": "gʷʰermé",
+                        "m sg acc": "gʷʰermóm",
+                        "m sg gen": "gʷʰermósyo",
+                        "m sg abl": "gʷʰerméad",
+                        "m sg dat": "gʷʰermóey",
+                        "m sg loc": "gʷʰerméy",
+                        "m sg ins": "gʷʰermóh₁"
                     }
                 }
             }
@@ -971,24 +972,24 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_prr active sec sg 1": "wéwkom",
-                        "_prr active sec sg 2": "wéwkes",
-                        "_prr active sec sg 3": "wéwket",
-                        "_prr active sec dual 1": "wéwkowe",
-                        "_prr active sec dual 2": "wéwketom",
-                        "_prr active sec dual 3": "wéwketām",
-                        "_prr active sec pl 1": "wéwkome",
-                        "_prr active sec pl 2": "wéwkete",
-                        "_prr active sec pl 3": "wéwkont",
-                        "_prr active part sg 3": "wéwkonts",
-                        "_ira active imp sg 2": "wekʷdʰí"
+                        "_dup active sec sg 1": "wéwkom",
+                        "_dup active sec sg 2": "wéwkes",
+                        "_dup active sec sg 3": "wéwket",
+                        "_dup active sec dual 1": "wéwkowe",
+                        "_dup active sec dual 2": "wéwketom",
+                        "_dup active sec dual 3": "wéwketām",
+                        "_dup active sec pl 1": "wéwkome",
+                        "_dup active sec pl 2": "wéwkete",
+                        "_dup active sec pl 3": "wéwkont",
+                        "_dup active part sg 3": "wéwkonts",
+                        "_std active imp sg 2": "wekʷdʰí"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_ira active imp sg 2": "QÍ-BÍ"
+                        "_std active imp sg 2": "QÍ-BÍ"
                     }
                 }
             }
@@ -1146,7 +1147,7 @@
                 },
                 "": {
                     "verb": {
-                        "_ira active sec sg 1": "h₂welh₁m̥"
+                        "_std active sec sg 1": "h₂welh₁m̥"
                     }
                 }
             },
@@ -1158,7 +1159,7 @@
                 },
                 "": {
                     "verb": {
-                        "_ira active sec sg 1": "hu-ul-la-nu-un"
+                        "_std active sec sg 1": "hu-ul-la-nu-un"
                     }
                 }
             }
@@ -1177,16 +1178,17 @@
         "character_hint": "Pictograph of a feather.",
         "inflections": {
             "pie": {
-                "nos": {
-                    "noun": {
-                        "sg nom": "h₂wĺ̥h₁neh₂",
-                        "sg voc": "h₂wĺ̥h₁neh₂",
-                        "sg acc": "h₂wĺ̥h₁nām",
-                        "sg gen": "h₂wĺ̥h₁neh₂s",
-                        "sg abl": "h₂wĺ̥h₁neh₂s",
-                        "sg dat": "h₂wĺ̥h₁neh₂ey",
-                        "sg loc": "h₂wĺ̥h₁neh₂i",
-                        "sg ins": "h₂wĺ̥h₁neh₂h₁"
+                "nos": {},
+                "": {
+                    "adj": {
+                        "f sg nom": "h₂wĺ̥h₁neh₂",
+                        "f sg voc": "h₂wĺ̥h₁neh₂",
+                        "f sg acc": "h₂wĺ̥h₁nām",
+                        "f sg gen": "h₂wĺ̥h₁neh₂s",
+                        "f sg abl": "h₂wĺ̥h₁neh₂s",
+                        "f sg dat": "h₂wĺ̥h₁neh₂ey",
+                        "f sg loc": "h₂wĺ̥h₁neh₂i",
+                        "f sg ins": "h₂wĺ̥h₁neh₂h₁"
                     }
                 }
             }
@@ -1300,23 +1302,23 @@
             "pie": {
                 "ye_ti": {
                     "verb": {
-                        "_ira active prim sg 1": "ǵenh₁yóh₂",
-                        "_ira active prim sg 2": "ǵenh₁yési",
-                        "_ira active prim sg 3": "ǵenh₁yéti",
-                        "_ira middle prim sg 1": "ǵenh₁yóh₂er",
-                        "_ira middle prim sg 2": "ǵenh₁yéth₂er",
-                        "_ira middle prim sg 3": "ǵenh₁yétor",
-                        "_ira middle imp sg 2": "",
-                        "_ira middle imp sg 3": "",
-                        "_ira active imp sg 3": "ǵenh₁yétod",
-                        "_ira active imp sg 2": "ǵenh₁yédʰi"
+                        "_std active prim sg 1": "ǵenh₁yóh₂",
+                        "_std active prim sg 2": "ǵenh₁yési",
+                        "_std active prim sg 3": "ǵenh₁yéti",
+                        "_std middle prim sg 1": "ǵenh₁yóh₂er",
+                        "_std middle prim sg 2": "ǵenh₁yéth₂er",
+                        "_std middle prim sg 3": "ǵenh₁yétor",
+                        "_std middle imp sg 2": "",
+                        "_std middle imp sg 3": "",
+                        "_std active imp sg 3": "ǵenh₁yétod",
+                        "_std active imp sg 2": "ǵenh₁yédʰi"
                     }
                 },
                 "": {
                     "verb": {
-                        "_ira active prim sg 1": "ǵenh₁mi",
-                        "_ira active prim sg 2": "ǵenh₁si",
-                        "_ira active prim sg 3": "ǵenh₁ti",
+                        "_std active prim sg 1": "ǵenh₁mi",
+                        "_std active prim sg 2": "ǵenh₁si",
+                        "_std active prim sg 3": "ǵenh₁ti",
                         "_ire active prim sg 1": "",
                         "_irr active prim sg 1": "",
                         "_irr active prim sg 3": "ǵíǵn̥h₁eti",
@@ -1414,8 +1416,11 @@
         "meanings": "to see; eye",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83ek%CA%B7-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83ek%CA%B7-",
+            "https://www.dong-chinese.com/wiki/目"
+        ],
+        "id": "EYE",
+        "character_hint": "Pictograph of an eye."
     },
     {
         "PIE": "*h₃reǵ-",
@@ -1483,29 +1488,29 @@
     },
     {
         "PIE": "*speḱ-",
-        "char": "看",
+        "char": "眎",
         "meanings": "to see, to look, to observe",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/spe%E1%B8%B1-",
-            "https://www.dong-chinese.com/wiki/看"
+            "https://www.dong-chinese.com/wiki/眎"
         ],
         "id": "LOOK",
-        "character_hint": "Phonosemantic compound. 目 represents the meaning and 倝 represents the sound.",
+        "character_hint": "Phonosemantic compound. 目 represents the meaning and 示 represents the sound.",
         "inflections": {
             "pie": {
-                "yeti": {
+                "": {
                     "verb": {
-                        "_ira active prim sg 1": "spéḱyoh₂",
-                        "_ira active prim sg 2": "spéḱyesi",
-                        "_ira active prim sg 3": "spéḱyeti",
-                        "_ira active prim dual 1": "spéḱyowos",
-                        "_ira active prim dual 2": "spéḱyetes",
-                        "_ira active prim dual 3": "spéḱyetes",
-                        "_ira active prim pl 1": "spéḱyomos",
-                        "_ira active prim pl 2": "spéḱyete",
-                        "_ira active prim pl 3": "spéḱyonti",
-                        "_ira active part sg 3": "spéḱyonts"
+                        "_yeti active prim sg 1": "spéḱyoh₂",
+                        "_yeti active prim sg 2": "spéḱyesi",
+                        "_yeti active prim sg 3": "spéḱyeti",
+                        "_yeti active prim dual 1": "spéḱyowos",
+                        "_yeti active prim dual 2": "spéḱyetes",
+                        "_yeti active prim dual 3": "spéḱyetes",
+                        "_yeti active prim pl 1": "spéḱyomos",
+                        "_yeti active prim pl 2": "spéḱyete",
+                        "_yeti active prim pl 3": "spéḱyonti",
+                        "_yeti active part sg 3": "spéḱyonts"
                     }
                 }
             }
@@ -1601,25 +1606,25 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active prim sg 1": "welh₁mi",
-                        "_ira active prim sg 2": "welh₁si",
-                        "_ira active prim sg 3": "welh₁ti",
-                        "_ira active sec sg 1": "welh₁m",
-                        "_ira active sec sg 2": "welh₁s",
-                        "_ira active sec sg 3": "welh₁t",
-                        "_ira active opt sg 1": "welh₁yéh₁m̥",
-                        "_ira active opt sg 2": "welh₁yéh₁s",
-                        "_ira active opt sg 3": "welh₁yéh₁t",
-                        "_ira active imp sg 1": "",
-                        "_ira active imp sg 2": "",
-                        "_ira active imp sg 3": "",
-                        "_ira active subj sg 1": "welh₁oh₂",
-                        "_ira active subj sg 2": "welh₁esi",
-                        "_ira active subj sg 3": "welh₁eti",
-                        "_ira active part sg 3": "welh₁ónts",
-                        "_ira middle sec sg 1": "welh₁h₂é",
-                        "_ira middle sec sg 2": "welh₁th₂é",
-                        "_ira middle sec sg 3": "welh₁tó"
+                        "_std active prim sg 1": "welh₁mi",
+                        "_std active prim sg 2": "welh₁si",
+                        "_std active prim sg 3": "welh₁ti",
+                        "_std active sec sg 1": "welh₁m",
+                        "_std active sec sg 2": "welh₁s",
+                        "_std active sec sg 3": "welh₁t",
+                        "_std active opt sg 1": "welh₁yéh₁m̥",
+                        "_std active opt sg 2": "welh₁yéh₁s",
+                        "_std active opt sg 3": "welh₁yéh₁t",
+                        "_std active imp sg 1": "",
+                        "_std active imp sg 2": "",
+                        "_std active imp sg 3": "",
+                        "_std active subj sg 1": "welh₁oh₂",
+                        "_std active subj sg 2": "welh₁esi",
+                        "_std active subj sg 3": "welh₁eti",
+                        "_std active part sg 3": "welh₁ónts",
+                        "_std middle sec sg 1": "welh₁h₂é",
+                        "_std middle sec sg 2": "welh₁th₂é",
+                        "_std middle sec sg 3": "welh₁tó"
                     }
                 }
             }
@@ -1716,15 +1721,15 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_pra active sec sg 1": "derḱm̥",
-                        "_pra active sec sg 2": "derḱs",
-                        "_pra active sec sg 3": "derḱt",
-                        "_pra active sec dual 1": "derḱwé",
-                        "_pra active sec dual 2": "derḱtóm",
-                        "_pra active sec dual 3": "derḱtā́m",
-                        "_pra active sec pl 1": "derḱmé",
-                        "_pra active sec pl 2": "derḱté",
-                        "_pra active sec pl 3": "derḱént"
+                        "_std active sec sg 1": "derḱm̥",
+                        "_std active sec sg 2": "derḱs",
+                        "_std active sec sg 3": "derḱt",
+                        "_std active sec dual 1": "derḱwé",
+                        "_std active sec dual 2": "derḱtóm",
+                        "_std active sec dual 3": "derḱtā́m",
+                        "_std active sec pl 1": "derḱmé",
+                        "_std active sec pl 2": "derḱté",
+                        "_std active sec pl 3": "derḱént"
                     }
                 }
             }
@@ -1755,12 +1760,10 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_irt active sec sg 1": "bʰérom",
-                        "_irt active sec sg 2": "bʰéres",
-                        "_irt active sec sg 3": "bʰéret"
-                    }
-                },
-                "o_s": {
+                        "_std active sec sg 1": "bʰérom",
+                        "_std active sec sg 2": "bʰéres",
+                        "_std active sec sg 3": "bʰéret"
+                    },
                     "noun": {
                         "sg nom": "bʰérōs",
                         "sg voc": "bʰéros",
@@ -1795,50 +1798,66 @@
     },
     {
         "PIE": "*weǵʰ-",
-        "char": "輦",
+        "char": "曳",
         "meanings": "to bring; to transport",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/we%C7%B5%CA%B0-",
-            "https://www.dong-chinese.com/wiki/輦"
+            "https://www.dong-chinese.com/wiki/%E6%9B%B3"
         ],
         "id": "TRANSPORT",
-        "character_hint": "Depicts two people (夫) pulling a chariot (車) together.",
+        "character_hint": "Pictograph of two hands pulling something.",
         "inflections": {
             "pie": {
-                "o_s": {
-                    "adj": {
-                        "m sg nom": "weǵʰōs",
-                        "m sg voc": "weǵʰōs",
-                        "m sg acc": "weǵʰosm̥",
-                        "m sg gen": "weǵʰosos",
-                        "m sg abl": "weǵʰosos",
-                        "m sg dat": "weǵʰosey",
-                        "m sg loc": "weǵʰosi",
-                        "m sg ins": "weǵʰosh₁"
-                    }
-                },
                 "": {
                     "verb": {
-                        "_irt active sec sg 1": "wéǵʰom",
-                        "_irt active sec sg 2": "wéǵʰes",
-                        "_irt active sec sg 3": "wéǵʰet",
-                        "_irt active sec dual 1": "wéǵʰowe",
-                        "_irt active sec dual 2": "wéǵʰetom",
-                        "_irt active sec dual 3": "wéǵʰetām",
-                        "_irt active sec pl 1": "wéǵʰome",
-                        "_irt active sec pl 2": "wéǵʰete",
-                        "_irt active sec pl 3": "wéǵʰont",
-                        "_irt active prim sg 1": "wéǵʰoh₂",
-                        "_irt active prim sg 2": "wéǵʰesi",
-                        "_irt active prim sg 3": "wéǵʰeti",
-                        "_irt active prim dual 1": "wéǵʰowos",
-                        "_irt active prim dual 2": "wéǵʰetes",
-                        "_irt active prim dual 3": "wéǵʰetes",
-                        "_irt active prim pl 1": "wéǵʰomos",
-                        "_irt active prim pl 2": "wéǵʰete",
-                        "_irt active prim pl 3": "wéǵʰonti",
-                        "_irt active part sg 3": "wéǵʰonts"
+                        "_std active sec sg 1": "wéǵʰom",
+                        "_std active sec sg 2": "wéǵʰes",
+                        "_std active sec sg 3": "wéǵʰet",
+                        "_std active sec dual 1": "wéǵʰowe",
+                        "_std active sec dual 2": "wéǵʰetom",
+                        "_std active sec dual 3": "wéǵʰetām",
+                        "_std active sec pl 1": "wéǵʰome",
+                        "_std active sec pl 2": "wéǵʰete",
+                        "_std active sec pl 3": "wéǵʰont",
+                        "_std active prim sg 1": "wéǵʰoh₂",
+                        "_std active prim sg 2": "wéǵʰesi",
+                        "_std active prim sg 3": "wéǵʰeti",
+                        "_std active prim dual 1": "wéǵʰowos",
+                        "_std active prim dual 2": "wéǵʰetes",
+                        "_std active prim dual 3": "wéǵʰetes",
+                        "_std active prim pl 1": "wéǵʰomos",
+                        "_std active prim pl 2": "wéǵʰete",
+                        "_std active prim pl 3": "wéǵʰonti",
+                        "_std active part sg 3": "wéǵʰonts"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "PIE": "*weǵʰōs",
+        "char": "⿰車曳",
+        "meanings": "wagon; that which transports",
+        "pos": "root",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/we%C7%B5%CA%B0-",
+            "https://www.dong-chinese.com/wiki/%E6%9B%B3"
+        ],
+        "id": "TRANSPORT_os",
+        "character_hint": "車 + 曳",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "weǵʰōs",
+                        "sg voc": "weǵʰōs",
+                        "sg acc": "weǵʰosm̥",
+                        "sg gen": "weǵʰosos",
+                        "sg abl": "weǵʰosos",
+                        "sg dat": "weǵʰosey",
+                        "sg loc": "weǵʰosi",
+                        "sg ins": "weǵʰosh₁"
                     }
                 }
             }
@@ -1857,7 +1876,7 @@
         "character_hint": "Pictograph of a person (亻) carrying a heavy basket (東) on their back.",
         "inflections": {
             "pie": {
-                "us": {
+                "": {
                     "adj": {
                         "m sg nom": "gʷréh₂us",
                         "m sg voc": "gʷréh₂u",
@@ -2011,18 +2030,6 @@
                         "sg loc": "ǵʰémi",
                         "sg ins": "ǵʰméh₁"
                     }
-                },
-                "o": {
-                    "noun": {
-                        "sg nom": "dʰǵʰémō",
-                        "sg voc": "dʰǵʰémon",
-                        "sg acc": "dʰǵʰémonm̥",
-                        "sg gen": "dʰǵʰémnés",
-                        "sg abl": "dʰǵʰémnés",
-                        "sg dat": "dʰǵʰémnéy",
-                        "sg loc": "dʰǵʰéméni",
-                        "sg ins": "dʰǵʰémnéh₁"
-                    }
                 }
             }
         }
@@ -2098,12 +2105,15 @@
     },
     {
         "PIE": "*(me)mógʰe",
-        "char": "",
+        "char": "力",
         "meanings": "to have power, to be able to",
         "pos": "verb",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(me)m%C3%B3g%CA%B0e"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/(me)m%C3%B3g%CA%B0e",
+            "https://www.dong-chinese.com/wiki/力"
+        ],
+        "id": "MIGHT",
+        "character_hint": "Pictograph of a plow, which requires strength to operate."
     },
     {
         "PIE": "*(s)gʷes-",
@@ -3424,21 +3434,18 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_pra active sec sg 1": "déh₃m̥",
-                        "_pra active sec sg 2": "déh₃s",
-                        "_pra active sec sg 3": "déh₃t",
-                        "_ira active sec sg 3": "déh₃t",
-                        "_ira active sec sg 2": "déh₃s",
-                        "_ira active sec sg 1": "déh₃m̥"
+                        "_std active sec sg 1": "déh₃m̥",
+                        "_std active sec sg 2": "déh₃s",
+                        "_std active sec sg 3": "déh₃t"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "da-a-as",
-                        "_ira active sec sg 2": "da-a-at-ta",
-                        "_ira active sec sg 1": "da-a-ah-hu-un"
+                        "_std active sec sg 3": "da-a-as",
+                        "_std active sec sg 2": "da-a-at-ta",
+                        "_std active sec sg 1": "da-a-ah-hu-un"
                     }
                 }
             }
@@ -3641,12 +3648,15 @@
     },
     {
         "PIE": "*deyḱ-",
-        "char": "",
+        "char": "示",
         "meanings": "to point out, to show; to speak solemnly[2]",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dey%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dey%E1%B8%B1-",
+            "https://www.dong-chinese.com/wiki/示"
+        ],
+        "id": "SHOW",
+        "character_hint": "Depicts a memorial tablet used for spiritual rituals."
     },
     {
         "PIE": "*dḗyḱst",
@@ -4779,12 +4789,30 @@
     },
     {
         "PIE": "*ǵʰmṓ",
-        "char": "",
+        "char": "⿰亻𡈼",
         "meanings": "earthling",
         "pos": "noun",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0m%E1%B9%93"
-        ]
+        ],
+        "id": "EARTHLING_o",
+        "character_hint": "人+𡈼",
+        "inflections": {
+            "pie": {
+                "": {
+                    "noun": {
+                        "sg nom": "ǵʰémō",
+                        "sg voc": "ǵʰémon",
+                        "sg acc": "ǵʰémonm̥",
+                        "sg gen": "ǵʰm̥nés",
+                        "sg abl": "ǵʰm̥nés",
+                        "sg dat": "ǵʰm̥néy",
+                        "sg loc": "ǵʰméni",
+                        "sg ins": "ǵʰm̥néh"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ǵʰórtos",
@@ -5040,12 +5068,15 @@
     },
     {
         "PIE": "*ǵr̥h₂nóm",
-        "char": "",
+        "char": "禾",
         "meanings": "grain",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5r%CC%A5h%E2%82%82n%C3%B3m"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5r%CC%A5h%E2%82%82n%C3%B3m",
+            "https://www.dong-chinese.com/wiki/禾"
+        ],
+        "id": "GRAIN",
+        "character_hint": "Pictograph of a stalk of millet grain."
     },
     {
         "PIE": "*gʷegʷóme",
@@ -5071,7 +5102,7 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "gʷeh₂t"
+                        "_std active sec sg 3": "gʷeh₂t"
                     }
                 }
             }
@@ -5428,8 +5459,8 @@
             "pie": {
                 "ye_ti": {
                     "verb": {
-                        "_ira middle imp sg 2": "h₁eǵyéso",
-                        "_ira middle sec sg 3": "h₁eǵyéto"
+                        "_std middle imp sg 2": "h₁eǵyéso",
+                        "_std middle sec sg 3": "h₁eǵyéto"
                     }
                 }
             }
@@ -5558,14 +5589,14 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "h₁ept"
+                        "_std active sec sg 3": "h₁ept"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "IṢ-BAT"
+                        "_std active sec sg 3": "IṢ-BAT"
                     }
                 }
             }
@@ -6256,30 +6287,30 @@
     },
     {
         "PIE": "*h₂eǵ-",
-        "char": "爰",
+        "char": "駕",
         "meanings": "to drive",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-",
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%C7%B5eti",
-            "https://www.dong-chinese.com/wiki/爰"
+            "https://www.dong-chinese.com/wiki/%E9%A7%95"
         ],
         "id": "DRIVE",
-        "character_hint": "Pictograph of two hands pulling a rope.",
+        "character_hint": "Phonosemantic compound. 馬 represents the meaning and 加 represents the sound.",
         "inflections": {
             "pie": {
                 "": {
                     "verb": {
-                        "_irt active prim sg 1": "h₂éǵoh₂",
-                        "_irt active prim sg 2": "h₂éǵesi",
-                        "_irt active prim sg 3": "h₂éǵeti",
-                        "_irt active prim dual 1": "h₂éǵowos",
-                        "_irt active prim dual 2": "h₂éǵetes",
-                        "_irt active prim dual 3": "h₂éǵetes",
-                        "_irt active prim pl 1": "h₂éǵomos",
-                        "_irt active prim pl 2": "h₂éǵete",
-                        "_irt active prim pl 3": "h₂éǵonti",
-                        "_irt active part sg 3": "h₂éǵonts"
+                        "_std active prim sg 1": "h₂éǵoh₂",
+                        "_std active prim sg 2": "h₂éǵesi",
+                        "_std active prim sg 3": "h₂éǵeti",
+                        "_std active prim dual 1": "h₂éǵowos",
+                        "_std active prim dual 2": "h₂éǵetes",
+                        "_std active prim dual 3": "h₂éǵetes",
+                        "_std active prim pl 1": "h₂éǵomos",
+                        "_std active prim pl 2": "h₂éǵete",
+                        "_std active prim pl 3": "h₂éǵonti",
+                        "_std active part sg 3": "h₂éǵonts"
                     }
                 }
             }
@@ -6864,7 +6895,23 @@
             "https://www.dong-chinese.com/wiki/旦"
         ],
         "id": "DAWN",
-        "character_hint": "Depicts the sun (日) rising above the horizon (一) at dawn. In Oracle script the bottom component was the phonetic 丁, which was later reanalyzed as the earth or a horizon."
+        "character_hint": "Depicts the sun (日) rising above the horizon (一) at dawn. In Oracle script the bottom component was the phonetic 丁, which was later reanalyzed as the earth or a horizon.",
+        "inflections": {
+            "pie": {
+                "teros": {
+                    "adj": {
+                        "m sg abl": "h₂ewsteread"
+                    }
+                }
+            },
+            "hittite": {
+                "teros": {
+                    "adj": {
+                        "m sg abl": "D:UTU-az"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂ewsér",
@@ -7003,12 +7050,15 @@
     },
     {
         "PIE": "*h₂leg-",
-        "char": "",
+        "char": "𥁕",
         "meanings": "to care for",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82leg-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82leg-",
+            "https://www.dong-chinese.com/wiki/𥁕"
+        ],
+        "id": "CARE",
+        "character_hint": "Depicts feeding a prisoner (囚) with a dish (皿)."
     },
     {
         "PIE": "*h₂lek-",
@@ -7298,12 +7348,15 @@
     },
     {
         "PIE": "*h₂weg-",
-        "char": "",
+        "char": "加",
         "meanings": "to increase, to enlarge",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82weg-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82weg-",
+            "https://www.dong-chinese.com/wiki/加"
+        ],
+        "id": "INCREASE",
+        "character_hint": "Depicts making loud noises with the mouth (口) to add power (力) during manual labor."
     },
     {
         "PIE": "*h₂weh₁-",
@@ -8140,12 +8193,15 @@
     },
     {
         "PIE": "*ḱens-",
-        "char": "",
+        "char": "令",
         "meanings": "to announce, to proclaim; to put in order",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ens-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1ens-",
+            "https://www.dong-chinese.com/wiki/令"
+        ],
+        "id": "ANNOUNCE",
+        "character_hint": "Depicts a person (卩) receiving commands from a mouth (口) above them. "
     },
     {
         "PIE": "*ker-",
@@ -8824,6 +8880,18 @@
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7er-"
         ]
+    },
+    {
+        "PIE": "*kʷer-",
+        "char": "皿",
+        "meanings": "dish; pot",
+        "pos": "noun",
+        "references": [
+            "https://lrc.la.utexas.edu/lex/master/1099",
+            "https://www.dong-chinese.com/wiki/皿"
+        ],
+        "id": "DISH",
+        "character_hint": "Pictograph of a container for holding food."
     },
     {
         "PIE": "*kʷetwóres",
@@ -10938,7 +11006,7 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "preḱt"
+                        "_std active sec sg 3": "preḱt"
                     }
                 }
             }
@@ -10961,6 +11029,18 @@
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pres-"
         ]
+    },
+    {
+        "PIE": "*kōl-",
+        "char": "囚",
+        "meanings": "to be captured; prison",
+        "pos": "root",
+        "references": [
+            "https://lrc.la.utexas.edu/lex/master/0829",
+            "https://www.dong-chinese.com/wiki/囚"
+        ],
+        "id": "PRISON",
+        "character_hint": "Depicts a person (人) trapped inside an enclosure (囗)."
     },
     {
         "PIE": "*prew-",
@@ -12590,14 +12670,14 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "tetḱt"
+                        "_std active sec sg 3": "tetḱt"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "tak-ki-is-ta"
+                        "_std active sec sg 3": "tak-ki-is-ta"
                     }
                 }
             }
@@ -13269,15 +13349,14 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_irt active sec sg 3": "wr̥ǵet",
-                        "_ira active sec sg 3": "wr̥ǵet"
+                        "_std active sec sg 3": "wr̥ǵet"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_ira active sec sg 3": "i-e-et"
+                        "_std active sec sg 3": "i-e-et"
                     }
                 }
             }
@@ -15189,14 +15268,6 @@
         ]
     },
     {
-        "char": "利",
-        "character_hint": "Depicts harvesting grain (禾) with a blade (刂). Harvest was the main source of profit in agricultural societies.",
-        "meanings": "benefit",
-        "references": [
-            "https://www.dong-chinese.com/wiki/利"
-        ]
-    },
-    {
         "char": "凱",
         "character_hint": "Phonosemantic compound. 豈 represents the meaning and 几 represents the sound. ",
         "meanings": "victorious",
@@ -15413,14 +15484,6 @@
         ]
     },
     {
-        "char": "加",
-        "character_hint": "Depicts making loud noises with the mouth (口) to add power (力) during manual labor.",
-        "meanings": "add",
-        "references": [
-            "https://www.dong-chinese.com/wiki/加"
-        ]
-    },
-    {
         "char": "努",
         "character_hint": "Phonosemantic compound. 力 represents the meaning and 奴 represents the sound. ",
         "meanings": "to exert",
@@ -15546,14 +15609,6 @@
         "meanings": "severe, dramatic, theatrical play",
         "references": [
             "https://www.dong-chinese.com/wiki/剧"
-        ]
-    },
-    {
-        "char": "功",
-        "character_hint": "Phonosemantic compound. 力 represents the meaning and 工 represents the sound. ",
-        "meanings": "achievement",
-        "references": [
-            "https://www.dong-chinese.com/wiki/功"
         ]
     },
     {
@@ -16634,14 +16689,6 @@
         "meanings": "table",
         "references": [
             "https://www.dong-chinese.com/wiki/丌"
-        ]
-    },
-    {
-        "char": "並",
-        "character_hint": "Depits two people standing (立) side by side.",
-        "meanings": "side by side",
-        "references": [
-            "https://www.dong-chinese.com/wiki/並"
         ]
     },
     {
@@ -20333,14 +20380,6 @@
         ]
     },
     {
-        "char": "囚",
-        "character_hint": "Depicts a person (人) trapped inside an enclosure (囗).",
-        "meanings": "prisoner",
-        "references": [
-            "https://www.dong-chinese.com/wiki/囚"
-        ]
-    },
-    {
         "char": "困",
         "character_hint": "Depicts a wooden (木) door frame (囗). Based on the original meaning \"doorway, threshold\". The meaning later expanded to \"obstruct\" and \"trap\".",
         "meanings": "to trap, surround; doorway, threshold",
@@ -20954,14 +20993,6 @@
         "meanings": "repent",
         "references": [
             "https://www.dong-chinese.com/wiki/悔"
-        ]
-    },
-    {
-        "char": "悲",
-        "character_hint": "Phonosemantic compound. 心 represents the meaning and 非 represents the sound. ",
-        "meanings": "sorrow",
-        "references": [
-            "https://www.dong-chinese.com/wiki/悲"
         ]
     },
     {
@@ -27317,14 +27348,6 @@
         ]
     },
     {
-        "char": "示",
-        "character_hint": "Depicts a memorial tablet used for spiritual rituals.",
-        "meanings": "show",
-        "references": [
-            "https://www.dong-chinese.com/wiki/示"
-        ]
-    },
-    {
         "char": "祕",
         "character_hint": "Phonosemantic compound. 礻 represents the meaning and 必 represents the sound. ",
         "meanings": "secret, mysterious",
@@ -27434,14 +27457,6 @@
         "meanings": "leave; catch a bird",
         "references": [
             "https://www.dong-chinese.com/wiki/离"
-        ]
-    },
-    {
-        "char": "禾",
-        "character_hint": "Pictograph of a stalk of millet grain.",
-        "meanings": "grain stalk",
-        "references": [
-            "https://www.dong-chinese.com/wiki/禾"
         ]
     },
     {
@@ -29893,14 +29908,6 @@
         ]
     },
     {
-        "char": "溫",
-        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 𥁕 represents the sound. ",
-        "meanings": "lukewarm",
-        "references": [
-            "https://www.dong-chinese.com/wiki/溫"
-        ]
-    },
-    {
         "char": "深",
         "character_hint": "Phonosemantic compound. 氵 represents the meaning and 罙 represents the sound. ",
         "meanings": "deep",
@@ -30509,14 +30516,6 @@
         ]
     },
     {
-        "char": "皿",
-        "character_hint": "Pictograph of a container for holding food.",
-        "meanings": "dish",
-        "references": [
-            "https://www.dong-chinese.com/wiki/皿"
-        ]
-    },
-    {
         "char": "省",
         "character_hint": "Phonosemantic compound. 目 represents the meaning and 生 represents the sound. Based on the original meaning \"eye disease\", now written as 眚. The current meaning is a phonetic loan.",
         "meanings": "save; eye disease",
@@ -30586,14 +30585,6 @@
         "meanings": "finish, exhaust",
         "references": [
             "https://www.dong-chinese.com/wiki/盡"
-        ]
-    },
-    {
-        "char": "目",
-        "character_hint": "Pictograph of an eye.",
-        "meanings": "eye",
-        "references": [
-            "https://www.dong-chinese.com/wiki/目"
         ]
     },
     {
@@ -30786,14 +30777,6 @@
         "meanings": "shield",
         "references": [
             "https://www.dong-chinese.com/wiki/盾"
-        ]
-    },
-    {
-        "char": "眎",
-        "character_hint": "Phonosemantic compound. 目 represents the meaning and 示 represents the sound.",
-        "meanings": "look at",
-        "references": [
-            "https://www.dong-chinese.com/wiki/眎"
         ]
     },
     {
@@ -31938,14 +31921,6 @@
         "meanings": "eyebrows",
         "references": [
             "https://www.dong-chinese.com/wiki/𥄕"
-        ]
-    },
-    {
-        "char": "𥁕",
-        "character_hint": "Depicts feeding a prisoner (囚) with a dish (皿).",
-        "meanings": "compassionate",
-        "references": [
-            "https://www.dong-chinese.com/wiki/𥁕"
         ]
     },
     {
@@ -38346,14 +38321,6 @@
         "meanings": "footprint, trace",
         "references": [
             "https://www.dong-chinese.com/wiki/迹"
-        ]
-    },
-    {
-        "char": "逃",
-        "character_hint": "Phonosemantic compound. 辶 represents the meaning and 兆 represents the sound. ",
-        "meanings": "escape",
-        "references": [
-            "https://www.dong-chinese.com/wiki/逃"
         ]
     },
     {

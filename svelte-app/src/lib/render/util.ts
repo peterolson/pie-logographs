@@ -58,6 +58,9 @@ export function getInflectedForm(
 			.join('');
 		rawSuffixText = word.suffixes.join(' ');
 	}
+	if (word.adjNounFormation) {
+		rawSuffixText = word.adjNounFormation.slice(1);
+	}
 
 	if (word.pos) {
 		const missingInflection = {

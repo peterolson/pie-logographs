@@ -12,7 +12,8 @@ export const anittaText = {
 	URU:ne-e-sa-|as gen sg BEGET us s acc sg SNATCH _ira active sec 3 sg ,  
 	BUT SON us dat pl URU:ne-e-sa-|as gen sg HATE los us n acc sg NOT_THIS WHAT_DEICTIC dat sg CREATE _ira active sec 3 sg ;  
 	MOTHER acc pl DAD acc pl WORK _ira active sec 3 sg .  
-	NOW M:pi-it-ha-a-na-|as gen sg DAD gen sg I gen sg AFTER acc SINGLE m loc AND YEAR os loc POWERFUL nos f sg acc POWERFUL _ira sec 1 sg .`,
+	NOW M:pi-it-ha-a-na-|as gen sg DAD gen sg I gen sg AFTER acc SINGLE m loc AND YEAR os loc POWERFUL nos f sg acc POWERFUL _ira sec 1 sg .  
+	DAWN teros m sg abl`,
 	gloss: `Anitta son of_Pithāna , king of_Kussara , speak thus !
 	heaven at Stormgod dear he_was , 
 	now so Stormgod and when dear he_was , of_Nesa king of_Kussara king ... .
@@ -34,4 +35,4 @@ export const anittaText = {
 	Whatever lands rose up in the direction of the sunrise, I defeated each of the aforementioned.`
 };
 
-// nu MPi-it-ha-a-na-as at-ta-as-ma-as a-ap-pa-an sa-ni-ya ú-et-ti hu-ul-la-an-za-an hu-ul-la-nu-un
+// DUTU-az ut-ne-e ku-it ku-it-pat a-ra-is nu-us hu-u-ma-an-du-us-pat hu-ul-la-nu-un

@@ -1,6 +1,7 @@
 <script lang="ts">
+	import Character from '../routes/char/Character.svelte';
 	import References from '../routes/lexicon/References.svelte';
-	import { suffixes } from './inflection';
+	import { addInflection, addSuffixes, suffixes } from './inflection';
 	import type { LexiconEntry, ParsedWord } from './lexicon.types';
 	import { parse } from './parse';
 	import { renderWord } from './render/renderWords';
@@ -11,6 +12,8 @@
 	export let translation: string;
 
 	let selectedLanguage = 'default';
+	let showTranslation = true;
+	let showTransliteration = true;
 	const parsedText = parse(text, lexicon, gloss, translation);
 
 	let selectedWord: ParsedWord;
@@ -21,10 +24,28 @@ Read as: <select bind:value={selectedLanguage}>
 	<option value="pie">Proto-Indo-European</option>
 	<option value="hittite">Hittite</option>
 </select>
+<label>
+	<input type="checkbox" bind:checked={showTranslation} />
+	Show translation
+</label>
+{#if selectedLanguage === 'hittite'}
+	<label>
+		<input type="checkbox" bind:checked={showTransliteration} />
+		Show transliteration
+	</label>
+{/if}
 
 {#each parsedText as { words, translation }}
 	<p class:cjk={selectedLanguage === 'default'} class:hittite={selectedLanguage === 'hittite'}>
 		{#each words as word, i}
+			{@const renderedWord = renderWord(
+				word,
+				words[i - 1],
+				words[i + 1],
+				selectedLanguage,
+				lexicon,
+				'cuneiform'
+			)}
 			<a
 				href="/lexicon/{word.id}"
 				class:selected={selectedWord === word}
@@ -32,16 +53,11 @@ Read as: <select bind:value={selectedLanguage}>
 					e.preventDefault();
 					selectedWord = word;
 				}}
-				><span
-					>{renderWord(
-						word,
-						words[i - 1],
-						words[i + 1],
-						selectedLanguage,
-						lexicon,
-						'cuneiform'
-					)}</span
-				>{#if selectedLanguage === 'hittite'}<span class="transliteration"
+				>{#if selectedLanguage === 'default'}<Character char={word.char || ''} /><Character
+						char={addSuffixes(word)}
+					/><Character char={addInflection(word)} />{:else}<span>{renderedWord}</span
+					>{/if}{#if selectedLanguage === 'hittite' && showTransliteration}<span
+						class="transliteration"
 						>{renderWord(
 							word,
 							words[i - 1],
@@ -54,7 +70,9 @@ Read as: <select bind:value={selectedLanguage}>
 			>
 		{/each}
 	</p>
-	<p class="translation">{translation}</p>
+	{#if showTranslation}
+		<p class="translation">{translation}</p>
+	{/if}
 {/each}
 
 {#if selectedWord}
@@ -135,5 +153,6 @@ Read as: <select bind:value={selectedLanguage}>
 	.translation {
 		font-size: 0.8em;
 		opacity: 0.7;
+		margin-bottom: 8px;
 	}
 </style>

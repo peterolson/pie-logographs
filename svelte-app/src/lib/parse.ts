@@ -15,7 +15,9 @@ import {
 	type Voice,
 	type FormationType,
 	isDeterminer,
-	parseDeterminer
+	parseDeterminer,
+	adjNounFormations,
+	type AdjNounFormationType
 } from './inflection.js';
 import type { LexiconEntry, ParsedWord } from './lexicon.types.js';
 
@@ -65,6 +67,8 @@ function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
 			currentWord.suffixes.push(token);
 		} else if (token in formationTypes) {
 			currentWord.formation = token as FormationType;
+		} else if (token in adjNounFormations) {
+			currentWord.adjNounFormation = token as AdjNounFormationType;
 		} else {
 			console.error('Unknown token: ' + token);
 		}

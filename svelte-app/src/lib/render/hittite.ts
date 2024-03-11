@@ -147,7 +147,8 @@ export const sumerograms: Record<string, string> = {
 	LUGAL: '𒈗', // https://en.wikipedia.org/wiki/Lugal,
 	ISKUR: '𒅎', // https://en.wiktionary.org/wiki/%F0%92%80%AD%F0%92%85%8E
 	URU: '𒌷', // https://en.wiktionary.org/wiki/%F0%92%8C%B7
-	MEŠ: '𒈨𒌍' // https://en.wikipedia.org/wiki/Me%C5%A1
+	MEŠ: '𒈨𒌍', // https://en.wikipedia.org/wiki/Me%C5%A1
+	UTU: '𒌓' // https://en.wiktionary.org/wiki/%F0%92%80%AD%F0%92%8C%93#Sumerian
 };
 
 function renderCuneiformSyllables(word: string): string {

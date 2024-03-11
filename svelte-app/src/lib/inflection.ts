@@ -5,6 +5,11 @@ export const numbers = ['sg', 'dual', 'pl'] as const;
 export const genders = ['m', 'f', 'n'] as const;
 export const cases = ['nom', 'gen', 'dat', 'acc', 'ins', 'loc', 'voc', 'abl'] as const;
 
+export const adjNounFormations = {
+	_trom: 'Nouns denoting a tool or instrument (from PIE suffix *-trom)',
+	_nos: 'Verbal adjective from roots (from PIE suffix *-nós)'
+} as const;
+
 export const persons = ['1', '2', '3'] as const;
 export const voices = ['active', 'middle', 'stative'] as const;
 export const verbTypes = {
@@ -17,19 +22,10 @@ export const verbTypes = {
 } as const;
 
 export const formationTypes = {
-	_ira: 'imperfective root athematic',
-	_iran: 'imperfective root athematic (Narten type)',
-	_irt: 'imperfective root thematic',
-	_irtt: 'imperfective root thematic (tudati type)',
-	_ire: 'imperfective e-reduplicated athematic',
-	_iri: 'imperfective i-reduplicated athematic',
-	_irr: 'imperfective reduplicated thematic',
-	_irn: 'imperfective nasal infix',
-	_pra: 'perfective root athematic',
-	_prt: 'perfective root thematic',
-	_prr: 'perfective reduplicated thematic',
-	_sr: 'stative root',
-	_srr: 'stative reduplicated'
+	_std: 'Standard',
+	_dup: 'Reduplicated',
+	_yeti: 'Transitive imperfective (from PIE suffix *-yéti)',
+	_newti: 'Transitive imperfective (from PIE suffix *-néwti)'
 } as const;
 export type GrammaticalNumber = (typeof numbers)[number];
 export type Gender = (typeof genders)[number];
@@ -38,6 +34,7 @@ export type Person = (typeof persons)[number];
 export type Voice = (typeof voices)[number];
 export type VerbType = keyof typeof verbTypes;
 export type FormationType = keyof typeof formationTypes;
+export type AdjNounFormationType = keyof typeof adjNounFormations;
 
 export const suffixes: Record<
 	string,
@@ -524,7 +521,12 @@ function hangulSyllable(initial: string, medial: string, final: string) {
 	return String.fromCharCode(44032 + initialIndex * 588 + medialIndex * 28 + finalIndex);
 }
 
-function convertAdjInflection(gen: Gender | '', num: GrammaticalNumber, cas: Case) {
+function convertAdjInflection(
+	gen: Gender | '',
+	num: GrammaticalNumber,
+	cas: Case,
+	adjNounFormation?: AdjNounFormationType
+) {
 	const initials = {
 		m: {
 			sg: 'ㄱ',
@@ -558,8 +560,13 @@ function convertAdjInflection(gen: Gender | '', num: GrammaticalNumber, cas: Cas
 		loc: 'ㅐ',
 		abl: 'ㅔ'
 	};
+	const finals = {
+		_trom: 'ㄷ',
+		_nos: 'ㄴ'
+	};
 	const medial = medials[cas];
-	return hangulSyllable(initial, medial, '');
+	const final = adjNounFormation ? finals[adjNounFormation] : '';
+	return hangulSyllable(initial, medial, final);
 }
 
 function convertVerbInflection(
@@ -615,19 +622,10 @@ function convertVerbInflection(
 	};
 	const medial = medials[voice][type];
 	const finals = {
-		_ira: '',
-		_iran: 'ㅇ',
-		_irt: 'ㄱ',
-		_irtt: 'ㄷ',
-		_ire: 'ㄵ',
-		_iri: 'ㄶ',
-		_irr: 'ㄲ',
-		_irn: 'ㅁ',
-		_pra: 'ㅅ',
-		_prt: 'ㅈ',
-		_prr: 'ㅆ',
-		_sr: 'ㅂ',
-		_srr: 'ㅍ'
+		_std: 'ㄱ',
+		_dup: 'ㄲ',
+		_yeti: 'ㅈ',
+		_newti: 'ㄴ'
 	};
 	const final = finals[formation];
 	return hangulSyllable(initial, medial, final);
@@ -658,32 +656,43 @@ export function addInflection(word: ParsedWord) {
 			word.gender === 'm' &&
 			word.number === 'sg' &&
 			word.case === 'nom' &&
+			!word.adjNounFormation &&
 			!word.suffixes?.length
 		) {
 			return '';
 		}
-		return convertAdjInflection(word.gender, word.number, word.case);
+		return convertAdjInflection(word.gender, word.number, word.case, word.adjNounFormation);
 	}
 	if (word.pos === 'noun') {
 		word.number = word.number || 'sg';
 		word.case = word.case || 'nom';
-		if (word.number === 'sg' && word.case === 'nom' && !word.suffixes?.length && !word.determiner) {
+		if (
+			word.number === 'sg' &&
+			word.case === 'nom' &&
+			!word.suffixes?.length &&
+			!word.adjNounFormation &&
+			!word.determiner
+		) {
 			return '';
 		}
-		return convertAdjInflection('', word.number, word.case);
+		return convertAdjInflection('', word.number, word.case, word.adjNounFormation);
 	}
 	if (word.pos === 'verb') {
-		if (!word.verbType) {
-			console.error('No verb type for', word.id);
-		}
-		if (!word.formation && !word.suffixes) {
-			console.error('No formation for', word.id);
-		}
 		word.number = word.number || 'sg';
 		word.person = word.person || '3';
 		word.voice = word.voice || 'active';
 		word.verbType = word.verbType || 'sec';
-		word.formation = word.formation || '_ira';
+		word.formation = word.formation || '_std';
+		if (
+			word.number === 'sg' &&
+			word.person === '3' &&
+			word.voice === 'active' &&
+			word.verbType === 'sec' &&
+			word.formation === '_std' &&
+			!word.suffixes?.length
+		) {
+			return '';
+		}
 		return convertVerbInflection(
 			word.number,
 			word.person,

@@ -9,11 +9,10 @@
 		numbers,
 		persons
 	} from '$lib/inflection';
-	import type { LexiconEntry, ParsedWord } from '$lib/lexicon.types';
 
 	export let verbInflections: Record<string, string>;
 
-	let selectedFormation = '_ira';
+	let selectedFormation = '_std';
 	let selectedVoice = 'active';
 
 	const verbTypeEntries = Object.entries(verbTypes).filter(([verbType]) => verbType !== 'part');

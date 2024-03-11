@@ -6,6 +6,14 @@
 // h₁éḱu̯ōs tu u̯eu̯kond: "ḱludʰí, h₂ou̯ei̯! tód spéḱi̯omes, n̥sméi̯ agʰnutór ḱḗr: dʰǵʰémō, pótis,
 // sē h₂áu̯i̯es h₂u̯l̥h₁náh₂ gʷʰérmom u̯éstrom u̯ept, h₂áu̯ibʰi̯os tu h₂u̯l̥h₁náh₂ né h₁esti". tód ḱeḱluu̯ṓs h₂óu̯is h₂aǵróm bʰuged.
 
+// 羊马並
+// 羊之毛无也，此马见。
+// 此重车曳；此大负；此人疾负。
+// 羊马曰：“人见，马且驱，心我痛。”
+// 马且曰：“听，羊！此见，我痛心：人，主，己羊毛暖衣为，羊且毛无也。”此听，羊田逃。
+
+// 驅駕駛
+
 export const schleichersFable = {
 	title: "Schleicher's Fable",
 	link: 'https://en.wikipedia.org/wiki/Schleicher%27s_fable',
@@ -13,18 +21,18 @@ export const schleichersFable = {
 	text: `
         SHEEP nom HORSE nom pl AND  
   
-        SHEEP dat IT m sg dat HAIR nos sg nom NOT BE _ira 3 sg sec , THIS m nom HORSE acc pl SEE _pra sec 3 sg .
-        THIS m nom HEAVY us m sg acc TRANSPORT o_s m sg acc TRANSPORT _irt sec 3 sg ;
-        THIS m nom BIG m sg acc m CARRY o_s sg acc ;
-        THIS m nom EARTHLING o sg acc SHARP us n sg acc CARRY _irt sec 3 sg .  
-        SHEEP nom HORSE dat pl SPEAK _prr sec 3 sg :
-        \`\` EARTHLING o sg acc LOOK yeti prim 1 sg HORSE acc pl AND DRIVE _irt prim 3 sg , HEART I gen sg UPSET newti middle prim 3 sg . ''  
-        HORSE pl nom NOW SPEAK _prr sec 3 pl :
-        \`\` HEAR _pra imp 2 sg , SHEEP voc sg !
-        THIS n acc sg LOOK yeti prim 1 pl , WE dat UPSET newti middle prim 3 sg HEART :
-        EARTHLING o nom sg , MASTER nom , SELF acc SHEEP gen sg HAIR nos sg nom WARM mos acc sg CLOTHE trom acc sg TOIL _pra 3 sg sec ,
-        SHEEP dat pl NOW HAIR nos sg nom NOT BE _ira prim 3 sg . ''  
-        THIS n acc sg HEAR _srr part , SHEEP nom FIELD acc sg FLEE _irt sec 3 sg .`,
+        SHEEP dat IT m sg dat HAIR f sg nom NOT BE 3 sg sec , THIS m nom HORSE acc pl SEE sec 3 sg .
+        THIS m nom HEAVY m sg acc TRANSPORT_os sg acc TRANSPORT sec 3 sg ;
+        THIS m nom BIG m sg acc m CARRY sg acc ;
+        THIS m nom EARTHLING_o sg acc SHARP n sg acc CARRY sec 3 sg .  
+        SHEEP nom HORSE dat pl SPEAK _dup sec 3 sg :
+        \`\` EARTHLING_o sg acc LOOK _yeti prim 1 sg HORSE acc pl AND DRIVE prim 3 sg , HEART I gen sg UPSET _newti middle prim 3 sg . ''  
+        HORSE pl nom NOW SPEAK _dup sec 3 pl :
+        \`\` HEAR imp 2 sg , SHEEP voc sg !
+        THIS n acc sg LOOK _yeti prim 1 pl , WE dat UPSET _newti middle prim 3 sg HEART :
+        EARTHLING_o nom sg , MASTER nom , SELF acc SHEEP gen sg HAIR f sg nom WARM m acc sg CLOTHE _trom acc sg TOIL 3 sg sec ,
+        SHEEP dat pl NOW HAIR f sg nom NOT BE prim 3 sg . ''  
+        THIS n acc sg HEAR _dup part , SHEEP nom FIELD acc sg FLEE sec 3 sg .`,
 	gloss: `
         sheep horses and
 
