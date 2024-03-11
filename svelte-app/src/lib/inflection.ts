@@ -8,7 +8,10 @@ export const cases = ['nom', 'gen', 'dat', 'acc', 'ins', 'loc', 'voc', 'abl'] as
 export const adjNounFormations = {
 	_trom: 'Nouns denoting a tool or instrument (from PIE suffix *-trom)',
 	_nos: 'Verbal adjective from roots (from PIE suffix *-nós)',
-	_oo: 'Forms so-called “individualizing” or “participant” nouns from nouns and adjectives, agent or patient nouns from verbs (from PIE suffix *-ō)'
+	_oo: 'Forms so-called “individualizing” or “participant” nouns from nouns and adjectives, agent or patient nouns from verbs (from PIE suffix *-ō)',
+	_los: 'Agent nouns from verbal roots, diminutive nouns from noun stems, adjectives with the sense “pertaining to …” (alternative form of *-rós) (from PIE suffix *-lós)',
+	_us: 'Forms adjectives from Caland system roots (from PIE suffix *-us)',
+	_o_s: 'Agent nouns from verb stems, denoting someone or something that performs that verb’s action (from PIE suffix *-ós)'
 } as const;
 
 export const persons = ['1', '2', '3'] as const;
@@ -559,7 +562,10 @@ function convertAdjInflection(
 	const finals = {
 		_trom: 'ㄷ',
 		_nos: 'ㄴ',
-		_oo: 'ㅇ'
+		_oo: 'ㅇ',
+		_los: 'ㄹ',
+		_us: 'ㅁ',
+		_o_s: 'ㅂ'
 	};
 	const medial = medials[cas];
 	const final = adjNounFormation ? finals[adjNounFormation] : '';
