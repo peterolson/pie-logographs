@@ -8,7 +8,11 @@
 	);
 </script>
 
-{#if char in strokeData}
+{#if char.includes(' ')}
+	{#each char.split(' ') as c}
+		<svelte:self char={c} {fontSize} />
+	{/each}
+{:else if char in strokeData}
 	<span
 		class="svg-char"
 		style={`width: ${fontSize}px; height: ${fontSize}px; font-size: ${fontSize - 3}px;`}

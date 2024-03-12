@@ -1,5 +1,17 @@
 [
     {
+        "PIE": "*bʰabʰ-",
+        "id": "BEAN",
+        "char": "豆",
+        "pos": "root",
+        "meanings": "bean",
+        "character_hint": "Pictograph of a stemmed bowl. Based on the original meaning \"vessel with a neck\". The current meaning is a phonetic loan.",
+        "references": [
+            "https://lrc.la.utexas.edu/lex/master/0181",
+            "https://www.dong-chinese.com/wiki/豆"
+        ]
+    },
+    {
         "PIE": "*sūl-",
         "id": "SOIL",
         "char": "土",
@@ -568,7 +580,8 @@
                         "m sg dat": "suHnéwey",
                         "m sg loc": "suHnḗw",
                         "m sg ins": "suHnwéh₁",
-                        "m pl dat": "suHnúbʰ"
+                        "m pl dat": "suHnúbʰ",
+                        "default_gender": "m"
                     }
                 }
             },
@@ -583,7 +596,8 @@
                         "m sg dat": "DUMU",
                         "m sg loc": "DUMU",
                         "m sg ins": "DUMU",
-                        "m pl dat": "DUMU-MEŠ"
+                        "m pl dat": "DUMU-MEŠ",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -1952,7 +1966,8 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1erh%E2%82%82-"
-        ]
+        ],
+        "id": "HEAD"
     },
     {
         "PIE": "*ḱérh₂sō",
@@ -2899,21 +2914,27 @@
     },
     {
         "PIE": "*bʰergʰ-",
-        "char": "",
+        "char": "古",
         "meanings": "to safeguard, to protect; to preserve",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0erg%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0erg%CA%B0-",
+            "https://www.dong-chinese.com/wiki/古"
+        ],
+        "id": "SHIELD",
+        "character_hint": "Pictograph of a shield."
     },
     {
         "PIE": "*bʰerǵʰ-",
-        "char": "",
+        "char": "舉",
         "meanings": "to rise up, ascend; to be elevated, up high",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0er%C7%B5%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0er%C7%B5%CA%B0-",
+            "https://www.dong-chinese.com/wiki/舉"
+        ],
+        "id": "RISE",
+        "character_hint": "Phonosemantic compound. 手 represents the meaning and 與 represents the sound. "
     },
     {
         "PIE": "*bʰérǵʰonts",
@@ -2998,12 +3019,15 @@
     },
     {
         "PIE": "*bʰewgʰ-",
-        "char": "",
+        "char": "低",
         "meanings": "to bend; curve, arch",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0ewg%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0ewg%CA%B0-",
+            "https://www.dong-chinese.com/wiki/低"
+        ],
+        "id": "BEND",
+        "character_hint": "Phonosemantic compound. 亻 represents the meaning and 氐 represents the sound. "
     },
     {
         "PIE": "*bʰey-",
@@ -3907,12 +3931,15 @@
     },
     {
         "PIE": "*dʰerǵʰ-",
-        "char": "",
+        "char": "固",
         "meanings": "bind fast; be firm; support; strong, robust",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0er%C7%B5%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0er%C7%B5%CA%B0-",
+            "https://www.dong-chinese.com/wiki/固"
+        ],
+        "id": "FIRM",
+        "character_hint": "Phonosemantic compound. 囗 represents the meaning and 古 represents the sound. "
     },
     {
         "PIE": "*dʰerh₃-",
@@ -3943,12 +3970,15 @@
     },
     {
         "PIE": "*dʰewbʰ-",
-        "char": "",
-        "meanings": "? hazy, unclear, dark; deep",
+        "char": "氐",
+        "meanings": "hazy, unclear, dark; deep",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0ewb%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0ewb%CA%B0-",
+            "https://www.dong-chinese.com/wiki/氐"
+        ],
+        "id": "DEEP",
+        "character_hint": "Depicts an object hitting the ground."
     },
     {
         "PIE": "*dʰewgʰ-",
@@ -4499,12 +4529,15 @@
     },
     {
         "PIE": "*ǵerh₂-",
-        "char": "",
+        "char": "故",
         "meanings": "to grow old, to mature[2]",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5erh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5erh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/故"
+        ],
+        "id": "OLD",
+        "character_hint": "Phonosemantic compound. 攵 represents the meaning and 古 represents the sound. "
     },
     {
         "PIE": "*gerh₂ḗn",
@@ -4589,12 +4622,15 @@
     },
     {
         "PIE": "*gʰébʰōl",
-        "char": "",
-        "meanings": "head Synonyms: *kap-, *ḱérh₂sō; top",
+        "char": "頭",
+        "meanings": "head; top",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B0%C3%A9b%CA%B0%C5%8Dl"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B0%C3%A9b%CA%B0%C5%8Dl",
+            "https://www.dong-chinese.com/wiki/頭"
+        ],
+        "id": "GABLE",
+        "character_hint": "Phonosemantic compound. 頁 represents the meaning and 豆 represents the sound. "
     },
     {
         "PIE": "*gʰed-",
@@ -4899,12 +4935,15 @@
     },
     {
         "PIE": "*ǵʰoysós",
-        "char": "",
+        "char": "戈",
         "meanings": "spear, missile, javelin",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0oys%C3%B3s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0oys%C3%B3s",
+            "https://www.dong-chinese.com/wiki/戈"
+        ],
+        "id": "SPEAR",
+        "character_hint": "Pictograph of a weapon with a long shaft and horizontal blade."
     },
     {
         "PIE": "*gʰreh₁-",
@@ -5457,12 +5496,15 @@
     },
     {
         "PIE": "*h₁ed-",
-        "char": "",
+        "char": "食",
         "meanings": "to eat",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ed-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81ed-",
+            "https://www.dong-chinese.com/wiki/食"
+        ],
+        "id": "EAT",
+        "character_hint": "Depicts a mouth (口) eating from a food vessel (皀)."
     },
     {
         "PIE": "*h₁edʰ-",
@@ -6242,12 +6284,15 @@
     },
     {
         "PIE": "*h₁wers-",
-        "char": "",
+        "char": "雨",
         "meanings": "to rain",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81wers-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81wers-",
+            "https://www.dong-chinese.com/wiki/雨"
+        ],
+        "id": "RAIN",
+        "character_hint": "Pictograph of rain falling from a cloud."
     },
     {
         "PIE": "*h₁wérus",
@@ -7552,12 +7597,15 @@
     },
     {
         "PIE": "*h₃dónts",
-        "char": "",
+        "char": "牙",
         "meanings": "tooth Synonym: *ǵómbʰos",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83d%C3%B3nts"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83d%C3%B3nts",
+            "https://www.dong-chinese.com/wiki/牙"
+        ],
+        "id": "TOOTH",
+        "character_hint": "Depicts top and bottom teeth touching each other."
     },
     {
         "PIE": "*h₃ed-",
@@ -7797,12 +7845,27 @@
     },
     {
         "PIE": "*h₃neyd-",
-        "char": "",
+        "char": "詈",
         "meanings": "to revile, insult",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neyd-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neyd-",
+            "https://www.dong-chinese.com/wiki/%E8%A9%88"
+        ],
+        "id": "REVILE",
+        "character_hint": "Depicts using words (言) to catch (网) someone."
+    },
+    {
+        "char": "⿰亻詈",
+        "meanings": "Anitta, son of Pithāna, king of Kussara",
+        "pos": "noun",
+        "references": [
+            "https://en.wikipedia.org/wiki/Anitta_(king)"
+        ],
+        "id": "ANITTA",
+        "character_hint": "Name of a person (亻). 詈 represents the sound.",
+        "PIE": "*h₃neyta",
+        "hittite": "M:a-ni-it-ta"
     },
     {
         "PIE": "*h₃nóbʰōl",
@@ -8575,12 +8638,15 @@
     },
     {
         "PIE": "*ḱlównis",
-        "char": "",
+        "char": "𠂤",
         "meanings": "buttocks, hip",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1l%C3%B3wnis"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1l%C3%B3wnis",
+            "https://www.dong-chinese.com/wiki/𠂤"
+        ],
+        "id": "BUTTOCKS",
+        "character_hint": "Pictograph of buttocks."
     },
     {
         "PIE": "*ḱlutós",
@@ -8811,12 +8877,15 @@
     },
     {
         "PIE": "*ksew-",
-        "char": "",
+        "char": "刮",
         "meanings": "to scrape, shave, sharpen",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ksew-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ksew-",
+            "https://www.dong-chinese.com/wiki/刮"
+        ],
+        "id": "SHAVE",
+        "character_hint": "Phonosemantic compound. 刂 represents the meaning and 舌 represents the sound."
     },
     {
         "PIE": "*ksnew-",
@@ -8847,12 +8916,15 @@
     },
     {
         "PIE": "*kū-",
-        "char": "",
+        "char": "哭",
         "meanings": "to cry out, call, howl",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%C5%AB-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%C5%AB-",
+            "https://www.dong-chinese.com/wiki/哭"
+        ],
+        "id": "HOWL",
+        "character_hint": "Depicts the howl (吅) of a dog (犬)."
     },
     {
         "PIE": "*kʷ-",
@@ -9112,12 +9184,47 @@
     },
     {
         "PIE": "*ḱwṓ",
-        "char": "",
+        "char": "犬",
         "meanings": "dog",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1w%E1%B9%93"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1w%E1%B9%93",
+            "https://www.dong-chinese.com/wiki/犬"
+        ],
+        "id": "DOG",
+        "character_hint": "Pictograph of a dog."
+    },
+    {
+        "char": "⿰土犬 ⿰土㐬",
+        "meanings": "city of Kussara",
+        "references": [
+            "https://en.wikipedia.org/wiki/Kussara"
+        ],
+        "id": "KUSSARA",
+        "PIE": "ḱwṓser",
+        "hittite": "URU:ku-us-sa-ra",
+        "pos": "noun",
+        "character_hint": "Land (土) that sounds like *ḱwṓ (dog, 犬) + *ser (flow, 流)",
+        "inflections": {
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg gen": "URU:ku-us-sa-ra-as",
+                        "m sg nom": "URU:ku-us-sa-ra"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "ḱwṓser",
+                        "m sg gen": "ḱwṓsers"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*kʷos",
@@ -9738,12 +9845,15 @@
     },
     {
         "PIE": "*men-",
-        "char": "",
-        "meanings": "; to think, mind; spiritual activity",
+        "char": "思",
+        "meanings": "to think, mind; spiritual activity",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/men-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/men-",
+            "https://www.dong-chinese.com/wiki/思"
+        ],
+        "id": "MIND",
+        "character_hint": "Thought is associated with the head (囟) and heart (心)."
     },
     {
         "PIE": "*men(s)dʰh₁-",
@@ -9975,12 +10085,15 @@
     },
     {
         "PIE": "*mregʰ-",
-        "char": "",
+        "char": "囟",
         "meanings": "brain",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mreg%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mreg%CA%B0-",
+            "https://www.dong-chinese.com/wiki/囟"
+        ],
+        "id": "BRAIN",
+        "character_hint": "Depicts the gap between the bones in an infant skull."
     },
     {
         "PIE": "*mreǵʰ-",
@@ -10110,12 +10223,49 @@
     },
     {
         "PIE": "*néh₂s",
-        "char": "",
+        "char": "自",
         "meanings": "nose",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%A9h%E2%82%82s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%C3%A9h%E2%82%82s",
+            "https://www.dong-chinese.com/wiki/自"
+        ],
+        "id": "NOSE",
+        "character_hint": "Pictograph of a nose. Original form of 鼻 (nose)."
+    },
+    {
+        "char": "⿰土自",
+        "meanings": "city of Nesa",
+        "references": [
+            "https://en.wikipedia.org/wiki/K%C3%BCltepe"
+        ],
+        "id": "NESA",
+        "PIE": "*nésa",
+        "hittite": "URU:ne-e-sa",
+        "pos": "noun",
+        "character_hint": "Land (土) that sounds like *néh₂s (nosa, 自)",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "nésa",
+                        "m sg gen": "nésas",
+                        "m sg acc": "nésam"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg gen": "URU:ne-e-sa-as",
+                        "m sg acc": "URU:ne-e-sa-an",
+                        "m sg nom": "URU:ne-e-sa"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*néh₂us",
@@ -10182,12 +10332,15 @@
     },
     {
         "PIE": "*nes-",
-        "char": "",
+        "char": "歸",
         "meanings": "to return home (safely)",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/nes-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/nes-",
+            "https://www.dong-chinese.com/wiki/歸"
+        ],
+        "id": "RETURN_HOME",
+        "character_hint": "Phonosemantic compound. 𠂤 represents the sound while 止 and 帚 represent the meaning."
     },
     {
         "PIE": "*new-",
@@ -10816,12 +10969,48 @@
     },
     {
         "PIE": "*pī́ts",
-        "char": "",
-        "meanings": "pitch, resin Synonyms: *gʷétu, *sokʷós; pine tree",
+        "char": "桼",
+        "meanings": "pitch, resin; pine tree",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C4%AB%CC%81ts"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C4%AB%CC%81ts",
+            "https://www.dong-chinese.com/wiki/桼"
+        ],
+        "id": "PINE_TREE",
+        "character_hint": "Depicts lacquer or sap oozing out from a tree (木)."
+    },
+    {
+        "char": "⿰亻桼",
+        "meanings": "Pithāna (father of Anitta)",
+        "pos": "noun",
+        "character_hint": "Name of a person (亻). 桼 represents the sound.",
+        "id": "PITHANA",
+        "references": [
+            "https://en.wikipedia.org/wiki/Pit%E1%B8%ABana"
+        ],
+        "hittite": "M:pi-it-ha-a-na",
+        "PIE": "*pī́th₂ana",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "*pī́th₂ana",
+                        "m sg abl": "",
+                        "m sg gen": "*pī́th₂anés"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "M:pi-it-ha-a-na",
+                        "m sg gen": "M:pi-it-ha-a-na-as"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*pleh₁-",
@@ -11032,12 +11221,15 @@
     },
     {
         "PIE": "*pórḱos",
-        "char": "",
+        "char": "豕",
         "meanings": "piglet",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%B3r%E1%B8%B1os"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%B3r%E1%B8%B1os",
+            "https://www.dong-chinese.com/wiki/豕"
+        ],
+        "id": "PIG",
+        "character_hint": "Pictograph of a pig."
     },
     {
         "PIE": "*pornóm",
@@ -11098,12 +11290,15 @@
     },
     {
         "PIE": "*prep-",
-        "char": "",
+        "char": "相",
         "meanings": "to appear, to be visible",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/prep-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/prep-",
+            "https://www.dong-chinese.com/wiki/相"
+        ],
+        "id": "APPEAR",
+        "character_hint": "Depicts an eye (目) looking at a tree (木). Based on the original meaning \"look at\". The meaning of this character has shifted over time to \"compare\" and \"each other\"."
     },
     {
         "PIE": "*pres-",
@@ -11137,12 +11332,15 @@
     },
     {
         "PIE": "*prews-",
-        "char": "",
+        "char": "霜",
         "meanings": "to freeze; frost",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/prews-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/prews-",
+            "https://www.dong-chinese.com/wiki/%E9%9C%9C"
+        ],
+        "id": "FROST",
+        "character_hint": "Phonosemantic compound. 雨 represents the meaning and 相 represents the sound."
     },
     {
         "PIE": "*preyH-",
@@ -11351,11 +11549,23 @@
     {
         "PIE": "*sekʷ-",
         "char": "",
-        "meanings": "; to follow",
+        "meanings": "to follow",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek%CA%B7-"
         ]
+    },
+    {
+        "PIE": "*sekʷ-",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek%CA%B7-#Root_2",
+            "https://www.dong-chinese.com/wiki/望"
+        ],
+        "char": "望",
+        "pos": "root",
+        "meanings": "to see; notice",
+        "character_hint": "Pictograph of a person standing up (𡈼) and gazing at the moon (月). 亡 is a sound component.",
+        "id": "GAZE"
     },
     {
         "PIE": "*sékʷetor",
@@ -11549,12 +11759,15 @@
     },
     {
         "PIE": "*ser-",
-        "char": "",
-        "meanings": "; to flow",
+        "char": "流",
+        "meanings": "to flow",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ser-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ser-",
+            "https://www.dong-chinese.com/wiki/流"
+        ],
+        "id": "FLOW",
+        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 㐬 represents the sound."
     },
     {
         "PIE": "*serḱ-",
@@ -12254,12 +12467,15 @@
     },
     {
         "PIE": "*suH-",
-        "char": "",
+        "char": "彖",
         "meanings": "pig, hog, swine",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/suH-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/suH-",
+            "https://www.dong-chinese.com/wiki/彖"
+        ],
+        "id": "SWINE",
+        "character_hint": "Pictograph of a pig (豕) being pierced or shot by an arrow. Similar in origin to 彘."
     },
     {
         "PIE": "*suh₁yús",
@@ -12500,12 +12716,15 @@
     },
     {
         "PIE": "*telh₂-",
-        "char": "",
+        "char": "舁",
         "meanings": "to bear, to undergo, to endure",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/telh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/telh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/舁"
+        ],
+        "id": "LIFT",
+        "character_hint": "Pictograph of four hands working together to lift something."
     },
     {
         "PIE": "*télh₂t",
@@ -12945,12 +13164,15 @@
     },
     {
         "PIE": "*tpelH-",
-        "char": "",
+        "char": "邑",
         "meanings": "fortification, city",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tpelH-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tpelH-",
+            "https://www.dong-chinese.com/wiki/邑"
+        ],
+        "id": "CITY",
+        "character_hint": "Pictograph of a person (卩) outside a city wall (囗). Appears as a component in the right side of characters as ⻏."
     },
     {
         "PIE": "*tpḗrsneh₂",
@@ -13218,12 +13440,15 @@
     },
     {
         "PIE": "*webʰ-",
-        "char": "",
+        "char": "网",
         "meanings": "to weave, braid",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/web%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/web%CA%B0-",
+            "https://www.dong-chinese.com/wiki/网"
+        ],
+        "id": "WEAVE",
+        "character_hint": "Pictograph of a net."
     },
     {
         "PIE": "*wedʰ-",
@@ -13492,12 +13717,15 @@
     },
     {
         "PIE": "*wers-",
-        "char": "",
-        "meanings": ";  to wipe; to drag (on the ground), sweep ~ thresh",
+        "char": "帚",
+        "meanings": "to wipe; to drag (on the ground), sweep ~ thresh",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wers-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wers-",
+            "https://www.dong-chinese.com/wiki/帚"
+        ],
+        "id": "SWEEP",
+        "character_hint": "Pictograph of a broom."
     },
     {
         "PIE": "*wérsēn",
@@ -13666,12 +13894,15 @@
     },
     {
         "PIE": "*weyḱ-",
-        "char": "",
+        "char": "鄉",
         "meanings": "to enter in; to settle; settlement",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wey%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wey%E1%B8%B1-",
+            "https://www.dong-chinese.com/wiki/鄉"
+        ],
+        "id": "SETTLE",
+        "character_hint": "Pictograph of two people facing each other, kneeling down to share a meal."
     },
     {
         "PIE": "*weys-",
@@ -13957,12 +14188,15 @@
     },
     {
         "PIE": "*yewg-",
-        "char": "",
+        "char": "與",
         "meanings": "to join, to yoke, to tie together",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yewg-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/yewg-",
+            "https://www.dong-chinese.com/wiki/與"
+        ],
+        "id": "JOIN",
+        "character_hint": "Phonosemantic compound. 舁 represents the meaning and 牙 represents the sound. "
     },
     {
         "PIE": "*yéwgos",
@@ -15414,14 +15648,6 @@
         ]
     },
     {
-        "char": "刮",
-        "character_hint": "Phonosemantic compound. 刂 represents the meaning and 𠯑 represents the sound.",
-        "meanings": "to scrape, shave",
-        "references": [
-            "https://www.dong-chinese.com/wiki/刮"
-        ]
-    },
-    {
         "char": "化",
         "character_hint": "Pictograph of a right-side up person and an upside-down person, depicting the meaning \"turn around\" or \"transform\".",
         "meanings": "change",
@@ -16406,14 +16632,6 @@
         ]
     },
     {
-        "char": "古",
-        "character_hint": "Depicts a shield. Based on the original meaning \"firm, solid\", which is now written as 固. The current meaning \"old\" is a phonetic loan.",
-        "meanings": "old; firm, solid",
-        "references": [
-            "https://www.dong-chinese.com/wiki/古"
-        ]
-    },
-    {
         "char": "君",
         "character_hint": "Phonosemantic compound. 口 represents the meaning and 尹 represents the sound. ",
         "meanings": "ruler",
@@ -17323,14 +17541,6 @@
         "meanings": "companion",
         "references": [
             "https://www.dong-chinese.com/wiki/伴"
-        ]
-    },
-    {
-        "char": "低",
-        "character_hint": "Phonosemantic compound. 亻 represents the meaning and 氐 represents the sound. ",
-        "meanings": "low",
-        "references": [
-            "https://www.dong-chinese.com/wiki/低"
         ]
     },
     {
@@ -20046,14 +20256,6 @@
         ]
     },
     {
-        "char": "哭",
-        "character_hint": "Depicts the howl (吅) of a dog (犬).",
-        "meanings": "cry",
-        "references": [
-            "https://www.dong-chinese.com/wiki/哭"
-        ]
-    },
-    {
         "char": "哇",
         "character_hint": "Phonosemantic compound. 口 represents the meaning and 圭 represents the sound. ",
         "meanings": "wow!",
@@ -20374,14 +20576,6 @@
         ]
     },
     {
-        "char": "固",
-        "character_hint": "Phonosemantic compound. 囗 represents the meaning and 古 represents the sound. ",
-        "meanings": "to become solid",
-        "references": [
-            "https://www.dong-chinese.com/wiki/固"
-        ]
-    },
-    {
         "char": "器",
         "character_hint": "Origin unclear.",
         "meanings": "receptacle",
@@ -20619,14 +20813,6 @@
         "meanings": "circle, loop",
         "references": [
             "https://www.dong-chinese.com/wiki/圈"
-        ]
-    },
-    {
-        "char": "囟",
-        "character_hint": "Depicts the gap between the bones in an infant skull.",
-        "meanings": "fontanel",
-        "references": [
-            "https://www.dong-chinese.com/wiki/囟"
         ]
     },
     {
@@ -21587,14 +21773,6 @@
         "meanings": "dress up",
         "references": [
             "https://www.dong-chinese.com/wiki/扮"
-        ]
-    },
-    {
-        "char": "戈",
-        "character_hint": "Pictograph of a weapon with a long shaft and horizontal blade.",
-        "meanings": "spear",
-        "references": [
-            "https://www.dong-chinese.com/wiki/戈"
         ]
     },
     {
@@ -22774,14 +22952,6 @@
         ]
     },
     {
-        "char": "帚",
-        "character_hint": "Pictograph of a broom.",
-        "meanings": "broom",
-        "references": [
-            "https://www.dong-chinese.com/wiki/帚"
-        ]
-    },
-    {
         "char": "幫",
         "character_hint": "Phonosemantic compound. 帛 represents the meaning and 封 represents the sound. Based on the original meaning \"side of a shoe\". The current meaning is a phonetic loan.",
         "meanings": "help; side of a shoe",
@@ -23046,14 +23216,6 @@
         ]
     },
     {
-        "char": "思",
-        "character_hint": "Thought is associated with the head (囟) and heart (心). 囟 is also a phonetic component. ",
-        "meanings": "think",
-        "references": [
-            "https://www.dong-chinese.com/wiki/思"
-        ]
-    },
-    {
         "char": "弟",
         "character_hint": "Pictograph of a rope neatly wrapped around a weapon. Based on the original meaning \"orderly\". The meaning later shifted to \"next in sequence\" (now written as 第) and \"younger brother\".",
         "meanings": "younger brother; order",
@@ -23203,14 +23365,6 @@
         "meanings": "to match",
         "references": [
             "https://www.dong-chinese.com/wiki/当"
-        ]
-    },
-    {
-        "char": "彖",
-        "character_hint": "Pictograph of a pig (豕) being pierced or shot by an arrow. Similar in origin to 彘.",
-        "meanings": "a hog",
-        "references": [
-            "https://www.dong-chinese.com/wiki/彖"
         ]
     },
     {
@@ -23822,14 +23976,6 @@
         ]
     },
     {
-        "char": "桼",
-        "character_hint": "Depicts lacquer or sap oozing out from a varnish tree (木).",
-        "meanings": "varnish tree, lacquer",
-        "references": [
-            "https://www.dong-chinese.com/wiki/桼"
-        ]
-    },
-    {
         "char": "梯",
         "character_hint": "Phonosemantic compound. 木 represents the meaning and 弟 represents the sound. ",
         "meanings": "ladder",
@@ -24358,14 +24504,6 @@
         ]
     },
     {
-        "char": "氐",
-        "character_hint": "Depicts an object hitting the ground.",
-        "meanings": "bottom",
-        "references": [
-            "https://www.dong-chinese.com/wiki/氐"
-        ]
-    },
-    {
         "char": "歴",
         "character_hint": "Variant of 歷.",
         "meanings": "take place",
@@ -24611,14 +24749,6 @@
         "meanings": "power, right",
         "references": [
             "https://www.dong-chinese.com/wiki/權"
-        ]
-    },
-    {
-        "char": "歸",
-        "character_hint": "Phonosemantic compound. 𠂤 represents the sound while 止 and 帚 represent the meaning.",
-        "meanings": "return",
-        "references": [
-            "https://www.dong-chinese.com/wiki/歸"
         ]
     },
     {
@@ -24966,14 +25096,6 @@
         ]
     },
     {
-        "char": "牙",
-        "character_hint": "Depicts top and bottom teeth touching each other.",
-        "meanings": "tooth",
-        "references": [
-            "https://www.dong-chinese.com/wiki/牙"
-        ]
-    },
-    {
         "char": "牢",
         "character_hint": "Depicts an animal, such as a cow (牛), trapped around an animal's fence (宀).",
         "meanings": "prison; pen; fence",
@@ -25267,14 +25389,6 @@
         "meanings": "form, shape",
         "references": [
             "https://www.dong-chinese.com/wiki/狀"
-        ]
-    },
-    {
-        "char": "犬",
-        "character_hint": "Pictograph of a dog.",
-        "meanings": "dog",
-        "references": [
-            "https://www.dong-chinese.com/wiki/犬"
         ]
     },
     {
@@ -26054,14 +26168,6 @@
         ]
     },
     {
-        "char": "故",
-        "character_hint": "Phonosemantic compound. 攵 represents the meaning and 古 represents the sound. ",
-        "meanings": "incident, happening, cause",
-        "references": [
-            "https://www.dong-chinese.com/wiki/故"
-        ]
-    },
-    {
         "char": "斗",
         "character_hint": "Pictograph of a ladle or dipper. In simplified Chinese 斗 is also used to mean \"fight, struggle\", while in traditional Chinese this meaning is written with a separate character 鬥.",
         "meanings": "ladle",
@@ -26339,14 +26445,6 @@
         "meanings": "calendar",
         "references": [
             "https://www.dong-chinese.com/wiki/曆"
-        ]
-    },
-    {
-        "char": "望",
-        "character_hint": "Pictograph of a person standing up (𡈼) and gazing at the moon (月). 亡 is a sound component.",
-        "meanings": "to look at",
-        "references": [
-            "https://www.dong-chinese.com/wiki/望"
         ]
     },
     {
@@ -28678,14 +28776,6 @@
         ]
     },
     {
-        "char": "舁",
-        "character_hint": "Pictograph of four hands working together to lift something.",
-        "meanings": "to lift",
-        "references": [
-            "https://www.dong-chinese.com/wiki/舁"
-        ]
-    },
-    {
         "char": "舰",
         "character_hint": "Phonosemantic compound. 舟 represents the meaning and 见 represents the sound. Simplified form of 艦. ",
         "meanings": "warship",
@@ -28747,14 +28837,6 @@
         "meanings": "blunt; look backwards",
         "references": [
             "https://www.dong-chinese.com/wiki/艮"
-        ]
-    },
-    {
-        "char": "自",
-        "character_hint": "Pictograph of a nose. Original form of 鼻 (nose). In China, when people point to themselves, they typically point to their nose.",
-        "meanings": "self; nose",
-        "references": [
-            "https://www.dong-chinese.com/wiki/自"
         ]
     },
     {
@@ -28830,14 +28912,6 @@
         ]
     },
     {
-        "char": "與",
-        "character_hint": "Phonosemantic compound. 舁 represents the meaning and 牙 represents the sound. ",
-        "meanings": "together with",
-        "references": [
-            "https://www.dong-chinese.com/wiki/與"
-        ]
-    },
-    {
         "char": "興",
         "character_hint": "Depicts four hands (舁) working together (同) to raise something.",
         "meanings": "rise, flourish",
@@ -28851,14 +28925,6 @@
         "meanings": "good; slave; servant",
         "references": [
             "https://www.dong-chinese.com/wiki/臧"
-        ]
-    },
-    {
-        "char": "舉",
-        "character_hint": "Phonosemantic compound. 手 represents the meaning and 與 represents the sound. ",
-        "meanings": "raise",
-        "references": [
-            "https://www.dong-chinese.com/wiki/舉"
         ]
     },
     {
@@ -29547,14 +29613,6 @@
         "meanings": "live",
         "references": [
             "https://www.dong-chinese.com/wiki/活"
-        ]
-    },
-    {
-        "char": "流",
-        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 㐬 represents the sound.",
-        "meanings": "flow",
-        "references": [
-            "https://www.dong-chinese.com/wiki/流"
         ]
     },
     {
@@ -30614,14 +30672,6 @@
         ]
     },
     {
-        "char": "相",
-        "character_hint": "Depicts an eye (目) looking at a tree (木). Based on the original meaning \"look at\". The meaning of this character has shifted over time to \"compare\" and \"each other\".",
-        "meanings": "mutual; look at",
-        "references": [
-            "https://www.dong-chinese.com/wiki/相"
-        ]
-    },
-    {
         "char": "眚",
         "character_hint": "Phonosemantic compound. 生 represents the sound and 目 represents the meaning.",
         "meanings": "disease of the eyes",
@@ -31318,14 +31368,6 @@
         ]
     },
     {
-        "char": "邑",
-        "character_hint": "Pictograph of a person (卩) outside a city wall (囗). Appears as a component in the right side of characters as ⻏.",
-        "meanings": "city",
-        "references": [
-            "https://www.dong-chinese.com/wiki/邑"
-        ]
-    },
-    {
         "char": "那",
         "character_hint": "Phonosemantic compound. ⻏ represents the meaning and 冄 represents the sound. ",
         "meanings": "that",
@@ -31363,14 +31405,6 @@
         "meanings": "mail",
         "references": [
             "https://www.dong-chinese.com/wiki/郵"
-        ]
-    },
-    {
-        "char": "鄉",
-        "character_hint": "Pictograph of two people facing each other, kneeling down to share a meal. Based on the original meaning \"feast\" or \"offer food\", now written as 饗. The meaning later shifted to \"hometown\".",
-        "meanings": "hometown",
-        "references": [
-            "https://www.dong-chinese.com/wiki/鄉"
         ]
     },
     {
@@ -31747,14 +31781,6 @@
         "meanings": "a flagon",
         "references": [
             "https://www.dong-chinese.com/wiki/𠁁"
-        ]
-    },
-    {
-        "char": "𠂤",
-        "character_hint": "Pictograph of buttocks.",
-        "meanings": "mound",
-        "references": [
-            "https://www.dong-chinese.com/wiki/𠂤"
         ]
     },
     {
@@ -34590,14 +34616,6 @@
         ]
     },
     {
-        "char": "网",
-        "character_hint": "Pictograph of a net.",
-        "meanings": "net",
-        "references": [
-            "https://www.dong-chinese.com/wiki/网"
-        ]
-    },
-    {
         "char": "羣",
         "character_hint": "Variant of 群.",
         "meanings": "group, flock",
@@ -35187,14 +35205,6 @@
         "meanings": "neck",
         "references": [
             "https://www.dong-chinese.com/wiki/领"
-        ]
-    },
-    {
-        "char": "食",
-        "character_hint": "Depicts a mouth (口) eating from a food vessel (皀).",
-        "meanings": "eat",
-        "references": [
-            "https://www.dong-chinese.com/wiki/食"
         ]
     },
     {
@@ -36590,14 +36600,6 @@
         ]
     },
     {
-        "char": "雨",
-        "character_hint": "Pictograph of rain falling from a cloud.",
-        "meanings": "rain",
-        "references": [
-            "https://www.dong-chinese.com/wiki/雨"
-        ]
-    },
-    {
         "char": "静",
         "character_hint": "Simplified form of 靜.  Both 青 and 爭 are sound components.",
         "meanings": "quiet",
@@ -36870,14 +36872,6 @@
         ]
     },
     {
-        "char": "頭",
-        "character_hint": "Phonosemantic compound. 頁 represents the meaning and 豆 represents the sound. ",
-        "meanings": "head",
-        "references": [
-            "https://www.dong-chinese.com/wiki/頭"
-        ]
-    },
-    {
         "char": "音",
         "character_hint": "Originally the same as 言 (speech) but with an extra line added in the mouth (口) to distinguish the two characters.",
         "meanings": "sound",
@@ -37022,14 +37016,6 @@
         ]
     },
     {
-        "char": "豕",
-        "character_hint": "Pictograph of a pig.",
-        "meanings": "pig",
-        "references": [
-            "https://www.dong-chinese.com/wiki/豕"
-        ]
-    },
-    {
         "char": "象",
         "character_hint": "Pictograph of an elephant.",
         "meanings": "elephant",
@@ -37075,14 +37061,6 @@
         "meanings": "leopard",
         "references": [
             "https://www.dong-chinese.com/wiki/豹"
-        ]
-    },
-    {
-        "char": "豆",
-        "character_hint": "Pictograph of a stemmed bowl. Based on the original meaning \"vessel with a neck\". The current meaning is a phonetic loan.",
-        "meanings": "bean; vessel with a neck",
-        "references": [
-            "https://www.dong-chinese.com/wiki/豆"
         ]
     },
     {
