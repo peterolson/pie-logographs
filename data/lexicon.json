@@ -1,5 +1,30 @@
 [
     {
+        "PIE": "*sūl-",
+        "id": "SOIL",
+        "char": "土",
+        "pos": "root",
+        "meanings": "soil; mud; earth; ground",
+        "character_hint": "Depicts a lump of dirt on the ground.",
+        "references": [
+            "https://www.dong-chinese.com/wiki/土",
+            "https://lrc.la.utexas.edu/lex/master/1933",
+            "https://en.wiktionary.org/wiki/soil#English"
+        ]
+    },
+    {
+        "PIE": "dʰólh₂os",
+        "id": "VALLEY",
+        "char": "谷",
+        "pos": "noun",
+        "meanings": "hollow; dale; valley",
+        "character_hint": "Depicts an opening (口) between two mountain streams.",
+        "references": [
+            "https://www.dong-chinese.com/wiki/谷",
+            "https://lrc.la.utexas.edu/lex/master/0385"
+        ]
+    },
+    {
         "char": "曷其",
         "id": "WHAT_DEICTIC",
         "pos": "pron",
@@ -13,15 +38,15 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg dat": "kʷésmeyḱe"
+                    "adj": {
+                        "m sg dat": "kʷésmeyḱe"
                     }
                 }
             },
             "hittite": {
                 "": {
-                    "noun": {
-                        "sg dat": "ku-e-da-ni-ik-ki"
+                    "adj": {
+                        "m sg dat": "ku-e-da-ni-ik-ki"
                     }
                 }
             }
@@ -126,16 +151,13 @@
         "id": "MASTER",
         "inflections": {
             "pie": {
-                "ih2": {
-                    "noun": {
-                        "sg nom": "pótnih₂",
-                        "sg voc": "pótnih₂",
-                        "sg acc": "pótnih₂m̥"
-                    }
-                },
                 "": {
-                    "noun": {
-                        "sg nom": "pótis"
+                    "adj": {
+                        "m sg nom": "pótis",
+                        "default_gender": "m",
+                        "f sg nom": "pótnih₂",
+                        "f sg voc": "pótnih₂",
+                        "f sg acc": "pótnih₂m̥"
                     }
                 }
             }
@@ -341,21 +363,21 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "wey",
-                        "pl nom": "wey",
-                        "sg voc": "wey",
-                        "pl acc": "n̥smé",
-                        "sg acc": "n̥smé",
-                        "pl voc": "wey",
-                        "sg gen": "nos",
-                        "pl gen": "nos",
-                        "sg abl": "n̥smed",
-                        "pl abl": "n̥smed",
-                        "sg dat": "n̥smey",
-                        "pl dat": "n̥smey",
-                        "sg loc": "n̥smi",
-                        "pl loc": "n̥smi"
+                    "adj": {
+                        "m sg nom": "wey",
+                        "m pl nom": "wey",
+                        "m sg voc": "wey",
+                        "m pl acc": "n̥smé",
+                        "m sg acc": "n̥smé",
+                        "m pl voc": "wey",
+                        "m sg gen": "nos",
+                        "m pl gen": "nos",
+                        "m sg abl": "n̥smed",
+                        "m pl abl": "n̥smed",
+                        "m sg dat": "n̥smey",
+                        "m pl dat": "n̥smey",
+                        "m sg loc": "n̥smi",
+                        "m pl loc": "n̥smi"
                     }
                 }
             }
@@ -430,15 +452,15 @@
                     }
                 },
                 "r yo_s": {
-                    "noun": {
-                        "sg abl": "h₃epr̥yéad"
+                    "adj": {
+                        "m sg abl": "h₃epr̥yéad"
                     }
                 }
             },
             "hittite": {
                 "r yo_s": {
-                    "noun": {
-                        "sg abl": "URU-az"
+                    "adj": {
+                        "m sg abl": "URU-az"
                     }
                 }
             }
@@ -537,31 +559,31 @@
         "inflections": {
             "pie": {
                 "us": {
-                    "noun": {
-                        "sg nom": "suHnús",
-                        "sg voc": "suHnów",
-                        "sg acc": "suHnúm",
-                        "sg gen": "suHnóws",
-                        "sg abl": "suHnóws",
-                        "sg dat": "suHnéwey",
-                        "sg loc": "suHnḗw",
-                        "sg ins": "suHnwéh₁",
-                        "pl dat": "suHnúbʰ"
+                    "adj": {
+                        "m sg nom": "suHnús",
+                        "m sg voc": "suHnów",
+                        "m sg acc": "suHnúm",
+                        "m sg gen": "suHnóws",
+                        "m sg abl": "suHnóws",
+                        "m sg dat": "suHnéwey",
+                        "m sg loc": "suHnḗw",
+                        "m sg ins": "suHnwéh₁",
+                        "m pl dat": "suHnúbʰ"
                     }
                 }
             },
             "hittite": {
                 "us": {
-                    "noun": {
-                        "sg nom": "DUMU",
-                        "sg voc": "DUMU",
-                        "sg acc": "DUMU",
-                        "sg gen": "DUMU",
-                        "sg abl": "DUMU",
-                        "sg dat": "DUMU",
-                        "sg loc": "DUMU",
-                        "sg ins": "DUMU",
-                        "pl dat": "DUMU-MEŠ"
+                    "adj": {
+                        "m sg nom": "DUMU",
+                        "m sg voc": "DUMU",
+                        "m sg acc": "DUMU",
+                        "m sg gen": "DUMU",
+                        "m sg abl": "DUMU",
+                        "m sg dat": "DUMU",
+                        "m sg loc": "DUMU",
+                        "m sg ins": "DUMU",
+                        "m pl dat": "DUMU-MEŠ"
                     }
                 }
             }
@@ -629,36 +651,16 @@
         "character_hint": "Depicts a person (大) with an emphasized head. Based on the original meaning \"head\". The meaning later shifted to \"top\", \"high\", and \"sky\".",
         "inflections": {
             "pie": {
-                "o_s": {
-                    "noun": {
-                        "sg nom": "deywós",
-                        "sg voc": "deywé",
-                        "sg acc": "deywóm",
-                        "sg gen": "deywósyo",
-                        "sg abl": "deywéad",
-                        "sg dat": "deywóey",
-                        "sg loc": "deywóy",
-                        "sg ins": "deywóh₁",
-                        "pl nom": "deywóes",
-                        "pl voc": "deywóes",
-                        "pl acc": "deywóms",
-                        "pl gen": "deywóHom",
-                        "pl abl": "deywómos",
-                        "pl dat": "deywómos",
-                        "pl loc": "deywóysu",
-                        "pl ins": "deywṓys"
-                    }
-                },
-                "s": {
-                    "noun": {
-                        "sg nom": "dyḗws",
-                        "sg voc": "dyéw",
-                        "sg acc": "dyḗm",
-                        "sg gen": "diwés",
-                        "sg abl": "diwés",
-                        "sg dat": "diwéy",
-                        "sg loc": "dyéwi",
-                        "sg ins": "diwéh₁"
+                "": {
+                    "adj": {
+                        "m sg nom": "dyḗws",
+                        "m sg voc": "dyéw",
+                        "m sg acc": "dyḗm",
+                        "m sg gen": "diwés",
+                        "m sg abl": "diwés",
+                        "m sg dat": "diwéy",
+                        "m sg loc": "dyéwi",
+                        "m sg ins": "diwéh₁"
                     }
                 }
             }
@@ -780,10 +782,10 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg acc": "swé",
-                        "sg gen": "sewe",
-                        "sg dat": "sebʰyo"
+                    "adj": {
+                        "m sg acc": "swé",
+                        "m sg gen": "sewe",
+                        "m sg dat": "sebʰyo"
                     }
                 }
             }
@@ -824,22 +826,22 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "h₁eg",
-                        "sg voc": "h₁eg",
-                        "sg acc": "h₁me",
-                        "sg gen": "h₁moy",
-                        "sg abl": "h₁med",
-                        "sg dat": "h₁moy",
-                        "sg loc": "h₁moy",
-                        "sg ins": "h₁mos"
+                    "adj": {
+                        "m sg nom": "h₁eg",
+                        "m sg voc": "h₁eg",
+                        "m sg acc": "h₁me",
+                        "m sg gen": "h₁moy",
+                        "m sg abl": "h₁med",
+                        "m sg dat": "h₁moy",
+                        "m sg loc": "h₁moy",
+                        "m sg ins": "h₁mos"
                     }
                 }
             },
             "hittite": {
                 "": {
-                    "noun": {
-                        "sg gen": "ma-as"
+                    "adj": {
+                        "m sg gen": "ma-as"
                     }
                 }
             }
@@ -1010,8 +1012,11 @@
         "meanings": "to yawn, gape",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0eh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0eh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/欠"
+        ],
+        "id": "YAWN",
+        "character_hint": "Pictograph of a person (人) opening their mouth to yawn."
     },
     {
         "PIE": "*pṓds",
@@ -1019,8 +1024,11 @@
         "meanings": "foot",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%E1%B9%93ds"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%E1%B9%93ds",
+            "https://www.dong-chinese.com/wiki/止"
+        ],
+        "id": "FOOT",
+        "character_hint": "Pictograph of a foot. "
     },
     {
         "PIE": "*só",
@@ -1107,20 +1115,20 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "méh₂tēr",
-                        "sg voc": "méh₂ter",
-                        "sg acc": "méh₂term̥",
-                        "pl nom": "méh₂teres",
-                        "pl voc": "méh₂teres",
-                        "pl acc": "méh₂term̥s"
+                    "adj": {
+                        "m sg nom": "méh₂tēr",
+                        "m sg voc": "méh₂ter",
+                        "m sg acc": "méh₂term̥",
+                        "m pl nom": "méh₂teres",
+                        "m pl voc": "méh₂teres",
+                        "m pl acc": "méh₂term̥s"
                     }
                 }
             },
             "hittite": {
                 "": {
-                    "noun": {
-                        "pl acc": "an-nu-us"
+                    "adj": {
+                        "m pl acc": "an-nu-us"
                     }
                 }
             }
@@ -1300,29 +1308,21 @@
         "character_hint": "Pictograph of a sprout emerging from the ground.",
         "inflections": {
             "pie": {
-                "ye_ti": {
-                    "verb": {
-                        "_std active prim sg 1": "ǵenh₁yóh₂",
-                        "_std active prim sg 2": "ǵenh₁yési",
-                        "_std active prim sg 3": "ǵenh₁yéti",
-                        "_std middle prim sg 1": "ǵenh₁yóh₂er",
-                        "_std middle prim sg 2": "ǵenh₁yéth₂er",
-                        "_std middle prim sg 3": "ǵenh₁yétor",
-                        "_std middle imp sg 2": "",
-                        "_std middle imp sg 3": "",
-                        "_std active imp sg 3": "ǵenh₁yétod",
-                        "_std active imp sg 2": "ǵenh₁yédʰi"
-                    }
-                },
                 "": {
                     "verb": {
                         "_std active prim sg 1": "ǵenh₁mi",
                         "_std active prim sg 2": "ǵenh₁si",
                         "_std active prim sg 3": "ǵenh₁ti",
-                        "_ire active prim sg 1": "",
-                        "_irr active prim sg 1": "",
-                        "_irr active prim sg 3": "ǵíǵn̥h₁eti",
-                        "_irr active sec sg 3": "ǵíǵn̥h₁et"
+                        "_dup active prim sg 3": "ǵíǵn̥h₁eti",
+                        "_dup active sec sg 3": "ǵíǵn̥h₁et",
+                        "_yeti active prim sg 1": "ǵenh₁yóh₂",
+                        "_yeti active prim sg 2": "ǵenh₁yési",
+                        "_yeti active prim sg 3": "ǵenh₁yéti",
+                        "_yeti middle prim sg 1": "ǵenh₁yóh₂er",
+                        "_yeti middle prim sg 2": "ǵenh₁yéth₂er",
+                        "_yeti middle prim sg 3": "ǵenh₁yétor",
+                        "_yeti active imp sg 3": "ǵenh₁yétod",
+                        "_yeti active imp sg 2": "ǵenh₁yédʰi"
                     }
                 }
             }
@@ -1387,15 +1387,15 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "h₂éǵros",
-                        "sg voc": "h₂éǵre",
-                        "sg acc": "h₂éǵrom",
-                        "sg gen": "h₂éǵrosyo",
-                        "sg abl": "h₂éǵread",
-                        "sg dat": "h₂éǵroey",
-                        "sg loc": "h₂éǵrey",
-                        "sg ins": "h₂éǵroh₁"
+                    "adj": {
+                        "m sg nom": "h₂éǵros",
+                        "m sg voc": "h₂éǵre",
+                        "m sg acc": "h₂éǵrom",
+                        "m sg gen": "h₂éǵrosyo",
+                        "m sg abl": "h₂éǵread",
+                        "m sg dat": "h₂éǵroey",
+                        "m sg loc": "h₂éǵrey",
+                        "m sg ins": "h₂éǵroh₁"
                     }
                 }
             }
@@ -1432,23 +1432,7 @@
             "https://www.dong-chinese.com/wiki/直"
         ],
         "id": "STRAIGHT",
-        "character_hint": "Pictograph of a straight line coming from the eye, to depict looking straight at something. The purpose of the stroke at the bottom is unclear.",
-        "inflections": {
-            "pie": {
-                "s": {
-                    "noun": {
-                        "sg nom": "h₃rḗǵs",
-                        "sg voc": "h₃réǵ",
-                        "sg acc": "h₃réǵm̥",
-                        "sg gen": "h₃réǵs",
-                        "sg abl": "h₃réǵs",
-                        "sg dat": "h₃réǵey",
-                        "sg loc": "h₃réǵi",
-                        "sg ins": "h₃réǵh₁"
-                    }
-                }
-            }
-        }
+        "character_hint": "Pictograph of a straight line coming from the eye, to depict looking straight at something. The purpose of the stroke at the bottom is unclear."
     },
     {
         "PIE": "*h₃réǵeti",
@@ -1470,12 +1454,31 @@
     },
     {
         "PIE": "*h₃rḗǵs",
-        "char": "直",
+        "char": "王",
         "meanings": "king, ruler",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83r%E1%B8%97%C7%B5s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83r%E1%B8%97%C7%B5s",
+            "https://www.dong-chinese.com/wiki/王"
+        ],
+        "id": "KING",
+        "character_hint": "Pictograph of an axe head, used as a symbol of the king's military authority.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "m sg nom": "h₃rḗǵs",
+                        "m sg voc": "h₃réǵ",
+                        "m sg acc": "h₃réǵm̥",
+                        "m sg gen": "h₃réǵs",
+                        "m sg abl": "h₃réǵs",
+                        "m sg dat": "h₃réǵey",
+                        "m sg loc": "h₃réǵi",
+                        "m sg ins": "h₃réǵh₁"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₃reǵtós",
@@ -1566,26 +1569,46 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "h₂ówis",
-                        "sg gen": "h₂éwis",
-                        "sg dat": "h₂éwyey",
-                        "sg ins": "h₂éwih₁",
-                        "sg acc": "h₂ówim",
-                        "sg voc": "h₂ówi",
-                        "sg abl": "h₂éwis",
-                        "sg loc": "h₂éwi",
-                        "dual nom": "h₂ówih₁e",
-                        "dual voc": "h₂ówih₁e",
-                        "dual acc": "h₂ówih₁e",
-                        "pl nom": "h₂óweyes",
-                        "pl voc": "h₂óweyes",
-                        "pl acc": "h₂ówims",
-                        "pl gen": "h₂éwyoHom",
-                        "pl abl": "h₂éwimos",
-                        "pl dat": "h₂éwimos",
-                        "pl loc": "h₂éwimos",
-                        "pl ins": "h₂éwimis"
+                    "adj": {
+                        "f sg nom": "h₂ówis",
+                        "f sg gen": "h₂éwis",
+                        "f sg dat": "h₂éwyey",
+                        "f sg ins": "h₂éwih₁",
+                        "f sg acc": "h₂ówim",
+                        "f sg voc": "h₂ówi",
+                        "f sg abl": "h₂éwis",
+                        "f sg loc": "h₂éwi",
+                        "f dual nom": "h₂ówih₁e",
+                        "f dual voc": "h₂ówih₁e",
+                        "f dual acc": "h₂ówih₁e",
+                        "f pl nom": "h₂óweyes",
+                        "f pl voc": "h₂óweyes",
+                        "f pl acc": "h₂ówims",
+                        "f pl gen": "h₂éwyoHom",
+                        "f pl abl": "h₂éwimos",
+                        "f pl dat": "h₂éwimos",
+                        "f pl loc": "h₂éwimos",
+                        "f pl ins": "h₂éwimis",
+                        "m sg nom": "h₂ówis",
+                        "m sg voc": "h₂ówi",
+                        "m sg acc": "h₂ówim",
+                        "m sg gen": "h₂éwis",
+                        "m sg abl": "h₂éwis",
+                        "m sg dat": "h₂éwyey",
+                        "m sg loc": "h₂éwi",
+                        "m sg ins": "h₂éwih₁",
+                        "m dual nom": "h₂ówih₁e",
+                        "m dual voc": "h₂ówih₁e",
+                        "m dual acc": "h₂ówih₁e",
+                        "m pl nom": "h₂óweyes",
+                        "m pl voc": "h₂óweyes",
+                        "m pl acc": "h₂ówims",
+                        "m pl gen": "h₂éwyoHom",
+                        "m pl abl": "h₂éwimos",
+                        "m pl dat": "h₂éwimos",
+                        "m pl loc": "h₂éwimos",
+                        "m pl ins": "h₂éwimis",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -1593,15 +1616,15 @@
     },
     {
         "PIE": "*welh₁-",
-        "char": "羨",
+        "char": "欲",
         "meanings": "to choose; to want",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/welh%E2%82%81-",
-            "https://www.dong-chinese.com/wiki/羡"
+            "https://www.dong-chinese.com/wiki/%E6%AC%B2"
         ],
         "id": "WANT",
-        "character_hint": "Depicts a person salivating (㳄) when seeing a tasty sheep (羊) that they have a desire to eat.",
+        "character_hint": "Phonosemantic compound. 欠, depicting a person with an open mouth, represents the meaning, while 谷 represents the sound.",
         "inflections": {
             "pie": {
                 "": {
@@ -1674,15 +1697,15 @@
         "inflections": {
             "pie": {
                 "trom": {
-                    "noun": {
-                        "sg nom": "westrom",
-                        "sg voc": "westrom",
-                        "sg acc": "westrom",
-                        "sg gen": "westrosyo",
-                        "sg abl": "westread",
-                        "sg dat": "westroey",
-                        "sg loc": "westrey",
-                        "sg ins": "westroh₁"
+                    "adj": {
+                        "m sg nom": "westrom",
+                        "m sg voc": "westrom",
+                        "m sg acc": "westrom",
+                        "m sg gen": "westrosyo",
+                        "m sg abl": "westread",
+                        "m sg dat": "westroey",
+                        "m sg loc": "westrey",
+                        "m sg ins": "westroh₁"
                     }
                 }
             }
@@ -1764,15 +1787,15 @@
                         "_std active sec sg 2": "bʰéres",
                         "_std active sec sg 3": "bʰéret"
                     },
-                    "noun": {
-                        "sg nom": "bʰérōs",
-                        "sg voc": "bʰéros",
-                        "sg acc": "bʰérosm̥",
-                        "sg gen": "bʰérosos",
-                        "sg abl": "bʰérosos",
-                        "sg dat": "bʰérosey",
-                        "sg loc": "bʰérosi",
-                        "sg ins": "bʰérosh₁"
+                    "adj": {
+                        "m sg nom": "bʰérōs",
+                        "m sg voc": "bʰéros",
+                        "m sg acc": "bʰérosm̥",
+                        "m sg gen": "bʰérosos",
+                        "m sg abl": "bʰérosos",
+                        "m sg dat": "bʰérosey",
+                        "m sg loc": "bʰérosi",
+                        "m sg ins": "bʰérosh₁"
                     }
                 }
             }
@@ -1849,15 +1872,15 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "weǵʰōs",
-                        "sg voc": "weǵʰōs",
-                        "sg acc": "weǵʰosm̥",
-                        "sg gen": "weǵʰosos",
-                        "sg abl": "weǵʰosos",
-                        "sg dat": "weǵʰosey",
-                        "sg loc": "weǵʰosi",
-                        "sg ins": "weǵʰosh₁"
+                    "adj": {
+                        "m sg nom": "weǵʰōs",
+                        "m sg voc": "weǵʰōs",
+                        "m sg acc": "weǵʰosm̥",
+                        "m sg gen": "weǵʰosos",
+                        "m sg abl": "weǵʰosos",
+                        "m sg dat": "weǵʰosey",
+                        "m sg loc": "weǵʰosi",
+                        "m sg ins": "weǵʰosh₁"
                     }
                 }
             }
@@ -1972,26 +1995,26 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "h₁éḱwos",
-                        "sg voc": "h₁éḱwe",
-                        "sg acc": "h₁éḱwom",
-                        "sg gen": "h₁éḱwosyo",
-                        "sg abl": "h₁éḱwead",
-                        "sg dat": "h₁éḱwoey",
-                        "sg loc": "h₁éḱwoy",
-                        "sg ins": "h₁éḱwoh₁",
-                        "dual nom": "h₁éḱwoh₁",
-                        "dual voc": "h₁éḱwoh₁",
-                        "dual acc": "h₁éḱwoh₁",
-                        "pl nom": "h₁éḱwoes",
-                        "pl voc": "h₁éḱwoes",
-                        "pl acc": "h₁éḱwoms",
-                        "pl gen": "h₁éḱwoHom",
-                        "pl abl": "h₁éḱwomos",
-                        "pl dat": "h₁éḱwomos",
-                        "pl loc": "h₁éḱwoysu",
-                        "pl ins": "h₁éḱwōys"
+                    "adj": {
+                        "m sg nom": "h₁éḱwos",
+                        "m sg voc": "h₁éḱwe",
+                        "m sg acc": "h₁éḱwom",
+                        "m sg gen": "h₁éḱwosyo",
+                        "m sg abl": "h₁éḱwead",
+                        "m sg dat": "h₁éḱwoey",
+                        "m sg loc": "h₁éḱwoy",
+                        "m sg ins": "h₁éḱwoh₁",
+                        "m dual nom": "h₁éḱwoh₁",
+                        "m dual voc": "h₁éḱwoh₁",
+                        "m dual acc": "h₁éḱwoh₁",
+                        "m pl nom": "h₁éḱwoes",
+                        "m pl voc": "h₁éḱwoes",
+                        "m pl acc": "h₁éḱwoms",
+                        "m pl gen": "h₁éḱwoHom",
+                        "m pl abl": "h₁éḱwomos",
+                        "m pl dat": "h₁éḱwomos",
+                        "m pl loc": "h₁éḱwoysu",
+                        "m pl ins": "h₁éḱwōys"
                     }
                 }
             }
@@ -2020,15 +2043,29 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "dʰéǵʰōm",
-                        "sg voc": "dʰéǵʰōm",
-                        "sg acc": "dʰéǵʰōm",
-                        "sg gen": "ǵʰmés",
-                        "sg abl": "ǵʰmés",
-                        "sg dat": "ǵʰméy",
-                        "sg loc": "ǵʰémi",
-                        "sg ins": "ǵʰméh₁"
+                    "adj": {
+                        "f sg nom": "dʰéǵʰōm",
+                        "f sg voc": "dʰéǵʰōm",
+                        "f sg acc": "dʰéǵʰōm",
+                        "f sg gen": "ǵʰmés",
+                        "f sg abl": "ǵʰmés",
+                        "f sg dat": "ǵʰméy",
+                        "f sg loc": "ǵʰémi",
+                        "f sg ins": "ǵʰméh₁",
+                        "default_gender": "f"
+                    }
+                },
+                "oo": {
+                    "adj": {
+                        "m sg nom": "ǵʰémō",
+                        "m sg voc": "ǵʰémon",
+                        "m sg acc": "ǵʰémonm̥",
+                        "m sg gen": "ǵʰm̥nés",
+                        "m sg abl": "ǵʰm̥nés",
+                        "m sg dat": "ǵʰm̥néy",
+                        "m sg loc": "ǵʰméni",
+                        "m sg ins": "ǵʰm̥néh",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -2049,16 +2086,16 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "Hpós",
-                        "sg acc": "Hpóm"
+                    "adj": {
+                        "m sg nom": "Hpós",
+                        "m sg acc": "Hpóm"
                     }
                 }
             },
             "hittite": {
                 "": {
-                    "noun": {
-                        "sg acc": "a-ap-pa-an"
+                    "adj": {
+                        "m sg acc": "a-ap-pa-an"
                     }
                 }
             }
@@ -2300,15 +2337,15 @@
         "inflections": {
             "pie": {
                 "los": {
-                    "noun": {
-                        "sg nom": "putlós",
-                        "sg voc": "putlé",
-                        "sg acc": "putlóm",
-                        "sg gen": "putlósyo",
-                        "sg abl": "putléad",
-                        "sg dat": "putlóey",
-                        "sg loc": "putlóy",
-                        "sg ins": "putlóh₁"
+                    "adj": {
+                        "m sg nom": "putlós",
+                        "m sg voc": "putlé",
+                        "m sg acc": "putlóm",
+                        "m sg gen": "putlósyo",
+                        "m sg abl": "putléad",
+                        "m sg dat": "putlóey",
+                        "m sg loc": "putlóy",
+                        "m sg ins": "putlóh₁"
                     }
                 }
             }
@@ -2604,20 +2641,20 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg acc": "áttanm̥",
-                        "sg nom": "átta",
-                        "pl nom": "áttanes",
-                        "pl acc": "áttanm̥s",
-                        "sg gen": "áttas"
+                    "adj": {
+                        "m sg acc": "áttanm̥",
+                        "m sg nom": "átta",
+                        "m pl nom": "áttanes",
+                        "m pl acc": "áttanm̥s",
+                        "m sg gen": "áttas"
                     }
                 }
             },
             "hittite": {
                 "": {
-                    "noun": {
-                        "pl acc": "at-tu-us",
-                        "sg gen": "at-ta-as"
+                    "adj": {
+                        "m pl acc": "at-tu-us",
+                        "m sg gen": "at-ta-as"
                     }
                 }
             }
@@ -2724,12 +2761,15 @@
     },
     {
         "PIE": "*bʰeh₂-",
-        "char": "",
-        "meanings": ";  to shine, glow light",
+        "char": "光",
+        "meanings": "to shine, glow light",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0eh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0eh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/光"
+        ],
+        "id": "SHINE",
+        "character_hint": "Pictograph of fire on top of a person."
     },
     {
         "PIE": "*bʰeh₂g-",
@@ -3687,12 +3727,39 @@
     },
     {
         "PIE": "*deywós",
-        "char": "",
+        "char": "祆",
         "meanings": "(sky) god",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deyw%C3%B3s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deyw%C3%B3s",
+            "https://www.dong-chinese.com/wiki/%E7%A5%86"
+        ],
+        "id": "GOD",
+        "character_hint": "Phonosemantic compound. 礻 represents the meaning and 天 represents the sound.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "m sg nom": "deywós",
+                        "m sg voc": "deywé",
+                        "m sg acc": "deywóm",
+                        "m sg gen": "deywósyo",
+                        "m sg abl": "deywéad",
+                        "m sg dat": "deywóey",
+                        "m sg loc": "deywóy",
+                        "m sg ins": "deywóh₁",
+                        "m pl nom": "deywóes",
+                        "m pl voc": "deywóes",
+                        "m pl acc": "deywóms",
+                        "m pl gen": "deywóHom",
+                        "m pl abl": "deywómos",
+                        "m pl dat": "deywómos",
+                        "m pl loc": "deywóysu",
+                        "m pl ins": "deywṓys"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*dh₃tós",
@@ -4197,12 +4264,15 @@
     },
     {
         "PIE": "*dóru",
-        "char": "",
+        "char": "木",
         "meanings": "tree",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%B3ru"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%C3%B3ru",
+            "https://www.dong-chinese.com/wiki/木"
+        ],
+        "id": "TREE",
+        "character_hint": "Pictograph of a tree."
     },
     {
         "PIE": "*dóws",
@@ -4329,12 +4399,13 @@
     },
     {
         "PIE": "*g⁽ʷ⁾eldʰ-",
-        "char": "",
+        "char": "貪",
         "meanings": "to be greedy, hungry",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%E2%81%BD%CA%B7%E2%81%BEeld%CA%B0-"
-        ]
+        ],
+        "id": "GREEDY"
     },
     {
         "PIE": "*g⁽ʷ⁾ew(H)-",
@@ -4679,19 +4750,31 @@
             "https://www.dong-chinese.com/wiki/畐"
         ],
         "id": "POUR",
-        "character_hint": "Depicts a drinking vessel full of wine.",
+        "character_hint": "Depicts a drinking vessel full of wine."
+    },
+    {
+        "PIE": "*ǵʰewtōr",
+        "char": "⿰亻畐",
+        "meanings": "pourer; priest",
+        "pos": "noun",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ew-",
+            "https://www.dong-chinese.com/wiki/畐"
+        ],
+        "id": "POUR_tor",
+        "character_hint": "Person (亻) + drinking vessel (畐)",
         "inflections": {
             "pie": {
-                "tor": {
-                    "noun": {
-                        "sg nom": "ǵʰewtōr",
-                        "sg voc": "ǵʰewtor",
-                        "sg acc": "ǵʰewtorm̥",
-                        "sg gen": "ǵʰewtrés",
-                        "sg abl": "ǵʰewtrés",
-                        "sg dat": "ǵʰewtréy",
-                        "sg loc": "ǵʰewtéri",
-                        "sg ins": "ǵʰewtréh₁"
+                "": {
+                    "adj": {
+                        "m sg nom": "ǵʰewtōr",
+                        "m sg voc": "ǵʰewtor",
+                        "m sg acc": "ǵʰewtorm̥",
+                        "m sg gen": "ǵʰewtrés",
+                        "m sg abl": "ǵʰewtrés",
+                        "m sg dat": "ǵʰewtréy",
+                        "m sg loc": "ǵʰewtéri",
+                        "m sg ins": "ǵʰewtréh₁"
                     }
                 }
             }
@@ -4786,33 +4869,6 @@
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ley-"
         ]
-    },
-    {
-        "PIE": "*ǵʰmṓ",
-        "char": "⿰亻𡈼",
-        "meanings": "earthling",
-        "pos": "noun",
-        "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0m%E1%B9%93"
-        ],
-        "id": "EARTHLING_o",
-        "character_hint": "人+𡈼",
-        "inflections": {
-            "pie": {
-                "": {
-                    "noun": {
-                        "sg nom": "ǵʰémō",
-                        "sg voc": "ǵʰémon",
-                        "sg acc": "ǵʰémonm̥",
-                        "sg gen": "ǵʰm̥nés",
-                        "sg abl": "ǵʰm̥nés",
-                        "sg dat": "ǵʰm̥néy",
-                        "sg loc": "ǵʰméni",
-                        "sg ins": "ǵʰm̥néh"
-                    }
-                }
-            }
-        }
     },
     {
         "PIE": "*ǵʰórtos",
@@ -5457,10 +5513,10 @@
         "character_hint": "Pictograph of a tongue extending from an open mouth. Visually similar to 舌 (tongue).",
         "inflections": {
             "pie": {
-                "ye_ti": {
+                "": {
                     "verb": {
-                        "_std middle imp sg 2": "h₁eǵyéso",
-                        "_std middle sec sg 3": "h₁eǵyéto"
+                        "_yeti middle imp sg 2": "h₁eǵyéso",
+                        "_yeti middle sec sg 3": "h₁eǵyéto"
                     }
                 }
             }
@@ -5549,12 +5605,15 @@
     },
     {
         "PIE": "*h₁énos",
-        "char": "",
+        "char": "是",
         "meanings": "that, that over there, yon (distal)",
         "pos": "pron",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9nos"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9nos",
+            "https://www.dong-chinese.com/wiki/是"
+        ],
+        "id": "THAT",
+        "character_hint": "Origin unclear. The bottom component 止 represents the sound."
     },
     {
         "PIE": "*h₁entér",
@@ -5613,12 +5672,15 @@
     },
     {
         "PIE": "*h₁er-",
-        "char": "",
+        "char": "地",
         "meanings": "earth",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81er-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81er-",
+            "https://www.dong-chinese.com/wiki/地"
+        ],
+        "id": "EARTH",
+        "character_hint": "Phonosemantic compound. 土 represents the meaning and 也 represents the sound. "
     },
     {
         "PIE": "*h₁erh₂-",
@@ -6144,22 +6206,35 @@
     },
     {
         "PIE": "*h₁wer-",
-        "char": "凡",
+        "char": "弘",
         "meanings": "broad",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81wer-",
-            "https://www.dong-chinese.com/wiki/凡"
+            "https://www.dong-chinese.com/wiki/%E5%BC%98"
         ],
         "id": "BROAD",
-        "character_hint": "Depicts a wide, flat, object, such as a tray or plate.",
+        "character_hint": "Phonosemantic compound. 弓 represents the sound and 口 represents the original meaning \"loud sound\". The meaning later extended to \"great\", \"vast\"."
+    },
+    {
+        "PIE": "*h₁werunos",
+        "char": "泓",
+        "meanings": "Varuna; god of sky and rain",
+        "pos": "root",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-Iranian/Hw%C3%A1runas",
+            "https://www.dong-chinese.com/wiki/%E6%B3%93"
+        ],
+        "id": "VARUNA",
+        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 弘 represents the sound.",
         "inflections": {
             "pie": {
-                "us nos": {
-                    "noun": {
-                        "sg nom": "h₁werunos",
-                        "sg voc": "h₁werune",
-                        "sg acc": "h₁werune"
+                "": {
+                    "adj": {
+                        "m sg nom": "h₁werunos",
+                        "m sg voc": "h₁werune",
+                        "m sg acc": "h₁werune",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -6547,29 +6622,29 @@
         "inflections": {
             "pie": {
                 "us s": {
-                    "noun": {
-                        "sg nom": "h₂emsus",
-                        "sg voc": "h₂emsu",
-                        "sg acc": "h₂emsum",
-                        "sg gen": "h₂emséws",
-                        "sg abl": "h₂emséws",
-                        "sg dat": "h₂emséwey",
-                        "sg loc": "h₂emséwi",
-                        "sg ins": "h₂emsúh₁"
+                    "adj": {
+                        "m sg nom": "h₂emsus",
+                        "m sg voc": "h₂emsu",
+                        "m sg acc": "h₂emsum",
+                        "m sg gen": "h₂emséws",
+                        "m sg abl": "h₂emséws",
+                        "m sg dat": "h₂emséwey",
+                        "m sg loc": "h₂emséwi",
+                        "m sg ins": "h₂emsúh₁"
                     }
                 }
             },
             "hittite": {
                 "us s": {
-                    "noun": {
-                        "sg nom": "LUGAL-us",
-                        "sg voc": "LUGAL",
-                        "sg acc": "LUGAL-un",
-                        "sg gen": "LUGAL",
-                        "sg abl": "LUGAL",
-                        "sg dat": "LUGAL-i",
-                        "sg loc": "LUGAL",
-                        "sg ins": "LUGAL"
+                    "adj": {
+                        "m sg nom": "LUGAL-us",
+                        "m sg voc": "LUGAL",
+                        "m sg acc": "LUGAL-un",
+                        "m sg gen": "LUGAL",
+                        "m sg abl": "LUGAL",
+                        "m sg dat": "LUGAL-i",
+                        "m sg loc": "LUGAL",
+                        "m sg ins": "LUGAL"
                     }
                 }
             }
@@ -7155,15 +7230,15 @@
         "inflections": {
             "pie": {
                 "es": {
-                    "noun": {
-                        "sg ins": "h₂neḱesh₁"
+                    "adj": {
+                        "m sg ins": "h₂neḱesh₁"
                     }
                 }
             },
             "hittite": {
                 "es": {
-                    "noun": {
-                        "sg ins": "na-ak-ki-it"
+                    "adj": {
+                        "m sg ins": "na-ak-ki-it"
                     }
                 }
             }
@@ -8568,23 +8643,23 @@
         "character_hint": "Phonosemantic compound. 阝 represents the meaning and 付 represents the sound. ",
         "inflections": {
             "pie": {
-                "teh2": {
-                    "noun": {
-                        "sg nom": "km̥teh₂",
-                        "sg voc": "km̥teh₂",
-                        "sg acc": "km̥tām",
-                        "sg gen": "km̥teh₂s",
-                        "sg abl": "km̥teh₂s",
-                        "sg dat": "km̥teh₂ey",
-                        "sg loc": "km̥teh₂i",
-                        "sg ins": "km̥teh₂h₁"
+                "": {
+                    "adj": {
+                        "f sg nom": "km̥teh₂",
+                        "f sg voc": "km̥teh₂",
+                        "f sg acc": "km̥tām",
+                        "f sg gen": "km̥teh₂s",
+                        "f sg abl": "km̥teh₂s",
+                        "f sg dat": "km̥teh₂ey",
+                        "f sg loc": "km̥teh₂i",
+                        "f sg ins": "km̥teh₂h₁"
                     }
                 }
             },
             "hittite": {
-                "teh2": {
-                    "noun": {
-                        "sg nom": "kat-ta"
+                "": {
+                    "adj": {
+                        "f sg nom": "kat-ta"
                     }
                 }
             }
@@ -9112,15 +9187,15 @@
         "inflections": {
             "pie": {
                 "o_nts": {
-                    "noun": {
-                        "sg dat": "kʷspentéy"
+                    "adj": {
+                        "m sg dat": "kʷspentéy"
                     }
                 }
             },
             "hittite": {
                 "o_nts": {
-                    "noun": {
-                        "sg dat": "is-pa-an-di"
+                    "adj": {
+                        "m sg dat": "is-pa-an-di"
                     }
                 }
             }
@@ -9128,12 +9203,15 @@
     },
     {
         "PIE": "*kʷyeh₁-",
-        "char": "",
+        "char": "休",
         "meanings": "to rest; rest, peace",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7yeh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7yeh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/休"
+        ],
+        "id": "REST",
+        "character_hint": "Depicts a person (亻) resting under a tree (木)."
     },
     {
         "PIE": "*kyeh₂-",
@@ -9173,12 +9251,15 @@
     },
     {
         "PIE": "*legʰ-",
-        "char": "",
+        "char": "床",
         "meanings": "to lie (to be in resting position)",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/leg%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/leg%CA%B0-",
+            "https://www.dong-chinese.com/wiki/床"
+        ],
+        "id": "LIE",
+        "character_hint": "Depicts a bed (爿) made from wood (木). Originally written as 爿 or 牀."
     },
     {
         "PIE": "*légʰyeti",
@@ -9338,15 +9419,15 @@
         "inflections": {
             "pie": {
                 "o_s": {
-                    "noun": {
-                        "sg nom": "lewkós",
-                        "sg voc": "lewké",
-                        "sg acc": "lewkóm",
-                        "sg gen": "lewkósyo",
-                        "sg abl": "lewkéad",
-                        "sg dat": "lewkóey",
-                        "sg loc": "lewkóy",
-                        "sg ins": "lewkóh₁"
+                    "adj": {
+                        "m sg nom": "lewkós",
+                        "m sg voc": "lewké",
+                        "m sg acc": "lewkóm",
+                        "m sg gen": "lewkósyo",
+                        "m sg abl": "lewkéad",
+                        "m sg dat": "lewkóey",
+                        "m sg loc": "lewkóy",
+                        "m sg ins": "lewkóh₁"
                     }
                 }
             }
@@ -9979,22 +10060,22 @@
         "inflections": {
             "pie": {
                 "os": {
-                    "noun": {
-                        "sg nom": "nébʰos",
-                        "sg voc": "nébʰos",
-                        "sg acc": "nébʰos",
-                        "sg gen": "nébʰesos",
-                        "sg abl": "nébʰesos",
-                        "sg dat": "nébʰesey",
-                        "sg loc": "nébʰesi",
-                        "sg ins": "nébʰesh₁"
+                    "adj": {
+                        "m sg nom": "nébʰos",
+                        "m sg voc": "nébʰos",
+                        "m sg acc": "nébʰos",
+                        "m sg gen": "nébʰesos",
+                        "m sg abl": "nébʰesos",
+                        "m sg dat": "nébʰesey",
+                        "m sg loc": "nébʰesi",
+                        "m sg ins": "nébʰesh₁"
                     }
                 }
             },
             "hittite": {
                 "os": {
-                    "noun": {
-                        "sg gen": "ne-pi-is-za"
+                    "adj": {
+                        "m sg gen": "ne-pi-is-za"
                     }
                 }
             }
@@ -10326,9 +10407,9 @@
         "inflections": {
             "pie": {
                 "los": {
-                    "noun": {
-                        "sg nom": "putlós",
-                        "sg acc": "putlóm"
+                    "adj": {
+                        "m sg nom": "putlós",
+                        "m sg acc": "putlóm"
                     }
                 }
             }
@@ -10453,12 +10534,15 @@
     },
     {
         "PIE": "*per-",
-        "char": "",
-        "meanings": ";  before, in front; first",
+        "char": "前",
+        "meanings": "before, in front; first",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/per-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/per-",
+            "https://www.dong-chinese.com/wiki/前"
+        ],
+        "character_hint": "Phonosemantic compound. 歬 represents the sound, and 刂 represents the meaning. Based on the original meaning \"cut\", now written as 剪. The current meaning \"in front\" is a phonetic loan.",
+        "id": "BEFORE"
     },
     {
         "PIE": "*perd-",
@@ -10681,23 +10765,23 @@
         "inflections": {
             "pie": {
                 "": {
-                    "noun": {
-                        "sg nom": "ph₂tḗr",
-                        "sg voc": "ph₂tḗr",
-                        "sg acc": "ph₂térm̥",
-                        "sg gen": "ph₂trés",
-                        "sg abl": "ph₂trés",
-                        "sg dat": "ph₂tréy",
-                        "sg loc": "ph₂téri",
-                        "sg ins": "ph₂tréh₁",
-                        "pl nom": "ph₂téres",
-                        "pl voc": "ph₂téres",
-                        "pl acc": "ph₂térm̥s",
-                        "pl gen": "ph₂tróHom",
-                        "pl abl": "ph₂tr̥mós",
-                        "pl dat": "ph₂tr̥mós",
-                        "pl loc": "ph₂tr̥sú",
-                        "pl ins": "ph₂tr̥mís"
+                    "adj": {
+                        "m sg nom": "ph₂tḗr",
+                        "m sg voc": "ph₂tḗr",
+                        "m sg acc": "ph₂térm̥",
+                        "m sg gen": "ph₂trés",
+                        "m sg abl": "ph₂trés",
+                        "m sg dat": "ph₂tréy",
+                        "m sg loc": "ph₂téri",
+                        "m sg ins": "ph₂tréh₁",
+                        "m pl nom": "ph₂téres",
+                        "m pl voc": "ph₂téres",
+                        "m pl acc": "ph₂térm̥s",
+                        "m pl gen": "ph₂tróHom",
+                        "m pl abl": "ph₂tr̥mós",
+                        "m pl dat": "ph₂tr̥mós",
+                        "m pl loc": "ph₂tr̥sú",
+                        "m pl ins": "ph₂tr̥mís"
                     }
                 }
             }
@@ -11284,21 +11368,20 @@
     },
     {
         "PIE": "*sel-",
-        "char": "夭",
+        "char": "跳",
         "meanings": "jump, spring, run",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sel-",
-            "https://www.dong-chinese.com/wiki/夭"
+            "https://www.dong-chinese.com/wiki/%E8%B7%B3"
         ],
         "id": "JUMP",
-        "character_hint": "Depicts a person swaying their arms while walking quickly.",
+        "character_hint": "足 represents the meaning. 兆 is a pictograph of two people escaping a flood.",
         "inflections": {
             "pie": {
                 "": {
                     "verb": {
-                        "_srr active prim sg 3": "",
-                        "_srr stative prim sg 3": "sesole"
+                        "_dup stative prim sg 3": "sesole"
                     }
                 }
             }
@@ -11421,6 +11504,18 @@
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sent-"
         ]
+    },
+    {
+        "PIE": "*sent-",
+        "char": "疑",
+        "meanings": "to feel; sense",
+        "pos": "root",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sent-#Root_2",
+            "https://www.dong-chinese.com/wiki/疑"
+        ],
+        "id": "SENSE",
+        "character_hint": "Pictograph of a person holding onto a staff, looking to the side with his mouth open, doubtful of which direction to go. The 龰 (foot) component was added later to indicate movement, and the 牛 component was added to hint at the sound."
     },
     {
         "PIE": "*sep-",
@@ -12579,22 +12674,22 @@
         "inflections": {
             "pie": {
                 "onts": {
-                    "noun": {
-                        "sg nom": "terh₂ónts",
-                        "sg voc": "terh₂ónt",
-                        "sg acc": "terh₂óntm̥",
-                        "sg gen": "terh₂n̥tés",
-                        "sg abl": "terh₂n̥tés",
-                        "sg dat": "terh₂n̥téy",
-                        "sg loc": "terh₂énti",
-                        "sg ins": "terh₂n̥téh₁"
+                    "adj": {
+                        "m sg nom": "terh₂ónts",
+                        "m sg voc": "terh₂ónt",
+                        "m sg acc": "terh₂óntm̥",
+                        "m sg gen": "terh₂n̥tés",
+                        "m sg abl": "terh₂n̥tés",
+                        "m sg dat": "terh₂n̥téy",
+                        "m sg loc": "terh₂énti",
+                        "m sg ins": "terh₂n̥téh₁"
                     }
                 }
             },
             "hittite": {
                 "onts": {
-                    "noun": {
-                        "sg dat": "D:ISKUR-un-ni"
+                    "adj": {
+                        "m sg dat": "D:ISKUR-un-ni"
                     }
                 }
             }
@@ -12859,12 +12954,15 @@
     },
     {
         "PIE": "*tpḗrsneh₂",
-        "char": "",
+        "char": "足",
         "meanings": "heel, upper thigh",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tp%E1%B8%97rsneh%E2%82%82"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tp%E1%B8%97rsneh%E2%82%82",
+            "https://www.dong-chinese.com/wiki/足"
+        ],
+        "id": "LEG",
+        "character_hint": "Pictograph of a foot (止) attached to a leg."
     },
     {
         "PIE": "*treb-",
@@ -13451,17 +13549,17 @@
         "inflections": {
             "pie": {
                 "os": {
-                    "noun": {
-                        "sg dat": "",
-                        "sg loc": "wétesi"
+                    "adj": {
+                        "m sg dat": "",
+                        "m sg loc": "wétesi"
                     }
                 }
             },
             "hittite": {
                 "os": {
-                    "noun": {
-                        "sg ins": "",
-                        "sg loc": "ú-et-ti"
+                    "adj": {
+                        "m sg ins": "",
+                        "m sg loc": "ú-et-ti"
                     }
                 }
             }
@@ -14708,14 +14806,6 @@
         ]
     },
     {
-        "char": "光",
-        "character_hint": "Pictograph of fire on top of a person.",
-        "meanings": "light",
-        "references": [
-            "https://www.dong-chinese.com/wiki/光"
-        ]
-    },
-    {
         "char": "兄",
         "character_hint": "Pictograph of a mouth on top of a person, representing an older brother giving orders.",
         "meanings": "elder brother",
@@ -15321,14 +15411,6 @@
         "meanings": "knife edge",
         "references": [
             "https://www.dong-chinese.com/wiki/刃"
-        ]
-    },
-    {
-        "char": "前",
-        "character_hint": "Phonosemantic compound. 歬 represents the sound, and 刂 represents the meaning. Based on the original meaning \"cut\", now written as 剪. The current meaning \"in front\" is a phonetic loan.",
-        "meanings": "in front; cut",
-        "references": [
-            "https://www.dong-chinese.com/wiki/前"
         ]
     },
     {
@@ -17609,14 +17691,6 @@
         "meanings": "[plural]",
         "references": [
             "https://www.dong-chinese.com/wiki/们"
-        ]
-    },
-    {
-        "char": "休",
-        "character_hint": "Depicts a person (亻) resting under a tree (木).",
-        "meanings": "rest",
-        "references": [
-            "https://www.dong-chinese.com/wiki/休"
         ]
     },
     {
@@ -20324,14 +20398,6 @@
         ]
     },
     {
-        "char": "土",
-        "character_hint": "Depicts a lump of dirt on the ground.",
-        "meanings": "earth",
-        "references": [
-            "https://www.dong-chinese.com/wiki/土"
-        ]
-    },
-    {
         "char": "嘛",
         "character_hint": "Phonosemantic compound. 口 represents the meaning and 麻 represents the sound. ",
         "meanings": "final exclamatory particle",
@@ -20401,14 +20467,6 @@
         "meanings": "circle",
         "references": [
             "https://www.dong-chinese.com/wiki/圓"
-        ]
-    },
-    {
-        "char": "地",
-        "character_hint": "Phonosemantic compound. 土 represents the meaning and 也 represents the sound. ",
-        "meanings": "earth",
-        "references": [
-            "https://www.dong-chinese.com/wiki/地"
         ]
     },
     {
@@ -22532,14 +22590,6 @@
         ]
     },
     {
-        "char": "床",
-        "character_hint": "Depicts a bed (爿) made from wood (木). Originally written as 爿 or 牀.",
-        "meanings": "bed",
-        "references": [
-            "https://www.dong-chinese.com/wiki/床"
-        ]
-    },
-    {
         "char": "底",
         "character_hint": "Phonosemantic compound. 广 represents the meaning and 氐 represents the sound. ",
         "meanings": "bottom",
@@ -24156,14 +24206,6 @@
         ]
     },
     {
-        "char": "止",
-        "character_hint": "Pictograph of a foot. The meaning of this character has shifted over time and now means \"stop\". ",
-        "meanings": "(foot), stop; foot",
-        "references": [
-            "https://www.dong-chinese.com/wiki/止"
-        ]
-    },
-    {
         "char": "正",
         "character_hint": "Pictograph of a foot (止) heading toward a city (丁). Based on the original meaning \"journey\", now written as 征.",
         "meanings": "correct; journey",
@@ -24441,14 +24483,6 @@
         "meanings": "ice",
         "references": [
             "https://www.dong-chinese.com/wiki/氷"
-        ]
-    },
-    {
-        "char": "欠",
-        "character_hint": "Pictograph of a person (人) opening their mouth to yawn.",
-        "meanings": "yawn, deficient",
-        "references": [
-            "https://www.dong-chinese.com/wiki/欠"
         ]
     },
     {
@@ -25452,14 +25486,6 @@
         ]
     },
     {
-        "char": "王",
-        "character_hint": "Pictograph of an axe head, used as a symbol of the king's military authority.",
-        "meanings": "king",
-        "references": [
-            "https://www.dong-chinese.com/wiki/王"
-        ]
-    },
-    {
         "char": "班",
         "character_hint": "Depicts a knife (刂) cutting a gem into two halves (玨), based on the original meaning \"to divide\". The meaning later shifted to \"division\", \"group\", and \"team\".",
         "meanings": "group",
@@ -26268,14 +26294,6 @@
         ]
     },
     {
-        "char": "是",
-        "character_hint": "Origin unclear. The bottom component 止 represents the sound.",
-        "meanings": "is",
-        "references": [
-            "https://www.dong-chinese.com/wiki/是"
-        ]
-    },
-    {
         "char": "時",
         "character_hint": "Phonosemantic compound. 日 represents the meaning and 寺 represents the sound. ",
         "meanings": "time",
@@ -26641,14 +26659,6 @@
         "meanings": "friend; pair of strings of jade",
         "references": [
             "https://www.dong-chinese.com/wiki/朋"
-        ]
-    },
-    {
-        "char": "木",
-        "character_hint": "Pictograph of a tree.",
-        "meanings": "tree",
-        "references": [
-            "https://www.dong-chinese.com/wiki/木"
         ]
     },
     {
@@ -30508,14 +30518,6 @@
         ]
     },
     {
-        "char": "疑",
-        "character_hint": "Pictograph of a person holding onto a staff, looking to the side with his mouth open, doubtful of which direction to go. The 龰 (foot) component was added later to indicate movement, and the 牛 component was added to hint at the sound.",
-        "meanings": "doubt",
-        "references": [
-            "https://www.dong-chinese.com/wiki/疑"
-        ]
-    },
-    {
         "char": "省",
         "character_hint": "Phonosemantic compound. 目 represents the meaning and 生 represents the sound. Based on the original meaning \"eye disease\", now written as 眚. The current meaning is a phonetic loan.",
         "meanings": "save; eye disease",
@@ -32777,14 +32779,6 @@
         "meanings": "lie",
         "references": [
             "https://www.dong-chinese.com/wiki/谎"
-        ]
-    },
-    {
-        "char": "谷",
-        "character_hint": "Depicts an opening (口) between two mountain streams.",
-        "meanings": "valley, ravine",
-        "references": [
-            "https://www.dong-chinese.com/wiki/谷"
         ]
     },
     {
@@ -37593,22 +37587,6 @@
         "meanings": "red",
         "references": [
             "https://www.dong-chinese.com/wiki/赤"
-        ]
-    },
-    {
-        "char": "足",
-        "character_hint": "Pictograph of a foot (止) attached to a leg.",
-        "meanings": "foot",
-        "references": [
-            "https://www.dong-chinese.com/wiki/足"
-        ]
-    },
-    {
-        "char": "跳",
-        "character_hint": "Phonosemantic compound. 足 represents the meaning and 兆 represents the sound. ",
-        "meanings": "jump",
-        "references": [
-            "https://www.dong-chinese.com/wiki/跳"
         ]
     },
     {

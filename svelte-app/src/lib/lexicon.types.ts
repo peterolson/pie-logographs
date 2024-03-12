@@ -45,4 +45,5 @@ export type ParsedWord = {
 	determiner?: string;
 	determinerKey?: string;
 	phonetic?: string;
+	language?: string;
 };

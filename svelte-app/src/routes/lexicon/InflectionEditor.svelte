@@ -1,28 +1,24 @@
 <script lang="ts">
 	import type { Inflection, LexiconEntry } from '$lib/lexicon.types';
 	import AdjectiveInflectionEditor from './AdjectiveInflectionEditor.svelte';
-	import NounInflectionEditor from './NounInflectionEditor.svelte';
 	import VerbFormationEditor from './VerbFormationEditor.svelte';
 
 	export let inflections: Record<string, Inflection> | undefined;
-	export let lexiconEntry: LexiconEntry;
 
 	const languages: Record<string, string> = {
 		pie: 'Proto-Indo-European',
 		hittite: 'Hittite'
 	};
 	const pos: Record<string, string> = {
-		noun: 'Noun',
-		adj: 'Adjective',
+		adj: 'Adjective/Noun',
 		verb: 'Verb'
 	};
 
 	let selectedLanguage = 'pie';
-	let selectedPOS = 'noun';
+	let selectedPOS = 'adj';
 	let suffix = '';
 
 	function addInflection(selectedLanguage: string, selectedPOS: string, suffix: string) {
-		console.log('addInflection', inflections, selectedLanguage, selectedPOS, suffix);
 		if (!inflections) {
 			inflections = {};
 		}
@@ -66,13 +62,6 @@
 				<h4>-{suffix} <button on:click={removeSuffix(lang, suffix)}>Remove</button></h4>
 				{#each Object.keys(inflections[lang][suffix]) as pos}
 					<h5>{pos} <button on:click={removePOS(lang, suffix, pos)}>Remove</button></h5>
-					{#if pos === 'noun'}
-						<NounInflectionEditor
-							bind:nounInflections={inflections[lang][suffix][pos]}
-							{lexiconEntry}
-							{lang}
-						/>
-					{/if}
 					{#if pos === 'adj'}
 						<AdjectiveInflectionEditor bind:adjInflections={inflections[lang][suffix][pos]} />
 					{/if}

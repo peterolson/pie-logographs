@@ -28,7 +28,7 @@ export function renderWord(
 	if (selectedLanguage in renderers) {
 		return renderers[selectedLanguage](word, prevWord, nextWord, lexicon, orthography);
 	}
-	return `${word.char}${addSuffixes(word)}${addInflection(word)}`;
+	return `${word.char}${addSuffixes(word)}${addInflection(word, lexicon)}`;
 }
 
 const nounInflectors: Record<

@@ -116,7 +116,7 @@
 		</li>
 	</ul>
 </div>
-<InflectionEditor bind:inflections lexiconEntry={data} />
+<InflectionEditor bind:inflections />
 <button
 	on:click={() => {
 		updateEntry({ id, PIE, hittite, char, pos, meanings, character_hint, references, inflections });

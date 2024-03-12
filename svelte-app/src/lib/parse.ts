@@ -21,7 +21,7 @@ import {
 } from './inflection.js';
 import type { LexiconEntry, ParsedWord } from './lexicon.types.js';
 
-function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
+function parseLine(line: string, lexicon: LexiconEntry[], language: string): ParsedWord[] {
 	const tokens = line.split(' ').map((x) => x.trim());
 	let currentWord: ParsedWord | null = null;
 	let prefix: { id: string; char?: string }[] = [];
@@ -78,13 +78,12 @@ function parseLine(line: string, lexicon: LexiconEntry[]): ParsedWord[] {
 	}
 
 	for (const item of result) {
-		if (item.gender) {
+		if (item.gender || item.case) {
 			item.pos = 'adj';
-		} else if (item.case) {
-			item.pos = 'noun';
 		} else if (item.person || item.voice || item.verbType) {
 			item.pos = 'verb';
 		}
+		item.language = language;
 	}
 
 	return result;
@@ -94,7 +93,8 @@ export function parse(
 	input: string,
 	lexicon: LexiconEntry[],
 	gloss: string,
-	translation: string
+	translation: string,
+	language: string
 ): {
 	words: ParsedWord[];
 	translation: string;
@@ -102,7 +102,7 @@ export function parse(
 	const parsedLines = input
 		.trim()
 		.split('  \n')
-		.map((x) => parseLine(x, lexicon));
+		.map((x) => parseLine(x, lexicon, language));
 	const glossTokens = gloss.trim().split(/\s+/);
 	let glossIndex = 0;
 	for (const line of parsedLines) {

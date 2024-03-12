@@ -1,5 +1,5 @@
 import { pieTextToHangul } from './hangul';
-import type { ParsedWord } from './lexicon.types';
+import type { LexiconEntry, ParsedWord } from './lexicon.types';
 
 export const numbers = ['sg', 'dual', 'pl'] as const;
 export const genders = ['m', 'f', 'n'] as const;
@@ -7,7 +7,11 @@ export const cases = ['nom', 'gen', 'dat', 'acc', 'ins', 'loc', 'voc', 'abl'] as
 
 export const adjNounFormations = {
 	_trom: 'Nouns denoting a tool or instrument (from PIE suffix *-trom)',
-	_nos: 'Verbal adjective from roots (from PIE suffix *-nós)'
+	_nos: 'Verbal adjective from roots (from PIE suffix *-nós)',
+	_oo: 'Forms so-called “individualizing” or “participant” nouns from nouns and adjectives, agent or patient nouns from verbs (from PIE suffix *-ō)',
+	_los: 'Agent nouns from verbal roots, diminutive nouns from noun stems, adjectives with the sense “pertaining to …” (alternative form of *-rós) (from PIE suffix *-lós)',
+	_us: 'Forms adjectives from Caland system roots (from PIE suffix *-us)',
+	_o_s: 'Agent nouns from verb stems, denoting someone or something that performs that verb’s action (from PIE suffix *-ós)'
 } as const;
 
 export const persons = ['1', '2', '3'] as const;
@@ -522,7 +526,7 @@ function hangulSyllable(initial: string, medial: string, final: string) {
 }
 
 function convertAdjInflection(
-	gen: Gender | '',
+	gen: Gender,
 	num: GrammaticalNumber,
 	cas: Case,
 	adjNounFormation?: AdjNounFormationType
@@ -536,17 +540,12 @@ function convertAdjInflection(
 		f: {
 			sg: 'ㅅ',
 			dual: 'ㅆ',
-			pl: 'ㅈ'
+			pl: 'ㅊ'
 		},
 		n: {
 			sg: 'ㄷ',
 			dual: 'ㄸ',
-			pl: 'ㅁ'
-		},
-		'': {
-			sg: 'ㅇ',
-			dual: 'ㅃ',
-			pl: 'ㅂ'
+			pl: 'ㅌ'
 		}
 	};
 	const initial = initials[gen][num];
@@ -562,7 +561,11 @@ function convertAdjInflection(
 	};
 	const finals = {
 		_trom: 'ㄷ',
-		_nos: 'ㄴ'
+		_nos: 'ㄴ',
+		_oo: 'ㅇ',
+		_los: 'ㄹ',
+		_us: 'ㅁ',
+		_o_s: 'ㅂ'
 	};
 	const medial = medials[cas];
 	const final = adjNounFormation ? finals[adjNounFormation] : '';
@@ -578,19 +581,19 @@ function convertVerbInflection(
 ) {
 	const initials = {
 		1: {
-			sg: 'ㄱ',
-			dual: 'ㄲ',
-			pl: 'ㅋ'
+			sg: 'ㅈ',
+			dual: 'ㅉ',
+			pl: 'ㄹ'
 		},
 		2: {
-			sg: 'ㅅ',
-			dual: 'ㅆ',
-			pl: 'ㅈ'
+			sg: 'ㅁ',
+			dual: 'ㅎ',
+			pl: 'ㅇ'
 		},
 		3: {
-			sg: 'ㄷ',
-			dual: 'ㄸ',
-			pl: 'ㅁ'
+			sg: 'ㅂ',
+			dual: 'ㅃ',
+			pl: 'ㅍ'
 		}
 	};
 	const initial = type === 'part' ? 'ㄴ' : initials[person][number];
@@ -647,13 +650,28 @@ export function addSuffixes(word: ParsedWord) {
 	return parts.join('');
 }
 
-export function addInflection(word: ParsedWord) {
+export function addInflection(word: ParsedWord, lexicon: LexiconEntry[]) {
 	if (word.pos === 'adj') {
-		word.gender = word.gender || 'm';
+		const language = word.language || 'PIE';
+		const lexiconEntry = lexicon.find((x) => x.id === word.id);
+		let defaultGender = 'm' as const;
+		if (lexiconEntry && lexiconEntry.inflections) {
+			const inflections = lexiconEntry.inflections[language];
+			if (
+				inflections &&
+				inflections[word.adjNounFormation ?? ''] &&
+				inflections[word.adjNounFormation ?? '']['adj']
+			) {
+				defaultGender =
+					(inflections[word.adjNounFormation ?? '']['adj']['default_gender'] as 'm') ??
+					('m' as const);
+			}
+		}
+		word.gender = word.gender || defaultGender;
 		word.number = word.number || 'sg';
 		word.case = word.case || 'nom';
 		if (
-			word.gender === 'm' &&
+			word.gender === defaultGender &&
 			word.number === 'sg' &&
 			word.case === 'nom' &&
 			!word.adjNounFormation &&
@@ -662,20 +680,6 @@ export function addInflection(word: ParsedWord) {
 			return '';
 		}
 		return convertAdjInflection(word.gender, word.number, word.case, word.adjNounFormation);
-	}
-	if (word.pos === 'noun') {
-		word.number = word.number || 'sg';
-		word.case = word.case || 'nom';
-		if (
-			word.number === 'sg' &&
-			word.case === 'nom' &&
-			!word.suffixes?.length &&
-			!word.adjNounFormation &&
-			!word.determiner
-		) {
-			return '';
-		}
-		return convertAdjInflection('', word.number, word.case, word.adjNounFormation);
 	}
 	if (word.pos === 'verb') {
 		word.number = word.number || 'sg';
