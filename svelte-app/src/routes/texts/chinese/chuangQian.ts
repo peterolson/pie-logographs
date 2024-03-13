@@ -15,8 +15,8 @@ export const chuangQian = {
 	feel that earth above frost
 	raise head gaze bright moon
 	bend head think old home`,
-	translation: `Before my bed lies a pool of moon bright
-    I could imagine that it's frost on the ground
-    I look up and see the bright shining moon
-    Bowing my head I am thinking of home`
+	translation: `Before my bed, the moonlight glows,
+    It seems like frost upon the ground.
+    I raise my head to watch the moon,
+    Then lower it, with thoughts of home.`
 };
