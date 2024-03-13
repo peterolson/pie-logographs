@@ -1,3 +1,4 @@
+import { _ } from 'ag-grid-community';
 import { pieTextToHangul } from './hangul';
 import type { LexiconEntry, ParsedWord } from './lexicon.types';
 
@@ -11,7 +12,16 @@ export const adjNounFormations = {
 	_oo: 'Forms so-called “individualizing” or “participant” nouns from nouns and adjectives, agent or patient nouns from verbs (from PIE suffix *-ō)',
 	_los: 'Agent nouns from verbal roots, diminutive nouns from noun stems, adjectives with the sense “pertaining to …” (alternative form of *-rós) (from PIE suffix *-lós)',
 	_us: 'Forms adjectives from Caland system roots (from PIE suffix *-us)',
-	_o_s: 'Agent nouns from verb stems, denoting someone or something that performs that verb’s action (from PIE suffix *-ós)'
+	_o_s: 'Agent nouns from verb stems, denoting someone or something that performs that verb’s action (from PIE suffix *-ós)',
+	_os: 'Creates action nouns or result nouns from verbs (from PIE suffix *-os)',
+	_onts: 'Forms adjectives from Caland system roots (from PIE suffix *-onts)',
+	_r: 'Derives nouns from roots, frequently mass nouns (from PIE suffix *-r̥)',
+	_yo_s: 'Creates adjectives from noun stems (from PIE suffix *-yó-s)',
+	_ryo_s: 'Combines the suffixes *-r̥ and *-yó-s',
+	_ros: 'Forms adjectives from Caland system roots (from PIE suffix *-rós)',
+	_es: 'Primarily forms adjectival bahuvrīhi compounds (from PIE suffix *-ēs)',
+	_losus: 'Combines the suffixes *-lós and *-us',
+	_teros: 'Contrastive or oppositional adjectival suffix (from PIE suffix *-teros)'
 } as const;
 
 export const persons = ['1', '2', '3'] as const;
@@ -565,7 +575,16 @@ function convertAdjInflection(
 		_oo: 'ㅇ',
 		_los: 'ㄹ',
 		_us: 'ㅁ',
-		_o_s: 'ㅂ'
+		_o_s: 'ㅂ',
+		_os: 'ㅂ',
+		_onts: 'ㅈ',
+		_r: 'ㄻ',
+		_yo_s: 'ㅅ',
+		_ryo_s: 'ㄽ',
+		_ros: 'ㄹ',
+		_es: 'ㅆ',
+		_losus: 'ㄽ',
+		_teros: 'ㅌ'
 	};
 	const medial = medials[cas];
 	const final = adjNounFormation ? finals[adjNounFormation] : '';

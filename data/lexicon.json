@@ -1,5 +1,36 @@
 [
     {
+        "PIE": "*h₂uwents",
+        "id": "ENTIRE",
+        "char": "全",
+        "pos": "adj",
+        "meanings": "every, each, all; whole entire",
+        "character_hint": "Depicts jade (玉) that is entirely pure and flawless. Based on the original meaning \"pure jade\". The meaning later shifted to \"complete\" and \"entire\".",
+        "references": [
+            "https://www.dong-chinese.com/wiki/全",
+            "https://en.wiktionary.org/wiki/%F0%92%84%B7%F0%92%8C%8B%F0%92%88%A0%F0%92%80%AD%F0%92%8D%9D",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 361-362"
+        ],
+        "inflections": {
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m pl acc": "hu-u-ma-an-du-us"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m pl acc": "h₂uwentm̥s"
+                    }
+                }
+            }
+        }
+    },
+    {
         "PIE": "*bʰabʰ-",
         "id": "BEAN",
         "char": "豆",
@@ -37,7 +68,7 @@
         ]
     },
     {
-        "char": "曷其",
+        "char": "曷 其",
         "id": "WHAT_DEICTIC",
         "pos": "pron",
         "PIE": "*kʷísḱe",
@@ -51,21 +82,23 @@
             "pie": {
                 "": {
                     "adj": {
-                        "m sg dat": "kʷésmeyḱe"
+                        "m sg dat": "kʷésmeyḱe",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "adj": {
-                        "m sg dat": "ku-e-da-ni-ik-ki"
+                        "m sg dat": "ku-e-da-ni-ik-ki",
+                        "default_gender": "m"
                     }
                 }
             }
         }
     },
     {
-        "char": "非此",
+        "char": "非 此",
         "id": "NOT_THIS",
         "pos": "part",
         "PIE": "*netó",
@@ -77,7 +110,7 @@
         ]
     },
     {
-        "char": "出去",
+        "char": "出 去",
         "id": "AWAY_GO",
         "pos": "verb",
         "PIE": "*h₂ewh₁ey-",
@@ -170,6 +203,36 @@
                         "f sg nom": "pótnih₂",
                         "f sg voc": "pótnih₂",
                         "f sg acc": "pótnih₂m̥"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "PIE": "os",
+        "char": "之",
+        "id": "ENCLITIC_PRONOUN",
+        "pos": "pron",
+        "meanings": "(enclitic pronoun) ‘he, she, it’",
+        "character_hint": "Pictograph of a foot (止) going out of an area. The current meaning is a phonetic loan.",
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 162-163",
+            "https://www.dong-chinese.com/wiki/之"
+        ],
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m pl acc": "oms"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m pl acc": "us"
                     }
                 }
             }
@@ -463,14 +526,14 @@
                         "_std active sec pl 3": "h₃epn̥t"
                     }
                 },
-                "r yo_s": {
+                "ryo_s": {
                     "adj": {
                         "m sg abl": "h₃epr̥yéad"
                     }
                 }
             },
             "hittite": {
-                "r yo_s": {
+                "ryo_s": {
                     "adj": {
                         "m sg abl": "URU-az"
                     }
@@ -2787,6 +2850,20 @@
         "character_hint": "Pictograph of fire on top of a person."
     },
     {
+        "PIE": "*bʰeh₂-",
+        "pos": "root",
+        "meanings": "to speak, say; (enclitic particle of specification, limitation and identity) ‘the same, the aforementioned (anaphoric); likewise, as before; self; only, exclusively; in addition; rather; even; certainly’",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0eh%E2%82%82-#Root_2",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp.652-653",
+            "https://www.dong-chinese.com/wiki/吧"
+        ],
+        "id": "BABBLE",
+        "hittite": "pat",
+        "char": "吧",
+        "character_hint": "Phonosemantic compound. 口 represents the meaning and 巴 represents the sound. "
+    },
+    {
         "PIE": "*bʰeh₂g-",
         "char": "",
         "meanings": "to divide, distribute, allot",
@@ -2860,26 +2937,29 @@
     },
     {
         "PIE": "*bʰenǵʰ-",
-        "char": "㐱",
+        "char": "丰",
         "meanings": "thick",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0en%C7%B5%CA%B0-",
-            "https://www.dong-chinese.com/wiki/㐱"
+            "https://www.dong-chinese.com/wiki/㐱",
+            "https://www.dong-chinese.com/wiki/丰"
         ],
         "id": "THICK",
-        "character_hint": "Variant of 鬒. Depicts a person (人) with thick hair (彡).",
+        "character_hint": "Depicts a growing plant with leaves.",
         "inflections": {
             "pie": {
                 "us": {
                     "adj": {
-                        "m sg nom": "bʰénǵʰus"
+                        "m sg nom": "bʰénǵʰus",
+                        "default_gender": "m"
                     }
                 },
                 "ros": {
                     "adj": {
                         "m sg ins": "",
-                        "m pl ins": "bʰénǵʰrṓys"
+                        "m pl ins": "bʰénǵʰrṓys",
+                        "default_gender": "m"
                     }
                 }
             },
@@ -2888,7 +2968,8 @@
                     "adj": {
                         "m sg nom": "",
                         "m sg ins": "",
-                        "m pl ins": "pa-an-ga-ri-it"
+                        "m pl ins": "pa-an-ga-ri-it",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -3485,15 +3566,15 @@
     },
     {
         "PIE": "*deh₃-",
-        "char": "㝵",
+        "char": "得",
         "meanings": "to give",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/deh%E2%82%83-",
-            "https://www.dong-chinese.com/wiki/㝵"
+            "https://www.dong-chinese.com/wiki/得"
         ],
         "id": "GIVE",
-        "character_hint": "Original form of 得. Depicts a hand (寸) grabbing a shell (貝), used as currency in ancient China, to convey the meaning \"get\".",
+        "character_hint": "Depicts a hand (寸) grabbing a shell (貝), used as currency in ancient China, to convey the meaning \"get\". Originally written as 㝵. The 彳 (movement) component was added later.",
         "inflections": {
             "pie": {
                 "": {
@@ -5677,7 +5758,7 @@
     },
     {
         "PIE": "*h₁ep-",
-        "char": "寽",
+        "char": "奪",
         "meanings": "to grab, snatch, get",
         "pos": "root",
         "references": [
@@ -5685,7 +5766,7 @@
             "https://www.dong-chinese.com/wiki/寽"
         ],
         "id": "SNATCH",
-        "character_hint": "Depicts a hand (寸) taking away an object from a hand (爪). Similar in origin to 𠬪. Original form of 捋.",
+        "character_hint": "Depicts a hand (寸) snatching a bird (隹). The top component was originally 衣 (clothes), depicting a person holding a bird in their clothes, but later it was reanalyzed as a phonetic component, written as either 兌 or 大.",
         "inflections": {
             "pie": {
                 "": {
@@ -6537,12 +6618,15 @@
     },
     {
         "PIE": "*h₂éḱmō",
-        "char": "",
+        "char": "玉",
         "meanings": "stone; (figurative) heaven, the heavenly vault",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%E1%B8%B1m%C5%8D"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%E1%B8%B1m%C5%8D",
+            "https://www.dong-chinese.com/wiki/玉"
+        ],
+        "id": "STONE",
+        "character_hint": "Pictograph of a ritual object made out of several pieces of jade joined together by a string. A dot was later added to 玉 to distinguish it from 王 (king)."
     },
     {
         "PIE": "*h₂éḱru",
@@ -6663,10 +6747,15 @@
         ],
         "id": "BEGET",
         "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first.",
-        "hittite": "hāss",
+        "hittite": "hāss"
+    },
+    {
+        "PIE": "h₂emsus",
+        "pos": "noun",
+        "char": "皇",
         "inflections": {
             "pie": {
-                "us s": {
+                "": {
                     "adj": {
                         "m sg nom": "h₂emsus",
                         "m sg voc": "h₂emsu",
@@ -6675,12 +6764,13 @@
                         "m sg abl": "h₂emséws",
                         "m sg dat": "h₂emséwey",
                         "m sg loc": "h₂emséwi",
-                        "m sg ins": "h₂emsúh₁"
+                        "m sg ins": "h₂emsúh₁",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
-                "us s": {
+                "": {
                     "adj": {
                         "m sg nom": "LUGAL-us",
                         "m sg voc": "LUGAL",
@@ -6689,11 +6779,19 @@
                         "m sg abl": "LUGAL",
                         "m sg dat": "LUGAL-i",
                         "m sg loc": "LUGAL",
-                        "m sg ins": "LUGAL"
+                        "m sg ins": "LUGAL",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "id": "BEGET_KING",
+        "meanings": "king",
+        "character_hint": "Depicts a decorative crown above 王 (king).",
+        "references": [
+            "https://www.dong-chinese.com/wiki/皇",
+            "https://en.wiktionary.org/wiki/%F0%92%88%97%F0%92%8D%91#Hittite"
+        ]
     },
     {
         "PIE": "*h₂en-",
@@ -7618,28 +7716,30 @@
     },
     {
         "PIE": "*h₃ed-",
-        "char": "辛",
+        "char": "凶",
         "meanings": "to hate",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83ed-#Root_2",
-            "https://www.dong-chinese.com/wiki/辛"
+            "https://www.dong-chinese.com/wiki/%E5%87%B6"
         ],
         "id": "HATE",
-        "character_hint": "Pictograph of a chisel-like tool. The meaning later shifted to \"hard\" and \"laborious\".",
+        "character_hint": "Pictograph of a trap in the ground.",
         "inflections": {
             "pie": {
-                "los us": {
+                "losus": {
                     "adj": {
                         "n sg gen": "",
-                        "n sg acc": "h₃edlu"
+                        "n sg acc": "h₃edlu",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
-                "los us": {
+                "losus": {
                     "adj": {
-                        "n sg acc": "i-da-a-lu"
+                        "n sg acc": "i-da-a-lu",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -7719,12 +7819,31 @@
     },
     {
         "PIE": "*h₃er-",
-        "char": "",
+        "char": "興",
         "meanings": "to move, to stir; to rise, to spring; to quarrel, fight",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83er-",
+            "https://www.dong-chinese.com/wiki/興"
+        ],
+        "character_hint": "Depicts four hands (舁) working together (同) to raise something.",
+        "id": "RAISE",
+        "inflections": {
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "a-ra-is"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "h₃ert"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₃erbʰ-",
@@ -7864,7 +7983,7 @@
         ],
         "id": "ANITTA",
         "character_hint": "Name of a person (亻). 詈 represents the sound.",
-        "PIE": "*h₃neyta",
+        "PIE": "*anita",
         "hittite": "M:a-ni-it-ta"
     },
     {
@@ -8718,14 +8837,16 @@
                         "f sg abl": "km̥teh₂s",
                         "f sg dat": "km̥teh₂ey",
                         "f sg loc": "km̥teh₂i",
-                        "f sg ins": "km̥teh₂h₁"
+                        "f sg ins": "km̥teh₂h₁",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "adj": {
-                        "f sg nom": "kat-ta"
+                        "f sg nom": "kat-ta",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -9169,14 +9290,17 @@
                         "n pl dat": "kʷeybʰ",
                         "m pl loc": "kʷeysu",
                         "f pl loc": "kʷeysu",
-                        "n pl loc": "kʷeysu"
+                        "n pl loc": "kʷeysu",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "adj": {
-                        "m sg dat": "ku-e-da-ni"
+                        "m sg dat": "ku-e-da-ni",
+                        "default_gender": "m",
+                        "n sg acc": "ku-it"
                     }
                 }
             }
@@ -9201,7 +9325,7 @@
             "https://en.wikipedia.org/wiki/Kussara"
         ],
         "id": "KUSSARA",
-        "PIE": "ḱwṓser",
+        "PIE": "*kusara",
         "hittite": "URU:ku-us-sa-ra",
         "pos": "noun",
         "character_hint": "Land (土) that sounds like *ḱwṓ (dog, 犬) + *ser (flow, 流)",
@@ -9219,8 +9343,8 @@
                 "": {
                     "adj": {
                         "default_gender": "m",
-                        "m sg nom": "ḱwṓser",
-                        "m sg gen": "ḱwṓsers"
+                        "m sg nom": "kusara",
+                        "m sg gen": "kusaras"
                     }
                 }
             }
@@ -9293,14 +9417,14 @@
         "character_hint": "Phonosemantic compound. 夕 represents the meaning and 亦 represents the sound. ",
         "inflections": {
             "pie": {
-                "o_nts": {
+                "onts": {
                     "adj": {
                         "m sg dat": "kʷspentéy"
                     }
                 }
             },
             "hittite": {
-                "o_nts": {
+                "onts": {
                     "adj": {
                         "m sg dat": "is-pa-an-di"
                     }
@@ -12889,10 +13013,14 @@
             "https://www.dong-chinese.com/wiki/克"
         ],
         "id": "OVERCOME",
-        "character_hint": "Pictograph of a person (人) carrying a heavy weight on their back.",
+        "character_hint": "Pictograph of a person (人) carrying a heavy weight on their back."
+    },
+    {
+        "PIE": "terh₂ónts",
+        "char": "⿰礻克",
         "inflections": {
             "pie": {
-                "onts": {
+                "": {
                     "adj": {
                         "m sg nom": "terh₂ónts",
                         "m sg voc": "terh₂ónt",
@@ -12901,18 +13029,28 @@
                         "m sg abl": "terh₂n̥tés",
                         "m sg dat": "terh₂n̥téy",
                         "m sg loc": "terh₂énti",
-                        "m sg ins": "terh₂n̥téh₁"
+                        "m sg ins": "terh₂n̥téh₁",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
-                "onts": {
+                "": {
                     "adj": {
-                        "m sg dat": "D:ISKUR-un-ni"
+                        "m sg dat": "D:ISKUR-un-ni",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "id": "STORMGOD",
+        "hittite": "D:ISKUR",
+        "pos": "noun",
+        "meanings": "Anatolian storm god",
+        "character_hint": "A deity (礻), 克 represents the sound and etymology.",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Anatolian/tr%CC%A5H%CA%B7%C3%A1nts"
+        ]
     },
     {
         "PIE": "*térh₂t",
@@ -12970,16 +13108,16 @@
     },
     {
         "PIE": "*tetḱ-",
-        "char": "系",
+        "char": "作",
         "meanings": "to create, produce; to cut, hew",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tet%E1%B8%B1-",
-            "https://www.dong-chinese.com/wiki/系",
-            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 813-814"
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 813-814",
+            "https://www.dong-chinese.com/wiki/作"
         ],
         "id": "CREATE",
-        "character_hint": "Pictograph of a hand (又) holding a group of threads (糸) that are connected together (系).",
+        "character_hint": "Depicts a person (亻) using a blade (乍) for cutting trees.",
         "inflections": {
             "pie": {
                 "": {
@@ -13431,12 +13569,15 @@
     },
     {
         "PIE": "*-we ~ *-wē",
-        "char": "",
+        "char": "或",
         "meanings": "or",
         "pos": "conj",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-w%C4%93"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-w%C4%93",
+            "https://www.dong-chinese.com/wiki/或"
+        ],
+        "id": "OR",
+        "character_hint": "Depicts using a weapon (戈) to defend an area (囗) in a boundary (一). Based on the original meaning \"area\", now written as 域. The current meaning is a phonetic loan."
     },
     {
         "PIE": "*webʰ-",
@@ -13449,6 +13590,37 @@
         ],
         "id": "WEAVE",
         "character_hint": "Pictograph of a net."
+    },
+    {
+        "PIE": "*wédn̥",
+        "meanings": "ground; land; country",
+        "id": "GROUND",
+        "pos": "noun",
+        "references": [
+            "https://en.wiktionary.org/wiki/%D5%A3%D5%A5%D5%BF%D5%AB%D5%B6",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 933-934",
+            "https://www.dong-chinese.com/wiki/國"
+        ],
+        "char": "國",
+        "character_hint": "Phonosemantic compound. 囗 represents the meaning and 或 represents the sound. ",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "n sg nom": "wédn̥"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "n sg nom": "ut-ne-e"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wedʰ-",
@@ -15056,14 +15228,6 @@
         ]
     },
     {
-        "char": "全",
-        "character_hint": "Depicts jade (玉) that is entirely (入) pure and flawless. Based on the original meaning \"pure jade\". The meaning later shifted to \"complete\" and \"entire\".",
-        "meanings": "entire; pure jade",
-        "references": [
-            "https://www.dong-chinese.com/wiki/全"
-        ]
-    },
-    {
         "char": "共",
         "character_hint": "Pictograph of two hands holding an object together.",
         "meanings": "together with",
@@ -16384,14 +16548,6 @@
         ]
     },
     {
-        "char": "吧",
-        "character_hint": "Phonosemantic compound. 口 represents the meaning and 巴 represents the sound. ",
-        "meanings": "emphatic final particle",
-        "references": [
-            "https://www.dong-chinese.com/wiki/吧"
-        ]
-    },
-    {
         "char": "厂",
         "character_hint": "Pictograph of a cliff or similarly shaped object. Sometimes used interchangeably with 广 to depict a roof. In simplified Chinese 厂 is also used to mean \"factory\", while in traditional Chinese this meaning is written with a separate character 廠.",
         "meanings": "cliff, (roof)",
@@ -17312,14 +17468,6 @@
         ]
     },
     {
-        "char": "丰",
-        "character_hint": "Depicts a growing plant with leaves.",
-        "meanings": "luxuriant",
-        "references": [
-            "https://www.dong-chinese.com/wiki/丰"
-        ]
-    },
-    {
         "char": "丈",
         "character_hint": "Depicts 10 (十) hand-lengths (又): 丈 (~3 meters) is a traditional Chinese unit of length equal to 10 尺 (~0.3 meters). The current use of 丈 as \"husband\" is a phonetic loan.",
         "meanings": "unit of length ~ 3 meters",
@@ -18045,14 +18193,6 @@
         "meanings": "resemble",
         "references": [
             "https://www.dong-chinese.com/wiki/似"
-        ]
-    },
-    {
-        "char": "作",
-        "character_hint": "Phonosemantic compound. 亻 represents the meaning and 乍 represents the sound. ",
-        "meanings": "make",
-        "references": [
-            "https://www.dong-chinese.com/wiki/作"
         ]
     },
     {
@@ -20768,14 +20908,6 @@
         ]
     },
     {
-        "char": "國",
-        "character_hint": "Phonosemantic compound. 囗 represents the meaning and 或 represents the sound. ",
-        "meanings": "nation",
-        "references": [
-            "https://www.dong-chinese.com/wiki/國"
-        ]
-    },
-    {
         "char": "囗",
         "character_hint": "Pictograph of a wall surrounding an area. Component form of 围 (traditional 圍).",
         "meanings": "surround",
@@ -21653,14 +21785,6 @@
         "meanings": "small; kill",
         "references": [
             "https://www.dong-chinese.com/wiki/戋"
-        ]
-    },
-    {
-        "char": "或",
-        "character_hint": "Depicts using a weapon (戈) to defend an area (囗) in a boundary (一). Based on the original meaning \"area\", now written as 域. The current meaning is a phonetic loan.",
-        "meanings": "or; area",
-        "references": [
-            "https://www.dong-chinese.com/wiki/或"
         ]
     },
     {
@@ -23904,14 +24028,6 @@
         ]
     },
     {
-        "char": "得",
-        "character_hint": "Depicts a hand (寸) grabbing a shell (貝), used as currency in ancient China, to convey the meaning \"get\". Originally written as 㝵. The 彳 (movement) component was added later.",
-        "meanings": "obtain",
-        "references": [
-            "https://www.dong-chinese.com/wiki/得"
-        ]
-    },
-    {
         "char": "桌",
         "character_hint": "Phonosemantic compound. 木 represents the meaning and 卓 represents the sound. ",
         "meanings": "table",
@@ -25413,14 +25529,6 @@
         "meanings": "offer, donate; sacrificial offering",
         "references": [
             "https://www.dong-chinese.com/wiki/獻"
-        ]
-    },
-    {
-        "char": "玉",
-        "character_hint": "Pictograph of a ritual object made out of several pieces of jade joined together by a string. A dot was later added to 玉 to distinguish it from 王 (king).",
-        "meanings": "jade",
-        "references": [
-            "https://www.dong-chinese.com/wiki/玉"
         ]
     },
     {
@@ -28912,14 +29020,6 @@
         ]
     },
     {
-        "char": "興",
-        "character_hint": "Depicts four hands (舁) working together (同) to raise something.",
-        "meanings": "rise, flourish",
-        "references": [
-            "https://www.dong-chinese.com/wiki/興"
-        ]
-    },
-    {
         "char": "臧",
         "character_hint": "Depicts a weapon (戈) slashing an eye (臣). In ancient China, captured prisoners were blinded with weapons making them into slaves. 爿 was later added as a sound component. Based on the original meaning, \"slave; servant\". The current meaning \"good\" is a phonetic loan.",
         "meanings": "good; slave; servant",
@@ -30797,14 +30897,6 @@
         "meanings": "10th heavenly stem",
         "references": [
             "https://www.dong-chinese.com/wiki/癸"
-        ]
-    },
-    {
-        "char": "皇",
-        "character_hint": "Depicts a decorative crown above 王 (king).",
-        "meanings": "royal",
-        "references": [
-            "https://www.dong-chinese.com/wiki/皇"
         ]
     },
     {
