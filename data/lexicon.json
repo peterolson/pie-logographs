@@ -5028,12 +5028,34 @@
     },
     {
         "PIE": "*gʰreh₁-",
-        "char": "",
+        "char": "苗",
         "meanings": "to grow (of plants?)",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B0reh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B0reh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/苗",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 458-459"
+        ],
+        "id": "GROW",
+        "character_hint": "Sprouts are plants (艹) that rise from the field (田).",
+        "inflections": {
+            "pie": {
+                "us": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg ins": "gʰreh₁úh₁"
+                    }
+                }
+            },
+            "hittite": {
+                "us": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg ins": "ka-ru-u"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ǵʰreh₁d-",
@@ -29225,14 +29247,6 @@
         "meanings": "small bean",
         "references": [
             "https://www.dong-chinese.com/wiki/荅"
-        ]
-    },
-    {
-        "char": "苗",
-        "character_hint": "Sprouts are plants (艹) that rise from the field (田).",
-        "meanings": "sprouts",
-        "references": [
-            "https://www.dong-chinese.com/wiki/苗"
         ]
     },
     {
