@@ -82,16 +82,18 @@
             "pie": {
                 "": {
                     "adj": {
-                        "m sg dat": "kʷésmeyḱe",
-                        "default_gender": "m"
+                        "m sg dat": "",
+                        "default_gender": "m",
+                        "m sg loc": "kʷésmiḱe"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "adj": {
-                        "m sg dat": "ku-e-da-ni-ik-ki",
-                        "default_gender": "m"
+                        "m sg dat": "",
+                        "default_gender": "m",
+                        "m sg loc": "ku-e-da-ni-ik-ki"
                     }
                 }
             }
@@ -459,6 +461,36 @@
         }
     },
     {
+        "char": "余",
+        "id": "ENCLITIC_1P",
+        "pos": "pron",
+        "meanings": "I/my/ours",
+        "character_hint": "Pictograph of a small shelter. Based on the original meaning \"residence\", now written as 舍. The current meaning is a phonetic loan.",
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp.782-783",
+            "https://www.dong-chinese.com/wiki/余"
+        ],
+        "inflections": {
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m pl acc": "sum-mi-in"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m pl acc": "sumn̥"
+                    }
+                }
+            }
+        },
+        "PIE": "*-sum"
+    },
+    {
         "PIE": "*(h₂)népōts",
         "char": "后",
         "meanings": "grandson; descendant; (possibly) nephew",
@@ -644,7 +676,8 @@
                         "m sg loc": "suHnḗw",
                         "m sg ins": "suHnwéh₁",
                         "m pl dat": "suHnúbʰ",
-                        "default_gender": "m"
+                        "default_gender": "m",
+                        "m pl loc": "suHnúsu"
                     }
                 }
             },
@@ -659,8 +692,9 @@
                         "m sg dat": "DUMU",
                         "m sg loc": "DUMU",
                         "m sg ins": "DUMU",
-                        "m pl dat": "DUMU-MEŠ",
-                        "default_gender": "m"
+                        "m pl dat": "",
+                        "default_gender": "m",
+                        "m pl loc": "DUMU-MEŠ"
                     }
                 }
             }
@@ -3860,7 +3894,8 @@
                         "m pl abl": "deywómos",
                         "m pl dat": "deywómos",
                         "m pl loc": "deywóysu",
-                        "m pl ins": "deywṓys"
+                        "m pl ins": "deywṓys",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -4465,12 +4500,36 @@
     },
     {
         "PIE": "*dyḗws",
-        "char": "",
+        "char": "祆",
         "meanings": "sky, heaven; sky god, Dyeus",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dy%E1%B8%97ws"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/dy%E1%B8%97ws",
+            "https://www.dong-chinese.com/wiki/%E7%A5%86"
+        ],
+        "id": "ZEUS",
+        "hittite": "D:si-us",
+        "character_hint": "Phonosemantic compound. 礻 represents the meaning and 天 represents the sound.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "dyḗm",
+                        "m sg nom": "dyḗws",
+                        "m sg voc": "dyḗw"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "D:si-u"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*énu",
@@ -5800,7 +5859,7 @@
             "hittite": {
                 "": {
                     "verb": {
-                        "_std active sec sg 3": "IṢ-BAT"
+                        "_std active sec sg 3": "pe-e-da-as"
                     }
                 }
             }
@@ -6243,12 +6302,31 @@
     },
     {
         "PIE": "*h₁reh₁p-",
-        "char": "",
+        "char": "奪",
         "meanings": "to take away, snatch",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81reh%E2%82%81p-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81reh%E2%82%81p-",
+            "https://www.dong-chinese.com/wiki/寽"
+        ],
+        "character_hint": "Depicts a hand (寸) snatching a bird (隹). The top component was originally 衣 (clothes), depicting a person holding a bird in their clothes, but later it was reanalyzed as a phonetic component, written as either 兌 or 大.",
+        "id": "SNAAATCH",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "h₁reh₁pt"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "IṢ-BAT"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁rem-",
@@ -6813,7 +6891,8 @@
         "references": [
             "https://www.dong-chinese.com/wiki/皇",
             "https://en.wiktionary.org/wiki/%F0%92%88%97%F0%92%8D%91#Hittite"
-        ]
+        ],
+        "hittite": "LUGAL"
     },
     {
         "PIE": "*h₂en-",
@@ -9089,12 +9168,15 @@
     },
     {
         "PIE": "*kʷeh₂s-",
-        "char": "",
+        "char": "旡",
         "meanings": "to cough",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7eh%E2%82%82s-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7eh%E2%82%82s-",
+            "https://www.dong-chinese.com/wiki/旡"
+        ],
+        "id": "COUGH",
+        "character_hint": "Pictograph of a person with their open mouth facing backwards."
     },
     {
         "PIE": "*kʷeḱ-",
@@ -9441,14 +9523,18 @@
             "pie": {
                 "onts": {
                     "adj": {
-                        "m sg dat": "kʷspentéy"
+                        "m sg dat": "",
+                        "default_gender": "m",
+                        "m sg loc": "kʷspénti"
                     }
                 }
             },
             "hittite": {
                 "onts": {
                     "adj": {
-                        "m sg dat": "is-pa-an-di"
+                        "m sg dat": "",
+                        "default_gender": "m",
+                        "m sg loc": "is-pa-an-di"
                     }
                 }
             }
@@ -10397,7 +10483,8 @@
                         "default_gender": "m",
                         "m sg nom": "nésa",
                         "m sg gen": "nésas",
-                        "m sg acc": "nésam"
+                        "m sg acc": "nésam",
+                        "m sg abl": "nésas"
                     }
                 }
             },
@@ -10407,7 +10494,8 @@
                         "default_gender": "m",
                         "m sg gen": "URU:ne-e-sa-as",
                         "m sg acc": "URU:ne-e-sa-an",
-                        "m sg nom": "URU:ne-e-sa"
+                        "m sg nom": "URU:ne-e-sa",
+                        "m sg abl": "URU:ne-e-sa-az"
                     }
                 }
             }
@@ -11565,12 +11653,15 @@
     },
     {
         "PIE": "*puHrós",
-        "char": "",
+        "char": "麥",
         "meanings": "wheat",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/puHr%C3%B3s"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/puHr%C3%B3s",
+            "https://www.dong-chinese.com/wiki/麥"
+        ],
+        "id": "WHEAT",
+        "character_hint": "The top component 來 depicts a stalk of wheat. The bottom component depicts roots."
     },
     {
         "PIE": "*reh₁d-",
@@ -13059,8 +13150,9 @@
             "hittite": {
                 "": {
                     "adj": {
-                        "m sg dat": "D:ISKUR-un-ni",
-                        "default_gender": "m"
+                        "m sg dat": "",
+                        "default_gender": "m",
+                        "m sg loc": "D:ISKUR-un-ni"
                     }
                 }
             }
@@ -13826,12 +13918,79 @@
     },
     {
         "PIE": "*wenh₁-",
-        "char": "",
+        "char": "愛",
         "meanings": "to love",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wenh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wenh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/愛"
+        ],
+        "id": "LOVE",
+        "character_hint": "Originally a phonosemantic compound, with 旡 representing the sound and 心 (heart) representing the meaning. Later the 夂 component was added."
+    },
+    {
+        "PIE": "*uHnas",
+        "char": "僾",
+        "character_hint": "Name of a person (亻). 愛 represents the sound.",
+        "id": "UHNAS",
+        "pos": "noun",
+        "meanings": "Uhna, king of Zalpuwas",
+        "references": [
+            "https://www.dong-chinese.com/wiki/%E5%83%BE",
+            "https://en.wikipedia.org/wiki/U%E1%B8%ABna"
+        ],
+        "inflections": {
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "M:u-uh-na-as"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "uHnas"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "PIE": "*zalpuwa",
+        "char": "𡉭 ⿰土麥",
+        "id": "ZALPUWA",
+        "pos": "noun",
+        "meanings": "city of Zalpuwa",
+        "character_hint": "Name of a place (土). 日 and 麥 represent the sound.",
+        "references": [
+            "https://en.wikipedia.org/wiki/Zalpuwa"
+        ],
+        "hittite": "URU:za-a-al-pu-wa",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg gen": "zalpuwas",
+                        "m sg nom": "zalpuwa",
+                        "m sg dat": "zalpuwa"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "URU:za-a-al-pu-wa",
+                        "m sg gen": "URU:za-a-al-pu-wa",
+                        "m sg dat": "URU:za-a-al-pu-wa"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wer-",
@@ -21402,14 +21561,6 @@
         ]
     },
     {
-        "char": "愛",
-        "character_hint": "Originally a phonosemantic compound, with 旡 representing the sound and 心 (heart) representing the meaning. Later the 夂 component was added.",
-        "meanings": "love",
-        "references": [
-            "https://www.dong-chinese.com/wiki/愛"
-        ]
-    },
-    {
         "char": "愿",
         "character_hint": "Phonosemantic compound. 心 represents the meaning and 原 represents the sound. In simplified Chinese 愿 is also used to mean \"hope; wish\", while in traditional Chinese this meaning is written with a separate character 願.",
         "meanings": "sincere",
@@ -26807,14 +26958,6 @@
         "meanings": "silk banner with bent pole",
         "references": [
             "https://www.dong-chinese.com/wiki/旃"
-        ]
-    },
-    {
-        "char": "旡",
-        "character_hint": "Pictograph of a person with their open mouth facing backwards.",
-        "meanings": "choke on something eaten",
-        "references": [
-            "https://www.dong-chinese.com/wiki/旡"
         ]
     },
     {
@@ -38847,14 +38990,6 @@
         "meanings": "salt",
         "references": [
             "https://www.dong-chinese.com/wiki/鹽"
-        ]
-    },
-    {
-        "char": "麥",
-        "character_hint": "The top component 來 depicts a stalk of wheat. The bottom component depicts roots.",
-        "meanings": "wheat",
-        "references": [
-            "https://www.dong-chinese.com/wiki/麥"
         ]
     },
     {

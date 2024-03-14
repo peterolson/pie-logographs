@@ -20,21 +20,25 @@
 // pe-e-di-is-si-ma ZÀ.AH-LI-an a-ne-e-nu-un
 // ku-is am-me-el a-ap-pa-an LUGAL-us ki-i-sa-ri nu URUHa-at-tu-sa-an a-ap-pa a-sa-a-si na-an ne-pi-sa-as DIŠKUR-as ha-az-zi-e-et-tu
 
+// map Hittite locive to PIE locative
+// and Hittite allative to PIE dative
+// Hittite locative stays locative
+
 export const anittaText = {
 	title: 'The Proclamation of Anittas',
 	link: 'https://lrc.la.utexas.edu/eieol/hitol/10',
 	lang: 'Hittite',
 	text: `ANITTA , SON _us nom PITHANA , BEGET_KING gen sg KUSSARA , SPEAK imp 2 sg DEICTIC !  
-    CLOUD _os gen sg AT STORMGOD dat sg GOOD _us m nom sg BE sec 3 sg ,  
-	NOW AT STORMGOD dat sg DEICTIC TRULY GOOD _us m nom sg BE sec 3 sg , NESA gen sg BEGET_KING nom sg KUSSARA gen sg BEGET_KING dat sg ... .  
+    CLOUD _os gen sg AT STORMGOD loc sg GOOD _us m nom sg BE sec 3 sg ,  
+	NOW AT STORMGOD loc sg DEICTIC TRULY GOOD _us m nom sg BE sec 3 sg , NESA gen sg BEGET_KING nom sg KUSSARA gen sg BEGET_KING loc sg ... .  
 	BEGET_KING nom sg KUSSARA TOIL _ryo_s abl sg NEARBY f nom THICK _ros m ins pl AWAY_GO sec 3 sg ,  
-	NOW NESA acc sg NIGHTTIME _onts dat sg ATTAIN _es ins sg GIVE active sec 3 sg .  
-	NESA gen sg BEGET_KING acc sg SNATCH active sec 3 sg ,  
-	BUT SON _us dat pl NESA gen sg HATE _losus n acc sg NOT_THIS WHAT_DEICTIC dat sg CREATE active sec 3 sg ;  
+	NOW NESA acc sg NIGHTTIME _onts loc sg ATTAIN _es ins sg GIVE active sec 3 sg .  
+	NESA gen sg BEGET_KING acc sg SNAAATCH active sec 3 sg ,  
+	BUT SON _us loc pl NESA gen sg HATE _losus n acc sg NOT_THIS WHAT_DEICTIC loc sg CREATE active sec 3 sg ;  
 	MOTHER acc pl DAD acc pl WORK active sec 3 sg .  
 	NOW PITHANA gen sg DAD gen sg I gen sg AFTER acc SINGLE m loc AND YEAR _os loc POWERFUL _nos f sg acc POWERFUL sec 1 sg .  
 	DAWN _teros m sg abl GROUND n sg nom WHAT n acc sg WHAT n acc sg BABBLE RAISE 3 sg sec NOW ENCLITIC_PRONOUN m pl acc ENTIRE pl acc BABBLE POWERFUL sec 1 sg .  
-	GROW _us ins ,`,
+	GROW _us ins , UHNAS m nom sg , BEGET_KING ZALPUWA gen sg , ZEUS acc sg ENCLITIC_1P acc pl NESA abl sg ZALPUWA dat sg SNATCH active sec 3 sg .`,
 	gloss: `Anitta , son of_Pithāna , king of_Kussara , speak thus !
 	heaven at Stormgod dear he_was , 
 	now so Stormgod and when dear he_was , of_Nesa king of_Kussara king ... .
@@ -45,7 +49,7 @@ export const anittaText = {
 	mothers fathers he_made .
 	and Pithāna father my after in_the_same and year revolt I_defeated .
 	from_east land whatever whatever [emphatic] arose and they all [emphatic] I_defeated .
-	previously , `,
+	previously , Uhna , king of_Zalpuwa , Sius our from_Nesa to_Zalpuwa took .`,
 	translation: `Anitta, Son of Pithāna, King of Kussara, speak!  
     He was dear to the Stormgod of Heaven,  
 	and when he was dear to the Stormgod of Heaven, the king of Nesa [verb broken off] to the king of Kussara. 
@@ -66,7 +70,15 @@ export const anittaText = {
 // MU-uh-na-as -- proper noun; nominative singular animate of <Uhna-> Uhnas -- Uhnas
 // LUGAL -- noun; Sumerogram functioning here as nominative singular animate <LUGAL> king -- king
 // URUZa-a-al-pu-wa -- proper noun; stem form functioning here as genitive singular <Zālpuwa-> Zalpuwas -- of the city of Zalpuwas
-// DSi-ú-sum-mi-in -- noun; accusative singular animate of <Siusummin> our god, our Sius -- our Sius # The expression Siusummin presumably refers to a statue of the deity. Siusummin acts as a quasi-compound made up of an archaic accusative siun plus the first person plural enclitic personal pronoun -summin. In other texts, the first word in the compound, sius, from IE *dyeus, is the generic word for god, but in this text it probably refers to a particular god. The original form of the compound would have been *siun-summin. Since the synchronic outcome of sequences of n-s is nz while inherited sequences of *ns became ss, and the accusative itself is old, the formation is presumably archaic.
+// DSi-ú-sum-mi-in -- noun; accusative singular animate of <Siusummin> our god, our Sius -- our Sius
+// # The expression Siusummin presumably refers to a statue of the deity.
+// Siusummin acts as a quasi-compound made up of an archaic accusative siun plus the first person plural enclitic personal pronoun -summin.
+//  In other texts, the first word in the compound, sius, from IE *dyeus, is the generic word for god,
+//  but in this text it probably refers to a particular god. The original form of the compound would have been *siun-summin.
+// Since the synchronic outcome of sequences of n-s is nz while inherited sequences of *ns became ss, and the accusative itself is old,
+// the formation is presumably archaic.
 // URUNe-e-sa-az -- proper noun; ablative singular of <Nēsa-> Nesas -- from the city of Nesa
 // URUZa-a-al-pu-wa -- proper noun; stem form functioning here as allative singular <Zālpuwa-> Zalpuwas -- to the city of Zalpuwas
 // pe-e-da-as -- verb; 3rd person singular preterite of hi-conjugation <pēda-> bring, take -- removed
+
+// Zalpuwas 𡉭  *sóh₂wl̥ ⿰土麥 *puHrós

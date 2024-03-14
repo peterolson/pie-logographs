@@ -29,6 +29,7 @@ export const cuneiformSyllables: Record<string, string> = {
 	be: '𒁁',
 	bi: '𒁉',
 	pé: '𒁉',
+	pe: '𒁉',
 	pí: '𒁉',
 	pi: '𒁉',
 	de: '𒁲',
@@ -126,6 +127,7 @@ export const cuneiformSyllables: Record<string, string> = {
 	kat: '𒃰',
 	tak: '𒁖',
 	pat: '𒁁',
+	sum: '𒋳',
 	// Akkadian cuneiform https://akkadian.fandom.com/wiki/Cuneiform
 	QÍ: '𒆠',
 	BÍ: '𒉈',
