@@ -2,7 +2,7 @@
     {
         "PIE": "*h₂uwents",
         "id": "ENTIRE",
-        "char": "全",
+        "char": "皆",
         "pos": "adj",
         "meanings": "every, each, all; whole entire",
         "character_hint": "Depicts jade (玉) that is entirely pure and flawless. Based on the original meaning \"pure jade\". The meaning later shifted to \"complete\" and \"entire\".",
@@ -2200,14 +2200,28 @@
                 "": {
                     "adj": {
                         "m sg nom": "Hpós",
-                        "m sg acc": "Hpóm"
+                        "m sg acc": "Hpóm",
+                        "default_gender": "m"
+                    }
+                },
+                "yo_s": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "Hpoyóm"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "adj": {
-                        "m sg acc": "a-ap-pa-an"
+                        "m sg acc": "a-ap-pa-an",
+                        "default_gender": "m"
+                    }
+                },
+                "yo_s": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "ap-pe-ez-zi-an"
                     }
                 }
             }
@@ -5649,12 +5663,17 @@
     },
     {
         "PIE": "*h₁é",
-        "char": "",
+        "char": "矣",
         "meanings": "and, then",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9",
+            "https://www.dong-chinese.com/wiki/矣",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 537"
+        ],
+        "character_hint": "Phonosemantic compound. 㠯 represents the sound and 矢 represents the meaning.",
+        "id": "THEN",
+        "hittite": "ma"
     },
     {
         "PIE": "*h₁ed-",
@@ -5852,14 +5871,16 @@
             "pie": {
                 "": {
                     "verb": {
-                        "_std active sec sg 3": "h₁ept"
+                        "_std active sec sg 3": "h₁ept",
+                        "_std active sec sg 1": "h₁epm̥"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "verb": {
-                        "_std active sec sg 3": "pe-e-da-as"
+                        "_std active sec sg 3": "pe-e-da-as",
+                        "_std active sec sg 1": "pe-e-tah-hu-un"
                     }
                 }
             }
@@ -8085,7 +8106,25 @@
         "id": "ANITTA",
         "character_hint": "Name of a person (亻). 詈 represents the sound.",
         "PIE": "*anita",
-        "hittite": "M:a-ni-it-ta"
+        "hittite": "M:a-ni-it-ta",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "anitas"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "M:a-ni-it-ta-as"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₃nóbʰōl",
@@ -10484,7 +10523,8 @@
                         "m sg nom": "nésa",
                         "m sg gen": "nésas",
                         "m sg acc": "nésam",
-                        "m sg abl": "nésas"
+                        "m sg abl": "nésas",
+                        "m sg dat": "nésa"
                     }
                 }
             },
@@ -10495,7 +10535,8 @@
                         "m sg gen": "URU:ne-e-sa-as",
                         "m sg acc": "URU:ne-e-sa-an",
                         "m sg nom": "URU:ne-e-sa",
-                        "m sg abl": "URU:ne-e-sa-az"
+                        "m sg abl": "URU:ne-e-sa-az",
+                        "m sg dat": "URU:ne-e-sa"
                     }
                 }
             }
@@ -12317,12 +12358,16 @@
     },
     {
         "PIE": "*solh₂-",
-        "char": "",
+        "char": "全",
         "meanings": "whole",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/全"
+        ],
+        "id": "WHOLE",
+        "character_hint": "Depicts jade (玉) that is entirely pure and flawless. Based on the original meaning \"pure jade\". The meaning later shifted to \"complete\" and \"entire\".",
+        "hittite": "GAL"
     },
     {
         "PIE": "*somh₁ós",
@@ -13976,7 +14021,8 @@
                         "default_gender": "m",
                         "m sg gen": "zalpuwas",
                         "m sg nom": "zalpuwa",
-                        "m sg dat": "zalpuwa"
+                        "m sg dat": "zalpuwa",
+                        "m sg abl": "zalpuwas"
                     }
                 }
             },
@@ -13986,7 +14032,8 @@
                         "default_gender": "m",
                         "m sg nom": "URU:za-a-al-pu-wa",
                         "m sg gen": "URU:za-a-al-pu-wa",
-                        "m sg dat": "URU:za-a-al-pu-wa"
+                        "m sg dat": "URU:za-a-al-pu-wa",
+                        "m sg abl": "URU:za-a-al-pu-wa-az"
                     }
                 }
             }
@@ -31278,14 +31325,6 @@
         "meanings": "spear",
         "references": [
             "https://www.dong-chinese.com/wiki/矛"
-        ]
-    },
-    {
-        "char": "矣",
-        "character_hint": "Phonosemantic compound. 㠯 represents the sound and 矢 represents the meaning.",
-        "meanings": "particle of completed action",
-        "references": [
-            "https://www.dong-chinese.com/wiki/矣"
         ]
     },
     {
