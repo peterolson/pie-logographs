@@ -62,16 +62,17 @@ export const anittaText = {
 	After my father, Pithana, I suppresed a revolt in the same year. 
 	Whatever lands rose up in the direction of the sunrise, I defeated each of the aforementioned.
 	Previously, Uhna, the king of Zalpuwas, had removed our Sius from the city of Nesa to the city of Zalpuwas.
-	But subsequently, I, Anittas, the Great King, brought our Sius back from Zalpuwas to Nesa.`
+	But subsequently, I, Anittas, the Great King, brought our Sius back from Zalpuwas to Nesa.
+	But Huzziyas, the king of Zalpuwas, I brought back alive to Nesa.
+	The city of Hattusas [tablet broken] contrived. And I abandoned it. 
+	But afterwards, when it suffered famine, my goddess, Halmasuwiz, handed it over to me. 
+	And in the night I took it by force; and in its place, I sowed weeds. 
+	Whoever becomes king after me and settles Hattusas again, may the Stormgod of Heaven smite him!`
 };
 
-// ap-pe-ez-zi-ya-na MA-ni-it-ta-as LUGAL.GAL DSi-ú-sum-mi-in URUZa-a-al-pu-wa-az a-ap-pa URUNe-e-sa pe-e-tah-hu-un
-
-// ap-pe-ez-zi-ya-na -- adverb; <appezziyan> later, subsequently + enclitic conjunction; <-a-> but -- but subsequently
-// MA-ni-it-ta-as -- proper noun; nominative singular animate of <Anitta-> Anittas -- Anittas
-// LUGAL.GAL -- noun; Sumerogram functioning here as nominative singular <LUGAL> king + adjective; Sumerogram <GAL> chief, great -- the Great King
-// DSi-ú-sum-mi-in -- noun; accusative singular animate of <Siusummin> our god, our Sius -- Our Sius
-// URUZa-a-al-pu-wa-az -- proper noun; ablative singular of <Zālpuwa-> Zalpuwas -- from Zalpuwas
-// a-ap-pa -- preverb; <āppa> back -- back
+// MHu-uz-zi-ya-na -- proper noun; accusative singular of <Huzziya-> Huzziyas + enclitic conjunction; <-a-> but -- but Huzziyas
+// LUGAL -- noun; Sumerogram functioning here as accusative singular animate <LUGAL> king -- the king
+// URUZa-a-al-pu-wa -- proper noun; stem form functioning here as genitive singular <Zālpuwa-> Zalpuwas -- of Zalpuwas
+// hu-su-wa-an-ta-an -- adjective; accusative singular animate of <huswant-> alive -- alive
 // URUNe-e-sa -- proper noun; allative of <Nēsa-> Nesas -- to Nesa
-// pe-e-tah-hu-un -- verb; 1st person singular preterite of hi-conjugation <pēda-> bring, take -- brought back # Here the preverb āppa is separated from the verb pētahhun.
+// ú-wa-te-nu-un -- verb; 1st person singular preterite of mi-conjugation <uwate-> bring -- brought
