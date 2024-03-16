@@ -53,7 +53,10 @@ export const anittaText = {
 	mothers fathers he_made .
 	and Pithāna father my after in_the_same and year revolt I_defeated .
 	from_east land whatever whatever [emphatic] arose and they all [emphatic] I_defeated .
-	previously , Uhna , king of_Zalpuwa , Sius our from_Nesa to_Zalpuwa took .  `,
+	previously , Uhna , king of_Zalpuwa , Sius our from_Nesa to_Zalpuwa he_took .  
+	later but , Anitta , king great , Sius our from_Zalpuwa back to_Nesa he_took .
+	Huzzya but , king of_Zalpuwa , alive to_Nesa I_brought_back .
+	Hattusa ... contrived . but it I_abandoned .`,
 	translation: `Anitta, Son of Pithāna, King of Kussara, speak!  
     He was dear to the Stormgod of Heaven,  
 	and when he was dear to the Stormgod of Heaven, the king of Nesa [verb broken off] to the king of Kussara. 
