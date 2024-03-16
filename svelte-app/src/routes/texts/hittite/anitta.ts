@@ -39,7 +39,10 @@ export const anittaText = {
 	NOW PITHANA gen sg DAD gen sg I gen sg AFTER acc SINGLE m loc AND YEAR _os loc POWERFUL _nos f sg acc POWERFUL sec 1 sg .  
 	DAWN _teros m sg abl GROUND n sg nom WHAT n acc sg WHAT n acc sg BABBLE RAISE 3 sg sec NOW ENCLITIC_PRONOUN m pl acc ENTIRE pl acc BABBLE POWERFUL sec 1 sg .  
 	GROW _us ins , UHNAS m nom sg , BEGET_KING ZALPUWA gen sg , ZEUS acc sg ENCLITIC_1P acc pl NESA abl sg ZALPUWA dat sg SNATCH active sec 3 sg .  
-	AFTER _yo_s acc THEN , ANITTA nom sg , BEGET_KING WHOLE , ZEUS acc sg ENCLITIC_1P acc pl ZALPUWA abl sg AFTER NESA dat sg SNATCH active sec 1 sg .`,
+	AFTER _yo_s acc THEN , ANITTA nom sg , BEGET_KING WHOLE , ZEUS acc sg ENCLITIC_1P acc pl ZALPUWA abl sg AFTER NESA dat sg SNATCH active sec 1 sg .  
+	HUZZIYA acc sg THEN , BEGET_KING ZALPUWA gen sg , LIVE _onts acc sg NESA dat sg AWAY_LEAD sec 1 sg .  
+	HATTUSA ... PRODUCE active sec 3 sg . THIS ENCLITIC_PRONOUN m acc sg BUT_LAZY sec 1 sg .
+	`,
 	gloss: `Anitta , son of_Pithāna , king of_Kussara , speak thus !
 	heaven at Stormgod dear he_was , 
 	now so Stormgod and when dear he_was , of_Nesa king of_Kussara king ... .
@@ -70,9 +73,11 @@ export const anittaText = {
 	Whoever becomes king after me and settles Hattusas again, may the Stormgod of Heaven smite him!`
 };
 
-// MHu-uz-zi-ya-na -- proper noun; accusative singular of <Huzziya-> Huzziyas + enclitic conjunction; <-a-> but -- but Huzziyas
-// LUGAL -- noun; Sumerogram functioning here as accusative singular animate <LUGAL> king -- the king
-// URUZa-a-al-pu-wa -- proper noun; stem form functioning here as genitive singular <Zālpuwa-> Zalpuwas -- of Zalpuwas
-// hu-su-wa-an-ta-an -- adjective; accusative singular animate of <huswant-> alive -- alive
-// URUNe-e-sa -- proper noun; allative of <Nēsa-> Nesas -- to Nesa
-// ú-wa-te-nu-un -- verb; 1st person singular preterite of mi-conjugation <uwate-> bring -- brought
+// URUHa-at-tu-sa
+// tak-ki-is-ta
+// sa-an ta-a-la-ah-hu-un
+
+// URUHa-at-tu-sa -- proper noun; <Hattusa-> Hattusas -- Hattusas # The front side of the tablet ends here, and since the text is broken off, the case is unknown.
+// tak-ki-is-ta -- verb; 3rd person singular preterite of mi-conjugation <taks-, takkis-> construct, contrive, use -- contrived # This verb begins the first line of the back of text. It is not clear whether it belongs in the same sentence with Hattusa above.
+// sa-an -- sentence particle; <su> and, but + enclitic pronoun; 3rd person singular accusative animate of <-a-> him, her, it -- and it # Since the enclitic pronoun -an is animate, and place names are always animate, the pronoun should refer to Hattusas, which Anittas has apparently been besieging.
+// ta-a-la-ah-hu-un -- verb; 1st person singular preterite of hi-conjugation <dāla-> leave, leave alone -- I abandoned

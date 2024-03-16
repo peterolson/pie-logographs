@@ -226,7 +226,8 @@
                 "": {
                     "adj": {
                         "default_gender": "m",
-                        "m pl acc": "oms"
+                        "m pl acc": "oms",
+                        "m sg acc": "om"
                     }
                 }
             },
@@ -234,7 +235,8 @@
                 "": {
                     "adj": {
                         "default_gender": "m",
-                        "m pl acc": "us"
+                        "m pl acc": "us",
+                        "m sg acc": "an"
                     }
                 }
             }
@@ -1209,11 +1211,13 @@
                         "n pl abl": "tóymos",
                         "n pl dat": "tóymos",
                         "n pl loc": "tóysu",
-                        "n pl ins": "tóysu"
+                        "n pl ins": "tóysu",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "hittite": "sa"
     },
     {
         "PIE": "*méh₂tēr",
@@ -5492,12 +5496,15 @@
     },
     {
         "PIE": "*gʷéru",
-        "char": "",
+        "char": "矛",
         "meanings": "spit, skewer; spear, throwing spear",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%C3%A9ru"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7%C3%A9ru",
+            "https://www.dong-chinese.com/wiki/矛"
+        ],
+        "id": "LANCE",
+        "character_hint": "Pictograph of a spear-like weapon."
     },
     {
         "PIE": "*gʷet-",
@@ -5673,7 +5680,7 @@
         ],
         "character_hint": "Phonosemantic compound. 㠯 represents the sound and 矢 represents the meaning.",
         "id": "THEN",
-        "hittite": "ma"
+        "hittite": "na"
     },
     {
         "PIE": "*h₁ed-",
@@ -5774,11 +5781,24 @@
     },
     {
         "PIE": "*h₁eh₁t-",
-        "char": "",
+        "char": "息",
         "meanings": "to breathe; breath",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81eh%E2%82%81t-"
+        ],
+        "id": "BREATH"
+    },
+    {
+        "PIE": "*hattusa",
+        "char": "⿰土息",
+        "meanings": "city of Hattusa",
+        "pos": "noun",
+        "id": "HATTUSA",
+        "hittite": "URU:ha-at-tu-sa",
+        "character_hint": "Name of a city (土). 息 represents the sound.",
+        "references": [
+            "https://en.wikipedia.org/wiki/Hattusa"
         ]
     },
     {
@@ -6980,12 +7000,13 @@
     },
     {
         "PIE": "*h₂enh₁-",
-        "char": "",
+        "char": "息",
         "meanings": "to breathe",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82enh%E2%82%81-"
-        ]
+        ],
+        "id": "BREATHE"
     },
     {
         "PIE": "*h₂enh₁mos",
@@ -7209,12 +7230,45 @@
     },
     {
         "PIE": "*h₂éwis",
-        "char": "",
+        "char": "鳥",
         "meanings": "bird",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wis"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wis",
+            "https://www.dong-chinese.com/wiki/鳥"
+        ],
+        "id": "BIRD",
+        "character_hint": "Pictograph of a bird."
+    },
+    {
+        "char": "𠌵",
+        "id": "HUZZIYA",
+        "pos": "noun",
+        "meanings": "Huzziya, king of Zalpuwas",
+        "character_hint": "Name of a person (亻). 鳥 represents the sound.",
+        "references": [
+            "https://en.wikipedia.org/wiki/Huzziya"
+        ],
+        "PIE": "*Huzziya",
+        "hittite": "M:hu-uz-zi-ya",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "Huzziyas"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "M:hu-uz-zi-ya"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂ewlós",
@@ -7736,12 +7790,33 @@
     },
     {
         "PIE": "*h₂wes-",
-        "char": "",
+        "char": "活",
         "meanings": "to dwell, live, reside; to stay, spend the night",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82wes-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82wes-",
+            "https://www.dong-chinese.com/wiki/活"
+        ],
+        "id": "LIVE",
+        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 舌 represents the sound. ",
+        "inflections": {
+            "hittite": {
+                "onts": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "hu-su-wa-an-ta-an"
+                    }
+                }
+            },
+            "pie": {
+                "onts": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "h₂wesontm̥"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂wéseti",
@@ -9650,12 +9725,43 @@
     },
     {
         "PIE": "*leh₁-",
-        "char": "",
+        "char": "棄",
         "meanings": "soft, calm; lazy, slow",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/leh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/leh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/柔"
+        ],
+        "id": "LAZY",
+        "character_hint": "Phonosemantic compound. 矛 represents the sound and 木 represents the meaning."
+    },
+    {
+        "id": "BUT_LAZY",
+        "char": "而 棄",
+        "PIE": "*daleh₁-",
+        "pos": "verb",
+        "meanings": "to let, to leave, to let in peace",
+        "character_hint": "而 + 棄",
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 816-817"
+        ],
+        "inflections": {
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "",
+                        "_std active sec sg 1": "ta-a-la-ah-hu-un"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 1": "daleh₁m̥"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*leh₁d-",
@@ -12980,12 +13086,32 @@
     },
     {
         "PIE": "*teḱ-",
-        "char": "",
-        "meanings": "to sire, beget",
+        "char": "編",
+        "meanings": "to produce; to sire, beget; to weave",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/te%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/te%E1%B8%B1-",
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tek-#Root_2",
+            "https://www.dong-chinese.com/wiki/編"
+        ],
+        "character_hint": "Phonosemantic compound. 糹 represents the meaning and 扁 represents the sound. ",
+        "id": "PRODUCE",
+        "inflections": {
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "tak-ki-is-ta"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "teḱt"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*tekʷ-",
@@ -13082,12 +13208,15 @@
     },
     {
         "PIE": "*tenh₂-",
-        "char": "",
+        "char": "扁",
         "meanings": "to stretch, to extend",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tenh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/tenh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/扁"
+        ],
+        "id": "FLATTEN",
+        "character_hint": "Pictograph of a signboard attached to a door. Based on the original meaning \"signboard\". The meaning later shifted to \"tablet\" and \"flat\"."
     },
     {
         "PIE": "*ténh₂us",
@@ -13783,12 +13912,43 @@
     },
     {
         "PIE": "*wedʰ-",
-        "char": "",
+        "char": "帶",
         "meanings": "to bind, to secure; to pledge, to guarantee; to lead",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wed%CA%B0-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wed%CA%B0-",
+            "https://www.dong-chinese.com/wiki/帶"
+        ],
+        "id": "LEAD",
+        "character_hint": "Pictograph of a woven belt."
+    },
+    {
+        "id": "AWAY_LEAD",
+        "char": "出 帶",
+        "PIE": "*h₂ewedʰ-",
+        "pos": "verb",
+        "meanings": "bring; take",
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 935-936"
+        ],
+        "character_hint": "出 + 帶",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 1": "h₂ewedʰom",
+                        "_std active sec sg 2": ""
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 1": "ú-wa-te-nu-un"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*weǵ-",
@@ -22104,14 +22264,6 @@
         ]
     },
     {
-        "char": "扁",
-        "character_hint": "Pictograph of a signboard attached to a door. Based on the original meaning \"signboard\". The meaning later shifted to \"tablet\" and \"flat\".",
-        "meanings": "flat; signboard",
-        "references": [
-            "https://www.dong-chinese.com/wiki/扁"
-        ]
-    },
-    {
         "char": "扮",
         "character_hint": "Phonosemantic compound. 扌 represents the meaning and 分 represents the sound. ",
         "meanings": "dress up",
@@ -23493,14 +23645,6 @@
         "meanings": "supreme ruler; imperial ancestral sacrifice",
         "references": [
             "https://www.dong-chinese.com/wiki/帝"
-        ]
-    },
-    {
-        "char": "帶",
-        "character_hint": "Pictograph of a woven belt.",
-        "meanings": "belt",
-        "references": [
-            "https://www.dong-chinese.com/wiki/帶"
         ]
     },
     {
@@ -27544,14 +27688,6 @@
         ]
     },
     {
-        "char": "柔",
-        "character_hint": "Phonosemantic compound. 矛 represents the sound and 木 represents the meaning.",
-        "meanings": "soft, flexible",
-        "references": [
-            "https://www.dong-chinese.com/wiki/柔"
-        ]
-    },
-    {
         "char": "栴",
         "character_hint": "Phonosemantic compound. 木 represents the meaning and 旃 represents the sound.",
         "meanings": "sandalwood",
@@ -29912,14 +30048,6 @@
         ]
     },
     {
-        "char": "活",
-        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 𠯑 represents the sound. ",
-        "meanings": "live",
-        "references": [
-            "https://www.dong-chinese.com/wiki/活"
-        ]
-    },
-    {
         "char": "测",
         "character_hint": "Phonosemantic compound. 氵 represents the meaning and 则 represents the sound. Simplified form of 測. ",
         "meanings": "measure",
@@ -31317,14 +31445,6 @@
         "meanings": "spy on",
         "references": [
             "https://www.dong-chinese.com/wiki/睪"
-        ]
-    },
-    {
-        "char": "矛",
-        "character_hint": "Pictograph of a spear-like weapon.",
-        "meanings": "spear",
-        "references": [
-            "https://www.dong-chinese.com/wiki/矛"
         ]
     },
     {
@@ -34581,14 +34701,6 @@
         "meanings": "reddish color",
         "references": [
             "https://www.dong-chinese.com/wiki/緹"
-        ]
-    },
-    {
-        "char": "編",
-        "character_hint": "Phonosemantic compound. 糹 represents the meaning and 扁 represents the sound. ",
-        "meanings": "knit, compile, edit",
-        "references": [
-            "https://www.dong-chinese.com/wiki/編"
         ]
     },
     {
@@ -38925,14 +39037,6 @@
         "meanings": "duck",
         "references": [
             "https://www.dong-chinese.com/wiki/鴨"
-        ]
-    },
-    {
-        "char": "鳥",
-        "character_hint": "Pictograph of a bird.",
-        "meanings": "bird",
-        "references": [
-            "https://www.dong-chinese.com/wiki/鳥"
         ]
     },
     {
