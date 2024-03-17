@@ -227,7 +227,8 @@
                     "adj": {
                         "default_gender": "m",
                         "m pl acc": "oms",
-                        "m sg acc": "om"
+                        "m sg acc": "om",
+                        "m sg nom": "ó"
                     }
                 }
             },
@@ -236,7 +237,8 @@
                     "adj": {
                         "default_gender": "m",
                         "m pl acc": "us",
-                        "m sg acc": "an"
+                        "m sg acc": "an",
+                        "m sg nom": "as"
                     }
                 }
             }
@@ -464,9 +466,9 @@
     },
     {
         "char": "余",
-        "id": "ENCLITIC_1P",
+        "id": "ENCLITIC_1PL",
         "pos": "pron",
-        "meanings": "I/my/ours",
+        "meanings": "us/our/ours",
         "character_hint": "Pictograph of a small shelter. Based on the original meaning \"residence\", now written as 舍. The current meaning is a phonetic loan.",
         "references": [
             "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp.782-783",
@@ -491,6 +493,35 @@
             }
         },
         "PIE": "*-sum"
+    },
+    {
+        "char": "我",
+        "id": "ENCLITIC_1SG",
+        "pos": "pron",
+        "inflections": {
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "mi-is"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "h₁mos"
+                    }
+                }
+            }
+        },
+        "character_hint": "Pictograph of a weapon with a forked blade and long handle. The meaning \"I; me\" is a phonetic loan.",
+        "references": [
+            "https://www.dong-chinese.com/wiki/我"
+        ],
+        "meanings": "my/mine",
+        "PIE": "*h₁mos"
     },
     {
         "PIE": "*(h₂)népōts",
@@ -838,11 +869,27 @@
     },
     {
         "PIE": "*sed-",
-        "char": "尸",
+        "char": "坐",
         "meanings": "to sit",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sed-"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sed-",
+            "https://www.dong-chinese.com/wiki/尸",
+            "https://www.dong-chinese.com/wiki/坐"
+        ],
+        "id": "SIT",
+        "character_hint": "Depicts two people (人) sitting on the ground (土)."
+    },
+    {
+        "char": "⿰礻坐",
+        "hittite": "D:hal-ma-su-i-iz",
+        "pos": "noun",
+        "meanings": "Halmasuitt, Hittite goddess acting as an embodiment of royal authority",
+        "character_hint": "A divine (礻) representation of the ceremonial throne (坐).",
+        "id": "HALMASUITT",
+        "PIE": "*halmasuit",
+        "references": [
+            "https://en.wikipedia.org/wiki/%E1%B8%AAalma%C5%A1uit"
         ]
     },
     {
@@ -1407,8 +1454,11 @@
         "meanings": "to do; to put, place",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0eh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0eh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/爲"
+        ],
+        "id": "DO",
+        "character_hint": "Original form of 為. Pictograph of a hand (又) guiding an elephant (象) to do work (in ancient China elephants were tamed to do work). Based on the meaning \"to work; to do\"."
     },
     {
         "PIE": "*ǵenh₁-",
@@ -4543,7 +4593,8 @@
                 "": {
                     "adj": {
                         "default_gender": "m",
-                        "m sg acc": "D:si-u"
+                        "m sg acc": "D:si-u",
+                        "m sg nom": "D:si-i-us"
                     }
                 }
             }
@@ -4591,9 +4642,29 @@
         "meanings": "to be greedy, hungry",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%E2%81%BD%CA%B7%E2%81%BEeld%CA%B0-"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%E2%81%BD%CA%B7%E2%81%BEeld%CA%B0-",
+            "https://www.dong-chinese.com/wiki/%E8%B2%AA"
         ],
-        "id": "GREEDY"
+        "id": "GREEDY",
+        "character_hint": "Depicts a mouth (今) facing a shell (貝). In ancient China, shells were used as currency.",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_ye_ti active sec sg 3": "",
+                        "_ye_ti middle sec sg 3": "gʷeldʰyéto"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_ye_ti active sec sg 3": "",
+                        "_ye_ti middle sec sg 3": "ki-is-ta-an-zi-at-ta-at"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*g⁽ʷ⁾ew(H)-",
@@ -5899,12 +5970,41 @@
             "hittite": {
                 "": {
                     "verb": {
-                        "_std active sec sg 3": "pe-e-da-as",
-                        "_std active sec sg 1": "pe-e-tah-hu-un"
+                        "_std active sec sg 3": "pa-is",
+                        "_std active sec sg 1": ""
                     }
                 }
             }
         }
+    },
+    {
+        "PIE": "*h₁epdʰeh₁-",
+        "char": "奪 爲",
+        "id": "SNATCH_DO",
+        "pos": "verb",
+        "references": [
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 673-674"
+        ],
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 1": "h₁epdʰeh₁m̥",
+                        "_std active sec sg 3": "h₁epdʰeh₁t"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 1": "pe-e-tah-hu-un",
+                        "_std active sec sg 3": "pe-e-da-as"
+                    }
+                }
+            }
+        },
+        "meanings": "to take (somewhere), to carry, to transport; to spend (time)",
+        "character_hint": "奪 + 爲"
     },
     {
         "PIE": "*h₁epi",
@@ -7101,10 +7201,19 @@
     {
         "PIE": "*h₂ep-",
         "char": "",
-        "meanings": "; water, body of water",
+        "meanings": "water, body of water",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ep-"
+        ]
+    },
+    {
+        "PIE": "*h₂ep-",
+        "char": "",
+        "meanings": "see SNATCH; to join, attach, fasten, fit; to grab, snatch, get",
+        "pos": "root",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82ep-#Root_2"
         ]
     },
     {
@@ -11760,7 +11869,8 @@
             "https://www.dong-chinese.com/wiki/向"
         ],
         "id": "TOWARD",
-        "character_hint": "Depicts a mouth (口) in a closed space (宀) making an echo sound. Based on the original meaning \"echo; sound\", now written as 響. The meaning later shifted to \"direction\" and \"toward\"."
+        "character_hint": "Depicts a mouth (口) in a closed space (宀) making an echo sound. Based on the original meaning \"echo; sound\", now written as 響. The meaning later shifted to \"direction\" and \"toward\".",
+        "hittite": "pa-ra-a"
     },
     {
         "PIE": "*prot-",
@@ -20416,14 +20526,6 @@
         ]
     },
     {
-        "char": "尸",
-        "character_hint": "Depicts a person with their knees bent to sit or squat.",
-        "meanings": "sitting person; sit",
-        "references": [
-            "https://www.dong-chinese.com/wiki/尸"
-        ]
-    },
-    {
         "char": "存",
         "character_hint": "Phonosemantic compound. 子 represents the meaning and 才 represents the sound. ",
         "meanings": "exist, keep",
@@ -21589,14 +21691,6 @@
         "meanings": "art, skill; to plant",
         "references": [
             "https://www.dong-chinese.com/wiki/埶"
-        ]
-    },
-    {
-        "char": "坐",
-        "character_hint": "Depicts two people (人) sitting on the ground (土).",
-        "meanings": "sit",
-        "references": [
-            "https://www.dong-chinese.com/wiki/坐"
         ]
     },
     {
@@ -25797,14 +25891,6 @@
         "meanings": "signboard",
         "references": [
             "https://www.dong-chinese.com/wiki/牌"
-        ]
-    },
-    {
-        "char": "爲",
-        "character_hint": "Original form of 為. Pictograph of a hand (又) guiding an elephant (象) to do work (in ancient China elephants were tamed to do work). Based on the meaning \"to work; to do\".",
-        "meanings": "do",
-        "references": [
-            "https://www.dong-chinese.com/wiki/爲"
         ]
     },
     {

@@ -38,8 +38,9 @@ export const verbTypes = {
 export const formationTypes = {
 	_std: 'Standard',
 	_dup: 'Reduplicated',
-	_yeti: 'Transitive imperfective (from PIE suffix *-yéti)',
-	_newti: 'Transitive imperfective (from PIE suffix *-néwti)'
+	_yeti: 'Transitive imperfective (from PIE suffix *-yeti)',
+	_newti: 'Transitive imperfective (from PIE suffix *-néwti)',
+	_ye_ti: 'Intransitive imperfective (from PIE suffix *-yéti)'
 } as const;
 export type GrammaticalNumber = (typeof numbers)[number];
 export type Gender = (typeof genders)[number];
@@ -647,7 +648,8 @@ function convertVerbInflection(
 		_std: 'ㄱ',
 		_dup: 'ㄲ',
 		_yeti: 'ㅈ',
-		_newti: 'ㄴ'
+		_newti: 'ㄴ',
+		_ye_ti: 'ㅊ'
 	};
 	const final = finals[formation];
 	return hangulSyllable(initial, medial, final);
