@@ -136,7 +136,10 @@ export const cuneiformSyllables: Record<string, string> = {
 	MA: '𒈠',
 	IṢ: '𒅖',
 	BAT: '𒁁',
-	Ù: '𒌋'
+	Ù: '𒌋',
+	ZÀ: '𒍝',
+	AH: '𒄴',
+	LI: '𒇷'
 };
 
 export const hittiteDeterminers: Record<string, [string, string]> = {

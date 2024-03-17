@@ -228,7 +228,8 @@
                         "default_gender": "m",
                         "m pl acc": "oms",
                         "m sg acc": "om",
-                        "m sg nom": "ó"
+                        "m sg nom": "ó",
+                        "m sg loc": "ósmi"
                     }
                 }
             },
@@ -238,7 +239,8 @@
                         "default_gender": "m",
                         "m pl acc": "us",
                         "m sg acc": "an",
-                        "m sg nom": "as"
+                        "m sg nom": "as",
+                        "m sg loc": "is-si"
                     }
                 }
             }
@@ -7290,12 +7292,15 @@
     },
     {
         "PIE": "*h₂et-",
-        "char": "",
+        "char": "艸",
         "meanings": "grass",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82et-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82et-",
+            "https://www.dong-chinese.com/wiki/艸"
+        ],
+        "id": "GRASS",
+        "character_hint": "Pictograph of blades of grass."
     },
     {
         "PIE": "*h₂ew",
@@ -8098,12 +8103,31 @@
     },
     {
         "PIE": "*h₃enh₂-",
-        "char": "",
+        "char": "制",
         "meanings": "to call, summon; to assign (to a role or task) ?; to onerate; to charge",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83enh%E2%82%82-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83enh%E2%82%82-",
+            "https://www.dong-chinese.com/wiki/制"
+        ],
+        "id": "ONERATE",
+        "character_hint": "Depicts cutting down a tree (未) with a knife (刂). Based on the original meaning \"break\". The meaning later shifted to \"control\".",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 1": "h₃enh₂m̥"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 1": "a-ne-e-nu-un"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₃énh₂os",
@@ -10975,12 +10999,35 @@
     },
     {
         "PIE": "*ped-",
-        "char": "",
+        "char": "走",
         "meanings": "to walk, to step; to stumble, to fall",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ped-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ped-",
+            "https://www.dong-chinese.com/wiki/走"
+        ],
+        "id": "WALK",
+        "character_hint": "Originally written as 夭, depicting a person swaying their arms (夭) while walking quickly. The foot component 止 was added later.",
+        "inflections": {
+            "pie": {
+                "": {},
+                "os": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg loc": "pedéy"
+                    }
+                }
+            },
+            "hittite": {
+                "": {},
+                "os": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg loc": "pe-e-di"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*peg-",
@@ -12418,12 +12465,15 @@
     },
     {
         "PIE": "*skwey-",
-        "char": "",
+        "char": "朿",
         "meanings": "thorn, needle, prickle; thorny, prickly plant",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/skwey-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/skwey-",
+            "https://www.dong-chinese.com/wiki/朿"
+        ],
+        "id": "THORN",
+        "character_hint": "Pictograph of a thorned weapon or plant."
     },
     {
         "PIE": "*sleydʰ-",
@@ -14576,12 +14626,34 @@
     },
     {
         "PIE": "*weys-",
-        "char": "",
+        "char": "茻",
         "meanings": "to raise, increase; to produce, procreate",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/weys-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/weys-",
+            "https://www.dong-chinese.com/wiki/茻"
+        ],
+        "character_hint": "Duplicate of 艸 (grass). Depicts overgrown vegetation.",
+        "id": "WEED",
+        "hittite": "ZÀ.AH-LI",
+        "inflections": {
+            "pie": {
+                "o_s": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "weysóm"
+                    }
+                }
+            },
+            "hittite": {
+                "o_s": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "ZÀ-AH-LI-an"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*wi",
@@ -16811,14 +16883,6 @@
         "meanings": "wrap",
         "references": [
             "https://www.dong-chinese.com/wiki/勹"
-        ]
-    },
-    {
-        "char": "制",
-        "character_hint": "Depicts cutting down a tree (未) with a knife (刂). Based on the original meaning \"break\". The meaning later shifted to \"control\".",
-        "meanings": "control; break",
-        "references": [
-            "https://www.dong-chinese.com/wiki/制"
         ]
     },
     {
@@ -27638,14 +27702,6 @@
         ]
     },
     {
-        "char": "朿",
-        "character_hint": "Pictograph of a thorned weapon or plant.",
-        "meanings": "thorn, stab",
-        "references": [
-            "https://www.dong-chinese.com/wiki/朿"
-        ]
-    },
-    {
         "char": "柲",
         "character_hint": "Phonosemantic compound. 木 represents the meaning and 必 represents the sound. Originally written as 必, a pictograph of a weapon.",
         "meanings": "handle",
@@ -29494,14 +29550,6 @@
         ]
     },
     {
-        "char": "艸",
-        "character_hint": "Pictograph of blades of grass.",
-        "meanings": "grass",
-        "references": [
-            "https://www.dong-chinese.com/wiki/艸"
-        ]
-    },
-    {
         "char": "芟",
         "character_hint": "Depicts using a tool (殳) to cut out or mow grass (艹). ",
         "meanings": "mow",
@@ -29659,14 +29707,6 @@
         "meanings": "small bean",
         "references": [
             "https://www.dong-chinese.com/wiki/荅"
-        ]
-    },
-    {
-        "char": "茻",
-        "character_hint": "Duplicate of 艸 (grass).",
-        "meanings": "vegetation, overgrown weeds",
-        "references": [
-            "https://www.dong-chinese.com/wiki/茻"
         ]
     },
     {
@@ -38067,14 +38107,6 @@
         "meanings": "hasten, approach",
         "references": [
             "https://www.dong-chinese.com/wiki/趨"
-        ]
-    },
-    {
-        "char": "走",
-        "character_hint": "Originally written as 夭, depicting a person swaying their arms (夭) while walking quickly. The foot component 止 was added later.",
-        "meanings": "walk",
-        "references": [
-            "https://www.dong-chinese.com/wiki/走"
         ]
     },
     {

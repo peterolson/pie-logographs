@@ -20,7 +20,7 @@
 // pe-e-di-is-si-ma ZÀ.AH-LI-an a-ne-e-nu-un
 // ku-is am-me-el a-ap-pa-an LUGAL-us ki-i-sa-ri nu URUHa-at-tu-sa-an a-ap-pa a-sa-a-si na-an ne-pi-sa-as DIŠKUR-as ha-az-zi-e-et-tu
 
-// map Hittite locive to PIE locative
+// map Hittite dative to PIE locative
 // and Hittite allative to PIE dative
 // Hittite locative stays locative
 
@@ -40,7 +40,8 @@ export const anittaText = {
 	HATTUSA ... PRODUCE active sec 3 sg . THIS ENCLITIC_PRONOUN m acc sg BUT_LAZY sec 1 sg .  
 	TRULY ENCLITIC_PRONOUN m nom sg AFTER _yo_s acc THEN GREEDY _ye_ti middle sec 3 sg , 
 	THIS ENCLITIC_PRONOUN m acc sg HALMASUITT ZEUS nom sg ENCLITIC_1SG nom sg TOWARD SNATCH active sec 3 sg .  
-	THIS ENCLITIC_PRONOUN m acc sg NIGHTTIME _onts loc sg ATTAIN _es ins sg GIVE active sec 1 sg ,
+	THIS ENCLITIC_PRONOUN m acc sg NIGHTTIME _onts loc sg ATTAIN _es ins sg GIVE active sec 1 sg , 
+	WALK _os loc sg ENCLITIC_PRONOUN m loc sg THEN WEED _o_s acc sg ONERATE active sec 1 sg .
 	`,
 	gloss: `Anitta , son of_Pithāna , king of_Kussara , speak thus !
 	heaven at Stormgod dear he_was , now so Stormgod and when dear he_was , of_Nesa king of_Kussara king ... .
@@ -53,7 +54,7 @@ export const anittaText = {
 	Huzzya but , king of_Zalpuwa , alive to_Nesa I_brought_back .
 	Hattusa ... contrived . but it I_abandoned .  
 	when it after but was_suffering_famine , but it Halmasuitt god my forth gave .
-	but it in_the_night with_force I_took ,`,
+	but it in_the_night with_force I_took , in_place of_it but weeds I_sowed .`,
 	translation: `Anitta, Son of Pithāna, King of Kussara, speak!  
     He was dear to the Stormgod of Heaven, and when he was dear to the Stormgod of Heaven, the king of Nesa [verb broken off] to the king of Kussara. 
 	The king of Kussara, Pithana, came down out of the city in force, and he took the city of Nesa in the night by force.  
