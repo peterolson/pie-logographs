@@ -32,7 +32,7 @@ export const anittaText = {
     CLOUD _os gen sg AT STORMGOD loc sg GOOD _us m nom sg BE sec 3 sg , NOW AT STORMGOD loc sg DEICTIC TRULY GOOD _us m nom sg BE sec 3 sg , NESA gen sg BEGET_KING nom sg KUSSARA gen sg BEGET_KING loc sg ... .  
 	BEGET_KING nom sg KUSSARA TOIL _ryo_s abl sg NEARBY f nom THICK _ros m ins pl AWAY_GO sec 3 sg , NOW NESA acc sg NIGHTTIME _onts loc sg ATTAIN _es ins sg GIVE active sec 3 sg .  
 	NESA gen sg BEGET_KING acc sg SNAAATCH active sec 3 sg , BUT SON _us loc pl NESA gen sg HATE _losus n acc sg NOT_THIS WHAT_DEICTIC loc sg CREATE active sec 3 sg ; MOTHER acc pl DAD acc pl WORK active sec 3 sg .  
-	NOW PITHANA gen sg DAD gen sg I gen sg AFTER acc SINGLE m loc AND YEAR _os loc POWERFUL _nos f sg acc POWERFUL sec 1 sg .  
+	NOW PITHANA gen sg DAD gen sg ENCLITIC_1SG gen sg AFTER acc SINGLE m loc AND YEAR _os loc POWERFUL _nos f sg acc POWERFUL sec 1 sg .  
 	DAWN _teros m sg abl GROUND n sg nom WHAT n acc sg WHAT n acc sg BABBLE RAISE 3 sg sec NOW ENCLITIC_PRONOUN m pl acc ENTIRE pl acc BABBLE POWERFUL sec 1 sg .  
 	GROW _us ins , UHNAS m nom sg , BEGET_KING ZALPUWA gen sg , ZEUS acc sg ENCLITIC_1PL acc pl NESA abl sg ZALPUWA dat sg SNATCH_DO active sec 3 sg .  
 	AFTER _yo_s acc THEN , ANITTA nom sg , BEGET_KING WHOLE , ZEUS acc sg ENCLITIC_1PL acc pl ZALPUWA abl sg AFTER NESA dat sg SNATCH_DO active sec 1 sg .  
@@ -41,7 +41,9 @@ export const anittaText = {
 	TRULY ENCLITIC_PRONOUN m nom sg AFTER _yo_s acc THEN GREEDY _ye_ti middle sec 3 sg , 
 	THIS ENCLITIC_PRONOUN m acc sg HALMASUITT ZEUS nom sg ENCLITIC_1SG nom sg TOWARD SNATCH active sec 3 sg .  
 	THIS ENCLITIC_PRONOUN m acc sg NIGHTTIME _onts loc sg ATTAIN _es ins sg GIVE active sec 1 sg , 
-	WALK _os loc sg ENCLITIC_PRONOUN m loc sg THEN WEED _o_s acc sg ONERATE active sec 1 sg .
+	WALK _os loc sg ENCLITIC_PRONOUN m loc sg THEN WEED _o_s acc sg ONERATE active sec 1 sg .  
+	WHAT nom sg I gen sg AFTER acc BEGET_KING nom sg CURL middle prim 3 sg , NOW HATTUSA acc sg AFTER NOW ENCLITIC_PRONOUN m acc sg RESIDE _dup active prim 3 sg , 
+	CLOUD _os gen sg STORMGOD nom sg STAB imp 3 sg !
 	`,
 	gloss: `Anitta , son of_Pithāna , king of_Kussara , speak thus !
 	heaven at Stormgod dear he_was , now so Stormgod and when dear he_was , of_Nesa king of_Kussara king ... .
@@ -54,7 +56,8 @@ export const anittaText = {
 	Huzzya but , king of_Zalpuwa , alive to_Nesa I_brought_back .
 	Hattusa ... contrived . but it I_abandoned .  
 	when it after but was_suffering_famine , but it Halmasuitt god my forth gave .
-	but it in_the_night with_force I_took , in_place of_it but weeds I_sowed .`,
+	but it in_the_night with_force I_took , in_place of_it but weeds I_sowed .
+	whoever me after king becomes , and Hattusa again and it settles , of_heaven Stormgod may_he_strike !`,
 	translation: `Anitta, Son of Pithāna, King of Kussara, speak!  
     He was dear to the Stormgod of Heaven, and when he was dear to the Stormgod of Heaven, the king of Nesa [verb broken off] to the king of Kussara. 
 	The king of Kussara, Pithana, came down out of the city in force, and he took the city of Nesa in the night by force.  
@@ -69,9 +72,3 @@ export const anittaText = {
 	And in the night I took it by force; and in its place, I sowed weeds. 
 	Whoever becomes king after me and settles Hattusas again, may the Stormgod of Heaven smite him!`
 };
-
-// pe-e-di-is-si-ma ZÀ.AH-LI-an a-ne-e-nu-un
-
-// pe-e-di-is-si-ma -- noun; dative-locative singular of <pēda> place + enclitic possessive pronoun; 3rd person singular dative of <-sis> his, her, its + enclitic conjunction; <-ma> but, and -- and in its place
-// ZÀ.AH-LI-an -- noun; Sumerogram <ZÀ.AH-LI> cress, weed + Hittite phonetic complement; <-an> (indicating accusative singular animate) -- weeds
-// a-ne-e-nu-un -- verb; 1st person singular preterite of mi-conjugation <anniya-> do, work -- I sowed

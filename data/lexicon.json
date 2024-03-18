@@ -505,7 +505,8 @@
                 "": {
                     "adj": {
                         "default_gender": "m",
-                        "m sg nom": "mi-is"
+                        "m sg nom": "mi-is",
+                        "m sg gen": "ma-as"
                     }
                 }
             },
@@ -513,7 +514,8 @@
                 "": {
                     "adj": {
                         "default_gender": "m",
-                        "m sg nom": "h₁mos"
+                        "m sg nom": "h₁mos",
+                        "m sg gen": "h₁mesos"
                     }
                 }
             }
@@ -883,6 +885,35 @@
         "character_hint": "Depicts two people (人) sitting on the ground (土)."
     },
     {
+        "PIE": "*h₁ḗsti",
+        "meanings": "sit; settle; reside",
+        "pos": "verb",
+        "references": [
+            "https://en.wiktionary.org/wiki/%E1%BC%A7%CE%BC%CE%B1%CE%B9#Ancient_Greek",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 218-219, 252-253",
+            "https://www.dong-chinese.com/wiki/宅"
+        ],
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_dup active prim sg 3": "h₁eh₁ḗsti"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_dup active prim sg 3": "a-sa-a-si"
+                    }
+                }
+            }
+        },
+        "id": "RESIDE",
+        "char": "宅",
+        "character_hint": "Depicts someone sitting (乇) under a roof (宀)."
+    },
+    {
         "char": "⿰礻坐",
         "hittite": "D:hal-ma-su-i-iz",
         "pos": "noun",
@@ -996,14 +1027,16 @@
                         "m sg abl": "h₁med",
                         "m sg dat": "h₁moy",
                         "m sg loc": "h₁moy",
-                        "m sg ins": "h₁mos"
+                        "m sg ins": "h₁mos",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "": {
                     "adj": {
-                        "m sg gen": "ma-as"
+                        "m sg gen": "am-me-el",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -4799,12 +4832,34 @@
     },
     {
         "PIE": "*gew-",
-        "char": "",
+        "char": "化",
         "meanings": "to bend, curve; arch, vault",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/gew-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/gew-",
+            "https://www.dong-chinese.com/wiki/化",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 479-480"
+        ],
+        "id": "CURL",
+        "character_hint": "Pictograph of a right-side up person and an upside-down person, depicting the meaning \"turn around\" or \"transform\".",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std middle sec sg 3": "",
+                        "_std middle prim sg 3": "gutór"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std middle sec sg 3": "",
+                        "_std middle prim sg 3": "ki-i-sa-ri"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*ǵews-",
@@ -5872,7 +5927,25 @@
         "character_hint": "Name of a city (土). 息 represents the sound.",
         "references": [
             "https://en.wikipedia.org/wiki/Hattusa"
-        ]
+        ],
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "hattusam"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "URU:ha-at-tu-sa-an"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₁eḱ-",
@@ -9651,7 +9724,8 @@
                     "adj": {
                         "m sg dat": "ku-e-da-ni",
                         "default_gender": "m",
-                        "n sg acc": "ku-it"
+                        "n sg acc": "ku-it",
+                        "m sg nom": "ku-is"
                     }
                 }
             }
@@ -10691,14 +10765,16 @@
                         "m sg abl": "nébʰesos",
                         "m sg dat": "nébʰesey",
                         "m sg loc": "nébʰesi",
-                        "m sg ins": "nébʰesh₁"
+                        "m sg ins": "nébʰesh₁",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "os": {
                     "adj": {
-                        "m sg gen": "ne-pi-is-za"
+                        "m sg gen": "ne-pi-sa-as",
+                        "default_gender": "m"
                     }
                 }
             }
@@ -11353,12 +11429,31 @@
     },
     {
         "PIE": "*pewǵ-",
-        "char": "",
+        "char": "刺",
         "meanings": "to punch, fist-fight; to prick, poke, stab",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pew%C7%B5-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pew%C7%B5-",
+            "https://www.dong-chinese.com/wiki/刺"
+        ],
+        "id": "STAB",
+        "character_hint": "Phonosemantic compound. 刂 represents the meaning and 朿 represents the sound. ",
+        "inflections": {
+            "hittite": {
+                "": {
+                    "verb": {
+                        "_std active imp sg 3": "ha-az-zi-e-et-tu"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active imp sg 3": "pewǵtu"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*pewH-",
@@ -13486,7 +13581,8 @@
                     "adj": {
                         "m sg dat": "",
                         "default_gender": "m",
-                        "m sg loc": "D:ISKUR-un-ni"
+                        "m sg loc": "D:ISKUR-un-ni",
+                        "m sg nom": "D:ISKUR-as"
                     }
                 }
             }
@@ -16382,14 +16478,6 @@
         ]
     },
     {
-        "char": "化",
-        "character_hint": "Pictograph of a right-side up person and an upside-down person, depicting the meaning \"turn around\" or \"transform\".",
-        "meanings": "change",
-        "references": [
-            "https://www.dong-chinese.com/wiki/化"
-        ]
-    },
-    {
         "char": "卖",
         "character_hint": "Phonosemantic compound. 出 represents the meaning and 买 represents the sound. Simplified form of 賣. ",
         "meanings": "sell",
@@ -16699,14 +16787,6 @@
         "meanings": "thirty",
         "references": [
             "https://www.dong-chinese.com/wiki/卅"
-        ]
-    },
-    {
-        "char": "刺",
-        "character_hint": "Phonosemantic compound. 刂 represents the meaning and 朿 represents the sound. ",
-        "meanings": "stab",
-        "references": [
-            "https://www.dong-chinese.com/wiki/刺"
         ]
     },
     {
@@ -20387,14 +20467,6 @@
         "meanings": "learning",
         "references": [
             "https://www.dong-chinese.com/wiki/学"
-        ]
-    },
-    {
-        "char": "宅",
-        "character_hint": "Phonosemantic compound. 宀 represents the meaning and 乇 represents the sound. ",
-        "meanings": "residence",
-        "references": [
-            "https://www.dong-chinese.com/wiki/宅"
         ]
     },
     {

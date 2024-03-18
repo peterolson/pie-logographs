@@ -199,6 +199,9 @@ export function renderHittiteWord(
 			return isCuneiform ? renderCuneiformSyllables('na') : 'na';
 		}
 	}
+	if (word.id === 'CLOUD' && word.case == 'gen' && nextWord?.id === 'AT') {
+		return isCuneiform ? renderCuneiformSyllables('ne-pi-is-za') : 'ne-pi-is-za';
+	}
 	if (word.determiner && word.determinerKey) {
 		const determiner = hittiteDeterminers[word.determinerKey][isCuneiform ? 0 : 1];
 		if (isCuneiform && word.phonetic) {
