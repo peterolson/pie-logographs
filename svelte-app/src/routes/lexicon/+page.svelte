@@ -9,6 +9,7 @@
 	import '../../lib/lexicon';
 	import type { LexiconEntry } from '$lib/lexicon.types';
 	import { getLexicon, updateLexicon } from '../../lib/lexicon';
+	import PathChar from '../char/PathChar.svelte';
 
 	let gridContainer: HTMLDivElement;
 	let quickFilterText = '';
@@ -45,7 +46,17 @@
 				{ field: 'id', width: 150, comparator },
 				{ field: 'PIE', width: 150, comparator },
 				{ field: 'pos', width: 75, comparator },
-				{ field: 'char', width: 80, comparator },
+				{
+					field: 'path',
+					headerName: 'Char',
+					width: 80,
+					comparator,
+					cellRenderer: cellRendererFactory(
+						(c: AbstractCellRenderer, p: ICellRendererParams<any, any, any>) => {
+							new PathChar({ target: c.eGui, props: { path: p.data.path || '', fontSize: 32 } });
+						}
+					)
+				},
 				{ field: 'meanings', flex: 1, comparator },
 				{ field: 'character_hint', headerName: 'Character Hint', flex: 1, comparator },
 				{

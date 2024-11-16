@@ -20,6 +20,7 @@ export type LexiconEntry = {
 	PIE?: string;
 	hittite?: string;
 	char?: string;
+	path?: string;
 	meanings?: string;
 	character_hint?: string;
 	pos?: string;
@@ -30,6 +31,7 @@ export type LexiconEntry = {
 export type ParsedWord = {
 	id: string;
 	char?: string;
+	path?: string;
 	prefix?: { id: string; char?: string }[];
 	number?: GrammaticalNumber;
 	gender?: Gender;

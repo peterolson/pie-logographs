@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Character from '../routes/char/Character.svelte';
+	import PathChar from '../routes/char/PathChar.svelte';
 	import References from '../routes/lexicon/References.svelte';
 	import { addInflection, addSuffixes, suffixes } from './inflection';
 	import type { LexiconEntry, ParsedWord } from './lexicon.types';
@@ -54,9 +55,13 @@ Read as: <select bind:value={selectedLanguage}>
 					e.preventDefault();
 					selectedWord = word;
 				}}
-				>{#if selectedLanguage === 'default'}<Character char={word.char || ''} /><Character
-						char={addSuffixes(word)}
-					/><Character char={addInflection(word, lexicon)} />{:else}<span>{renderedWord}</span
+				>{#if selectedLanguage === 'default'}<PathChar
+						path={word.path || '*'}
+						vTrim={1}
+					/><Character char={addSuffixes(word)} /><PathChar
+						path={addInflection(word, lexicon)}
+						hTrim={3 / 7}
+					/>{:else}<span>{renderedWord}</span
 					>{/if}{#if selectedLanguage === 'hittite' && showTransliteration}<span
 						class="transliteration"
 						>{renderWord(

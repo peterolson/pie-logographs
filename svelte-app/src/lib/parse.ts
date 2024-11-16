@@ -45,6 +45,7 @@ function parseLine(line: string, lexicon: LexiconEntry[], language: string): Par
 			currentWord = {
 				id: token,
 				char: lexiconEntry.char,
+				path: lexiconEntry.path,
 				prefix: prefix
 			};
 			prefix = [];

@@ -1,12 +1,14 @@
 <script lang="ts">
 	import type { LexiconEntry } from '$lib/lexicon.types';
 	import { getLexicon } from '../../lib/lexicon';
+	import PathChar from '../char/PathChar.svelte';
 	import InflectionEditor from './InflectionEditor.svelte';
 
 	export let data: LexiconEntry;
 	export let onSave: (lexicon: LexiconEntry[]) => void;
 	export let close: () => void;
-	let { id, PIE, hittite, char, pos, meanings, character_hint, references, inflections } = data;
+	let { id, PIE, hittite, char, pos, meanings, character_hint, references, inflections, path } =
+		data;
 	let referenceText = '';
 
 	const partsOfSpeech = [
@@ -34,6 +36,7 @@
 			...data,
 			...entry
 		};
+		console.log('updatedEntry', updatedEntry);
 		const res = await fetch(`/lexicon/update`, {
 			method: 'PUT',
 			headers: {
@@ -75,6 +78,13 @@
 <div class="input-grid">
 	<span>ID</span>
 	<input type="text" bind:value={id} />
+	<span>Path</span>
+	<div style="height: 50px; display: flex; gap: 8px;">
+		<input type="text" bind:value={path} style="flex: 1" />
+		{#if path}
+			<PathChar {path} />
+		{/if}
+	</div>
 	<span>PIE</span>
 	<input type="text" bind:value={PIE} />
 	<span>Hittite</span>
@@ -119,7 +129,18 @@
 <InflectionEditor bind:inflections />
 <button
 	on:click={() => {
-		updateEntry({ id, PIE, hittite, char, pos, meanings, character_hint, references, inflections });
+		updateEntry({
+			id,
+			PIE,
+			hittite,
+			char,
+			pos,
+			meanings,
+			character_hint,
+			references,
+			inflections,
+			path
+		});
 	}}>Save</button
 >
 {#if !character_hint && char}

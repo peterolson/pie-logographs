@@ -164,13 +164,13 @@
         "PIE": "n̥-",
         "pos": "part",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%CC%A5-",
-            "https://www.dong-chinese.com/wiki/非"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/n%CC%A5-"
         ],
         "id": "UN-",
         "char": "非",
         "meanings": "not, un-",
-        "character_hint": "Depicts two people facing opposite directions."
+        "character_hint": "Depicts two things facing opposite directions.",
+        "path": "cT vx eV AC"
     },
     {
         "PIE": "*nu",
@@ -191,10 +191,9 @@
         "meanings": "master, ruler; husband",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%B3tis",
-            "https://www.dong-chinese.com/wiki/主"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C3%B3tis"
         ],
-        "character_hint": "Pictograph of a memorial tablet used for spiritual rituals, similar to 示.",
+        "character_hint": "Depicts a master looking down on a subordinate.",
         "id": "MASTER",
         "inflections": {
             "pie": {
@@ -208,7 +207,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "d-ell-srr-qjj-cd qR B-AHH-OPP-QJJ-CB PW"
     },
     {
         "PIE": "os",
@@ -252,10 +252,9 @@
         "meanings": "the (just named, anaphoric); third person pronoun",
         "pos": "pron",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C3%ADs",
-            "https://www.dong-chinese.com/wiki/之"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C3%ADs"
         ],
-        "character_hint": "Pictograph of a foot (止) going out of an area. The current meaning is a phonetic loan.",
+        "character_hint": "Depicts something standing on the ground.",
         "id": "IT",
         "inflections": {
             "pie": {
@@ -315,11 +314,25 @@
                         "n pl loc": "h₁eysu",
                         "m pl ins": "h₁eybʰi",
                         "f pl ins": "h₁eybʰi",
-                        "n pl ins": "h₁eybʰi"
+                        "n pl ins": "h₁eybʰi",
+                        "default_gender": "m"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "a-pa-a-as",
+                        "m sg acc": "a-pu-u-un",
+                        "m sg gen": "a-pe-e-el",
+                        "m sg dat": "a-pe-da-ni",
+                        "m sg loc": "a-pe-da-ni"
                     }
                 }
             }
-        }
+        },
+        "path": "RX dU"
     },
     {
         "PIE": "*h₁es-",
@@ -327,10 +340,9 @@
         "meanings": "to be",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81es-",
-            "https://www.dong-chinese.com/wiki/也"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81es-"
         ],
-        "character_hint": "Depicts a child opening its mouth to cry. Original form of 嗁. The modern meaning is a phonetic loan.",
+        "character_hint": "Depicts two things facing each other and forming a connection.",
         "id": "BE",
         "inflections": {
             "pie": {
@@ -370,18 +382,19 @@
                     }
                 }
             }
-        }
+        },
+        "path": "bS fW wB"
     },
     {
         "PIE": "*mon-",
-        "char": "人",
+        "char": "",
         "meanings": "man, human being; person",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mon-",
-            "https://www.dong-chinese.com/wiki/人"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mon-"
         ],
-        "character_hint": "Pictograph of the side view of a standing person."
+        "character_hint": "Stick-figure of a man.",
+        "path": "d-ft t-IG G-Ep p-bd GU"
     },
     {
         "PIE": "*ḱlew-",
@@ -389,10 +402,9 @@
         "meanings": "to hear",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1lew-",
-            "https://www.dong-chinese.com/wiki/%E8%81%86"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1lew-"
         ],
-        "character_hint": "Repesents an ear (耳) hearing a command (令).",
+        "character_hint": "Depicts a line going into the ear.",
         "id": "HEAR",
         "inflections": {
             "pie": {
@@ -403,7 +415,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "w-hb-gCJ-XP q-mH yR"
     },
     {
         "PIE": "*ḱlews-",
@@ -545,10 +558,9 @@
         "meanings": "to be upset, afraid",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eg%CA%B0-",
-            "https://www.dong-chinese.com/wiki/悲"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82eg%CA%B0-"
         ],
-        "character_hint": "Represents the heart (心) in a negative (非) mood.",
+        "character_hint": "Depicts a face with an upset expression.",
         "id": "UPSET",
         "inflections": {
             "pie": {
@@ -567,7 +579,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "d-gCC-XUU-Rvv-ad pj lt F-yH"
     },
     {
         "PIE": "*h₃ep-",
@@ -669,11 +682,11 @@
         "meanings": "mouth",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3h%E2%82%83s",
-            "https://www.dong-chinese.com/wiki/口"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3h%E2%82%83s"
         ],
-        "character_hint": "Pictograph of a mouth.",
-        "id": "MOUTH"
+        "character_hint": "Depicts a mouth.",
+        "id": "MOUTH",
+        "path": "v-dC v-kC C-Uv C-Nv"
     },
     {
         "PIE": "*-kʷe",
@@ -681,13 +694,12 @@
         "meanings": "and; Forms distributives from interrogatives.",
         "pos": "conj",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e",
-            "https://www.dong-chinese.com/wiki/合",
-            "https://www.dong-chinese.com/wiki/並"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/-k%CA%B7e"
         ],
-        "character_hint": "Depits two people standing (立) side by side.",
+        "character_hint": "Depicts two objects side-by-side.",
         "id": "AND",
-        "hittite": "ya"
+        "hittite": "ya",
+        "path": "c-vT T-Ac e-xV V-Ce"
     },
     {
         "PIE": "*sewh₁-",
@@ -751,15 +763,14 @@
     },
     {
         "PIE": "*méǵh₂s",
-        "char": "大",
+        "char": "",
         "meanings": "big, great",
         "pos": "adj",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9%C7%B5h%E2%82%82s",
-            "https://www.dong-chinese.com/wiki/大"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9%C7%B5h%E2%82%82s"
         ],
         "id": "BIG",
-        "character_hint": "Depicts an adult man facing forward and standing erect.",
+        "character_hint": "Depicts expansion in all four directions.",
         "inflections": {
             "pie": {
                 "": {
@@ -771,11 +782,13 @@
                         "m sg abl": "m̥ǵh₂és",
                         "m sg dat": "m̥ǵh₂éy",
                         "m sg loc": "méǵh₂i",
-                        "m sg ins": "m̥ǵh₂éh₁"
+                        "m sg ins": "m̥ǵh₂éh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "ocao egue DRTD JXVJ"
     },
     {
         "PIE": "*méǵh₂yōs",
@@ -1076,11 +1089,10 @@
         "meanings": "sharp",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%E1%B8%B1-",
-            "https://www.dong-chinese.com/wiki/利"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%E1%B8%B1-"
         ],
         "id": "SHARP",
-        "character_hint": "Depicts harvesting grain (禾) with a blade (刂).",
+        "character_hint": "Depicts the tip of a sharp blade.",
         "inflections": {
             "pie": {
                 "": {
@@ -1092,11 +1104,13 @@
                         "n sg abl": "h₂eḱéws",
                         "n sg dat": "h₂eḱéwey",
                         "n sg loc": "h₂eḱéwi",
-                        "n sg ins": "h₂eḱúh₁"
+                        "n sg ins": "h₂eḱúh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "S-ya X-ua"
     },
     {
         "PIE": "*sóh₂wl̥",
@@ -1160,11 +1174,10 @@
         "meanings": "to speak, to sound out",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wek%CA%B7-",
-            "https://www.dong-chinese.com/wiki/曰"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wek%CA%B7-"
         ],
         "id": "SPEAK",
-        "character_hint": "Depicts a line, representing speech, coming out of a mouth (口).",
+        "character_hint": "Depicts a line of words coming out of a mouth.",
         "inflections": {
             "pie": {
                 "": {
@@ -1190,7 +1203,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "v-dC v-kC C-Uv C-Nv yX"
     },
     {
         "PIE": "*wéwket",
@@ -1231,11 +1245,10 @@
         "meanings": "this; that",
         "pos": "pron",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C3%B3",
-            "https://www.dong-chinese.com/wiki/此"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C3%B3"
         ],
         "id": "THIS",
-        "character_hint": "Origin unclear. Two possible explanations are (1) depicts a person (人) stopping (止), meaning \"here\", and (2) depicts a foot (止) kicking a person (人), based on an earlier meaning \"to kick\" (跐).",
+        "character_hint": "Arrow pointing to here.",
         "inflections": {
             "pie": {
                 "": {
@@ -1297,9 +1310,22 @@
                         "default_gender": "m"
                     }
                 }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "a-si",
+                        "m sg acc": "u-ni",
+                        "m sg gen": "e-el",
+                        "m sg dat": "",
+                        "m sg loc": "e-di"
+                    }
+                }
             }
         },
-        "hittite": "sa"
+        "hittite": "sa",
+        "path": "RX cUe"
     },
     {
         "PIE": "*méh₂tēr",
@@ -1376,14 +1402,12 @@
         "meanings": "hair; wool",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82welh%E2%82%81-",
-            "https://www.dong-chinese.com/wiki/毛"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82welh%E2%82%81-"
         ],
         "id": "HAIR",
-        "character_hint": "Pictograph of a feather.",
+        "character_hint": "Depicts strands of hair.",
         "inflections": {
             "pie": {
-                "nos": {},
                 "": {
                     "adj": {
                         "f sg nom": "h₂wĺ̥h₁neh₂",
@@ -1393,11 +1417,26 @@
                         "f sg abl": "h₂wĺ̥h₁neh₂s",
                         "f sg dat": "h₂wĺ̥h₁neh₂ey",
                         "f sg loc": "h₂wĺ̥h₁neh₂i",
-                        "f sg ins": "h₂wĺ̥h₁neh₂h₁"
+                        "f sg ins": "h₂wĺ̥h₁neh₂h₁",
+                        "default_gender": "m"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "f sg nom": "u-el-ku",
+                        "f sg voc": "u-el-ku",
+                        "f sg acc": "u-el-ku",
+                        "n sg nom": "u-el-ku",
+                        "n sg voc": "u-el-ku",
+                        "n sg acc": "u-el-ku"
                     }
                 }
             }
-        }
+        },
+        "path": "S-qa U-Ac W-Ce T-rb V-Bd"
     },
     {
         "PIE": "*wed-",
@@ -1583,7 +1622,7 @@
             "https://www.dong-chinese.com/wiki/田"
         ],
         "id": "FIELD",
-        "character_hint": "Pictograph of a field.",
+        "character_hint": "Area of land divided into fields.",
         "inflections": {
             "pie": {
                 "": {
@@ -1595,11 +1634,13 @@
                         "m sg abl": "h₂éǵread",
                         "m sg dat": "h₂éǵroey",
                         "m sg loc": "h₂éǵrey",
-                        "m sg ins": "h₂éǵroh₁"
+                        "m sg ins": "h₂éǵroh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "aRXga dU vC"
     },
     {
         "PIE": "*h₂éǵr̥yos",
@@ -1620,7 +1661,8 @@
             "https://www.dong-chinese.com/wiki/目"
         ],
         "id": "EYE",
-        "character_hint": "Pictograph of an eye."
+        "character_hint": "Depicts an eye.",
+        "path": "v-dC C-Uv r-sA A-HG G-Fx x-qr"
     },
     {
         "PIE": "*h₃reǵ-",
@@ -1761,11 +1803,10 @@
         "meanings": "sheep",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%B3wis",
-            "https://www.dong-chinese.com/wiki/羊"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%B3wis"
         ],
         "id": "SHEEP",
-        "character_hint": "Pictograph of the head of a sheep with horns.",
+        "character_hint": "Depicts the head of a sheep.",
         "inflections": {
             "pie": {
                 "": {
@@ -1811,8 +1852,19 @@
                         "default_gender": "m"
                     }
                 }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "UDU-is",
+                        "m sg dat": "UDU-i",
+                        "m sg voc": "UDU-is"
+                    }
+                }
             }
-        }
+        },
+        "path": "p-qx-EE-Do-cc-nQ Q-XW-FF s-ys"
     },
     {
         "PIE": "*welh₁-",
@@ -1860,7 +1912,10 @@
         "pos": "noun",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%E1%B9%93ws"
-        ]
+        ],
+        "id": "EAR",
+        "character_hint": "Depicts an ear.",
+        "path": "w-hb-gCJ-XP q-mH"
     },
     {
         "PIE": "*mems-",
@@ -1935,11 +1990,10 @@
         "meanings": "to see",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/der%E1%B8%B1-",
-            "https://www.dong-chinese.com/wiki/見"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/der%E1%B8%B1-"
         ],
         "id": "SEE",
-        "character_hint": "Pictograph of a person (儿) using their eye (目) to see (見).",
+        "character_hint": "Depicts a line of sight coming from the eye.",
         "inflections": {
             "pie": {
                 "": {
@@ -1956,7 +2010,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "v-dC C-Uv r-sA A-HG G-Fx x-qr yX"
     },
     {
         "PIE": "*h₁el-",
@@ -1974,11 +2029,10 @@
         "meanings": "to bear, carry",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0er-",
-            "https://www.dong-chinese.com/wiki/負"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0er-"
         ],
         "id": "CARRY",
-        "character_hint": "Depicts a person (人) carrying shells (貝) on their back.",
+        "character_hint": "Depicts a person carrying an object.",
         "inflections": {
             "pie": {
                 "": {
@@ -1995,11 +2049,13 @@
                         "m sg abl": "bʰérosos",
                         "m sg dat": "bʰérosey",
                         "m sg loc": "bʰérosi",
-                        "m sg ins": "bʰérosh₁"
+                        "m sg ins": "bʰérosh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "b-cjj-qpp-ohh-ab pS wB s-ABB-Cus"
     },
     {
         "PIE": "*bʰóros",
@@ -2092,11 +2148,10 @@
         "meanings": "heavy",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7reh%E2%82%82-",
-            "https://www.dong-chinese.com/wiki/重"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/g%CA%B7reh%E2%82%82-"
         ],
         "id": "HEAVY",
-        "character_hint": "Pictograph of a person (亻) carrying a heavy basket (東) on their back.",
+        "character_hint": "Depicts a person carrying a heavy load on their back.",
         "inflections": {
             "pie": {
                 "": {
@@ -2108,11 +2163,13 @@
                         "m sg abl": "gʷr̥h₂éws",
                         "m sg dat": "gʷr̥h₂éwey",
                         "m sg loc": "gʷr̥h₂éwi",
-                        "m sg ins": "gʷr̥h₂úh₁"
+                        "m sg ins": "gʷr̥h₂úh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "f-gnn-utt-sll-ef t-GU N-ujj-ivv-SN"
     },
     {
         "PIE": "*gʷréh₂us",
@@ -2129,11 +2186,12 @@
         "meanings": "not",
         "pos": "part",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ne",
-            "https://www.dong-chinese.com/wiki/非"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ne"
         ],
         "id": "NOT",
-        "character_hint": "Depicts two people facing opposite directions."
+        "character_hint": "Depicts two things facing opposite directions.",
+        "hittite": "ne",
+        "path": "cT vx eV AC"
     },
     {
         "PIE": "*bʰel-",
@@ -2192,7 +2250,7 @@
             "https://www.dong-chinese.com/wiki/馬"
         ],
         "id": "HORSE",
-        "character_hint": "Pictograph of a horse.",
+        "character_hint": "Pictograph of a horse",
         "inflections": {
             "pie": {
                 "": {
@@ -2215,11 +2273,24 @@
                         "m pl abl": "h₁éḱwomos",
                         "m pl dat": "h₁éḱwomos",
                         "m pl loc": "h₁éḱwoysu",
-                        "m pl ins": "h₁éḱwōys"
+                        "m pl ins": "h₁éḱwōys",
+                        "default_gender": "m"
+                    }
+                }
+            },
+            "hittite": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "ANSEKURRA-us",
+                        "m pl nom": "ANSEKURRA-MEŠ-us",
+                        "m sg acc": "ANSEKURRA-us",
+                        "m pl acc": "ANSEKURRA-MEŠ-us"
                     }
                 }
             }
-        }
+        },
+        "path": "ojck-JQ-WW-NFK"
     },
     {
         "PIE": "*(s)ptyew-",
@@ -2236,11 +2307,10 @@
         "meanings": "earth; human",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0%C3%A9%C7%B5%CA%B0%C5%8Dm",
-            "https://www.dong-chinese.com/wiki/𡈼"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%CA%B0%C3%A9%C7%B5%CA%B0%C5%8Dm"
         ],
         "id": "EARTHLING",
-        "character_hint": "Pictograph of a person (亻) standing upright on the ground (土).",
+        "character_hint": "Depicts a man standing on the ground.",
         "inflections": {
             "pie": {
                 "": {
@@ -2270,7 +2340,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "R-rXR d-ell-srr-qjj-cd rN"
     },
     {
         "PIE": "*(H)pós",
@@ -6096,11 +6167,11 @@
         "meanings": "earth",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81er-",
-            "https://www.dong-chinese.com/wiki/地"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81er-"
         ],
         "id": "EARTH",
-        "character_hint": "Phonosemantic compound. 土 represents the meaning and 也 represents the sound. "
+        "character_hint": "Depicts a pile of dirt on the ground.",
+        "path": "R-rXR"
     },
     {
         "PIE": "*h₁erh₂-",
@@ -39842,56 +39913,66 @@
         "PIE": ".",
         "char": "。",
         "pos": "punct",
-        "meanings": "period"
+        "meanings": "period",
+        "character_hint": "period",
+        "path": "r-sAA-HGG-Fxx-qr"
     },
     {
         "id": ",",
         "PIE": ",",
         "char": "，",
         "pos": "punct",
-        "meanings": "comma"
+        "meanings": "comma",
+        "character_hint": "comma",
+        "path": "r-GF rss-GF"
     },
     {
         "id": "?",
         "PIE": "?",
         "char": "？",
         "pos": "punct",
-        "meanings": "question mark"
+        "meanings": "question mark",
+        "path": "c-gu u-CGU"
     },
     {
         "id": "!",
         "PIE": "!",
         "char": "！",
         "pos": "punct",
-        "meanings": "exclamation mark"
+        "meanings": "exclamation mark",
+        "path": "ceAxc G-HOO-VUU-TMM-FG"
     },
     {
         "id": "``",
         "PIE": "“",
         "char": "「",
         "pos": "punct",
-        "meanings": "open double quote"
+        "meanings": "open double quote",
+        "path": "gfW"
     },
     {
         "id": "''",
         "PIE": "”",
         "char": "」",
         "pos": "punct",
-        "meanings": "close double quote"
+        "meanings": "close double quote",
+        "path": "abS"
     },
     {
         "id": "`",
         "PIE": "‘",
         "char": "『",
         "pos": "punct",
-        "meanings": "open single quote"
+        "meanings": "open single quote",
+        "path": "gfB"
     },
     {
         "id": "'",
         "PIE": "’",
         "char": "』",
         "pos": "punct",
-        "meanings": "close single quote"
+        "meanings": "close single quote",
+        "path": "abw"
     },
     {
         "id": "(",
@@ -39912,13 +39993,16 @@
         "PIE": ";",
         "char": "；",
         "pos": "punct",
-        "meanings": "semicolon"
+        "meanings": "semicolon",
+        "path": "d-ell-srd G-UT GHH-VT"
     },
     {
         "id": ":",
         "PIE": ":",
         "char": "：",
         "pos": "punct",
-        "meanings": "colon"
+        "meanings": "colon",
+        "character_hint": "colon",
+        "path": "d-ell-srr-qjj-cd G-HOO-VUU-TMM-FG"
     }
 ]
