@@ -30,26 +30,21 @@
 		| {
 				type: 'transform';
 				strokes: Stroke[];
-				translateX: number;
-				translateY: number;
-				scaleX: number;
-				scaleY: number;
-				flipX: boolean;
-				flipY: boolean;
-				rotate: number;
+				transformation: Transformation;
 		  };
+
+	type Transformation = {
+		translateX: number;
+		translateY: number;
+		scaleX: number;
+		scaleY: number;
+		flipX: boolean;
+		flipY: boolean;
+		rotate: number;
+	};
 
 	type Path = {
 		path: string;
-		transform?: {
-			rotate?: number;
-			scaleX?: number;
-			scaleY?: number;
-			translateX?: number;
-			translateY?: number;
-			flipX?: boolean;
-			flipY?: boolean;
-		};
 		strokes: Stroke[];
 	};
 
@@ -75,9 +70,62 @@
 					path: `M ${stroke.fromX} ${stroke.fromY} A ${rx} ${ry} 0 ${largeArcFlag} ${sweepFlag} ${stroke.toX} ${stroke.toY}`,
 					strokes: [stroke]
 				});
+			} else if (stroke.type === 'transform') {
+				const transformedStrokes = strokes
+					.map((s) => transformStroke(s, stroke.transformation))
+					.flat();
+				const path = convertStrokesToSVGPath(transformedStrokes)
+					.map((p) => p.path)
+					.join(' ');
+				output.push({
+					path,
+					strokes: stroke.strokes
+				});
 			}
 		}
 		return output;
+	}
+
+	function transformStroke(stroke: Stroke, transformation: Transformation): Stroke[] {
+		console.log(stroke, transformation);
+		function transform(x: number, y: number) {
+			let newX = x;
+			let newY = y;
+			if (transformation.flipX) {
+				newX = SIZE - x;
+			}
+			if (transformation.flipY) {
+				newY = SIZE - y;
+			}
+			newX -= Math.floor(SIZE / 2);
+			newY -= Math.floor(SIZE / 2);
+			const angle = (transformation.rotate * Math.PI) / 180;
+			const cos = Math.cos(angle);
+			const sin = Math.sin(angle);
+			[newX, newY] = [cos * newX - sin * newY, sin * newX + cos * newY];
+			newX += Math.floor(SIZE / 2);
+			newY += Math.floor(SIZE / 2);
+			newX = newX * transformation.scaleX + transformation.translateX;
+			newY = newY * transformation.scaleY + transformation.translateY;
+			return [newX, newY];
+		}
+		if (stroke.type === 'line') {
+			const [fromX, fromY] = transform(stroke.fromX, stroke.fromY);
+			const [toX, toY] = transform(stroke.toX, stroke.toY);
+			return [{ ...stroke, fromX, fromY, toX, toY }];
+		}
+		if (stroke.type === 'quadratic') {
+			const [fromX, fromY] = transform(stroke.fromX, stroke.fromY);
+			const [toX, toY] = transform(stroke.toX, stroke.toY);
+			const [cx, cy] = transform(stroke.cx, stroke.cy);
+			return [{ ...stroke, fromX, fromY, toX, toY, cx, cy }];
+		}
+		if (stroke.type === 'arc') {
+			const [fromX, fromY] = transform(stroke.fromX, stroke.fromY);
+			const [toX, toY] = transform(stroke.toX, stroke.toY);
+			return [{ ...stroke, fromX, fromY, toX, toY }];
+		}
+		return stroke.strokes.map((s) => transformStroke(s, transformation)).flat();
 	}
 
 	let strokes: Stroke[] = [];
@@ -117,6 +165,8 @@
 				selectedStroke = strokes[strokes.length - 1];
 			}
 		};
+
+	let groupedStrokes: Stroke[] = [];
 </script>
 
 <div class="editor">
@@ -175,9 +225,37 @@
 		prevY = null;
 	}}>Deselect</button
 >
+{#if groupedStrokes.length > 0}
+	<button
+		on:click={() => {
+			strokes = strokes
+				.filter((s) => !groupedStrokes.includes(s))
+				.concat({
+					type: 'transform',
+					strokes: groupedStrokes,
+					transformation: {
+						translateX: 0,
+						translateY: 0,
+						scaleX: 1,
+						scaleY: 1,
+						flipX: false,
+						flipY: false,
+						rotate: 0
+					}
+				});
+			groupedStrokes = [];
+			selectedStroke = null;
+			prevX = null;
+			prevY = null;
+		}}
+	>
+		Group
+	</button>
+{/if}
 <div class="strokes">
 	{#each strokes as stroke}
 		<div>
+			<input type="checkbox" value={stroke} bind:group={groupedStrokes} />
 			{stroke.type}
 			{#if stroke === selectedStroke}
 				<i>Selected</i>
@@ -199,6 +277,38 @@
 				Delete
 			</button>
 			<pre>{JSON.stringify(stroke)}</pre>
+			{#if stroke.type === 'transform'}
+				<div class="transformations">
+					<label
+						>TranslateX
+						<input type="number" step="0.5" bind:value={stroke.transformation.translateX} />
+					</label>
+					<label
+						>TranslateY
+						<input type="number" step="0.5" bind:value={stroke.transformation.translateY} />
+					</label>
+					<label
+						>ScaleX
+						<input type="number" step="0.1" bind:value={stroke.transformation.scaleX} />
+					</label>
+					<label
+						>ScaleY
+						<input type="number" step="0.1" bind:value={stroke.transformation.scaleY} />
+					</label>
+					<label
+						>FlipX
+						<input type="checkbox" bind:checked={stroke.transformation.flipX} />
+					</label>
+					<label
+						>FlipY
+						<input type="checkbox" bind:checked={stroke.transformation.flipY} />
+					</label>
+					<label
+						>Rotate
+						<input type="number" step="15" bind:value={stroke.transformation.rotate} />
+					</label>
+				</div>
+			{/if}
 		</div>
 	{/each}
 </div>
@@ -206,5 +316,10 @@
 <style>
 	div.editor {
 		display: flex;
+	}
+
+	div.transformations {
+		display: flex;
+		flex-direction: column;
 	}
 </style>
