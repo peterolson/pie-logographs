@@ -8,21 +8,31 @@
 
 	type Stroke =
 		| {
-				type: 'move';
-				x: number;
-				y: number;
-		  }
-		| {
 				type: 'line';
-				x: number;
-				y: number;
+				fromX: number;
+				fromY: number;
+				toX: number;
+				toY: number;
 		  }
 		| {
 				type: 'quadratic';
-				x: number;
-				y: number;
+				fromX: number;
+				fromY: number;
+				toX: number;
+				toY: number;
 				cx: number;
 				cy: number;
+		  }
+		| {
+				type: 'transform';
+				strokes: Stroke[];
+				translateX: number;
+				translateY: number;
+				scaleX: number;
+				scaleY: number;
+				flipX: boolean;
+				flipY: boolean;
+				rotate: number;
 		  };
 
 	let strokes: Stroke[] = [];
