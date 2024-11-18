@@ -3,9 +3,6 @@
 
 	const SIZE = 9;
 
-	let pathCode = '';
-	let words: string[] = [];
-
 	type Stroke =
 		| {
 				type: 'line';
@@ -24,6 +21,13 @@
 				cy: number;
 		  }
 		| {
+				type: 'arc';
+				fromX: number;
+				fromY: number;
+				toX: number;
+				toY: number;
+		  }
+		| {
 				type: 'transform';
 				strokes: Stroke[];
 				translateX: number;
@@ -35,176 +39,130 @@
 				rotate: number;
 		  };
 
-	let strokes: Stroke[] = [];
-	let selectedStroke: Stroke | null = null;
-
-	function convertStrokesToSVGPath(strokes: Stroke[]) {
-		const output = [];
-		for (const stroke of strokes) {
-			const x = stroke.x * 10 + 5;
-			const y = stroke.y * 10 + 5;
-			if (stroke.type === 'move') {
-				output.push(`M ${x} ${y}`);
-			} else if (stroke.type === 'line') {
-				output.push(`L ${x} ${y}`);
-			} else if (stroke.type === 'quadratic') {
-				const cx = stroke.cx * 10 + 5;
-				const cy = stroke.cy * 10 + 5;
-				output.push(`Q ${cx} ${cy} ${x} ${y}`);
-			}
-		}
-		return output.join(' ');
-	}
-
-	function toDigit(char: string) {
-		if (!/^[1-9]$/.test(char)) {
-			return null;
-		}
-		return (+char - 1) * 10 + 5;
-	}
-
-	function convertCodeToPath(code: string) {
-		code = ' ' + code;
-		let output = [];
-		for (let i = 1; i < code.length; i += 2) {
-			const prevChar = code[i - 1];
-			let x = code[i];
-			let y = code[i + 1];
-			const areCoords = /[1-9]/.test(x) && /[1-9]/.test(y);
-			if (prevChar === ' ' && areCoords) {
-				output.push(`M ${toDigit(x)} ${toDigit(y)}`);
-			} else if (x === '-') {
-				// 	// quadratic curve
-				// 	if (i + 2 >= code.length) {
-				// 		break;
-				// 	}
-				// 	const nextChar = code[i + 1];
-				// 	const nextLetter = letters.find((l) => l.letter === nextChar);
-				// 	if (!nextLetter) break;
-				// 	const nextNextChar = code[i + 2];
-				// 	const nextNextLetter = letters.find((l) => l.letter === nextNextChar);
-				// 	if (!nextNextLetter) break;
-				// 	output.push(`Q ${nextLetter.x} ${nextLetter.y} ${nextNextLetter.x} ${nextNextLetter.y}`);
-				// 	x = nextNextLetter.x;
-				// 	y = nextNextLetter.y;
-				// 	i += 2;
-				// } else if (x === '*') {
-				// 	// circle around center
-				// 	if (i + 1 >= code.length) {
-				// 		break;
-				// 	}
-				// 	const nextChar = code[i + 1];
-				// 	if (!nextChar) break;
-				// 	const radius = +nextChar * 10;
-				// 	output.push(`M ${x + radius} ${y}`);
-				// 	output.push(`A ${radius} ${radius} 0 1 1 ${x - radius} ${y}`);
-				// 	output.push(`A ${radius} ${radius} 0 1 1 ${x + radius} ${y}`);
-				// 	i += 2;
-			} else if (areCoords) {
-				output.push(`L ${toDigit(x)} ${toDigit(y)}`);
-			} else {
-				i -= 1;
-			}
-		}
-		return output.join(' ');
-	}
-
-	const clickPoint = (x: number, y: number, isRight: boolean) => () => {
-		if (!selectedStroke) {
-			strokes.push({ type: 'move', x, y });
-		} else if (isRight && selectedStroke) {
-			if (selectedStroke.type === 'line' || selectedStroke.type === 'quadratic') {
-				const newStroke = { ...selectedStroke, type: 'quadratic', cx: x, cy: y } as Stroke;
-				strokes = strokes.map((s) => (s === selectedStroke ? newStroke : s));
-				selectedStroke = newStroke;
-				return;
-			}
-		} else {
-			strokes.push({ type: 'line', x, y });
-		}
-		strokes = [...strokes];
-		if (strokes.length) {
-			selectedStroke = strokes[strokes.length - 1];
-		}
+	type Path = {
+		path: string;
+		transform?: {
+			rotate?: number;
+			scaleX?: number;
+			scaleY?: number;
+			translateX?: number;
+			translateY?: number;
+			flipX?: boolean;
+			flipY?: boolean;
+		};
+		strokes: Stroke[];
 	};
 
-	const MOVE = 'move' as const;
+	function convertStrokesToSVGPath(strokes: Stroke[]) {
+		const output: Path[] = [];
+		for (const stroke of strokes) {
+			if (stroke.type === 'line') {
+				output.push({
+					path: `M ${stroke.fromX} ${stroke.fromY} L ${stroke.toX} ${stroke.toY}`,
+					strokes: [stroke]
+				});
+			} else if (stroke.type === 'quadratic') {
+				output.push({
+					path: `M ${stroke.fromX} ${stroke.fromY} Q ${stroke.cx} ${stroke.cy} ${stroke.toX} ${stroke.toY}`,
+					strokes: [stroke]
+				});
+			} else if (stroke.type === 'arc') {
+				const rx = Math.abs(stroke.toX - stroke.fromX);
+				const ry = Math.abs(stroke.toY - stroke.fromY);
+				const largeArcFlag = 0;
+				const sweepFlag = 1;
+				output.push({
+					path: `M ${stroke.fromX} ${stroke.fromY} A ${rx} ${ry} 0 ${largeArcFlag} ${sweepFlag} ${stroke.toX} ${stroke.toY}`,
+					strokes: [stroke]
+				});
+			}
+		}
+		return output;
+	}
+
+	let strokes: Stroke[] = [];
+	let selectedStroke: Stroke | null = null;
+	let prevX: number | null = null;
+	let prevY: number | null = null;
+
+	const clickPoint =
+		(x: number, y: number, clickButton: 'left' | 'right' | 'center') => (e: MouseEvent) => {
+			if (clickButton === 'center' && e.button !== 1) {
+				return;
+			}
+			if (clickButton === 'right' && selectedStroke) {
+				if (selectedStroke.type === 'line' || selectedStroke.type === 'quadratic') {
+					const newStroke = { ...selectedStroke, type: 'quadratic', cx: x, cy: y } as Stroke;
+					strokes = strokes.map((s) => (s === selectedStroke ? newStroke : s));
+					selectedStroke = newStroke;
+					return;
+				}
+			} else if (prevX !== null && prevY !== null) {
+				if (clickButton === 'center') {
+					strokes.push({
+						type: 'arc',
+						fromX: prevX,
+						fromY: prevY,
+						toX: x,
+						toY: y
+					});
+				} else {
+					strokes.push({ type: 'line', fromX: prevX, fromY: prevY, toX: x, toY: y });
+				}
+			}
+			prevX = x;
+			prevY = y;
+			strokes = [...strokes];
+			if (strokes.length) {
+				selectedStroke = strokes[strokes.length - 1];
+			}
+		};
 </script>
 
-<form
-	on:submit|preventDefault={() => {
-		words = [...words, pathCode];
-		pathCode = '';
-	}}
->
-	<input type="text" bind:value={pathCode} />
-	<button type="submit">Add</button>
-	<input
-		type="reset"
-		value="Reset"
-		on:click={() => {
-			pathCode = '';
-			words = [];
-		}}
-	/>
-</form>
-
-<div>
-	<svg viewBox={`0 0 ${SIZE * 10} ${SIZE * 10}`} style="width: 400px;">
-		{#each strokes as stroke, i}
-			{#if stroke.type !== 'move' && i > 0}
-				{@const prevStroke = { type: MOVE, x: strokes[i - 1].x, y: strokes[i - 1].y }}
-				<path
-					d={convertStrokesToSVGPath([prevStroke, stroke])}
-					fill="transparent"
-					stroke={stroke === selectedStroke ? 'blue' : 'red'}
-					stroke-width="4"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				/>
-			{/if}
+<div class="editor">
+	<svg viewBox={`-0.5 -0.5 ${SIZE} ${SIZE}`} style="width: 400px;">
+		{#each convertStrokesToSVGPath(strokes) as path, i}
+			<path
+				d={path.path}
+				fill="transparent"
+				stroke={selectedStroke && path.strokes.includes(selectedStroke) ? 'blue' : 'red'}
+				stroke-width="0.3"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			/>
 		{/each}
 
 		{#each Array.from({ length: SIZE * SIZE }, (_, i) => i) as i}
 			{@const x = i % SIZE}
 			{@const y = Math.floor(i / SIZE)}
-			{@const clickHandler = clickPoint(x, y, false)}
-			{@const rightClickHandler = clickPoint(x, y, true)}
+			{@const clickHandler = clickPoint(x, y, 'left')}
+			{@const rightClickHandler = clickPoint(x, y, 'right')}
+			{@const centerClickHandler = clickPoint(x, y, 'center')}
 			<!-- svelte-ignore a11y-no-static-element-interactions -->
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<circle
-				cx={x * 10 + 5}
-				cy={y * 10 + 5}
-				r="2"
+				cx={x}
+				cy={y}
+				r="0.25"
 				fill="yellow"
 				on:click|stopPropagation={clickHandler}
 				on:contextmenu|stopPropagation|preventDefault={rightClickHandler}
+				on:auxclick|stopPropagation|preventDefault={centerClickHandler}
 			/>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<!-- svelte-ignore a11y-no-static-element-interactions -->
 			<text
-				x={x * 10 + 4}
-				y={y * 10 + 6}
-				font-size="3"
+				x={x - 0.15}
+				y={y + 0.1}
+				font-size="0.3"
 				fill="black"
 				on:click|stopPropagation={clickHandler}
-				on:contextmenu|stopPropagation|preventDefault={rightClickHandler}>{x + 1}{y + 1}</text
+				on:contextmenu|stopPropagation|preventDefault={rightClickHandler}
+				on:auxclick|stopPropagation|preventDefault={centerClickHandler}>{x + 1}{y + 1}</text
 			>
 		{/each}
 	</svg>
 
-	{#each words as word}
-		<svg viewBox={`0 0 ${SIZE * 10} ${SIZE * 10}`} style="width: 50px;">
-			<path
-				d={convertCodeToPath(word)}
-				fill="transparent"
-				stroke="black"
-				stroke-width="2.5"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			/>
-		</svg>
-	{/each}
 	<SvgChar path={convertStrokesToSVGPath(strokes)} />
 
 	<SvgChar path={convertStrokesToSVGPath(strokes)} width={25} height={50} />
@@ -213,49 +171,40 @@
 <button
 	on:click={() => {
 		selectedStroke = null;
-	}}
+		prevX = null;
+		prevY = null;
+	}}>Deselect</button
 >
-	New path
-</button>
-<button
-	on:click={() => {
-		strokes = strokes.slice(0, strokes.length - 1);
-		selectedStroke = strokes[strokes.length - 1] || null;
-	}}
->
-	Remove last stroke
-</button>
-<button
-	on:click={() => {
-		strokes = [];
-		selectedStroke = null;
-	}}
->
-	Clear
-</button>
-<button
-	on:click={() => {
-		if (!selectedStroke) return;
-		const selectedIndex = strokes.indexOf(selectedStroke);
-		if (selectedIndex <= 0) return;
-		selectedStroke = strokes[selectedIndex - 1] || null;
-	}}
->
-	&lt;
-</button>
-<button
-	on:click={() => {
-		if (!selectedStroke) return;
-		const selectedIndex = strokes.indexOf(selectedStroke);
-		if (selectedIndex < 0 || selectedIndex + 1 >= strokes.length) return;
-		selectedStroke = strokes[selectedIndex + 1] || null;
-	}}
->
-	&gt;
-</button>
+<div class="strokes">
+	{#each strokes as stroke}
+		<div>
+			{stroke.type}
+			{#if stroke === selectedStroke}
+				<i>Selected</i>
+			{:else}
+				<button
+					on:click={() => {
+						selectedStroke = stroke;
+					}}>Select</button
+				>
+			{/if}
+			<button
+				on:click={() => {
+					strokes = strokes.filter((s) => s !== stroke);
+					if (selectedStroke === stroke) {
+						selectedStroke = null;
+					}
+				}}
+			>
+				Delete
+			</button>
+			<pre>{JSON.stringify(stroke)}</pre>
+		</div>
+	{/each}
+</div>
 
 <style>
-	div {
+	div.editor {
 		display: flex;
 	}
 </style>
