@@ -1,10 +1,7 @@
 <script lang="ts">
 	const SIZE = 9;
 
-	type Path = {
-		path: string;
-	};
-	export let path: Path[];
+	export let path: string;
 	export let height: number = 50;
 	export let width: number = 50;
 </script>
@@ -14,15 +11,13 @@
 	style={`width: ${width}px; height: ${height}px;`}
 	preserveAspectRatio="none"
 >
-	{#each path as p}
-		<path
-			d={p.path}
-			fill="transparent"
-			stroke="black"
-			stroke-width="2px"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			vector-effect="non-scaling-stroke"
-		/>
-	{/each}
+	<path
+		d={path}
+		fill="transparent"
+		stroke="black"
+		stroke-width="2px"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		vector-effect="non-scaling-stroke"
+	/>
 </svg>

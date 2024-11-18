@@ -71,7 +71,7 @@
 					strokes: [stroke]
 				});
 			} else if (stroke.type === 'transform') {
-				const transformedStrokes = strokes
+				const transformedStrokes = stroke.strokes
 					.map((s) => transformStroke(s, stroke.transformation))
 					.flat();
 				const path = convertStrokesToSVGPath(transformedStrokes)
@@ -79,7 +79,7 @@
 					.join(' ');
 				output.push({
 					path,
-					strokes: stroke.strokes
+					strokes: [...stroke.strokes]
 				});
 			}
 		}
@@ -169,6 +169,11 @@
 	let groupedStrokes: Stroke[] = [];
 </script>
 
+<textarea
+	value={convertStrokesToSVGPath(strokes)
+		.map((x) => x.path)
+		.join(' ')}
+/>
 <div class="editor">
 	<svg viewBox={`-0.5 -0.5 ${SIZE} ${SIZE}`} style="width: 400px;">
 		{#each convertStrokesToSVGPath(strokes) as path, i}
@@ -213,10 +218,26 @@
 		{/each}
 	</svg>
 
-	<SvgChar path={convertStrokesToSVGPath(strokes)} />
+	<SvgChar
+		path={convertStrokesToSVGPath(strokes)
+			.map((x) => x.path)
+			.join(' ')}
+	/>
 
-	<SvgChar path={convertStrokesToSVGPath(strokes)} width={25} height={50} />
-	<SvgChar path={convertStrokesToSVGPath(strokes)} width={50} height={25} />
+	<SvgChar
+		path={convertStrokesToSVGPath(strokes)
+			.map((x) => x.path)
+			.join(' ')}
+		width={25}
+		height={50}
+	/>
+	<SvgChar
+		path={convertStrokesToSVGPath(strokes)
+			.map((x) => x.path)
+			.join(' ')}
+		width={50}
+		height={25}
+	/>
 </div>
 <button
 	on:click={() => {
