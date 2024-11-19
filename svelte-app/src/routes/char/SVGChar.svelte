@@ -11,13 +11,17 @@
 	style={`width: ${width}px; height: ${height}px;`}
 	preserveAspectRatio="none"
 >
-	<path
-		d={path}
-		fill="transparent"
-		stroke="black"
-		stroke-width="2px"
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		vector-effect="non-scaling-stroke"
-	/>
+	{#if path}
+		<path
+			d={path}
+			fill="transparent"
+			stroke="black"
+			stroke-width="2px"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			vector-effect="non-scaling-stroke"
+		/>
+	{:else}
+		<rect x="0" y="0" width={SIZE} height={SIZE} fill="red" />
+	{/if}
 </svg>

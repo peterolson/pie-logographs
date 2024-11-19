@@ -590,9 +590,9 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83ep-",
-            "https://www.dong-chinese.com/wiki/功"
+            "https://www.dong-chinese.com/wiki/%E5%8A%9B"
         ],
-        "character_hint": "Represents using one's power (力) to do work (工).",
+        "character_hint": "Depicts a forked hoe, used for toiling in the fields. Similar to Chinese 力.",
         "id": "TOIL",
         "inflections": {
             "pie": {
@@ -611,18 +611,21 @@
                 },
                 "ryo_s": {
                     "adj": {
-                        "m sg abl": "h₃epr̥yéad"
+                        "m sg abl": "h₃epr̥yéad",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "ryo_s": {
                     "adj": {
-                        "m sg abl": "URU-az"
+                        "m sg abl": "URU-az",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 0 6 L 2 6 M 0 6 L 1 8 M 1 6 L 2 8 M 2 6 L 3 8 M 1 6 L 8 0"
     },
     {
         "PIE": "*séh₂ls",
@@ -1133,9 +1136,12 @@
         "meanings": "sun",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C3%B3h%E2%82%82wl%CC%A5"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C3%B3h%E2%82%82wl%CC%A5",
+            "https://www.dong-chinese.com/wiki/%E6%97%A5"
         ],
-        "id": "SUN"
+        "id": "SUN",
+        "character_hint": "Pictograph of the sun. Similar to Chinese 日.",
+        "path": "M 4 2 A 2 2 0 0 1 6 4 M 6 4 A 2 2 0 0 1 4 6 M 4 6 A 2 2 0 0 1 2 4 M 2 4 A 2 2 0 0 1 4 2 M 4 1 L 4 0 M 7 4 L 8 4 M 4 7 L 4 8 M 1 4 L 0 4 M 6 6 L 7 7 M 2 2 L 1 1 M 6 2 L 7 1 M 2 6 L 1 7"
     },
     {
         "PIE": "*gʷʰer-",
@@ -1147,7 +1153,7 @@
             "https://www.dong-chinese.com/wiki/溫"
         ],
         "id": "WARM",
-        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 𥁕 represents the sound. ",
+        "character_hint": "Depicts a fire and the sun.",
         "inflections": {
             "pie": {
                 "": {
@@ -1159,11 +1165,13 @@
                         "m sg abl": "gʷʰerméad",
                         "m sg dat": "gʷʰermóey",
                         "m sg loc": "gʷʰerméy",
-                        "m sg ins": "gʷʰermóh₁"
+                        "m sg ins": "gʷʰermóh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 2 0.5 L 2 4.1 M 2 4.1 Q 2 5.9 0.5 7.7 M 3.5 7.7 Q 2 5.9 2 4.1 M 3.5 1.4 Q 2.5 3.2 3.5 5 M 0.5 1.4 Q 1.5 3.2 0.5 5 M 6 3 A 1 1 0 0 1 7 4 M 7 4 A 1 1 0 0 1 6 5 M 6 5 A 1 1 0 0 1 5 4 M 5 4 A 1 1 0 0 1 6 3 M 6 2.5 L 6 2 M 7.5 4 L 8 4 M 6 5.5 L 6 6 M 4.5 4 L 4 4 M 7 5 L 7.5 5.5 M 5 3 L 4.5 2.5 M 7 3 L 7.5 2.5 M 5 5 L 4.5 5.5"
     },
     {
         "PIE": "*gʷʰéros",
@@ -1524,8 +1532,12 @@
         "meanings": "to burn; fire",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81eng%CA%B7-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81eng%CA%B7-",
+            "https://www.dong-chinese.com/wiki/%E7%81%AB"
+        ],
+        "id": "FIRE",
+        "character_hint": "Pictograph of fire. Similar to Chinese 火.",
+        "path": "M 4 0 L 4 4 M 4 4 Q 4 6 1 8 M 7 8 Q 4 6 4 4 M 7 1 Q 5 3 7 5 M 1 1 Q 3 3 1 5"
     },
     {
         "PIE": "*tek-",
@@ -3054,10 +3066,11 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0eh%E2%82%82-",
-            "https://www.dong-chinese.com/wiki/光"
+            "https://www.dong-chinese.com/wiki/%E6%98%9C"
         ],
         "id": "SHINE",
-        "character_hint": "Pictograph of fire on top of a person."
+        "character_hint": "Depicts rays of sunlight coming from the sun. Similar to Chinese 昜.",
+        "path": "M 6 1 A 1 1 0 0 1 7 2 M 7 2 A 1 1 0 0 1 6 3 M 6 3 A 1 1 0 0 1 5 2 M 5 2 A 1 1 0 0 1 6 1 M 6 0.5 L 6 0 M 7.5 2 L 8 2 M 6 3.5 L 6 4 M 4.5 2 L 4 2 M 7 3 L 7.5 3.5 M 5 1 L 4.5 0.5 M 7 1 L 7.5 0.5 M 5 3 L 4.5 3.5 M 5 3 L 0 8 M 6 4 L 6 8 M 4 2 L 0 2 M 4 3 L 0 5 M 5 4 L 3 8"
     },
     {
         "PIE": "*bʰeh₂-",
@@ -7550,23 +7563,26 @@
             "https://www.dong-chinese.com/wiki/旦"
         ],
         "id": "DAWN",
-        "character_hint": "Depicts the sun (日) rising above the horizon (一) at dawn. In Oracle script the bottom component was the phonetic 丁, which was later reanalyzed as the earth or a horizon.",
+        "character_hint": "Depicts the sun rising above the horizon at dawn. Similar to Chinese 旦.",
         "inflections": {
             "pie": {
                 "teros": {
                     "adj": {
-                        "m sg abl": "h₂ewsteread"
+                        "m sg abl": "h₂ewsteread",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "teros": {
                     "adj": {
-                        "m sg abl": "D:UTU-az"
+                        "m sg abl": "D:UTU-az",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 4 1.6 A 1.6000000000000005 1.6 0 0 1 5.6000000000000005 3.2 M 5.6000000000000005 3.2 A 1.6000000000000005 1.6000000000000005 0 0 1 4 4.800000000000001 M 4 4.800000000000001 A 1.5999999999999996 1.6000000000000005 0 0 1 2.4000000000000004 3.2 M 2.4000000000000004 3.2 A 1.5999999999999996 1.6 0 0 1 4 1.6 M 4 0.8 L 4 0 M 6.4 3.2 L 7.2 3.2 M 4 5.6000000000000005 L 4 6.4 M 1.6 3.2 L 0.8 3.2 M 5.6000000000000005 4.800000000000001 L 6.4 5.6000000000000005 M 2.4000000000000004 1.6 L 1.6 0.8 M 5.6000000000000005 1.6 L 6.4 0.8 M 2.4000000000000004 4.800000000000001 L 1.6 5.6000000000000005 M 0 8 Q 4 7 8 8"
     },
     {
         "PIE": "*h₂ewsér",
@@ -10447,7 +10463,8 @@
             "https://www.dong-chinese.com/wiki/月"
         ],
         "id": "MOON",
-        "character_hint": "Pictograph of the moon."
+        "character_hint": "Pictograph of the moon. Similar to Chinese 月.",
+        "path": "M 0 8 Q 5 4 2 0 M 0 8 Q 7 8 7 4 M 7 4 Q 7 0 2 0"
     },
     {
         "PIE": "*meh₂-",
