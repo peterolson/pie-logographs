@@ -2,8 +2,8 @@
 	const SIZE = 9;
 
 	export let path: string;
-	export let height: number = 50;
-	export let width: number = 50;
+	export let height: number = 32;
+	export let width: number = 32;
 </script>
 
 <svg

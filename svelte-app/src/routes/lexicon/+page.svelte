@@ -10,6 +10,7 @@
 	import type { LexiconEntry } from '$lib/lexicon.types';
 	import { getLexicon, updateLexicon } from '../../lib/lexicon';
 	import PathChar from '../char/PathChar.svelte';
+	import SvgChar from '../char/SVGChar.svelte';
 
 	let gridContainer: HTMLDivElement;
 	let quickFilterText = '';
@@ -53,7 +54,7 @@
 					comparator,
 					cellRenderer: cellRendererFactory(
 						(c: AbstractCellRenderer, p: ICellRendererParams<any, any, any>) => {
-							new PathChar({ target: c.eGui, props: { path: p.data.path || '', fontSize: 32 } });
+							new SvgChar({ target: c.eGui, props: { path: p.data.path || '' } });
 						}
 					)
 				},

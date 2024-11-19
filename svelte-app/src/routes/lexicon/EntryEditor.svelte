@@ -2,6 +2,7 @@
 	import type { LexiconEntry } from '$lib/lexicon.types';
 	import { getLexicon } from '../../lib/lexicon';
 	import PathChar from '../char/PathChar.svelte';
+	import SvgChar from '../char/SVGChar.svelte';
 	import InflectionEditor from './InflectionEditor.svelte';
 
 	export let data: LexiconEntry;
@@ -82,15 +83,13 @@
 	<div style="height: 50px; display: flex; gap: 8px;">
 		<input type="text" bind:value={path} style="flex: 1" />
 		{#if path}
-			<PathChar {path} />
+			<SvgChar {path} />
 		{/if}
 	</div>
 	<span>PIE</span>
 	<input type="text" bind:value={PIE} />
 	<span>Hittite</span>
 	<input type="text" bind:value={hittite} />
-	<span>Character</span>
-	<input type="text" bind:value={char} />
 	<span>POS</span>
 	<select bind:value={pos}>
 		<option></option>

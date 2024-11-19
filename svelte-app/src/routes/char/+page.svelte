@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { getLexicon } from '$lib/lexicon';
 	import SvgChar from './SVGChar.svelte';
 
 	const SIZE = 9;
@@ -86,6 +87,45 @@
 		return output;
 	}
 
+	function convertSVGPathToStrokes(path: string): Stroke[] {
+		const output: Stroke[] = [];
+		const parts = path.split(' ');
+		let fromX = 0;
+		let fromY = 0;
+		for (let i = 0; i < parts.length; i++) {
+			const part = parts[i];
+			if (part === 'M') {
+				fromX = +parts[++i];
+				fromY = +parts[++i];
+			}
+			if (part === 'L') {
+				const toX = +parts[++i];
+				const toY = +parts[++i];
+				output.push({ type: 'line', fromX, fromY, toX, toY });
+				fromX = toX;
+				fromY = toY;
+			}
+			if (part === 'Q') {
+				const cx = +parts[++i];
+				const cy = +parts[++i];
+				const toX = +parts[++i];
+				const toY = +parts[++i];
+				output.push({ type: 'quadratic', fromX, fromY, toX, toY, cx, cy });
+				fromX = toX;
+				fromY = toY;
+			}
+			if (part === 'A') {
+				i += 5;
+				const toX = +parts[++i];
+				const toY = +parts[++i];
+				output.push({ type: 'arc', fromX, fromY, toX, toY });
+				fromX = toX;
+				fromY = toY;
+			}
+		}
+		return output;
+	}
+
 	function transformStroke(stroke: Stroke, transformation: Transformation): Stroke[] {
 		console.log(stroke, transformation);
 		function transform(x: number, y: number) {
@@ -167,6 +207,8 @@
 		};
 
 	let groupedStrokes: Stroke[] = [];
+
+	let referenceURL = '';
 </script>
 
 <textarea
@@ -174,8 +216,12 @@
 		.map((x) => x.path)
 		.join(' ')}
 />
+<input type="text" bind:value={referenceURL} />
 <div class="editor">
-	<svg viewBox={`-0.5 -0.5 ${SIZE} ${SIZE}`} style="width: 400px;">
+	<svg
+		viewBox={`-0.5 -0.5 ${SIZE} ${SIZE}`}
+		style={`width: 400px; background-image: url(${referenceURL})`}
+	>
 		{#each convertStrokesToSVGPath(strokes) as path, i}
 			<path
 				d={path.path}
@@ -238,6 +284,25 @@
 		width={50}
 		height={25}
 	/>
+
+	<div class="lexicon">
+		{#await getLexicon() then lexicon}
+			{#each lexicon as entry}
+				{#if entry.path}
+					<button
+						title={entry.id}
+						on:click={() => {
+							if (entry.path) {
+								strokes = strokes.concat(convertSVGPathToStrokes(entry.path));
+							}
+						}}
+					>
+						<SvgChar path={entry.path} />
+					</button>
+				{/if}
+			{/each}
+		{/await}
+	</div>
 </div>
 <button
 	on:click={() => {
@@ -245,6 +310,14 @@
 		prevX = null;
 		prevY = null;
 	}}>Deselect</button
+>
+<button
+	on:click={() => {
+		strokes = [];
+		selectedStroke = null;
+		prevX = null;
+		prevY = null;
+	}}>Clear</button
 >
 {#if groupedStrokes.length > 0}
 	<button
@@ -290,13 +363,27 @@
 			<button
 				on:click={() => {
 					strokes = strokes.filter((s) => s !== stroke);
-					if (selectedStroke === stroke) {
-						selectedStroke = null;
-					}
+					selectedStroke = null;
+					prevX = null;
+					prevY = null;
 				}}
 			>
 				Delete
 			</button>
+			{#if stroke.type === 'line'}
+				<button
+					on:click={() => {
+						strokes = strokes.map((s) =>
+							s === stroke
+								? {
+										...s,
+										type: 'arc'
+									}
+								: s
+						);
+					}}>Make arc</button
+				>
+			{/if}
 			<pre>{JSON.stringify(stroke)}</pre>
 			{#if stroke.type === 'transform'}
 				<div class="transformations">
@@ -339,8 +426,21 @@
 		display: flex;
 	}
 
+	div.editor svg {
+		background-size: cover;
+	}
+
 	div.transformations {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.lexicon {
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+	}
+
+	.lexicon button {
+		height: 50px;
 	}
 </style>
