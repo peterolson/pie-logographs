@@ -333,7 +333,7 @@
                 }
             }
         },
-        "path": "M 5 0 Q 4 1 4 2 M 4 3 L 6 4 M 4 2 L 4 5 M 4 5 L 3 8 M 4 5 L 5 8"
+        "path": "M 3 4 L 1 8 M 3 4 L 5 8 M 3 4 Q 3 2 6 0 M 4 2 L 6 4"
     },
     {
         "PIE": "*h₁es-",
@@ -993,18 +993,20 @@
             "https://www.dong-chinese.com/wiki/己"
         ],
         "id": "SELF",
-        "character_hint": "Origin unclear. Possibly a pictograph of a silk rope, in which case would be the original form of 紀.",
+        "character_hint": "Borrowed from Chinese 己.",
         "inflections": {
             "pie": {
                 "": {
                     "adj": {
                         "m sg acc": "swé",
                         "m sg gen": "sewe",
-                        "m sg dat": "sebʰyo"
+                        "m sg dat": "sebʰyo",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 1 1 L 7 1 M 7 1 L 7 4 M 7 4 L 1 4 M 1 4 L 1 7 M 1 7 L 7 7"
     },
     {
         "PIE": "*ḱḗr",
@@ -2130,35 +2132,12 @@
                         "_std active prim pl 3": "wéǵʰonti",
                         "_std active part sg 3": "wéǵʰonts"
                     }
-                }
-            }
-        },
-        "path": "M 2 4.5 A 1.5 1.5 0 0 1 3.5 6 M 3.5 6 A 1.5 1.5 0 0 1 2 7.5 M 2 7.5 A 1.5 1.5 0 0 1 0.5 6 M 0.5 6 A 1.5 1.5 0 0 1 2 4.5 M 2 4.5 L 2 7.5 M 6 4.5 A 1.5 1.5 0 0 1 7.5 6 M 7.5 6 A 1.5 1.5 0 0 1 6 7.5 M 6 7.5 A 1.5 1.5 0 0 1 4.5 6 M 4.5 6 A 1.5 1.5 0 0 1 6 4.5 M 6 4.5 L 6 7.5 M 0 6 L 8 6 M 0 4 L 8 4 M 5 4 Q 7 3 7 2 M 7 2 Q 6 0 5 0 M 5 0 L 3 0 M 3 0 Q 2 0 1 2 M 1 2 Q 1 3 3 4"
-    },
-    {
-        "PIE": "*weǵʰōs",
-        "char": "⿰車曳",
-        "meanings": "wagon; that which transports",
-        "pos": "root",
-        "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/we%C7%B5%CA%B0-",
-            "https://www.dong-chinese.com/wiki/%E8%BB%8A"
-        ],
-        "id": "TRANSPORT_os",
-        "character_hint": "Depicts a vehicle with two wheels. Similar to Chinese 車.",
-        "inflections": {
-            "pie": {
-                "": {
+                },
+                "os": {
                     "adj": {
+                        "default_gender": "m",
                         "m sg nom": "weǵʰōs",
-                        "m sg voc": "weǵʰōs",
-                        "m sg acc": "weǵʰosm̥",
-                        "m sg gen": "weǵʰosos",
-                        "m sg abl": "weǵʰosos",
-                        "m sg dat": "weǵʰosey",
-                        "m sg loc": "weǵʰosi",
-                        "m sg ins": "weǵʰosh₁",
-                        "default_gender": "m"
+                        "m sg acc": "weǵʰosm̥"
                     }
                 }
             }
@@ -5573,7 +5552,8 @@
             "https://www.dong-chinese.com/wiki/禾"
         ],
         "id": "GRAIN",
-        "character_hint": "Pictograph of a stalk of millet grain."
+        "character_hint": "Pictograph of a stalk of grain. Similar to Chinese 禾.",
+        "path": "M 4 2 L 4 8 M 4 5 L 2 7 M 4 5 L 6 7 M 4 4 L 2 3 M 2 3 L 1 5 M 4 4 L 6 3 M 6 3 L 7 5 M 4 2 L 3 0 M 3 0 L 1 1"
     },
     {
         "PIE": "*gʷegʷóme",
@@ -11272,7 +11252,8 @@
                 "los": {
                     "adj": {
                         "m sg nom": "putlós",
-                        "m sg acc": "putlóm"
+                        "m sg acc": "putlóm",
+                        "default_gender": "m"
                     }
                 }
             }

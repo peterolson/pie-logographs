@@ -22,7 +22,7 @@ export const schleichersFable = {
         SHEEP m nom HORSE nom pl AND  
   
         SHEEP m dat IT m sg dat HAIR f sg nom NOT BE 3 sg sec , THIS m nom HORSE acc pl SEE sec 3 sg .
-        THIS m nom HEAVY m sg acc TRANSPORT_os sg acc TRANSPORT sec 3 sg ;
+        THIS m nom HEAVY m sg acc TRANSPORT _os sg acc TRANSPORT sec 3 sg ;
         THIS m nom BIG m sg acc m CARRY sg acc ;
         THIS m nom EARTHLING _oo sg acc SHARP n sg acc CARRY sec 3 sg .  
         SHEEP m nom HORSE dat pl SPEAK _dup sec 3 sg :
