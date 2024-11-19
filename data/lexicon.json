@@ -179,11 +179,12 @@
         "pos": "adv",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/nu",
-            "https://www.dong-chinese.com/wiki/且"
+            "https://www.the-symbols.net/blissymbolics/dictionary/time/"
         ],
-        "character_hint": "Originally a pictograph of a sacrificial altar. The current meaning \"moreover\" is a phonetic loan.",
+        "character_hint": "Borrowed from Blisssymbol for \"now\".",
         "id": "NOW",
-        "hittite": "nu"
+        "hittite": "nu",
+        "path": "M 1 1 Q 5 4 1 7 M 7 1 Q 3 4 7 7"
     },
     {
         "PIE": "*pótis",
@@ -254,7 +255,7 @@
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C3%ADs"
         ],
-        "character_hint": "Depicts something standing on the ground.",
+        "character_hint": "Profile view of a person.",
         "id": "IT",
         "inflections": {
             "pie": {
@@ -332,7 +333,7 @@
                 }
             }
         },
-        "path": "RX dU"
+        "path": "M 5 0 Q 4 1 4 2 M 4 3 L 6 4 M 4 2 L 4 5 M 4 5 L 3 8 M 4 5 L 5 8"
     },
     {
         "PIE": "*h₁es-",
@@ -383,7 +384,7 @@
                 }
             }
         },
-        "path": "bS fW wB"
+        "path": "M 1 4 L 3 4 M 5 4 L 7 4 M 1 8 L 1 4 M 1 4 Q 1 1 3 1 M 5 1 Q 7 1 7 4 M 7 4 L 7 8 M 3 4 Q 4 4 3 4 M 3 1 Q 4 1 3 1 M 5 1 Q 4 1 5 1 M 5 4 Q 4 4 5 4"
     },
     {
         "PIE": "*mon-",
@@ -580,7 +581,7 @@
                 }
             }
         },
-        "path": "d-gCC-XUU-Rvv-ad pj lt F-yH"
+        "path": "M 4.1 0.5 A 3.6000000000000005 3.5999999999999996 0 0 1 7.7 4.1 M 7.7 4.1 A 3.6000000000000005 3.6000000000000005 0 0 1 4.1 7.7 M 4.1 7.7 A 3.5999999999999996 3.6000000000000005 0 0 1 0.5 4.1 M 0.5 4.1 A 3.5999999999999996 3.5999999999999996 0 0 1 4.1 0.5 M 3 6 Q 4 5 5 6 M 2.539999999999999 4 Q 3.9399999999999995 3 2.539999999999999 4 M 5.34 4 Q 3.9399999999999995 3 5.34 4"
     },
     {
         "PIE": "*h₃ep-",
@@ -768,10 +769,11 @@
         "meanings": "big, great",
         "pos": "adj",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9%C7%B5h%E2%82%82s"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/m%C3%A9%C7%B5h%E2%82%82s",
+            "https://www.dong-chinese.com/wiki/%E5%A4%A7"
         ],
         "id": "BIG",
-        "character_hint": "Depicts expansion in all four directions.",
+        "character_hint": "Depicts a man spreading out his arms and legs to appear bigger. Similar to Chinese 大.",
         "inflections": {
             "pie": {
                 "": {
@@ -789,7 +791,7 @@
                 }
             }
         },
-        "path": "ocao egue DRTD JXVJ"
+        "path": "M 4 0 L 4 3 M 0 3 L 8 3 M 4 3 Q 1 7 1 8 M 4 3 Q 7 7 7 8"
     },
     {
         "PIE": "*méǵh₂yōs",
@@ -839,8 +841,8 @@
             "https://en.wikipedia.org/wiki/Linear_B#Ideograms"
         ],
         "id": "MAN",
-        "character_hint": "Depicts a man with his arms outstretched. Similar to Linear B 𐂀 and Chinese 大.",
-        "path": "M 4 0 L 4 3 M 4 3 Q 3 4 2 8 M 4 3 Q 5 4 6 8 M 0 3 L 8 3"
+        "character_hint": "Stick figure of a man. Similar to Linear B 𐂀 and Chinese 大.",
+        "path": "M 4 0 L 4 3 M 4 3 L 4 4 M 4 4 L 3 8 M 4 4 L 5 8 M 4 2 L 2 4 M 4 2 L 6 4"
     },
     {
         "PIE": "*bʰegʷ-",
@@ -849,10 +851,10 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/b%CA%B0eg%CA%B7-",
-            "https://www.dong-chinese.com/wiki/逃"
+            "https://www.dong-chinese.com/wiki/%E5%A4%AD"
         ],
         "id": "FLEE",
-        "character_hint": "Originally written as 兆, a pictograph of two people escaping a flood. The 辶 (walk) component was added later to clarify the meaning.",
+        "character_hint": "Depicts a person swaying their arms to run fast. Similar to Chinese 夭.",
         "inflections": {
             "pie": {
                 "": {
@@ -870,7 +872,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 1 1 Q 0 3 4 3 M 4 3 Q 8 3 7 5 M 4 0 L 4 4 M 4 4 L 3 8 M 4 4 L 5 8"
     },
     {
         "PIE": "*bʰewg-",
@@ -1013,7 +1016,8 @@
             "https://www.dong-chinese.com/wiki/心"
         ],
         "id": "HEART",
-        "character_hint": "Depicts a heart."
+        "character_hint": "Depicts a heart. Similar to Egyptian hieroglyph 𓄣 and Chinese 心.",
+        "path": "M 2 0.5 L 6 0.5 M 6 0.5 L 5 1.5 M 5 1.5 L 6 2.5 M 6 2.5 L 7 1.5 M 7 1.5 L 8 2.5 M 8 2.5 L 7 3.5 M 7 3.5 L 6 4.5 M 6 4.5 Q 6 6.5 5 7.5 M 5 7.5 L 3 7.5 M 3 7.5 Q 2 6.5 2 4.5 M 2 4.5 L 1 3.5 M 1 3.5 L 0 2.5 M 0 2.5 L 1 1.5 M 1 1.5 L 2 2.5 M 2 2.5 L 3 1.5 M 3 1.5 L 2 0.5"
     },
     {
         "PIE": "*ḱerd-",
@@ -1246,7 +1250,8 @@
             "https://www.dong-chinese.com/wiki/止"
         ],
         "id": "FOOT",
-        "character_hint": "Pictograph of a foot. "
+        "character_hint": "Pictograph of a foot. Similar to Chinese 止.",
+        "path": "M 5.5 8 Q 7.3 8 6.7 0 M 5.5 8 Q 3.1 8 4.3 0 M 7 4 Q 0 6 2 0"
     },
     {
         "PIE": "*só",
@@ -1257,7 +1262,7 @@
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/s%C3%B3"
         ],
         "id": "THIS",
-        "character_hint": "Arrow pointing to here.",
+        "character_hint": "Depicts something standing on the ground.",
         "inflections": {
             "pie": {
                 "": {
@@ -1334,7 +1339,7 @@
             }
         },
         "hittite": "sa",
-        "path": "RX cUe"
+        "path": "M 4 1 L 4 7 M 7 7 L 1 7"
     },
     {
         "PIE": "*méh₂tēr",
@@ -2097,10 +2102,10 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/we%C7%B5%CA%B0-",
-            "https://www.dong-chinese.com/wiki/%E6%9B%B3"
+            "https://www.dong-chinese.com/wiki/%E8%BB%8A"
         ],
         "id": "TRANSPORT",
-        "character_hint": "Pictograph of two hands pulling something.",
+        "character_hint": "Depicts a load transported on two wheels. Similar to Chinese 車.",
         "inflections": {
             "pie": {
                 "": {
@@ -2127,7 +2132,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 2 4.5 A 1.5 1.5 0 0 1 3.5 6 M 3.5 6 A 1.5 1.5 0 0 1 2 7.5 M 2 7.5 A 1.5 1.5 0 0 1 0.5 6 M 0.5 6 A 1.5 1.5 0 0 1 2 4.5 M 2 4.5 L 2 7.5 M 6 4.5 A 1.5 1.5 0 0 1 7.5 6 M 7.5 6 A 1.5 1.5 0 0 1 6 7.5 M 6 7.5 A 1.5 1.5 0 0 1 4.5 6 M 4.5 6 A 1.5 1.5 0 0 1 6 4.5 M 6 4.5 L 6 7.5 M 0 6 L 8 6 M 0 4 L 8 4 M 5 4 Q 7 3 7 2 M 7 2 Q 6 0 5 0 M 5 0 L 3 0 M 3 0 Q 2 0 1 2 M 1 2 Q 1 3 3 4"
     },
     {
         "PIE": "*weǵʰōs",
@@ -2136,10 +2142,10 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/we%C7%B5%CA%B0-",
-            "https://www.dong-chinese.com/wiki/%E6%9B%B3"
+            "https://www.dong-chinese.com/wiki/%E8%BB%8A"
         ],
         "id": "TRANSPORT_os",
-        "character_hint": "車 + 曳",
+        "character_hint": "Depicts a vehicle with two wheels. Similar to Chinese 車.",
         "inflections": {
             "pie": {
                 "": {
@@ -2151,11 +2157,13 @@
                         "m sg abl": "weǵʰosos",
                         "m sg dat": "weǵʰosey",
                         "m sg loc": "weǵʰosi",
-                        "m sg ins": "weǵʰosh₁"
+                        "m sg ins": "weǵʰosh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 0 3 L 1 3 M 1 3 Q 1 2 2 2 M 2 2 L 6 2 M 6 2 Q 7 2 7 3 M 7 3 L 8 3 M 7 6 A 1 1 0 0 1 6 7 M 6 7 A 1 1 0 0 1 5 6 M 5 6 A 1 1 0 0 1 6 5 M 2 5 A 1 1 0 0 1 3 6 M 3 6 A 1 1 0 0 1 2 7 M 2 7 A 1 1 0 0 1 1 6 M 1 6 A 1 1 0 0 1 2 5 M 0 6 L 8 6 M 2 5 L 2 7 M 6 5 L 6 7 M 6 5 A 1 1 0 0 1 7 6 M 4 1 L 4 8"
     },
     {
         "PIE": "*gʷreh₂-",
@@ -6895,11 +6903,10 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82e%C7%B5-",
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%C7%B5eti",
-            "https://www.dong-chinese.com/wiki/%E9%A7%95"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9%C7%B5eti"
         ],
         "id": "DRIVE",
-        "character_hint": "Phonosemantic compound. 馬 represents the meaning and 加 represents the sound.",
+        "character_hint": "Depicts two hands pulling something. Similar to Chinese 曳.",
         "inflections": {
             "pie": {
                 "": {
@@ -6917,7 +6924,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 1 0 Q 0 4 3 4 M 7 0 Q 8 4 5 4 M 7 3 Q 7 2 5 2 M 1 3 Q 1 2 3 2 M 1 3 L 3 3 M 7 3 L 5 3 M 4 0 L 4 4 M 4 4 Q 4 7 7 8"
     },
     {
         "PIE": "*h₂eǵʰ-",
@@ -9600,7 +9608,9 @@
         "pos": "noun",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7%C3%A9k%CA%B7los"
-        ]
+        ],
+        "character_hint": "Depicts a wheel. Similar to Linear B 𐃏.",
+        "path": "M 4 0 A 4 4 0 0 1 8 4 M 8 4 A 4 4 0 0 1 4 8 M 4 8 A 4 4 0 0 1 0 4 M 0 4 A 4 4 0 0 1 4 0 M 3 0 L 4 1 M 4 1 L 5 0 M 0 3 L 1 4 M 1 4 L 0 5 M 3 8 L 4 7 M 4 7 L 5 8 M 8 3 L 7 4 M 7 4 L 8 5 M 1 4 L 7 4 M 4 1 L 4 7"
     },
     {
         "PIE": "*kʷel-",
@@ -11166,10 +11176,10 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ped-",
-            "https://www.dong-chinese.com/wiki/走"
+            "https://www.dong-chinese.com/wiki/%E6%AD%A5"
         ],
         "id": "WALK",
-        "character_hint": "Originally written as 夭, depicting a person swaying their arms (夭) while walking quickly. The foot component 止 was added later.",
+        "character_hint": "Depicts one foot in front of another. Similar to Chinese 步.",
         "inflections": {
             "pie": {
                 "": {},
@@ -11189,7 +11199,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 5.75 4 Q 6.65 4 6.35 0 M 5.75 4 Q 4.55 4 5.15 0 M 6.5 2 Q 3 3 4 0 M 2.25 8 Q 1.35 8 1.65 4 M 2.25 8 Q 3.45 8 2.85 4 M 1.5 6 Q 5 7 4 4"
     },
     {
         "PIE": "*peg-",
