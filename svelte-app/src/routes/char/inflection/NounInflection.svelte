@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { adjNounFormations, cases, genders, numbers } from '$lib/inflection';
+	import { findMinCoords } from './inflectionUtils';
 
 	export let cas: (typeof cases)[number];
 	export let gen: (typeof genders)[number];
@@ -55,51 +56,6 @@
 		_losus: 'M 2 4 L 0 5 M 2 4 L 4 5 M 1 5 L 1 8 M 3 5 L 3 8',
 		_teros: 'M 2 4 L 4 5 M 4 5 L 0 5 M 4 6 L 0 6 M 0 6 L 2 7'
 	};
-
-	function findMinCoords(path: string) {
-		let parts = path.split(' ');
-		let minX = Infinity;
-		let minY = Infinity;
-		let maxX = -Infinity;
-		let maxY = -Infinity;
-		for (let i = 0; i < parts.length; i++) {
-			if (parts[i] === 'M' || parts[i] === 'L') {
-				i++;
-				minX = Math.min(minX, +parts[i]);
-				maxX = Math.max(maxX, +parts[i]);
-				i++;
-				minY = Math.min(minY, +parts[i]);
-				maxY = Math.max(maxY, +parts[i]);
-			} else if (parts[i] === 'Q') {
-				i++;
-				minX = Math.min(minX, +parts[i]);
-				maxX = Math.max(maxX, +parts[i]);
-				i++;
-				minY = Math.min(minY, +parts[i]);
-				maxY = Math.max(maxY, +parts[i]);
-				i++;
-				minX = Math.min(minX, +parts[i]);
-				maxX = Math.max(maxX, +parts[i]);
-				i++;
-				minY = Math.min(minY, +parts[i]);
-				maxY = Math.max(maxY, +parts[i]);
-			} else if (parts[i] === 'A') {
-				i++;
-				minX = Math.min(minX, +parts[i]);
-				maxX = Math.max(maxX, +parts[i]);
-				i++;
-				minY = Math.min(minY, +parts[i]);
-				maxY = Math.max(maxY, +parts[i]);
-				i += 3;
-				minX = Math.min(minX, +parts[i]);
-				maxX = Math.max(maxX, +parts[i]);
-				i++;
-				minY = Math.min(minY, +parts[i]);
-				maxY = Math.max(maxY, +parts[i]);
-			}
-		}
-		return [minX, minY, maxX, maxY];
-	}
 
 	let path = [initials[gen][num], cass[cas], forms[form as keyof typeof adjNounFormations]]
 		.join(' ')

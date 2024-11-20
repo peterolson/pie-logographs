@@ -38,7 +38,7 @@ Read as: <select bind:value={selectedLanguage}>
 		Show transliteration
 	</label>
 {/if}
-
+<br /><br />
 {#each parsedText as { words, translation }}
 	<p class:cjk={selectedLanguage === 'default'} class:hittite={selectedLanguage === 'hittite'}>
 		{#each words as word, i}

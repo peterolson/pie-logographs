@@ -10200,7 +10200,7 @@
             "https://www.dong-chinese.com/wiki/明"
         ],
         "id": "BRIGHT",
-        "character_hint": "The character originally depicted moonlight (月) shining through a window (囧). The 囧 component was later reanalyzed as 日 (sun).",
+        "character_hint": "Depicts the sun {SUN} and moon {MOON} together. Similar to Chinese 明.",
         "inflections": {
             "pie": {
                 "o_s": {
@@ -10212,11 +10212,13 @@
                         "m sg abl": "lewkéad",
                         "m sg dat": "lewkóey",
                         "m sg loc": "lewkóy",
-                        "m sg ins": "lewkóh₁"
+                        "m sg ins": "lewkóh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 2.5 2.5 A 1 1 0 0 1 3.5 3.5 M 3.5 3.5 A 1 1 0 0 1 2.5 4.5 M 2.5 4.5 A 1 1 0 0 1 1.5 3.5 M 1.5 3.5 A 1 1 0 0 1 2.5 2.5 M 2.5 2 L 2.5 1.5 M 4 3.5 L 4.5 3.5 M 2.5 5 L 2.5 5.5 M 1 3.5 L 0.5 3.5 M 3.5 4.5 L 4 5 M 1.5 2.5 L 1 2 M 3.5 2.5 L 4 2 M 1.5 4.5 L 1 5 M 3.5 7.7 Q 6.5 4.1 4.7 0.5 M 3.5 7.7 Q 7.7 7.7 7.7 4.1 M 7.7 4.1 Q 7.7 0.5 4.7 0.5"
     },
     {
         "PIE": "*léwks",
