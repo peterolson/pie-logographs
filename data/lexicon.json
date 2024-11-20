@@ -145,7 +145,8 @@
         "id": "...",
         "char": "⋯⋯",
         "meanings": "ellipsis; unknown text",
-        "hittite": "⋯⋯"
+        "hittite": "⋯⋯",
+        "path": "…"
     },
     {
         "PIE": "*sme",
@@ -10010,10 +10011,11 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/leg%CA%B0-",
-            "https://www.dong-chinese.com/wiki/床"
+            "https://www.dong-chinese.com/wiki/%E7%88%BF"
         ],
         "id": "LIE",
-        "character_hint": "Depicts a bed (爿) made from wood (木). Originally written as 爿 or 牀."
+        "character_hint": "Depicts a bed. Similar to Chinese 爿.",
+        "path": "M 0 3 L 8 3 M 2 3 L 2 6 M 6 3 L 6 6 M 1 6 L 3 6 M 5 6 L 7 6"
     },
     {
         "PIE": "*légʰyeti",
@@ -14173,7 +14175,8 @@
             "https://www.dong-chinese.com/wiki/上"
         ],
         "id": "ABOVE",
-        "character_hint": "Originally a small line or dot above a longer line, indicating \"up\". The vertical line was added to distinguish the character from 二 (two). Opposite of 下."
+        "character_hint": "A small line above a longer line, indicating \"up\". Borrowed from Chinese 上.",
+        "path": "M 1 7 L 7 7 M 4 7 L 4 0 M 4 3 L 6 3"
     },
     {
         "PIE": "*upéri",
@@ -14194,7 +14197,8 @@
             "https://www.dong-chinese.com/wiki/下"
         ],
         "id": "BELOW",
-        "character_hint": "Originally a small line or dot below a longer line, indicating \"down\". The vertical line was added to distinguish the character from 二 (two). Opposite of 上."
+        "character_hint": "A small line below a longer line, indicating \"down\". Borrowed from Chinese 下.",
+        "path": "M 1 1 L 7 1 M 4 1 L 4 8 M 4 3 L 6 4"
     },
     {
         "PIE": "*wáy",
@@ -39947,7 +39951,7 @@
         "pos": "punct",
         "meanings": "period",
         "character_hint": "period",
-        "path": "M 2 5 A 1 1 0 0 1 3 6 M 3 6 A 1 1 0 0 1 2 7 M 2 7 A 1 1 0 0 1 1 6 M 1 6 A 1 1 0 0 1 2 5"
+        "path": "。"
     },
     {
         "id": ",",
@@ -39956,7 +39960,7 @@
         "pos": "punct",
         "meanings": "comma",
         "character_hint": "comma",
-        "path": "M 1.5 5 L 3.5 5 M 3.5 5 A 3 3 0 0 1 0.5 8 M 1.5 5 A 1 3 0 0 1 0.5 8"
+        "path": "，"
     },
     {
         "id": "?",
@@ -39964,7 +39968,7 @@
         "char": "？",
         "pos": "punct",
         "meanings": "question mark",
-        "path": "M 1 0 A 3 2 0 0 1 4 2 M 4 2 A 3 3 0 0 1 1 5 M 1 5 L 1 8 M 0 0 L 1 0"
+        "path": "？"
     },
     {
         "id": "!",
@@ -39972,7 +39976,7 @@
         "char": "！",
         "pos": "punct",
         "meanings": "exclamation mark",
-        "path": "M 2 6 A 1 1 0 0 1 3 7 M 3 7 A 1 1 0 0 1 2 8 M 2 8 A 1 1 0 0 1 1 7 M 1 7 A 1 1 0 0 1 2 6 M 1 4 L 1 0 M 1 0 L 3 0 M 3 0 L 3 4 M 3 4 L 2 5 M 2 5 L 1 4"
+        "path": "！"
     },
     {
         "id": "``",
@@ -40011,14 +40015,16 @@
         "PIE": "(",
         "char": "（",
         "pos": "punct",
-        "meanings": "open parenthesis"
+        "meanings": "open parenthesis",
+        "path": "（"
     },
     {
         "id": ")",
         "PIE": ")",
         "char": "）",
         "pos": "punct",
-        "meanings": "close parenthesis"
+        "meanings": "close parenthesis",
+        "path": "）"
     },
     {
         "id": ";",
@@ -40026,7 +40032,7 @@
         "char": "；",
         "pos": "punct",
         "meanings": "semicolon",
-        "path": "M 1 5 L 3 5 M 3 5 A 3 3 0 0 1 0 8 M 1 5 A 1 3 0 0 1 0 8 M 2 1 A 1 1 0 0 1 3 2 M 3 2 A 1 1 0 0 1 2 3 M 2 3 A 1 1 0 0 1 1 2 M 1 2 A 1 1 0 0 1 2 1"
+        "path": "；"
     },
     {
         "id": ":",
@@ -40035,6 +40041,6 @@
         "pos": "punct",
         "meanings": "colon",
         "character_hint": "colon",
-        "path": "M 2 1 A 1 1 0 0 1 3 2 M 3 2 A 1 1 0 0 1 2 3 M 2 3 A 1 1 0 0 1 1 2 M 2 5 L 2 5 M 1 2 A 1 1 0 0 1 2 1 M 2 5 A 1 1 0 0 1 3 6 M 3 6 A 1 1 0 0 1 2 7 M 2 7 A 1 1 0 0 1 1 6 M 1 6 A 1 1 0 0 1 2 5"
+        "path": "："
     }
 ]
