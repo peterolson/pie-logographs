@@ -8,7 +8,7 @@
 
 <svg
 	viewBox={`-0.5 -0.5 ${SIZE} ${SIZE}`}
-	style={`width: ${width}px; height: ${height}px;`}
+	style={`width: ${width}px; height: ${height}px;padding-left:2px;`}
 	preserveAspectRatio="none"
 >
 	{#if path}

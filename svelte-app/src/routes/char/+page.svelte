@@ -293,7 +293,19 @@
 						title={entry.id}
 						on:click={() => {
 							if (entry.path) {
-								strokes = strokes.concat(convertSVGPathToStrokes(entry.path));
+								strokes = strokes.concat({
+									type: 'transform',
+									strokes: convertSVGPathToStrokes(entry.path),
+									transformation: {
+										translateX: 0,
+										translateY: 0,
+										scaleX: 1,
+										scaleY: 1,
+										flipX: false,
+										flipY: false,
+										rotate: 0
+									}
+								});
 							}
 						}}
 					>
@@ -415,6 +427,16 @@
 						>Rotate
 						<input type="number" step="15" bind:value={stroke.transformation.rotate} />
 					</label>
+					<button
+						on:click={() => {
+							strokes = strokes.filter((s) => s !== stroke).concat(stroke.strokes);
+							selectedStroke = null;
+							prevX = null;
+							prevY = null;
+						}}
+					>
+						Ungroup
+					</button>
 				</div>
 			{/if}
 		</div>

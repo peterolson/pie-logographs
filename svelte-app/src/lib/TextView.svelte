@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Character from '../routes/char/Character.svelte';
+	import Inflection from '../routes/char/inflection/Inflection.svelte';
 	import PathChar from '../routes/char/PathChar.svelte';
 	import SvgChar from '../routes/char/SVGChar.svelte';
 	import References from '../routes/lexicon/References.svelte';
@@ -58,8 +59,7 @@ Read as: <select bind:value={selectedLanguage}>
 				}}
 				>{#if selectedLanguage === 'default'}<SvgChar path={word.path || ''} /><Character
 						char={addSuffixes(word)}
-					/><PathChar path={addInflection(word, lexicon)} hTrim={3 / 7} />{:else}<span
-						>{renderedWord}</span
+					/><Inflection parsedWord={word} />{:else}<span>{renderedWord}</span
 					>{/if}{#if selectedLanguage === 'hittite' && showTransliteration}<span
 						class="transliteration"
 						>{renderWord(
@@ -87,7 +87,7 @@ Read as: <select bind:value={selectedLanguage}>
 		{selectedWord.pos || ''}
 		{#if lexiconEntry}
 			{lexiconEntry.PIE}
-			{lexiconEntry.char}
+			<SvgChar path={lexiconEntry.path || ''} />
 			{lexiconEntry.character_hint || ''}
 			<References data={lexiconEntry} />
 		{/if}

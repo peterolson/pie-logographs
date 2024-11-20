@@ -452,10 +452,9 @@
         "meanings": "we (more than two)",
         "pos": "pron",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%A9y",
-            "https://www.dong-chinese.com/wiki/余"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/w%C3%A9y"
         ],
-        "character_hint": "Pictograph of a small shelter. Based on the original meaning \"residence\", now written as 舍. The current meaning is a phonetic loan.",
+        "character_hint": "Duplicate of {I}.",
         "id": "WE",
         "inflections": {
             "pie": {
@@ -474,11 +473,13 @@
                         "m sg dat": "n̥smey",
                         "m pl dat": "n̥smey",
                         "m sg loc": "n̥smi",
-                        "m pl loc": "n̥smi"
+                        "m pl loc": "n̥smi",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 2.2 0.8999999999999999 Q 4.3 -0.5 6.3999999999999995 0.8999999999999999 M 6.3999999999999995 0.8999999999999999 Q 6.3999999999999995 3 4.3 3.6999999999999993 M 4.3 3.6999999999999993 Q 2.2 3 2.2 0.8999999999999999 M 2.2 4.9 Q 4.3 3.5 6.3999999999999995 4.9 M 6.3999999999999995 4.9 Q 6.3999999999999995 7 4.3 7.699999999999999 M 4.3 7.699999999999999 Q 2.2 7 2.2 4.9"
     },
     {
         "char": "余",
@@ -1040,10 +1041,10 @@
         "pos": "pron",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C3%A9%C7%B5h%E2%82%82",
-            "https://www.dong-chinese.com/wiki/我"
+            "https://www.dong-chinese.com/wiki/%E5%8E%B6"
         ],
         "id": "I",
-        "character_hint": "Pictograph of a weapon with a forked blade and long handle. The meaning \"I; me\" is a phonetic loan.",
+        "character_hint": "A small enclosure depicting personal space. Similar to Chinese 厶.",
         "inflections": {
             "pie": {
                 "": {
@@ -1068,7 +1069,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 1 2 Q 4 0 7 2 M 7 2 Q 7 5 4 6 M 4 6 Q 1 5 1 2"
     },
     {
         "PIE": "*eǵh₂óm",
