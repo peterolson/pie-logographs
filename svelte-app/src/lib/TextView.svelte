@@ -91,6 +91,16 @@ Read as: <select bind:value={selectedLanguage}>
 			{lexiconEntry.character_hint || ''}
 			<References data={lexiconEntry} />
 		{/if}
+		{selectedWord.pos || ''}
+		{selectedWord.person || ''}
+		{selectedWord.gender || ''}
+		{selectedWord.number || ''}
+		{selectedWord.case || ''}
+		{selectedWord.adjNounFormation || ''}
+		{selectedWord.voice || ''}
+		{selectedWord.verbType || ''}
+		{selectedWord.formation || ''}
+
 		{#each selectedWord.suffixes || [] as suffix}
 			{@const suffixData = suffixes[suffix]}
 			{#if suffixData}
