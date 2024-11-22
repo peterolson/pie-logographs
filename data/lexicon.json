@@ -690,9 +690,9 @@
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%B3h%E2%82%83s"
         ],
-        "character_hint": "Depicts a mouth.",
+        "character_hint": "Depicts an open mouth.",
         "id": "MOUTH",
-        "path": "M 0 4 Q 4 0 8 4 M 8 4 Q 4 8 0 4 M 0 4 Q 4 1 8 4 M 8 4 Q 4 7 0 4"
+        "path": "M 0 1 Q 8 1 8 4 M 8 4 Q 8 7 0 7"
     },
     {
         "PIE": "*-kʷe",
@@ -1203,10 +1203,11 @@
         "meanings": "to speak, to sound out",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wek%CA%B7-"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wek%CA%B7-",
+            "https://www.dong-chinese.com/wiki/%E6%9B%B0"
         ],
         "id": "SPEAK",
-        "character_hint": "Depicts a line of words coming out of a mouth.",
+        "character_hint": "Depicts a words coming out of a mouth. Similar to Chinese 曰.",
         "inflections": {
             "pie": {
                 "": {
@@ -1233,7 +1234,7 @@
                 }
             }
         },
-        "path": "M 0 4 Q 4 0 8 4 M 8 4 Q 4 8 0 4 M 0 4 Q 4 1 8 4 M 8 4 Q 4 7 0 4 M 4 4 L 8 7"
+        "path": "M 3 1 Q 8 1 8 4 M 8 4 Q 8 7 3 7 M 1 2 L 3 4 M 3 4 L 1 6"
     },
     {
         "PIE": "*wéwket",
@@ -1918,7 +1919,7 @@
             "https://www.dong-chinese.com/wiki/%E6%AC%A0"
         ],
         "id": "WANT",
-        "character_hint": "Depicts a man {MAN} opening his mouth wide to ask for food. Similar to Chinese 欠.",
+        "character_hint": "Depicts a man {MAN} opening his mouth {MOUTH} wide to ask for food. Similar to Chinese 欠.",
         "inflections": {
             "pie": {
                 "": {
@@ -2646,7 +2647,7 @@
             "https://www.dong-chinese.com/wiki/小"
         ],
         "id": "SMALL",
-        "character_hint": "Depicts three small dots, representing the meaning \"small\".",
+        "character_hint": "Depicts three small dots, representing the meaning \"small\". Similar to Chinese 小.",
         "inflections": {
             "pie": {
                 "los": {
@@ -2658,11 +2659,13 @@
                         "m sg abl": "putléad",
                         "m sg dat": "putlóey",
                         "m sg loc": "putlóy",
-                        "m sg ins": "putlóh₁"
+                        "m sg ins": "putlóh₁",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 4 2 L 4 6 M 2 3 Q 3 4 2 5 M 6 3 Q 5 4 6 5"
     },
     {
         "PIE": "*(s)meh₂-",
@@ -4602,7 +4605,8 @@
             "https://www.dong-chinese.com/wiki/舌"
         ],
         "id": "TONGUE",
-        "character_hint": "Depicts a tongue sticking out of a mouth."
+        "character_hint": "Depicts a tongue sticking out of a mouth. Similar to Chinese 舌.",
+        "path": "M 3 1 Q 8 1 8 4 M 8 4 Q 8 7 3 7 M 7 6 A 6 2 0 0 1 1 4 M 1 4 A 6 2 0 0 1 7 2"
     },
     {
         "PIE": "*dṓm",
@@ -5605,7 +5609,7 @@
             "https://www.dong-chinese.com/wiki/步"
         ],
         "id": "STEP",
-        "character_hint": "Pictograph of one foot in front of another, depicting footsteps.",
+        "character_hint": "Pictograph of one foot in front of another, depicting footsteps. Similar to Chinese 步.",
         "inflections": {
             "pie": {
                 "": {
@@ -5614,7 +5618,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 5.75 4 Q 6.65 4 6.35 0 M 5.75 4 Q 4.55 4 5.15 0 M 6.5 2 Q 3 3 4 0 M 2.25 8 Q 1.35 8 1.65 4 M 2.25 8 Q 3.45 8 2.85 4 M 1.5 6 Q 5 7 4 4"
     },
     {
         "PIE": "*gʷeh₂bʰ-",
@@ -5970,10 +5975,10 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81e%C7%B5-",
-            "https://www.dong-chinese.com/wiki/告"
+            "https://www.dong-chinese.com/wiki/%E8%A8%80"
         ],
         "id": "SAY",
-        "character_hint": "Pictograph of a tongue extending from an open mouth. Visually similar to 舌 (tongue).",
+        "character_hint": "Depicts words coming off a tongue {TONGUE}. Similar to Chinese 言.",
         "inflections": {
             "pie": {
                 "": {
@@ -5983,7 +5988,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 4.199999999999999 1 Q 7.699999999999999 1 7.699999999999999 4 M 7.699999999999999 4 Q 7.699999999999999 7 4.199999999999999 7 M 7 6 A 4.2 2 0 0 1 2.8 4 M 2.8 4 A 4.2 2 0 0 1 7 2 M 0 1 L 2 4 M 2 4 L 0 7"
     },
     {
         "PIE": "*h₁eǵʰis",
@@ -9352,11 +9358,10 @@
         "meanings": "beside, near, by, with",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m",
-            "https://www.dong-chinese.com/wiki/附"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m"
         ],
         "id": "NEARBY",
-        "character_hint": "Phonosemantic compound. 阝 represents the meaning and 付 represents the sound. ",
+        "character_hint": "Depicts a person {MAN} near an object.",
         "inflections": {
             "pie": {
                 "": {
@@ -9381,7 +9386,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 3 0 L 3 3 M 3 3 L 3 4 M 3 4 L 2 8 M 3 4 L 4 8 M 3 2 L 1 4 M 3 2 L 5 4 M 6 0 L 7 0 M 7 0 L 7 8 M 7 8 L 6 8"
     },
     {
         "PIE": "*ḱoph₂ós",
@@ -9773,11 +9779,10 @@
         "pos": "det, pron",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/k%CA%B7%C3%ADs",
-            "https://www.dong-chinese.com/wiki/曷",
             "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, pp. 488-491"
         ],
         "id": "WHAT",
-        "character_hint": "Phonosemantic compound. 曰 represents the meaning and 匃 represents the sound. ",
+        "character_hint": "Mouth {MOUTH} + this {THIS} - a mouth asking what this is.",
         "inflections": {
             "pie": {
                 "": {
@@ -9841,7 +9846,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 0 2 Q 3 2 3 4 M 3 4 Q 3 6 0 6 M 5 0 L 5 8 M 2 8 L 8 8"
     },
     {
         "PIE": "*ḱwṓ",
@@ -10237,7 +10243,7 @@
                 }
             }
         },
-        "path": "M 3.5 7.7 Q 6.5 4.1 4.7 0.5 M 3.5 7.7 Q 7.7 7.7 7.7 4.1 M 7.7 4.1 Q 7.7 0.5 4.7 0.5 M 2.3 1.7 A 2.0999999999999996 2.0999999999999996 0 0 1 4.3999999999999995 3.8 M 4.3999999999999995 3.8 A 2.0999999999999996 2.0999999999999996 0 0 1 2.3 5.8999999999999995 M 2.3 5.8999999999999995 A 2.0999999999999996 2.0999999999999996 0 0 1 0.19999999999999996 3.8 M 0.19999999999999996 3.8 A 2.0999999999999996 2.0999999999999996 0 0 1 2.3 1.7 M 2.3 3.0999999999999996 A 0.7000000000000002 0.7000000000000002 0 0 1 3 3.8 M 3 3.8 A 0.7000000000000002 0.7000000000000002 0 0 1 2.3 4.5 M 2.3 4.5 A 0.7000000000000002 0.7000000000000002 0 0 1 1.5999999999999996 3.8 M 1.5999999999999996 3.8 A 0.7000000000000002 0.7000000000000002 0 0 1 2.3 3.0999999999999996"
+        "path": "M 2 2 A 1.5 1.5 0 0 1 3.5 3.5 M 3.5 3.5 A 1.5 1.5 0 0 1 2 5 M 2 5 A 1.5 1.5 0 0 1 0.5 3.5 M 0.5 3.5 A 1.5 1.5 0 0 1 2 2 M 2 3 A 0.5 0.5 0 0 1 2.5 3.5 M 2.5 3.5 A 0.5 0.5 0 0 1 2 4 M 2 4 A 0.5 0.5 0 0 1 1.5 3.5 M 1.5 3.5 A 0.5 0.5 0 0 1 2 3 M 3 7 Q 6.75 4 4.5 1 M 3 7 Q 8.25 7 8.25 4 M 8.25 4 Q 8.25 1 4.5 1"
     },
     {
         "PIE": "*léwks",
@@ -11197,10 +11203,10 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ped-",
-            "https://www.dong-chinese.com/wiki/%E6%AD%A5"
+            "https://www.dong-chinese.com/wiki/%E8%A1%8C"
         ],
         "id": "WALK",
-        "character_hint": "Depicts one foot in front of another. Similar to Chinese 步.",
+        "character_hint": "Depicts a street intersection. Similar to Chinese 行.",
         "inflections": {
             "pie": {
                 "": {},
@@ -11221,7 +11227,7 @@
                 }
             }
         },
-        "path": "M 5.75 4 Q 6.65 4 6.35 0 M 5.75 4 Q 4.55 4 5.15 0 M 6.5 2 Q 3 3 4 0 M 2.25 8 Q 1.35 8 1.65 4 M 2.25 8 Q 3.45 8 2.85 4 M 1.5 6 Q 5 7 4 4"
+        "path": "M 3 0 L 3 3 M 3 3 L 0 3 M 0 5 L 3 5 M 3 5 L 3 8 M 5 0 L 5 3 M 5 3 L 8 3 M 5 5 L 5 8 M 5 5 L 8 5"
     },
     {
         "PIE": "*peg-",
@@ -11287,7 +11293,7 @@
             "https://www.dong-chinese.com/wiki/少"
         ],
         "id": "FEW",
-        "character_hint": "Depicts four dots, representing the meaning \"few\". Originally the same character as 小. The small dots possibly represent grains of sand (沙).",
+        "character_hint": "Depicts four dots, representing the meaning \"few\". Similar to Chinese 少.",
         "inflections": {
             "pie": {
                 "los": {
@@ -11298,7 +11304,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 2 3 Q 3 4 2 5 M 6 3 Q 5 4 6 5 M 4 1 L 4 3 M 4 5 L 4 7"
     },
     {
         "PIE": "*peh₃-",
@@ -12025,11 +12032,10 @@
         "meanings": "to ask",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pre%E1%B8%B1-",
-            "https://www.dong-chinese.com/wiki/訊"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pre%E1%B8%B1-"
         ],
         "id": "ASK",
-        "character_hint": "Depicts a mouth (口) interrogating a captured prisoner of war (卂). 卂 also represents the sound. The 口 (mouth) component was later reanalyzed as 言 (speech).",
+        "character_hint": "Depicts a mouth {MOUTH} asking a person {MAN} a question.",
         "inflections": {
             "pie": {
                 "": {
@@ -12038,7 +12044,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 6 0 L 6 3 M 6 3 L 6 4 M 6 4 L 5 8 M 6 4 L 7 8 M 6 2 L 4 4 M 6 2 L 8 4 M 0 2 Q 3 2 3 4 M 3 4 Q 3 6 0 6"
     },
     {
         "PIE": "*prep-",
@@ -12338,11 +12345,10 @@
         "meanings": "jump, spring, run",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sel-",
-            "https://www.dong-chinese.com/wiki/%E8%B7%B3"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sel-"
         ],
         "id": "JUMP",
-        "character_hint": "足 represents the meaning. 兆 is a pictograph of two people escaping a flood.",
+        "character_hint": "Depicts a foot {FOOT} above the ground {EARTH}.",
         "inflections": {
             "pie": {
                 "": {
@@ -12351,7 +12357,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 1.393393946873131 4.363123689882764 Q 1.742799657761534 5.667123555373006 7.421886045199809 3.679542662927801 M 1.393393946873131 4.363123689882764 Q 0.9275196656885936 2.624457202562441 6.9560117640152725 1.9408761756074782 M 4.582342851480671 4.673333109150404 Q 1.7746541252588355 -0.009548911213423827 6.5095489112134235 0.2746541252588355 M 0 8 Q 4 6 8 8"
     },
     {
         "PIE": "*selǵ-",
