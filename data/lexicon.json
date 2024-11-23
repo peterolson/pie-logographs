@@ -1480,8 +1480,12 @@
         "meanings": "water",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wed-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/wed-",
+            "https://www.dong-chinese.com/wiki/%E6%B0%B4"
+        ],
+        "id": "WATER",
+        "character_hint": "Depicts a winding river. Similar to Chinese 水, Anatolian hieroglyph 𔓴 (AQUA).",
+        "path": "M 4 0 Q 2 3 4 4 M 4 4 Q 6 5 4 8 M 6 1 Q 5 2 6 3 M 7 4 Q 8 5 7 7 M 1 1 Q 0 3 1 4 M 2 5 Q 3 6 2 7"
     },
     {
         "PIE": "*wódr̥",
@@ -7175,8 +7179,9 @@
             "https://www.dong-chinese.com/wiki/育"
         ],
         "id": "BEGET",
-        "character_hint": "Phonosemantic compound. 子 represents the meaning and ⺼ represents the sound. The 子 (child) component is upside-down, depicting a child being born head-first.",
-        "hittite": "hāss"
+        "character_hint": "Depicts an upside-down child {SON} emerging from a woman {WOMAN}. Similar to Chines 育.",
+        "hittite": "hāss",
+        "path": "M 1 4 L 7 4 M 7 4 L 4 2 M 4 2 L 1 4 M 4 0 L 4 2 M 4 1 L 6 2 M 4 1 L 2 2 M 4 5 A 1 1 0 0 1 5 6 M 5 6 A 1 1 0 0 1 4 7 M 4 7 A 1 1 0 0 1 3 6 M 3 6 A 1 1 0 0 1 4 5 M 4 5 L 4 5 M 4 5 L 4 4 M 4 7 L 4 8 M 3 7 L 2 8 M 5 7 L 6 8"
     },
     {
         "PIE": "h₂emsus",
@@ -7216,12 +7221,12 @@
         },
         "id": "BEGET_KING",
         "meanings": "king",
-        "character_hint": "Depicts a decorative crown above 王 (king).",
+        "character_hint": "Semantic \"king\" {KING}, etymologically related to {BEGET}.",
         "references": [
-            "https://www.dong-chinese.com/wiki/皇",
             "https://en.wiktionary.org/wiki/%F0%92%88%97%F0%92%8D%91#Hittite"
         ],
-        "hittite": "LUGAL"
+        "hittite": "LUGAL",
+        "path": "M 1.5 1.85 L 1.5 4.01 M 1.5 4.01 L 1.5 4.73 M 1.5 4.73 L 0.75 7.61 M 1.5 4.73 L 2.25 7.61 M 1.5 3.29 L 0 4.73 M 1.5 3.29 L 3 4.73 M 0 1.4 L 3 1.4 M 3 1.4 L 3 0.5 M 3 0.5 L 2.25 1.4 M 2.25 1.4 L 1.5 0.5 M 1.5 0.5 L 0.75 1.4 M 0.75 1.4 L 0 0.5 M 0 0.5 L 0 1.4 M 3.3 4.1 L 8.100000000000001 4.1 M 8.100000000000001 4.1 L 5.7 2.3 M 5.7 2.3 L 3.3 4.1 M 5.7 0.5 L 5.7 2.3 M 5.7 1.4 L 7.300000000000001 2.3 M 5.7 1.4 L 4.1 2.3 M 5.7 5 A 0.7999999999999998 0.9000000000000004 0 0 1 6.5 5.9 M 6.5 5.9 A 0.7999999999999998 0.8999999999999995 0 0 1 5.7 6.8 M 5.7 6.8 A 0.7999999999999998 0.8999999999999995 0 0 1 4.9 5.9 M 4.9 5.9 A 0.7999999999999998 0.9000000000000004 0 0 1 5.7 5 M 5.7 5 L 5.7 5 M 5.7 5 L 5.7 4.1 M 5.7 6.8 L 5.7 7.7 M 4.9 6.8 L 4.1 7.7 M 6.5 6.8 L 7.300000000000001 7.7"
     },
     {
         "PIE": "*h₂en-",
@@ -8487,11 +8492,11 @@
         "meanings": "to revile, insult",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neyd-",
-            "https://www.dong-chinese.com/wiki/%E8%A9%88"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%83neyd-"
         ],
         "id": "REVILE",
-        "character_hint": "Depicts using words (言) to catch (网) someone."
+        "character_hint": "Depicts speaking {SPEAK} negatively {NOT} about someone.",
+        "path": "M 5 5 L 7 6 M 7 6 L 1 6 M 7 7 L 1 7 M 1 7 L 3 8 M 2.5 0 Q 6.5 0 6.5 2 M 6.5 2 Q 6.5 4 2.5 4 M 1.5 1 L 2.5 2 M 2.5 2 L 1.5 3"
     },
     {
         "char": "⿰亻詈",
@@ -8501,7 +8506,7 @@
             "https://en.wikipedia.org/wiki/Anitta_(king)"
         ],
         "id": "ANITTA",
-        "character_hint": "Name of a person (亻). 詈 represents the sound.",
+        "character_hint": "Name of a person ({PERSON}). {REVILE} represents the sound.",
         "PIE": "*anita",
         "hittite": "M:a-ni-it-ta",
         "inflections": {
@@ -8521,7 +8526,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 1.2000000000000002 1 L 1.2000000000000002 3.4000000000000004 M 1.2000000000000002 3.4000000000000004 L 1.2000000000000002 4.2 M 1.2000000000000002 4.2 L 0.40000000000000036 7.4 M 1.2000000000000002 4.2 L 2 7.4 M 1.2000000000000002 2.6 L -0.3999999999999999 4.2 M 1.2000000000000002 2.6 L 2.8000000000000007 4.2 M 6.25 5 L 7.75 5.9 M 7.75 5.9 L 3.25 5.9 M 7.75 6.8 L 3.25 6.8 M 3.25 6.8 L 4.75 7.7 M 4.375 0.5 Q 7.375 0.5 7.375 2.3 M 7.375 2.3 Q 7.375 4.1 4.375 4.1 M 3.625 1.4 L 4.375 2.3 M 4.375 2.3 L 3.625 3.2"
     },
     {
         "PIE": "*h₃nóbʰōl",
@@ -9141,12 +9147,12 @@
         "meanings": "Deictic particle, here; Post-positional demonstrative particle, this",
         "pos": "part",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1e",
-            "https://www.dong-chinese.com/wiki/其"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1e"
         ],
         "id": "DEICTIC",
-        "character_hint": "Pictograph of a basket, now written as 箕. The current meaning is a phonetic loan.",
-        "hittite": "MA"
+        "character_hint": "Depicts a finger pointing here.",
+        "hittite": "MA",
+        "path": "M 6.3 3 L 6.3 7 M 6.3 7 A 0.5999999999999996 1 0 0 1 5.7 8 M 5.7 8 A 0.6000000000000005 1 0 0 1 5.1 7 M 5.1 7 L 5.1 3 M 5.1 3 Q 5.1 4 4.5 4 M 4.5 4 Q 3.9 4 3.9 3 M 3.9 3 Q 3.9 4 3.3 4 M 3.3 4 Q 2.7 4 2.7 3 M 2.7 3 Q 2.7 4 2.1 4 M 2.1 4 Q 1.5 4 1.5 3 M 1.5 3 L 1.5 1 M 1.5 1 Q 1.5 0 2.1 0 M 2.1 0 Q 5.7 0 5.7 0 M 5.7 0 Q 6.3 0 6.3 1 M 6.3 1 L 6.3 3"
     },
     {
         "PIE": "*ḱís",
@@ -9855,11 +9861,11 @@
         "meanings": "dog",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1w%E1%B9%93",
-            "https://www.dong-chinese.com/wiki/犬"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1w%E1%B9%93"
         ],
         "id": "DOG",
-        "character_hint": "Pictograph of a dog."
+        "character_hint": "Pictograph of the head a dog. Similar to Anatolian hieroglyph 𔑬 (CANIS).",
+        "path": "M 0 5 Q 0 6 1 6 M 5 4 Q 6 4 5 4 M 6 8 Q 6 6 1 6 M 7 0 Q 7 5 8 7 M 6 3 L 6 0 M 7 0 Q 7 1 6 3 M 6 0 Q 5 3 4 3 M 4 3 Q 1 4 0 5"
     },
     {
         "char": "⿰土犬 ⿰土㐬",
@@ -9871,7 +9877,7 @@
         "PIE": "*kusara",
         "hittite": "URU:ku-us-sa-ra",
         "pos": "noun",
-        "character_hint": "Land (土) that sounds like *ḱwṓ (dog, 犬) + *ser (flow, 流)",
+        "character_hint": "Land {EARTH} that sounds like *ḱwṓ (dog; {DOG}) + *ser (flow; {FLOW})",
         "inflections": {
             "hittite": {
                 "": {
@@ -9891,7 +9897,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 0 8 L 8 8 M 0.5 4 Q 0.5 4.800000000000001 1.35 4.800000000000001 M 4.75 3.2 Q 5.6 3.2 4.75 3.2 M 5.6 6.4 Q 5.6 4.800000000000001 1.35 4.800000000000001 M 6.45 0 Q 6.45 4 7.3 5.6000000000000005 M 5.6 2.4000000000000004 L 5.6 0 M 6.45 0 Q 6.45 0.8 5.6 2.4000000000000004 M 5.6 0 Q 4.75 2.4000000000000004 3.9 2.4000000000000004 M 3.9 2.4000000000000004 Q 1.35 3.2 0.5 4 M 0 8 Q 4 5 8 8|M 0 8 L 8 8 M 2.66 0 Q 1.5800000000000003 2.0999999999999996 2.66 2.8 M 2.66 2.8 Q 3.7399999999999998 3.5 2.66 5.6 M 3.7399999999999998 0.7 Q 3.2 1.4 3.7399999999999998 2.0999999999999996 M 4.28 2.8 Q 4.82 3.5 4.28 4.8999999999999995 M 1.04 0.7 Q 0.5 2.0999999999999996 1.04 2.8 M 1.5800000000000003 3.5 Q 2.12 4.199999999999999 1.5800000000000003 4.8999999999999995 M 5.45 1.4 L 6.3500000000000005 0 M 6.3500000000000005 0 L 7.25 1.4 M 5.45 3.5 L 6.3500000000000005 2.0999999999999996 M 6.3500000000000005 2.0999999999999996 L 7.25 3.5 M 5.45 5.6 L 6.3500000000000005 4.199999999999999 M 6.3500000000000005 4.199999999999999 L 7.25 5.6 M 0 8 Q 4 5 8 8"
     },
     {
         "PIE": "*kʷos",
@@ -11732,17 +11739,17 @@
         "meanings": "pitch, resin; pine tree",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C4%AB%CC%81ts",
-            "https://www.dong-chinese.com/wiki/桼"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/p%C4%AB%CC%81ts"
         ],
         "id": "PINE_TREE",
-        "character_hint": "Depicts lacquer or sap oozing out from a tree (木)."
+        "character_hint": "Depicts a pine tree.",
+        "path": "M 4 0 L 2.5 2 M 2.5 2 L 3.25 2 M 3.25 2 L 1.75 4 M 1.75 4 L 2.5 4 M 2.5 4 L 1 6 M 1 6 L 7 6 M 7 6 L 5.5 4 M 5.5 4 L 6.25 4 M 6.25 4 L 4.75 2 M 4.75 2 L 5.5 2 M 5.5 2 L 4 0 M 3.25 6 L 3.25 8 M 4.75 6 L 4.75 8"
     },
     {
         "char": "⿰亻桼",
         "meanings": "Pithāna (father of Anitta)",
         "pos": "noun",
-        "character_hint": "Name of a person (亻). 桼 represents the sound.",
+        "character_hint": "Name of a person {PERSON}. {PINE_TREE} represents the sound.",
         "id": "PITHANA",
         "references": [
             "https://en.wikipedia.org/wiki/Pit%E1%B8%ABana"
@@ -11769,7 +11776,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 1.7000000000000002 1 L 1.7000000000000002 3.4000000000000004 M 1.7000000000000002 3.4000000000000004 L 1.7000000000000002 4.2 M 1.7000000000000002 4.2 L 0.9000000000000004 7.4 M 1.7000000000000002 4.2 L 2.5 7.4 M 1.7000000000000002 2.6 L 0.10000000000000009 4.2 M 1.7000000000000002 2.6 L 3.3000000000000007 4.2 M 5.5 0.5 L 4.375 2.3 M 4.375 2.3 L 4.9375 2.3 M 4.9375 2.3 L 3.8125 4.1 M 3.8125 4.1 L 4.375 4.1 M 4.375 4.1 L 3.25 5.9 M 3.25 5.9 L 7.75 5.9 M 7.75 5.9 L 6.625 4.1 M 6.625 4.1 L 7.1875 4.1 M 7.1875 4.1 L 6.0625 2.3 M 6.0625 2.3 L 6.625 2.3 M 6.625 2.3 L 5.5 0.5 M 4.9375 5.9 L 4.9375 7.7 M 6.0625 5.9 L 6.0625 7.7"
     },
     {
         "PIE": "*pleh₁-",
@@ -12358,7 +12366,7 @@
                 }
             }
         },
-        "path": "M 1.393393946873131 4.363123689882764 Q 1.742799657761534 5.667123555373006 7.421886045199809 3.679542662927801 M 1.393393946873131 4.363123689882764 Q 0.9275196656885936 2.624457202562441 6.9560117640152725 1.9408761756074782 M 4.582342851480671 4.673333109150404 Q 1.7746541252588355 -0.009548911213423827 6.5095489112134235 0.2746541252588355 M 0 8 Q 4 6 8 8"
+        "path": "M 1.393393946873131 4.363123689882764 Q 1.742799657761534 5.667123555373006 7.421886045199809 3.679542662927801 M 1.393393946873131 4.363123689882764 Q 0.9275196656885936 2.624457202562441 6.9560117640152725 1.9408761756074782 M 4.582342851480671 4.673333109150404 Q 1.7746541252588355 -0.009548911213423827 6.5095489112134235 0.2746541252588355 M 0 8 Q 4 5 8 8 M 0 8 L 8 8"
     },
     {
         "PIE": "*selǵ-",
@@ -12526,11 +12534,11 @@
         "meanings": "to flow",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ser-",
-            "https://www.dong-chinese.com/wiki/流"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ser-"
         ],
         "id": "FLOW",
-        "character_hint": "Phonosemantic compound. 氵 represents the meaning and 㐬 represents the sound."
+        "character_hint": "Depicts water {WATER} flowing in a certain direction.",
+        "path": "M 2.4 0 Q 1.2 3 2.4 4 M 2.4 4 Q 3.5999999999999996 5 2.4 8 M 3.5999999999999996 1 Q 3 2 3.5999999999999996 3 M 4.2 4 Q 4.8 5 4.2 7 M 0.6 1 Q 0 3 0.6 4 M 1.2 5 Q 1.7999999999999998 6 1.2 7 M 5.5 2 L 6.5 0 M 6.5 0 L 7.5 2 M 5.5 5 L 6.5 3 M 6.5 3 L 7.5 5 M 5.5 8 L 6.5 6 M 6.5 6 L 7.5 8"
     },
     {
         "PIE": "*serḱ-",

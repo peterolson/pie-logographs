@@ -50,7 +50,7 @@
 				{
 					field: 'path',
 					headerName: 'Char',
-					width: 80,
+					width: 110,
 					comparator,
 					cellRenderer: cellRendererFactory(
 						(c: AbstractCellRenderer, p: ICellRendererParams<any, any, any>) => {

@@ -10,6 +10,11 @@
 	<span style={`font-size: ${height}px`}>
 		{path}
 	</span>
+{:else if path && path.includes('|')}
+	{@const parts = path.split('|')}
+	{#each parts as part}
+		<svelte:self path={part} {height} {width} />
+	{/each}
 {:else}
 	<svg
 		viewBox={`-0.5 -0.5 ${SIZE} ${SIZE}`}
