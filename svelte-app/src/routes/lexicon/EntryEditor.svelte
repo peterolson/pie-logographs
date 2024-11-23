@@ -88,6 +88,8 @@
 	</div>
 	<span>PIE</span>
 	<input type="text" bind:value={PIE} />
+	<span>Chinese</span>
+	<input type="text" bind:value={char} />
 	<span>Hittite</span>
 	<input type="text" bind:value={hittite} />
 	<span>POS</span>

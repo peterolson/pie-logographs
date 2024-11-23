@@ -5186,12 +5186,11 @@
     },
     {
         "PIE": "*ǵʰewtōr",
-        "char": "⿰亻畐",
+        "char": "僧",
         "meanings": "pourer; priest",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ew-",
-            "https://www.dong-chinese.com/wiki/畐"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%C7%B5%CA%B0ew-"
         ],
         "id": "POUR_tor",
         "character_hint": "Depicts a man {MAN} with a jar {POUR}.",
@@ -8499,7 +8498,7 @@
         "path": "M 5 5 L 7 6 M 7 6 L 1 6 M 7 7 L 1 7 M 1 7 L 3 8 M 2.5 0 Q 6.5 0 6.5 2 M 6.5 2 Q 6.5 4 2.5 4 M 1.5 1 L 2.5 2 M 2.5 2 L 1.5 3"
     },
     {
-        "char": "⿰亻詈",
+        "char": "阿尼塔",
         "meanings": "Anitta, son of Pithāna, king of Kussara",
         "pos": "noun",
         "references": [
@@ -9868,7 +9867,7 @@
         "path": "M 0 5 Q 0 6 1 6 M 5 4 Q 6 4 5 4 M 6 8 Q 6 6 1 6 M 7 0 Q 7 5 8 7 M 6 3 L 6 0 M 7 0 Q 7 1 6 3 M 6 0 Q 5 3 4 3 M 4 3 Q 1 4 0 5"
     },
     {
-        "char": "⿰土犬 ⿰土㐬",
+        "char": "庫薩拉",
         "meanings": "city of Kussara",
         "references": [
             "https://en.wikipedia.org/wiki/Kussara"
@@ -11746,7 +11745,7 @@
         "path": "M 4 0 L 2.5 2 M 2.5 2 L 3.25 2 M 3.25 2 L 1.75 4 M 1.75 4 L 2.5 4 M 2.5 4 L 1 6 M 1 6 L 7 6 M 7 6 L 5.5 4 M 5.5 4 L 6.25 4 M 6.25 4 L 4.75 2 M 4.75 2 L 5.5 2 M 5.5 2 L 4 0 M 3.25 6 L 3.25 8 M 4.75 6 L 4.75 8"
     },
     {
-        "char": "⿰亻桼",
+        "char": "皮薩納",
         "meanings": "Pithāna (father of Anitta)",
         "pos": "noun",
         "character_hint": "Name of a person {PERSON}. {PINE_TREE} represents the sound.",

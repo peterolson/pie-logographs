@@ -542,28 +542,6 @@ function convertAdjInflection(
 	cas: Case,
 	adjNounFormation?: AdjNounFormationType
 ) {
-	const genders = {
-		m: 'ac',
-		f: 'hj',
-		n: 'ac hj'
-	};
-	const numbers = {
-		sg: 'ah',
-		dual: 'bi cj',
-		pl: 'ch'
-	};
-	const cases = {
-		nom: '',
-		voc: 'ojxo',
-		acc: 'iw',
-		gen: 'jox',
-		dat: 'hqv',
-		ins: 'i-ho o-vww-xqq-ji',
-		loc: 'hwj',
-		abl: 'oqjx'
-	};
-
-	return [genders[gen], numbers[num], cases[cas]].join(' ').trim();
 	const initials = {
 		m: {
 			sg: 'ㄱ',

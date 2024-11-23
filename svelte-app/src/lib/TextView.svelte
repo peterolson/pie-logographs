@@ -27,6 +27,7 @@ Read as: <select bind:value={selectedLanguage}>
 	<option value="default">Default</option>
 	<option value="pie">Proto-Indo-European</option>
 	<option value="hittite">Hittite</option>
+	<option value="chinese">Chinese</option>
 </select>
 <label>
 	<input type="checkbox" bind:checked={showTranslation} />
@@ -40,7 +41,7 @@ Read as: <select bind:value={selectedLanguage}>
 {/if}
 <br /><br />
 {#each parsedText as { words, translation }}
-	<p class:cjk={selectedLanguage === 'default'} class:hittite={selectedLanguage === 'hittite'}>
+	<p class:cjk={selectedLanguage === 'chinese'} class:hittite={selectedLanguage === 'hittite'}>
 		{#each words as word, i}
 			{@const renderedWord = renderWord(
 				word,
@@ -57,9 +58,9 @@ Read as: <select bind:value={selectedLanguage}>
 					e.preventDefault();
 					selectedWord = word;
 				}}
-				>{#if selectedLanguage === 'default'}<SvgChar path={word.path || ''} /><Character
-						char={addSuffixes(word)}
-					/><Inflection parsedWord={word} />{:else}<span>{renderedWord}</span
+				>{#if selectedLanguage === 'default'}<SvgChar path={word.path || ''} /><Inflection
+						parsedWord={word}
+					/>{:else}<span>{renderedWord}</span
 					>{/if}{#if selectedLanguage === 'hittite' && showTransliteration}<span
 						class="transliteration"
 						>{renderWord(
