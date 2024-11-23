@@ -1072,9 +1072,18 @@
                         "default_gender": "m"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg dat": "μοι"
+                    }
+                }
             }
         },
-        "path": "M 1 2 Q 4 0 7 2 M 7 2 Q 7 5 4 6 M 4 6 Q 1 5 1 2"
+        "path": "M 1 2 Q 4 0 7 2 M 7 2 Q 7 5 4 6 M 4 6 Q 1 5 1 2",
+        "greek": "ἐγώ"
     },
     {
         "PIE": "*eǵh₂óm",
@@ -5340,7 +5349,8 @@
             "https://www.dong-chinese.com/wiki/戈"
         ],
         "id": "SPEAR",
-        "character_hint": "Pictograph of a weapon with a long shaft and horizontal blade."
+        "character_hint": "Depicts a spear. Similar to Linear B 𐃆.",
+        "path": "M 8 0 L 6 1 M 8 0 L 7 2 M 6 1 L 6 2 M 7 2 L 6 2 M 6 2 L 0 8"
     },
     {
         "PIE": "*gʰreh₁-",
@@ -7876,11 +7886,31 @@
         "meanings": "man; power, force, vital energy",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r",
-            "https://www.dong-chinese.com/wiki/士"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82n%E1%B8%97r"
         ],
         "id": "MANPOWER",
-        "character_hint": "Pictograph of the head of an axe. Used to represent a soldier."
+        "character_hint": "Depicts a man {MAN} holding a spear {SPEAR}.",
+        "path": "M 3.1 0.5 L 3.1 3.2 M 3.1 3.2 L 3.1 4.1 M 3.1 4.1 L 2.2 7.7 M 3.1 4.1 L 4 7.7 M 3.1 2.3 L 1.3 4.1 M 3.1 2.3 L 4.9 4.1 M 6 -0.1597979746446656 L 5.292893218813453 1.3251262658470835 M 6 -0.1597979746446656 L 6.707106781186548 1.3251262658470835 M 5.292893218813453 1.3251262658470835 L 6 1.820101012677667 M 6.707106781186548 1.3251262658470835 L 6 1.820101012677667 M 6 1.820101012677667 L 6 7.759797974644665",
+        "greek": "ᾰ̓νήρ",
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "h₂nérm̥"
+                    }
+                }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "ἀνήρ",
+                        "m sg acc": "ἄνδρα"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*h₂n̥tbʰóh₁",
@@ -12321,12 +12351,16 @@
     },
     {
         "PIE": "*sekʷ-",
-        "char": "",
+        "char": "从",
         "meanings": "to follow",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek%CA%B7-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek%CA%B7-",
+            "https://www.dong-chinese.com/wiki/%E4%BB%8E"
+        ],
+        "id": "FOLLOW",
+        "character_hint": "Depicts one person following another. Similar to Chinese 从.",
+        "path": "M 1.5 4 L 0 8 M 1.5 4 L 3 8 M 1.5 4 Q 1.5 2 3.75 0 M 2.25 2 L 3.75 4 M 5.5 4 L 4 8 M 5.5 4 L 7 8 M 5.5 4 Q 5.5 2 7.75 0 M 6.25 2 L 7.75 4"
     },
     {
         "PIE": "*sekʷ-",

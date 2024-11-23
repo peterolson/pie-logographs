@@ -7,7 +7,8 @@
 
 	const languages: Record<string, string> = {
 		pie: 'Proto-Indo-European',
-		hittite: 'Hittite'
+		hittite: 'Hittite',
+		greek: 'Greek'
 	};
 	const pos: Record<string, string> = {
 		adj: 'Adjective/Noun',

@@ -1,5 +1,6 @@
 import { addInflection, addSuffixes, type Case, type GrammaticalNumber } from '../inflection';
 import type { LexiconEntry, ParsedWord } from '../lexicon.types';
+import { renderGreekWord } from './greek';
 import { renderHittiteWord } from './hittite';
 import { getPIENounInflection, renderPIEWord } from './pie';
 
@@ -14,7 +15,8 @@ const renderers: Record<
 	) => string
 > = {
 	pie: renderPIEWord,
-	hittite: renderHittiteWord
+	hittite: renderHittiteWord,
+	greek: renderGreekWord
 };
 
 export function renderWord(

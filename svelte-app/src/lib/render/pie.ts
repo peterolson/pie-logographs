@@ -1,4 +1,4 @@
-import { suffixes, type Case, type GrammaticalNumber } from '$lib/inflection';
+import { type Case, type GrammaticalNumber } from '$lib/inflection';
 import type { LexiconEntry, ParsedWord } from '$lib/lexicon.types';
 import { getAfterSpace, getInflectedForm } from './util';
 

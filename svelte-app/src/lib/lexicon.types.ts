@@ -19,6 +19,7 @@ export type LexiconEntry = {
 	id?: string;
 	PIE?: string;
 	hittite?: string;
+	greek?: string;
 	char?: string;
 	path?: string;
 	meanings?: string;

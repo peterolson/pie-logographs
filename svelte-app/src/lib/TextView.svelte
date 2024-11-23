@@ -27,6 +27,7 @@ Read as: <select bind:value={selectedLanguage}>
 	<option value="default">Default</option>
 	<option value="pie">Proto-Indo-European</option>
 	<option value="hittite">Hittite</option>
+	<option value="greek">Greek</option>
 	<option value="chinese">Chinese</option>
 </select>
 <label>

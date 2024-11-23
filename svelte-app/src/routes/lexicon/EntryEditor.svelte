@@ -8,8 +8,19 @@
 	export let data: LexiconEntry;
 	export let onSave: (lexicon: LexiconEntry[]) => void;
 	export let close: () => void;
-	let { id, PIE, hittite, char, pos, meanings, character_hint, references, inflections, path } =
-		data;
+	let {
+		id,
+		PIE,
+		hittite,
+		greek,
+		char,
+		pos,
+		meanings,
+		character_hint,
+		references,
+		inflections,
+		path
+	} = data;
 	let referenceText = '';
 
 	const partsOfSpeech = [
@@ -92,6 +103,8 @@
 	<input type="text" bind:value={char} />
 	<span>Hittite</span>
 	<input type="text" bind:value={hittite} />
+	<span>Greek</span>
+	<input type="text" bind:value={greek} />
 	<span>POS</span>
 	<select bind:value={pos}>
 		<option></option>
@@ -134,6 +147,7 @@
 			id,
 			PIE,
 			hittite,
+			greek,
 			char,
 			pos,
 			meanings,
