@@ -7,11 +7,11 @@ export const chuangQian = {
 	title: 'Quiet Night Thought',
 	link: 'https://en.wikipedia.org/wiki/Quiet_Night_Thought',
 	lang: 'chinese',
-	text: `LIE BEFORE BRIGHT MOON SHINE  
+	text: `LIE FRONT BRIGHT MOON SHINE  
     SENSE THAT EARTH ABOVE FROST  
 	RISE GABLE GAZE BRIGHT MOON  
 	BEND GABLE MIND OLD SETTLE`,
-	gloss: `lie in_front bright moon shine  
+	gloss: `bed in_front bright moon shine  
 	feel that earth above frost
 	raise head gaze bright moon
 	bend head think old home`,
