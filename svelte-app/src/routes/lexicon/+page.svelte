@@ -47,6 +47,7 @@
 				{ field: 'id', width: 150, comparator },
 				{ field: 'PIE', width: 150, comparator },
 				{ field: 'pos', width: 75, comparator },
+				{ field: 'char', width: 80, comparator },
 				{
 					field: 'path',
 					headerName: 'Char',

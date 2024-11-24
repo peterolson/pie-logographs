@@ -389,14 +389,16 @@
     },
     {
         "PIE": "*mon-",
-        "char": "",
+        "char": "夫",
         "meanings": "man, human being; person",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mon-"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/mon-",
+            "https://www.dong-chinese.com/wiki/%E5%A4%AB"
         ],
-        "character_hint": "Stick-figure of a man.",
-        "path": "d-ft t-IG G-Ep p-bd GU"
+        "character_hint": "Stick-figure of a man. Line added to disambiguate from {MAN}. Similar to Chinese 夫.",
+        "path": "M 4 0 L 4 3 M 4 3 L 4 4 M 4 4 L 3 8 M 4 4 L 5 8 M 4 2 L 2 4 M 4 2 L 6 4 M 2 1 L 6 1",
+        "id": "MANN"
     },
     {
         "PIE": "*ḱlew-",
@@ -840,7 +842,7 @@
     },
     {
         "PIE": "*wiHrós",
-        "char": "",
+        "char": "男",
         "meanings": "man; husband; warrior, hero",
         "pos": "noun",
         "references": [
@@ -4623,12 +4625,16 @@
     },
     {
         "PIE": "*dṓm",
-        "char": "",
+        "char": "家",
         "meanings": "home; house",
         "pos": "noun",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%E1%B9%93m"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/d%E1%B9%93m",
+            "https://www.dong-chinese.com/wiki/%E5%AE%80"
+        ],
+        "id": "HOUSE",
+        "character_hint": "Depicts a building with a roof. Similar to Chinese 宀.",
+        "path": "M 4 0 L 1 2 M 1 2 L 1 8 M 4 0 L 7 2 M 7 2 L 7 8"
     },
     {
         "PIE": "*dóru",
@@ -6109,12 +6115,17 @@
     },
     {
         "PIE": "*h₁én",
-        "char": "",
+        "char": "内",
         "meanings": "in",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9n"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9n",
+            "https://www.dong-chinese.com/wiki/%E5%86%85"
+        ],
+        "id": "IN",
+        "character_hint": "Depicts a person {MAN} standing inside a house {HOUSE}.",
+        "path": "M 4 0 L 1 2 M 1 2 L 1 8 M 4 0 L 7 2 M 7 2 L 7 8 M 4 1.5 L 4 3.9000000000000004 M 4 3.9000000000000004 L 4 4.7 M 4 4.7 L 3 7.9 M 4 4.7 L 5 7.9 M 4 3.1 L 2 4.7 M 4 3.1 L 6 4.7",
+        "greek": "ἐν"
     },
     {
         "PIE": "*h₁énos",
@@ -10595,7 +10606,8 @@
             "https://www.dong-chinese.com/wiki/思"
         ],
         "id": "MIND",
-        "character_hint": "Thought is associated with the head (囟) and heart (心)."
+        "character_hint": "Semantic heart {HEART} + phonetic {MANN}",
+        "path": "M 1 1.375 L 3 1.375 M 3 1.375 L 2.5 2.125 M 2.5 2.125 L 3 2.875 M 3 2.875 L 3.5 2.125 M 3.5 2.125 L 4 2.875 M 4 2.875 L 3.5 3.625 M 3.5 3.625 L 3 4.375 M 3 4.375 Q 3 5.875 2.5 6.625 M 2.5 6.625 L 1.5 6.625 M 1.5 6.625 Q 1 5.875 1 4.375 M 1 4.375 L 0.5 3.625 M 0.5 3.625 L 0 2.875 M 0 2.875 L 0.5 2.125 M 0.5 2.125 L 1 2.875 M 1 2.875 L 1.5 2.125 M 1.5 2.125 L 1 1.375 M 6.1 0 L 6.1 3 M 6.1 3 L 6.1 4 M 6.1 4 L 5.2 8 M 6.1 4 L 7 8 M 6.1 2 L 4.3 4 M 6.1 2 L 7.9 4 M 4.3 1 L 7.9 1"
     },
     {
         "PIE": "*men(s)dʰh₁-",
@@ -11810,12 +11822,33 @@
     },
     {
         "PIE": "*pleh₁-",
-        "char": "",
+        "char": "充",
         "meanings": "to fill",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pleh%E2%82%81-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pleh%E2%82%81-",
+            "https://www.dong-chinese.com/wiki/%E5%85%85"
+        ],
+        "id": "FILL",
+        "character_hint": "Depicts a jug {POUR} full of water {WATER}.",
+        "path": "M 1.2999999999999998 1.5 L 1.2999999999999998 3 M 2.5 3 L 2.5 1.5 M 2.5 1.5 L 1.2999999999999998 1.5 M 1.2999999999999998 3 Q 0.09999999999999998 3 0.09999999999999998 4.5 M 3.7 4.5 Q 3.7 3 2.5 3 M 1.2999999999999998 1.5 L 0.09999999999999998 1.5 M 0.09999999999999998 1.5 Q -0.5 2.25 0.7 3 M 3.0999999999999996 1.5 L 3.0999999999999996 1.5 M 3.0999999999999996 1.5 L 2.5 1.5 M 1.2999999999999998 7.5 L 2.5 7.5 M 2.5 7.5 Q 3.0999999999999996 6.75 3.7 4.5 M 1.2999999999999998 7.5 Q 0.7 6.75 0.09999999999999998 4.5 M 6 0 Q 5 3 6 4 M 6 4 Q 7 5 6 8 M 7 1 Q 6.5 2 7 3 M 7.5 4 Q 8 5 7.5 7 M 4.5 1 Q 4 3 4.5 4 M 5 5 Q 5.5 6 5 7",
+        "inflections": {
+            "pie": {
+                "us": {
+                    "adj": {
+                        "default_gender": "m"
+                    }
+                }
+            },
+            "greek": {
+                "us": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "πολῠ́ς"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*pléh₁dʰh₁eti",
@@ -12371,8 +12404,52 @@
         "char": "望",
         "pos": "root",
         "meanings": "to see; notice",
-        "character_hint": "Pictograph of a person standing up (𡈼) and gazing at the moon (月). 亡 is a sound component.",
-        "id": "GAZE"
+        "character_hint": "Phonosemantic compound. {EYE} represents the meaning and {FOLLOW} represents the sound.",
+        "id": "GAZE",
+        "path": "M 3.9 3.7 L 3 6.9 M 3.9 3.7 L 4.8 6.9 M 3.9 3.7 Q 3.9 2.1 5.25 0.5 M 4.35 2.1 L 5.25 3.7 M 6.3 3.7 L 5.4 6.9 M 6.3 3.7 L 7.2 6.9 M 6.3 3.7 Q 6.3 2.1 7.6499999999999995 0.5 M 6.75 2.1 L 7.6499999999999995 3.7 M 3 3.7 A 1.5 1.6000000000000005 0 0 1 1.5 5.300000000000001 M 1.5 5.300000000000001 A 1.5 1.6000000000000005 0 0 1 0 3.7 M 0 3.7 A 1.5 1.6 0 0 1 1.5 2.1 M 1.5 2.1 A 1.5 1.6 0 0 1 3 3.7 M 1.4999999999999996 0.5 Q 4.5 3.6999999999999997 1.5 6.9 M 1.4999999999999996 0.5 Q -1.5 3.7 1.5 6.9"
+    },
+    {
+        "PIE": "*sekʷ-",
+        "pos": "root",
+        "meanings": "to say",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek%CA%B7-",
+            "https://www.dong-chinese.com/wiki/%E8%AA%AA"
+        ],
+        "character_hint": "Phonosemantic compound. {MOUTH} represents the meaning and {FOLLOW} represents the sound.",
+        "path": "M 3.9 3.7 L 3 6.9 M 3.9 3.7 L 4.8 6.9 M 3.9 3.7 Q 3.9 2.1 5.25 0.5 M 4.35 2.1 L 5.25 3.7 M 6.3 3.7 L 5.4 6.9 M 6.3 3.7 L 7.2 6.9 M 6.3 3.7 Q 6.3 2.1 7.6499999999999995 0.5 M 6.75 2.1 L 7.6499999999999995 3.7 M 0 1.5 Q 3 1.5 3 3.5 M 3 3.5 Q 3 5.5 0 5.5",
+        "id": "SAY_FOLLOW",
+        "char": "說",
+        "greek": "έπω"
+    },
+    {
+        "PIE": "*h₁ensékʷeti",
+        "pos": "verb",
+        "meanings": "to say, speak",
+        "id": "IN_SAY_FOLLOW",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek%CA%B7-"
+        ],
+        "char": "内說",
+        "path": "{IN}|{SAY_FOLLOW}",
+        "character_hint": "{IN} + {SAY_FOLLOW}",
+        "greek": "ἐνέπω",
+        "inflections": {
+            "pie": {
+                "": {
+                    "verb": {
+                        "_std active imp sg 2": "h₁ensékʷe"
+                    }
+                }
+            },
+            "greek": {
+                "": {
+                    "verb": {
+                        "_std active imp sg 2": "ἔνεπε"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*sékʷetor",
@@ -33887,6 +33964,105 @@
         ]
     },
     {
+        "PIE": "*trep",
+        "pos": "verb",
+        "meanings": "to turn",
+        "id": "TURN",
+        "char": "回",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/trep-"
+        ],
+        "greek": "τρέπω",
+        "character_hint": "Depicts water rotating in a circle. Similar to Chinese 回.",
+        "path": "M 8 1 L 2 1 M 2 1 Q 0 1 0 3 M 0 3 L 0 6 M 0 6 Q 0 8 2 8 M 2 8 L 5 8 M 5 8 Q 7 8 7 6 M 7 6 L 7 5 M 7 5 Q 7 3 6 3 M 6 3 L 3 3 M 3 3 Q 2 3 2 5 M 2 5 Q 2 6 3 6 M 3 6 L 5 6",
+        "inflections": {
+            "pie": {
+                "os": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "trepos",
+                        "m sg acc": "trepom"
+                    }
+                }
+            },
+            "greek": {
+                "os": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "τρόπος",
+                        "m sg acc": "τρόπον"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "FILL_us_TURN",
+        "PIE": "*pleh₁utrep",
+        "greek": "πολύτροπ",
+        "pos": "adj",
+        "character_hint": "{FILL} + {TURN}",
+        "char": "充回",
+        "path": "{FILL}|{TURN}",
+        "meanings": "well-traveled, turning many ways",
+        "references": [
+            "https://en.wiktionary.org/wiki/%CF%80%CE%BF%CE%BB%CF%8D%CF%84%CF%81%CE%BF%CF%80%CE%BF%CF%82#Ancient_Greek"
+        ],
+        "inflections": {
+            "pie": {
+                "os": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "pleh₁utrepos",
+                        "m sg acc": "pleh₁utrepom"
+                    }
+                }
+            },
+            "greek": {
+                "os": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "πολύτροπος",
+                        "m sg acc": "πολῠ́τροπον"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "MUSE",
+        "pos": "noun",
+        "path": "M 0.6000000000000001 0.5 L 0.6000000000000001 1.5 M 0.6000000000000001 0.5 L 7.200000000000001 0.5 M 7.200000000000001 0.5 L 7.200000000000001 1.5 M 1.3 2.6 L 2.9000000000000004 2.6 M 2.9000000000000004 2.6 L 2.5 3.2 M 2.5 3.2 L 2.9000000000000004 3.8000000000000003 M 2.9000000000000004 3.8000000000000003 L 3.3000000000000003 3.2 M 3.3000000000000003 3.2 L 3.7 3.8000000000000003 M 3.7 3.8000000000000003 L 3.3000000000000003 4.4 M 3.3000000000000003 4.4 L 2.9000000000000004 5 M 2.9000000000000004 5 Q 2.9000000000000004 6.2 2.5 6.800000000000001 M 2.5 6.800000000000001 L 1.7000000000000002 6.800000000000001 M 1.7000000000000002 6.800000000000001 Q 1.3 6.2 1.3 5 M 1.3 5 L 0.9 4.4 M 0.9 4.4 L 0.5 3.8000000000000003 M 0.5 3.8000000000000003 L 0.9 3.2 M 0.9 3.2 L 1.3 3.8000000000000003 M 1.3 3.8000000000000003 L 1.7000000000000002 3.2 M 1.7000000000000002 3.2 L 1.3 2.6 M 5.38 1.5 L 5.38 3.9000000000000004 M 5.38 3.9000000000000004 L 5.38 4.7 M 5.38 4.7 L 4.66 7.9 M 5.38 4.7 L 6.1000000000000005 7.9 M 5.38 3.1 L 3.94 4.7 M 5.38 3.1 L 6.82 4.7 M 3.94 2.3 L 6.82 2.3",
+        "meanings": "Muse",
+        "greek": "Μοῦσα",
+        "character_hint": "Something in the sky {SKY} that inspires the mind {MIND}. {MIND} is also phonetic.",
+        "char": "魂",
+        "PIE": "*mon",
+        "inflections": {
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "f",
+                        "f sg nom": "Μοῦσᾰ",
+                        "f sg gen": "Μούσης",
+                        "f sg dat": "Μούσῃ",
+                        "f sg acc": "Μοῦσᾰν",
+                        "f sg voc": "Μοῦσᾰ"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "f",
+                        "f sg nom": "mon",
+                        "f sg voc": "mon"
+                    }
+                }
+            }
+        }
+    },
+    {
         "char": "设",
         "character_hint": "Depicts the process of setting something up using speech (讠) and a hand holding a tool (殳).",
         "meanings": "build",
@@ -40030,7 +40206,8 @@
         "pos": "punct",
         "meanings": "comma",
         "character_hint": "comma",
-        "path": "，"
+        "path": "，",
+        "greek": ","
     },
     {
         "id": "?",

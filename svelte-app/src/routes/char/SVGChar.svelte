@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { getLexicon } from '$lib/lexicon';
+
 	const SIZE = 9;
 
 	export let path: string;
@@ -15,6 +17,13 @@
 	{#each parts as part}
 		<svelte:self path={part} {height} {width} />
 	{/each}
+{:else if path.startsWith('{') && path.endsWith('}')}
+	{#await getLexicon() then lexicon}
+		{@const lexiconEntry = lexicon.find((entry) => entry.id === path.slice(1, -1))}
+		{#if lexiconEntry}
+			<svelte:self path={lexiconEntry.path || ''} {height} {width} />
+		{/if}
+	{/await}
 {:else}
 	<svg
 		viewBox={`-0.5 -0.5 ${SIZE} ${SIZE}`}
