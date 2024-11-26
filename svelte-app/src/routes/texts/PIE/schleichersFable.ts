@@ -23,13 +23,13 @@ export const schleichersFable = {
   
         SHEEP m dat IT m sg dat HAIR f sg nom NOT BE 3 sg sec , THIS m nom HORSE acc pl SEE sec 3 sg .
         THIS m nom HEAVY m sg acc TRANSPORT _os sg acc TRANSPORT sec 3 sg ;
-        THIS m nom BIG m sg acc m CARRY sg acc ;
+        THIS m nom BIG m sg acc m CARRY _os sg acc ;
         THIS m nom EARTHLING _oo f sg acc QUICK n sg acc CARRY sec 3 sg .  
         SHEEP m nom HORSE dat pl SPEAK _dup sec 3 sg :
-        \`\` EARTHLING _oo f sg acc LOOK _yeti prim 1 sg HORSE acc pl AND DRIVE prim 3 sg , HEART I gen sg UPSET _newti middle prim 3 sg . ''  
+        \`\` EARTHLING _oo f sg acc LOOK _yeti prim 1 sg HORSE acc pl AND DRIVE prim 3 sg , HEART nom sg I gen sg UPSET _newti middle prim 3 sg . ''  
         HORSE pl nom NOW SPEAK _dup sec 3 pl :
         \`\` HEAR imp 2 sg , SHEEP m voc sg !
-        THIS n acc sg LOOK _yeti prim 1 pl , WE dat UPSET _newti middle prim 3 sg HEART :
+        THIS n acc sg LOOK _yeti prim 1 pl , WE pl dat UPSET _newti middle prim 3 sg HEART :
         EARTHLING _oo f nom sg , MASTER nom , SELF acc SHEEP m gen sg HAIR f sg nom WARM m acc sg CLOTHE _trom acc sg TOIL 3 sg sec ,
         SHEEP m dat pl NOW HAIR f sg nom NOT BE prim 3 sg . ''  
         THIS n acc sg HEAR _dup part , SHEEP m nom FIELD acc sg FLEE sec 3 sg .`,
