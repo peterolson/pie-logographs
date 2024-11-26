@@ -73,6 +73,9 @@ export function getInflectedForm(
 		if (!pieInflection) {
 			return missingInflection;
 		}
+		if (!word.gender && pieInflection?.[word.adjNounFormation ?? '']?.['adj']?.['default_gender']) {
+			word.gender = pieInflection[word.adjNounFormation ?? '']?.['adj']['default_gender'] as 'm';
+		}
 		const suffixInflection = pieInflection[rawSuffixText];
 		if (!suffixInflection) {
 			return missingInflection;

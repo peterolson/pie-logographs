@@ -171,7 +171,8 @@
         "char": "非",
         "meanings": "not, un-",
         "character_hint": "Depicts two things facing opposite directions.",
-        "path": "M 0 3 L 8 3 M 8 3 L 5 0 M 8 5 L 0 5 M 0 5 L 3 8"
+        "path": "M 0 3 L 8 3 M 8 3 L 5 0 M 8 5 L 0 5 M 0 5 L 3 8",
+        "greek": "ἀ-"
     },
     {
         "PIE": "*nu",
@@ -332,13 +333,26 @@
                         "m sg loc": "a-pe-da-ni"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "εἷς",
+                        "m sg gen": "ἑνός",
+                        "m sg dat": "ἑνί",
+                        "m sg acc": "ἕνᾰ",
+                        "m sg loc": "ἑνί"
+                    }
+                }
             }
         },
-        "path": "M 3 4 L 1 8 M 3 4 L 5 8 M 3 4 Q 3 2 6 0 M 4 2 L 6 4"
+        "path": "M 3 4 L 1 8 M 3 4 L 5 8 M 3 4 Q 3 2 6 0 M 4 2 L 6 4",
+        "greek": "εἷς"
     },
     {
         "PIE": "*h₁es-",
-        "char": "也",
+        "char": "是",
         "meanings": "to be",
         "pos": "root",
         "references": [
@@ -383,9 +397,17 @@
                         "_std active sec sg 3": "e-es-ta"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "ἐστί"
+                    }
+                }
             }
         },
-        "path": "M 1 4 L 3 4 M 5 4 L 7 4 M 1 8 L 1 4 M 1 4 Q 1 1 3 1 M 5 1 Q 7 1 7 4 M 7 4 L 7 8 M 3 4 Q 4 4 3 4 M 3 1 Q 4 1 3 1 M 5 1 Q 4 1 5 1 M 5 4 Q 4 4 5 4"
+        "path": "M 1 4 L 3 4 M 5 4 L 7 4 M 1 8 L 1 4 M 1 4 Q 1 1 3 1 M 5 1 Q 7 1 7 4 M 7 4 L 7 8 M 3 4 Q 4 4 3 4 M 3 1 Q 4 1 3 1 M 5 1 Q 4 1 5 1 M 5 4 Q 4 4 5 4",
+        "greek": "εἰμί"
     },
     {
         "PIE": "*mon-",
@@ -708,7 +730,8 @@
         "character_hint": "Depicts two people standing side by side. Similar to Chinese 並.",
         "id": "AND",
         "hittite": "ya",
-        "path": "M 2 4 Q 1 5 1 8 M 2 4 Q 3 5 3 8 M 2 4 L 2 0 M 2 2 L 0 3 M 2 2 L 4 3 M 6 4 Q 5 5 5 8 M 6 4 Q 7 5 7 8 M 6 4 L 6 0 M 6 2 L 4 3 M 6 2 L 8 3"
+        "path": "M 2 4 Q 1 5 1 8 M 2 4 Q 3 5 3 8 M 2 4 L 2 0 M 2 2 L 0 3 M 2 2 L 4 3 M 6 4 Q 5 5 5 8 M 6 4 Q 7 5 7 8 M 6 4 L 6 0 M 6 2 L 4 3 M 6 2 L 8 3",
+        "greek": "τε"
     },
     {
         "PIE": "*sewh₁-",
@@ -797,9 +820,19 @@
                         "default_gender": "m"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "μέγᾰς",
+                        "m sg acc": "μέγᾰν"
+                    }
+                }
             }
         },
-        "path": "M 4 0 L 4 3 M 0 3 L 8 3 M 4 3 Q 1 7 1 8 M 4 3 Q 7 7 7 8"
+        "path": "M 4 0 L 4 3 M 0 3 L 8 3 M 4 3 Q 1 7 1 8 M 4 3 Q 7 7 7 8",
+        "greek": "μέγᾰς"
     },
     {
         "PIE": "*méǵh₂yōs",
@@ -1128,23 +1161,6 @@
         ],
         "id": "SHARP",
         "character_hint": "Depicts the tip of a sharp blade.",
-        "inflections": {
-            "pie": {
-                "": {
-                    "adj": {
-                        "n sg nom": "h₂eḱu",
-                        "n sg voc": "h₂eḱu",
-                        "n sg acc": "h₂eḱu",
-                        "n sg gen": "h₂eḱéws",
-                        "n sg abl": "h₂eḱéws",
-                        "n sg dat": "h₂eḱéwey",
-                        "n sg loc": "h₂eḱéwi",
-                        "n sg ins": "h₂eḱúh₁",
-                        "default_gender": "m"
-                    }
-                }
-            }
-        },
         "path": "M 0 7 L 1 8 M 1 8 L 3 6 M 3 6 L 2 5 M 2 5 L 0 7 M 1 4 L 4 7 M 8 0 L 2 5 M 3 6 L 8 0"
     },
     {
@@ -1364,10 +1380,23 @@
                         "m sg loc": "e-di"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "τις",
+                        "m sg gen": "τινός",
+                        "m sg dat": "τινί",
+                        "m sg acc": "τινά",
+                        "m sg loc": "τινί"
+                    }
+                }
             }
         },
         "hittite": "sa",
-        "path": "M 4 1 L 4 7 M 7 7 L 1 7"
+        "path": "M 4 1 L 4 7 M 7 7 L 1 7",
+        "greek": "τις"
     },
     {
         "PIE": "*méh₂tēr",
@@ -1481,9 +1510,22 @@
                         "n sg acc": "u-el-ku"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "f sg nom": "λάχνη",
+                        "f sg gen": "λάχνης",
+                        "f sg dat": "λάχνῃ",
+                        "f sg acc": "λάχνην",
+                        "f sg voc": "λάχνη"
+                    }
+                }
             }
         },
-        "path": "M 0 0 Q 2 0 2 8 M 3 0 Q 5 0 5 8 M 6 0 Q 8 0 8 8"
+        "path": "M 0 0 Q 2 0 2 8 M 3 0 Q 5 0 5 8 M 6 0 Q 8 0 8 8",
+        "greek": "λάχνη"
     },
     {
         "PIE": "*wed-",
@@ -1920,9 +1962,20 @@
                         "m sg voc": "UDU-is"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "οἶς",
+                        "m sg voc": "οἶ",
+                        "m sg dat": "οἰί"
+                    }
+                }
             }
         },
-        "path": "M 4 4 Q 4 0 6 0 M 6 0 Q 8 0 8 2 M 4 4 Q 4 0 2 0 M 2 0 Q 0 0 0 2 M 3 4 L 5 4 M 2 6 L 6 6 M 4 4 L 4 8 M 8 2 Q 8 3 7 4 M 0 2 Q 0 3 1 4 M 1 4 Q 3 4 2 2 M 7 4 Q 5 4 6 2"
+        "path": "M 4 4 Q 4 0 6 0 M 6 0 Q 8 0 8 2 M 4 4 Q 4 0 2 0 M 2 0 Q 0 0 0 2 M 3 4 L 5 4 M 2 6 L 6 6 M 4 4 L 4 8 M 8 2 Q 8 3 7 4 M 0 2 Q 0 3 1 4 M 1 4 Q 3 4 2 2 M 7 4 Q 5 4 6 2",
+        "greek": "οἶς"
     },
     {
         "PIE": "*welh₁-",
@@ -2072,9 +2125,17 @@
                         "_std active sec pl 3": "derḱént"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "δέρκεται"
+                    }
+                }
             }
         },
-        "path": "M 4 4 A 2 2 0 0 1 2 6 M 2 6 A 2 2 0 0 1 0 4 M 0 4 A 2 2 0 0 1 2 2 M 2 2 A 2 2 0 0 1 4 4 M 1.9999999999999996 0 Q 6 3.9999999999999996 2 8 M 1.9999999999999996 0 Q -2 4 2 8 M 2 4 L 8 6"
+        "path": "M 4 4 A 2 2 0 0 1 2 6 M 2 6 A 2 2 0 0 1 0 4 M 0 4 A 2 2 0 0 1 2 2 M 2 2 A 2 2 0 0 1 4 4 M 1.9999999999999996 0 Q 6 3.9999999999999996 2 8 M 1.9999999999999996 0 Q -2 4 2 8 M 2 4 L 8 6",
+        "greek": "δέρκομαι"
     },
     {
         "PIE": "*h₁el-",
@@ -2116,9 +2177,28 @@
                         "default_gender": "m"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "f",
+                        "f sg nom": "φορᾱ́",
+                        "f sg gen": "φορᾶς",
+                        "f sg dat": "φορᾷ",
+                        "f sg acc": "φορᾱ́ν",
+                        "m sg nom": "φορᾱ́",
+                        "m sg acc": "φορᾱ́ν"
+                    },
+                    "verb": {
+                        "_std active sec sg 1": "φέρω",
+                        "_std active sec sg 2": "φέρεις",
+                        "_std active sec sg 3": "φέρει"
+                    }
+                }
             }
         },
-        "path": "M 8 0 A 3 2 0 0 1 5 2 M 5 2 A 3 2 0 0 1 2 0 M 2 0 L 8 0 M 5 5 A 2 2 0 0 1 7 3 M 7 7 A 2 2 0 0 1 5 5 M 7 5 Q 0 5 0 2"
+        "path": "M 8 0 A 3 2 0 0 1 5 2 M 5 2 A 3 2 0 0 1 2 0 M 2 0 L 8 0 M 5 5 A 2 2 0 0 1 7 3 M 7 7 A 2 2 0 0 1 5 5 M 7 5 Q 0 5 0 2",
+        "greek": "φέρω"
     },
     {
         "PIE": "*bʰóros",
@@ -2181,9 +2261,24 @@
                         "m sg acc": "weǵʰosm̥"
                     }
                 }
+            },
+            "greek": {
+                "os": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "ὄχος",
+                        "m sg acc": "ὄχον"
+                    }
+                },
+                "": {
+                    "verb": {
+                        "_std active sec sg 3": "ϝεχέι"
+                    }
+                }
             }
         },
-        "path": "M 0 3 L 1 3 M 1 3 Q 1 2 2 2 M 2 2 L 6 2 M 6 2 Q 7 2 7 3 M 7 3 L 8 3 M 7 6 A 1 1 0 0 1 6 7 M 6 7 A 1 1 0 0 1 5 6 M 5 6 A 1 1 0 0 1 6 5 M 2 5 A 1 1 0 0 1 3 6 M 3 6 A 1 1 0 0 1 2 7 M 2 7 A 1 1 0 0 1 1 6 M 1 6 A 1 1 0 0 1 2 5 M 0 6 L 8 6 M 2 5 L 2 7 M 6 5 L 6 7 M 6 5 A 1 1 0 0 1 7 6 M 4 1 L 4 8"
+        "path": "M 0 3 L 1 3 M 1 3 Q 1 2 2 2 M 2 2 L 6 2 M 6 2 Q 7 2 7 3 M 7 3 L 8 3 M 7 6 A 1 1 0 0 1 6 7 M 6 7 A 1 1 0 0 1 5 6 M 5 6 A 1 1 0 0 1 6 5 M 2 5 A 1 1 0 0 1 3 6 M 3 6 A 1 1 0 0 1 2 7 M 2 7 A 1 1 0 0 1 1 6 M 1 6 A 1 1 0 0 1 2 5 M 0 6 L 8 6 M 2 5 L 2 7 M 6 5 L 6 7 M 6 5 A 1 1 0 0 1 7 6 M 4 1 L 4 8",
+        "greek": "ϝέχω"
     },
     {
         "PIE": "*gʷreh₂-",
@@ -2210,9 +2305,19 @@
                         "default_gender": "m"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg acc": "βᾰρῠ́ν",
+                        "m sg nom": "βᾰρῠ́ς"
+                    }
+                }
             }
         },
-        "path": "M 8 1 L 4 5 M 4 5 L 5 8 M 4 5 L 3 8 M 6 3 L 8 4 M 3 0 Q 6 0 5 3 M 5 3 Q 3 6 1 5 M 1 5 Q 0 5 0 2 M 0 2 Q 1 0 3 0"
+        "path": "M 8 1 L 4 5 M 4 5 L 5 8 M 4 5 L 3 8 M 6 3 L 8 4 M 3 0 Q 6 0 5 3 M 5 3 Q 3 6 1 5 M 1 5 Q 0 5 0 2 M 0 2 Q 1 0 3 0",
+        "greek": "βᾰρῠ́ς"
     },
     {
         "PIE": "*gʷréh₂us",
@@ -2234,7 +2339,8 @@
         "id": "NOT",
         "character_hint": "Depicts two things facing opposite directions.",
         "hittite": "ne",
-        "path": "M 0 3 L 8 3 M 8 3 L 5 0 M 8 5 L 0 5 M 0 5 L 3 8"
+        "path": "M 0 3 L 8 3 M 8 3 L 5 0 M 8 5 L 0 5 M 0 5 L 3 8",
+        "greek": "ἀ"
     },
     {
         "PIE": "*bʰel-",
@@ -2331,9 +2437,21 @@
                         "m pl acc": "ANSEKURRA-MEŠ-us"
                     }
                 }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "ῐ̔́ππος",
+                        "m sg acc": "ῐ̔́ππον",
+                        "m pl nom": "ῐ̔́πποι",
+                        "m pl acc": "ῐ̔́ππους"
+                    }
+                }
             }
         },
-        "path": "M 0 6 Q 1 2 5 1 M 5 1 Q 7 3 8 6 M 8 6 Q 8 7 6 7 M 6 7 Q 6 6 5 6 M 2 8 L 3 6 M 5 6 Q 3 5 4 4 M 4 4 L 3 6 M 5 3 Q 6 4 5 3 M 0 5 Q 0 4 1 4 M 1 4 Q 0 3 2 2 M 2 2 Q 2 1 4 1 M 4 1 L 4 0 M 4 0 L 5 1"
+        "path": "M 0 6 Q 1 2 5 1 M 5 1 Q 7 3 8 6 M 8 6 Q 8 7 6 7 M 6 7 Q 6 6 5 6 M 2 8 L 3 6 M 5 6 Q 3 5 4 4 M 4 4 L 3 6 M 5 3 Q 6 4 5 3 M 0 5 Q 0 4 1 4 M 1 4 Q 0 3 2 2 M 2 2 Q 2 1 4 1 M 4 1 L 4 0 M 4 0 L 5 1",
+        "greek": "ῐ̔́ππος"
     },
     {
         "PIE": "*(s)ptyew-",
@@ -2371,20 +2489,56 @@
                 },
                 "oo": {
                     "adj": {
-                        "m sg nom": "ǵʰémō",
-                        "m sg voc": "ǵʰémon",
-                        "m sg acc": "ǵʰémonm̥",
-                        "m sg gen": "ǵʰm̥nés",
-                        "m sg abl": "ǵʰm̥nés",
-                        "m sg dat": "ǵʰm̥néy",
-                        "m sg loc": "ǵʰméni",
-                        "m sg ins": "ǵʰm̥néh",
-                        "default_gender": "m"
+                        "m sg nom": "",
+                        "m sg voc": "",
+                        "m sg acc": "",
+                        "m sg gen": "",
+                        "m sg abl": "",
+                        "m sg dat": "",
+                        "m sg loc": "",
+                        "m sg ins": "",
+                        "default_gender": "f",
+                        "f sg nom": "ǵʰémō",
+                        "f sg voc": "ǵʰémon",
+                        "f sg acc": "ǵʰémonm̥",
+                        "f sg gen": "ǵʰm̥nés",
+                        "f sg abl": "ǵʰm̥nés",
+                        "f sg dat": "ǵʰm̥néy",
+                        "f sg loc": "ǵʰméni",
+                        "f sg ins": "ǵʰm̥néh"
+                    }
+                }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "f",
+                        "f sg nom": "χθών",
+                        "f sg gen": "χθονός",
+                        "f sg dat": "χθονῐ́",
+                        "f sg acc": "χθόνᾰ",
+                        "f sg voc": "χθών"
+                    }
+                },
+                "oo": {
+                    "adj": {
+                        "default_gender": "f",
+                        "m sg nom": "",
+                        "m sg voc": "",
+                        "m sg acc": "",
+                        "m sg gen": "",
+                        "m sg dat": "",
+                        "f sg nom": "χθών",
+                        "f sg voc": "χθών",
+                        "f sg acc": "χθόνᾰ",
+                        "f sg gen": "χθονός",
+                        "f sg dat": "χθονῐ́"
                     }
                 }
             }
         },
-        "path": "M 0 8 Q 4 2 8 8 M 0 8 L 8 8 M 3 7 L 4 3 M 4 3 L 5 7 M 4 0 L 4 3 M 2 3 L 4 2 M 4 2 L 6 3"
+        "path": "M 0 8 Q 4 2 8 8 M 0 8 L 8 8 M 3 7 L 4 3 M 4 3 L 5 7 M 4 0 L 4 3 M 2 3 L 4 2 M 4 2 L 6 3",
+        "greek": "χθών"
     },
     {
         "PIE": "*(H)pós",
@@ -6078,13 +6232,59 @@
         }
     },
     {
-        "PIE": "*h₁eḱ-",
-        "char": "",
-        "meanings": "horse; swift?",
+        "PIE": "*HéHḱus",
+        "char": "迅",
+        "meanings": "swift, quick, fast",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81e%E1%B8%B1-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/H%C3%A9H%E1%B8%B1us"
+        ],
+        "inflections": {
+            "pie": {
+                "": {
+                    "adj": {
+                        "n sg nom": "HéHḱu",
+                        "n sg voc": "HéHḱu",
+                        "n sg acc": "HéHḱu",
+                        "n sg gen": "HHḱéws",
+                        "n sg abl": "HHḱéws",
+                        "n sg dat": "HHḱéwey",
+                        "n sg loc": "HHḱéwi",
+                        "n sg ins": "HHḱúh₁",
+                        "default_gender": "m",
+                        "m sg nom": "HéHḱus",
+                        "m sg voc": "HéHḱu",
+                        "m sg acc": "HéHḱum",
+                        "m sg gen": "HHḱéws",
+                        "m sg abl": "HHḱéws",
+                        "m sg dat": "HHḱéwey",
+                        "m sg loc": "HHḱéwi",
+                        "m sg ins": "HHḱúh₁"
+                    }
+                }
+            },
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "m sg nom": "ὠκῠ́ς",
+                        "m sg gen": "ὠκέος",
+                        "m sg dat": "ὠκεῖ",
+                        "m sg acc": "ὠκῠ́ν",
+                        "m sg voc": "ὠκῠ́",
+                        "n sg nom": "ὠκῠ́",
+                        "n sg gen": "ὠκέος",
+                        "n sg dat": "ὠκεῖ",
+                        "n sg acc": "ὠκῠ́",
+                        "n sg voc": "ὠκῠ́"
+                    }
+                }
+            }
+        },
+        "id": "QUICK",
+        "character_hint": "Three feet {FOOT} to indicate hurried movement.",
+        "path": "M 2.25 4 Q 3.15 4 2.85 0 M 2.25 4 Q 1.05 4 1.65 0 M 3 2 Q -0.5 3 0.5 0 M 7.25 4 Q 8.15 4 7.85 0 M 7.25 4 Q 6.05 4 6.65 0 M 8 2 Q 4.5 3 5.5 0 M 5.25 8 Q 6.15 8 5.85 4 M 5.25 8 Q 4.05 8 4.65 4 M 6 6 Q 2.5 7 3.5 4",
+        "greek": "ὠκῠ́ς"
     },
     {
         "PIE": "*h₁élem",
@@ -6129,12 +6329,11 @@
     },
     {
         "PIE": "*h₁énos",
-        "char": "是",
+        "char": "那",
         "meanings": "that, that over there, yon (distal)",
         "pos": "pron",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9nos",
-            "https://www.dong-chinese.com/wiki/是"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81%C3%A9nos"
         ],
         "id": "THAT",
         "character_hint": "Origin unclear. The bottom component 止 represents the sound."
@@ -9024,12 +9223,16 @@
     },
     {
         "PIE": "*ḱenk-",
-        "char": "",
-        "meanings": "to hang",
+        "char": "疑",
+        "meanings": "to hang, doubt",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1enk-"
-        ]
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1enk-",
+            "https://www.dong-chinese.com/wiki/%E7%96%91"
+        ],
+        "id": "DOUBT",
+        "character_hint": "Pictograph of a person holding onto a staff, looking to the side with his mouth open, doubtful of which direction to go. Similar to Chinese 疑.",
+        "path": "M 4 4 L 3 8 M 4 4 L 5 8 M 2 0 Q 6 0 6 1 M 6 1 Q 6 2 2 2 M 4 0 L 4 4 M 4 3 L 1 4 M 4 3 L 7 4 M 1 3 L 1 8"
     },
     {
         "PIE": "*ḱens-",
@@ -12173,11 +12376,11 @@
         "meanings": "to freeze; frost",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/prews-",
-            "https://www.dong-chinese.com/wiki/%E9%9C%9C"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/prews-"
         ],
         "id": "FROST",
-        "character_hint": "Phonosemantic compound. 雨 represents the meaning and 相 represents the sound."
+        "character_hint": "Depicts a snowflake.",
+        "path": "M 4 0 L 4 8 M 0 4 L 8 4 M 2 0 L 4 2 M 4 2 L 6 0 M 8 2 L 6 4 M 6 4 L 8 6 M 2 8 L 4 6 M 4 6 L 6 8 M 0 2 L 2 4 M 2 4 L 0 6"
     },
     {
         "PIE": "*preyH-",
@@ -12606,12 +12809,11 @@
     },
     {
         "PIE": "*sent-",
-        "char": "疑",
+        "char": "",
         "meanings": "to feel; sense",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sent-#Root_2",
-            "https://www.dong-chinese.com/wiki/疑"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sent-#Root_2"
         ],
         "id": "SENSE",
         "character_hint": "Pictograph of a person holding onto a staff, looking to the side with his mouth open, doubtful of which direction to go. The 龰 (foot) component was added later to indicate movement, and the 牛 component was added to hint at the sound."
@@ -40242,7 +40444,8 @@
         "pos": "punct",
         "meanings": "period",
         "character_hint": "period",
-        "path": "。"
+        "path": "。",
+        "greek": "."
     },
     {
         "id": ",",
@@ -40260,7 +40463,8 @@
         "char": "？",
         "pos": "punct",
         "meanings": "question mark",
-        "path": "？"
+        "path": "？",
+        "greek": ";"
     },
     {
         "id": "!",
@@ -40324,7 +40528,8 @@
         "char": "；",
         "pos": "punct",
         "meanings": "semicolon",
-        "path": "；"
+        "path": "；",
+        "greek": "·"
     },
     {
         "id": ":",
