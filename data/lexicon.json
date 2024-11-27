@@ -1641,7 +1641,8 @@
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82welh%E2%82%81-",
-            "https://www.dong-chinese.com/wiki/%E5%BD%A1"
+            "https://www.dong-chinese.com/wiki/%E5%BD%A1",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 357"
         ],
         "id": "HAIR",
         "character_hint": "Depicts strands of hair. Similar to Chinese 彡.",
@@ -1665,12 +1666,13 @@
                 "": {
                     "adj": {
                         "default_gender": "m",
-                        "f sg nom": "u-el-ku",
-                        "f sg voc": "u-el-ku",
-                        "f sg acc": "u-el-ku",
+                        "f sg nom": "hu-u-la-ni-is",
+                        "f sg voc": "",
+                        "f sg acc": "hu-u-la-an",
                         "n sg nom": "u-el-ku",
                         "n sg voc": "u-el-ku",
-                        "n sg acc": "u-el-ku"
+                        "n sg acc": "u-el-ku",
+                        "f sg dat": "hu-u-la-ni"
                     }
                 }
             },
@@ -4981,7 +4983,8 @@
             "https://www.dong-chinese.com/wiki/門"
         ],
         "id": "DOOR",
-        "character_hint": "Pictograph of a gate."
+        "character_hint": "Depicts a doorway.",
+        "path": "M 7 8 L 7 2 M 7 2 Q 6 0 4 0 M 4 0 Q 2 0 1 2 M 1 2 L 1 8"
     },
     {
         "PIE": "*dʰwes-",
@@ -12997,7 +13000,8 @@
         "PIE": "*sekʷ-",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sek%CA%B7-#Root_2",
-            "https://www.dong-chinese.com/wiki/望"
+            "https://www.dong-chinese.com/wiki/望",
+            "Kloekhorst, Alwin. Etymological Dictionary of the Hittite Inherited Lexicon, p. 706"
         ],
         "char": "望",
         "pos": "root",
@@ -14412,11 +14416,12 @@
             "https://www.dong-chinese.com/wiki/克"
         ],
         "id": "OVERCOME",
-        "character_hint": "Pictograph of a person (人) carrying a heavy weight on their back."
+        "character_hint": "Depicts a foot {FOOT} passing through a doorway {DOOR}.",
+        "path": "M 7 8 L 7 2 M 7 2 Q 6 0 4 0 M 4 0 Q 2 0 1 2 M 1 2 L 1 8 M 4.5 7.6 Q 5.4 7.6 5.1 2 M 4.5 7.6 Q 3.3 7.6 3.9 2 M 5.25 4.8 Q 1.75 6.199999999999999 2.75 2"
     },
     {
         "PIE": "terh₂ónts",
-        "char": "⿰礻克",
+        "char": "雷神",
         "inflections": {
             "pie": {
                 "": {
@@ -14448,10 +14453,11 @@
         "hittite": "D:ISKUR",
         "pos": "noun",
         "meanings": "Anatolian storm god",
-        "character_hint": "A deity (礻), 克 represents the sound and etymology.",
+        "character_hint": "Semantic sky {SKY} + phonetic {OVERCOME}.",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Anatolian/tr%CC%A5H%CA%B7%C3%A1nts"
-        ]
+        ],
+        "path": "M 7 7.9 L 7 3.1 M 7 3.1 Q 6 1.5 4 1.5 M 4 1.5 Q 2 1.5 1 3.1 M 1 3.1 L 1 7.9 M 4.5 7.58 Q 5.4 7.58 5.1 3.1 M 4.5 7.58 Q 3.3 7.58 3.9 3.1 M 5.25 5.34 Q 1.75 6.46 2.75 3.1 M 0 1 L 0 0 M 0 0 L 8 0 M 8 0 L 8 1"
     },
     {
         "PIE": "*térh₂t",
