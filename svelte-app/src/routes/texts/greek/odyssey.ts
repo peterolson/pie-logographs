@@ -29,7 +29,10 @@ export const odyssey = {
 	title: 'The Odyssey',
 	link: 'https://lrc.la.utexas.edu/eieol/grkol/30',
 	lang: 'Hittite',
-	text: `MANPOWER acc sg I dat sg IN_SAY_FOLLOW 2 sg imp , MUSE f sg voc , FILL_us_TURN _os m sg acc , WHICH m sg nom MULTI FILL _us n acc pl `,
-	gloss: `man to_me tell , Muse , much-traveled  , who very many`,
-	translation: `Tell me, O Muse, of the much-traveled man, who wandered many ways`
+	text: `MANPOWER acc sg I dat sg IN_SAY_FOLLOW 2 sg imp , MUSE f sg voc , FILL_us_TURN _os m sg acc , WHICH m sg nom MULTI FILL _us n acc pl  
+    BEAT_WANDER _yeti middle sec 3 sg , EPI_IT_IF TROY f gen sg`,
+	gloss: `man to_me tell , Muse , much-traveled  , who very many  
+    wandered , after Troy`,
+	translation: `Tell me, O Muse, of the much-traveled man, who wandered many ways  
+    after he had sacked the sacred city of Troy.`
 };

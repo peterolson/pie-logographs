@@ -5155,7 +5155,8 @@
             "https://www.dong-chinese.com/wiki/二"
         ],
         "id": "TWO",
-        "character_hint": "Two horizontal strokes, representing the number two."
+        "character_hint": "Two horizontal strokes, representing the number two.",
+        "path": "M 0 3 Q 4 2 8 3 M 0 5 Q 4 4 8 5"
     },
     {
         "PIE": "*dyḗws",
@@ -6675,7 +6676,7 @@
             "https://www.dong-chinese.com/wiki/寽"
         ],
         "id": "SNATCH",
-        "character_hint": "Depicts a hand (寸) snatching a bird (隹). The top component was originally 衣 (clothes), depicting a person holding a bird in their clothes, but later it was reanalyzed as a phonetic component, written as either 兌 or 大.",
+        "character_hint": "Depicts a hand {HAND} snatching a bird {BIRD}. Similar to Chinese 奪.",
         "inflections": {
             "pie": {
                 "": {
@@ -6693,7 +6694,45 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 5 0 A 0.75 0.75 0 0 1 5.75 0.75 M 5.75 0.75 A 0.75 0.75 0 0 1 5 1.5 M 5 1.5 A 0.75 0.75 0 0 1 4.25 0.75 M 4.25 0.75 A 0.75 0.75 0 0 1 5 0 M 5 1.5 A 1.5 0.75 0 0 1 6.5 2.25 M 6.5 2.25 A 1.5 1.5 0 0 1 5 3.75 M 5 3.75 A 0.75 1.5 0 0 1 4.25 2.25 M 4.25 2.25 A 0.75 0.75 0 0 1 5 1.5 M 5 0 Q 3.5 0 2 0.75 M 5.75 1.5 L 8 1.5 M 6.5 3 L 8 3 M 5.75 3.75 L 5.75 6 M 5.75 3.75 L 7.25 4.5 M 4 2 Q 2 2 2 3 M 2 3 Q 2 4 4 4 M 4 3 L 2 3 M 2 3 Q 0 3 0 8"
+    },
+    {
+        "id": "EPI",
+        "greek": "ἐπί",
+        "pos": "adv",
+        "path": "M 5 0 A 0.75 0.75 0 0 1 5.75 0.75 M 5.75 0.75 A 0.75 0.75 0 0 1 5 1.5 M 5 1.5 A 0.75 0.75 0 0 1 4.25 0.75 M 4.25 0.75 A 0.75 0.75 0 0 1 5 0 M 5 1.5 A 1.5 0.75 0 0 1 6.5 2.25 M 6.5 2.25 A 1.5 1.5 0 0 1 5 3.75 M 5 3.75 A 0.75 1.5 0 0 1 4.25 2.25 M 4.25 2.25 A 0.75 0.75 0 0 1 5 1.5 M 5 0 Q 3.5 0 2 0.75 M 5.75 1.5 L 8 1.5 M 6.5 3 L 8 3 M 5.75 3.75 L 5.75 6 M 5.75 3.75 L 7.25 4.5 M 4 2 Q 2 2 2 3 M 2 3 Q 2 4 4 4 M 4 3 L 2 3 M 2 3 Q 0 4 0 7 M 0 8 L 8 8 M 4 5 L 4 8",
+        "PIE": "*h₁epi",
+        "char": "邊",
+        "meanings": "on, at",
+        "character_hint": "Semantic \"this\" {THIS} + phonetic *h₁ep {SNATCH}.",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81epi"
+        ]
+    },
+    {
+        "id": "IT_IF",
+        "greek": "εἰ",
+        "pos": "conj",
+        "path": "M 0.09999999999999998 3.7 L 1.2999999999999998 3.7 M 2.5 3.7 L 3.7 3.7 M 0.09999999999999998 6.9 L 0.09999999999999998 3.7 M 0.09999999999999998 3.7 Q 0.09999999999999998 1.3 1.2999999999999998 1.3 M 2.5 1.3 Q 3.7 1.3 3.7 3.7 M 3.7 3.7 L 3.7 6.9 M 1.2999999999999998 3.7 Q 1.9 3.7 1.2999999999999998 3.7 M 1.2999999999999998 1.3 Q 1.9 1.3 1.2999999999999998 1.3 M 2.5 1.3 Q 1.9 1.3 2.5 1.3 M 2.5 3.7 Q 1.9 3.7 2.5 3.7 M 5.75 4 L 4.25 8 M 5.75 4 L 7.25 8 M 5.75 4 Q 5.75 2 8 0 M 6.5 2 L 8 4",
+        "PIE": "*éy",
+        "char": "若",
+        "character_hint": "Semantic \"be\" {BE} + phonetic/etymological \"it\" {IT}.",
+        "references": [
+            "https://en.wiktionary.org/wiki/%CE%B5%E1%BC%B0#Ancient_Greek"
+        ]
+    },
+    {
+        "id": "EPI_IT_IF",
+        "greek": "ἐπεί",
+        "pos": "adv",
+        "PIE": "*h₁epéy",
+        "char": "邊若",
+        "meanings": "after, since",
+        "references": [
+            "https://en.wiktionary.org/wiki/%E1%BC%90%CF%80%CE%B5%CE%AF"
+        ],
+        "path": "{EPI}|{IT_IF}"
     },
     {
         "PIE": "*h₁epdʰeh₁-",
@@ -7082,7 +7121,8 @@
             "https://www.dong-chinese.com/wiki/一"
         ],
         "id": "ONE",
-        "character_hint": "A single horizontal stroke, representing the number one."
+        "character_hint": "A single horizontal stroke, representing the number one.",
+        "path": "M 0 4 Q 4 3 8 4"
     },
     {
         "PIE": "*h₁óytos",
@@ -8089,10 +8129,11 @@
         "pos": "noun",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9wis",
-            "https://www.dong-chinese.com/wiki/鳥"
+            "https://www.dong-chinese.com/wiki/%E9%9A%B9"
         ],
         "id": "BIRD",
-        "character_hint": "Pictograph of a bird."
+        "character_hint": "Pictograph of a bird. Similar to Chinese 隹.",
+        "path": "M 4 0 A 1 1 0 0 1 5 1 M 5 1 A 1 1 0 0 1 4 2 M 4 2 A 1 1 0 0 1 3 1 M 3 1 A 1 1 0 0 1 4 0 M 4 2 A 2 1 0 0 1 6 3 M 6 3 A 2 2 0 0 1 4 5 M 4 5 A 1 2 0 0 1 3 3 M 3 3 A 1 1 0 0 1 4 2 M 4 0 Q 2 0 0 1 M 5 2 L 8 2 M 6 4 L 8 4 M 5 5 L 5 8 M 5 5 L 7 6"
     },
     {
         "char": "𠌵",
@@ -11985,15 +12026,58 @@
     },
     {
         "PIE": "*pel-",
-        "char": "包",
+        "char": "革",
         "meanings": "to cover, to wrap;  skin, hide, cloth",
         "pos": "root",
         "references": [
             "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-",
-            "https://www.dong-chinese.com/wiki/包"
+            "https://www.dong-chinese.com/wiki/%E9%9D%A9"
         ],
         "id": "WRAP",
-        "character_hint": "Pictograph of an unborn baby contained inside its mother."
+        "character_hint": "Depicts animal hide laying out flat. Similar to Chinese 革.",
+        "path": "M 4 0 L 4 8 M 4 2 L 7 1 M 7 1 Q 8 2 8 3 M 8 3 L 4 5 M 4 2 L 1 1 M 1 1 Q 0 2 0 3 M 0 3 L 4 5 M 4 5 Q 1 6 1 7 M 1 7 L 4 7 M 4 7 L 7 7 M 7 7 Q 6 5 4 5 M 6 2 Q 6 3 6 2 M 2 2 Q 2 3 2 2 M 3 6 Q 2 7 3 6 M 5 6 Q 6 7 5 6 M 3 1 L 5 1 M 4 7 L 2 8 M 4 7 L 6 8 M 5 3 Q 5 4 5 3 M 3 3 Q 3 4 3 3"
+    },
+    {
+        "PIE": "*pel-",
+        "meanings": "to beat, push, drive",
+        "id": "BEAT",
+        "pos": "",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-#Proto-Indo-European:_drive"
+        ],
+        "character_hint": "Semantic \"hand\" {HAND} + phonetic *pel- {WRAP}.",
+        "path": "M 4 0 L 4 6 M 4 1.5 L 6.25 0.75 M 6.25 0.75 Q 7 1.5 7 2.25 M 7 2.25 L 4 3.75 M 4 1.5 L 1.75 0.75 M 1.75 0.75 Q 1 1.5 1 2.25 M 1 2.25 L 4 3.75 M 4 3.75 Q 1.75 4.5 1.75 5.25 M 1.75 5.25 L 4 5.25 M 4 5.25 L 6.25 5.25 M 6.25 5.25 Q 5.5 3.75 4 3.75 M 5.5 1.5 Q 5.5 2.25 5.5 1.5 M 2.5 1.5 Q 2.5 2.25 2.5 1.5 M 3.25 4.5 Q 2.5 5.25 3.25 4.5 M 4.75 4.5 Q 5.5 5.25 4.75 4.5 M 3.25 0.75 L 4.75 0.75 M 4 5.25 L 2.5 6 M 4 5.25 L 5.5 6 M 4.75 2.25 Q 4.75 3 4.75 2.25 M 3.25 2.25 Q 3.25 3 3.25 2.25 M 8 8.5 A 2 1.5 0 0 1 6 7 M 6 7 A 2 1.5 0 0 1 8 5.5 M 8 7 L 5 7 M 5 7 Q 1 7 0 5.5",
+        "greek": "πλήσσω"
+    },
+    {
+        "id": "BEAT_WANDER",
+        "pos": "verb",
+        "path": "M -0.09999999999999981 2.5 L -0.09999999999999998 5.5 M -0.09999999999999998 5.5 Q -0.10000000000000014 6.5 0.7000000000000002 6.5 M 0.7000000000000002 6.5 L 1.9000000000000004 6.5 M 1.9000000000000004 6.5 Q 2.7 6.5 2.7 5.5 M 2.7 5.5 L 2.7 4 M 2.7 4 Q 2.7 3 1.9000000000000004 3 M 1.9000000000000004 3 L 1.5 3 M 1.5 3 Q 0.7000000000000002 3 0.7000000000000002 3.5 M 0.7000000000000002 3.5 L 0.7000000000000002 5 M 0.7000000000000002 5 Q 0.7000000000000002 5.5 1.5 5.5 M 1.5 5.5 Q 1.9000000000000004 5.5 1.9000000000000004 5 M 1.9000000000000004 5 L 1.9000000000000004 4 M 5.9 0.5 L 5.9 7.7 M 5.9 2.3 L 7.7 1.4 M 7.7 1.4 Q 8.3 2.3 8.3 3.2 M 8.3 3.2 L 5.9 5 M 5.9 2.3 L 4.1 1.4 M 4.1 1.4 Q 3.5 2.3 3.5 3.2 M 3.5 3.2 L 5.9 5 M 5.9 5 Q 4.1 5.9 4.1 6.8 M 4.1 6.8 L 5.9 6.8 M 5.9 6.8 L 7.7 6.8 M 7.7 6.8 Q 7.1 5 5.9 5 M 7.1 2.3 Q 7.1 3.2 7.1 2.3 M 4.7 2.3 Q 4.7 3.2 4.7 2.3 M 5.3 5.9 Q 4.7 6.8 5.3 5.9 M 6.5 5.9 Q 7.1 6.8 6.5 5.9 M 5.3 1.4 L 6.5 1.4 M 5.9 6.8 L 4.7 7.7 M 5.9 6.8 L 7.1 7.7 M 6.5 3.2 Q 6.5 4.1 6.5 3.2 M 5.3 3.2 Q 5.3 4.1 5.3 3.2",
+        "PIE": "*pleh₂g",
+        "greek": "πλάζω",
+        "meanings": "to turn away from, to wander, roam",
+        "character_hint": "Semantic \"turn\" {TURN} + phonetic {WRAP}.",
+        "char": "遊",
+        "references": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/pel-#Proto-Indo-European:_drive"
+        ],
+        "inflections": {
+            "greek": {
+                "": {
+                    "verb": {
+                        "_std middle sec sg 3": "πλάγχθη",
+                        "_yeti middle sec sg 3": "πλάγχθη"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "verb": {
+                        "_yeti middle sec sg 3": "pleh₂gyeto"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*pelH-",
@@ -14792,7 +14876,49 @@
             "https://www.dong-chinese.com/wiki/三"
         ],
         "id": "THREE",
-        "character_hint": "Three horizontal strokes, representing the number three."
+        "character_hint": "Three horizontal strokes, representing the number three.",
+        "path": "M 0 4 Q 4 3 8 4 M 0 2 Q 4 1 8 2 M 0 6 Q 4 5 8 6"
+    },
+    {
+        "id": "TROY",
+        "PIE": "*Troyéh₂",
+        "pos": "noun",
+        "path": "M 0 3 Q 4 2 8 3 M 0 1 Q 4 0 8 1 M 0 5 Q 4 4 8 5 M 0 8 L 8 8 M 0 8 Q 4 4 8 8",
+        "greek": "Τροία",
+        "hittite": "ta-ru-i-sa",
+        "meanings": "Troy",
+        "char": "特洛伊",
+        "character_hint": "Semantic \"earth\" {EARTH} + phonetic {THREE}.",
+        "references": [
+            "https://en.wiktionary.org/wiki/%CE%A4%CF%81%CE%BF%CE%AF%CE%B1#Ancient_Greek"
+        ],
+        "inflections": {
+            "greek": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "f sg nom": "Τροίᾱ",
+                        "f sg gen": "Τροίᾱς",
+                        "f sg dat": "Τροίᾳ",
+                        "f sg acc": "Τροίᾱν",
+                        "f sg voc": "Τροίᾱ"
+                    }
+                }
+            },
+            "pie": {
+                "": {
+                    "adj": {
+                        "default_gender": "m",
+                        "f sg nom": "Troyéh₂",
+                        "f sg voc": "Troyéh₂",
+                        "f sg acc": "Troyā́m",
+                        "f sg gen": "Troyéh₂s",
+                        "f sg abl": "Troyéh₂s",
+                        "f sg dat": "Troyéh₂ey"
+                    }
+                }
+            }
+        }
     },
     {
         "PIE": "*tr̥h₂és",
