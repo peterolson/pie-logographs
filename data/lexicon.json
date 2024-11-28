@@ -159,8 +159,9 @@
         "meanings": "really, truly (emphatic particle)",
         "id": "TRULY",
         "hittite": "ma-a-an",
-        "char": "乃",
-        "character_hint": "Origin unclear. Various explanations include: (1) a person standing sideways with protruding breasts, which could be the original form of 奶 or (2) a rope being thrown, which could possibly be the original form of 扔."
+        "char": "确",
+        "character_hint": "Semantic \"speak\" {SPEAK} + phonetic *smeḱ {BEARD}.",
+        "path": "M 7 2.5 A 3 2.5999999999999996 0 0 1 4 5.1 M 4 5.1 A 3 2.5999999999999996 0 0 1 1 2.5 M 1 3.15 L 1 4.45 M 2 4.45 L 2 5.75 M 4 5.1 L 4 6.4 M 6 4.45 L 6 5.75 M 7 3.15 L 7 4.45 M 3 5.1 L 3 7.05 M 4 6.4 L 4 7.7 M 5 5.1 L 5 6.4 M 5 6.4 L 5 7.05 M 1 4.45 L 2 5.75 M 2 5.75 L 3 7.05 M 3 7.05 L 4 7.7 M 4 7.7 L 5 7.05 M 5 7.05 L 6 5.75 M 6 5.75 L 7 4.45 M 3.5 0.5 Q 6 0.5 6 2 M 6 2 Q 6 3.5 3.5 3.5 M 2.5 1 L 3.5 2 M 3.5 2 L 2.5 3"
     },
     {
         "PIE": "n̥-",
@@ -7361,11 +7362,10 @@
         "meanings": "good",
         "pos": "root",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81su-",
-            "https://www.dong-chinese.com/wiki/好"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81su-"
         ],
         "id": "GOOD",
-        "character_hint": "It is good (好) for a woman (女) and her child (子) to be together.",
+        "character_hint": "Depicts a happy face.",
         "inflections": {
             "pie": {
                 "us": {
@@ -7377,18 +7377,21 @@
                         "m sg abl": "h₁uséws",
                         "m sg dat": "h₁uséwey",
                         "m sg loc": "h₁uséwi",
-                        "m sg ins": "h₁uséwi"
+                        "m sg ins": "h₁uséwi",
+                        "default_gender": "m"
                     }
                 }
             },
             "hittite": {
                 "us": {
                     "adj": {
-                        "m sg nom": "a-as-su-us"
+                        "m sg nom": "a-as-su-us",
+                        "default_gender": "m"
                     }
                 }
             }
-        }
+        },
+        "path": "M 4.1 0.5 A 3.6000000000000005 3.5999999999999996 0 0 1 7.7 4.1 M 7.7 4.1 A 3.6000000000000005 3.6000000000000005 0 0 1 4.1 7.7 M 4.1 7.7 A 3.5999999999999996 3.6000000000000005 0 0 1 0.5 4.1 M 0.5 4.1 A 3.5999999999999996 3.5999999999999996 0 0 1 4.1 0.5 M 3 5 Q 4 6 5 5 M 3 3 Q 2 4 3 3 M 5 3 Q 6 4 5 3"
     },
     {
         "PIE": "*h₁wésus",
@@ -7450,12 +7453,12 @@
         "meanings": "to, at",
         "pos": "adv",
         "references": [
-            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9d",
-            "https://www.dong-chinese.com/wiki/在"
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82%C3%A9d"
         ],
         "id": "AT",
         "hittite": "as-ta",
-        "character_hint": "Composed of 才 and 士, which both represent the sound."
+        "character_hint": "Depicts an arrow indicating a location or destination on the ground.",
+        "path": "M 4 6 Q 1 6 0 7 M 0 7 Q 0 8 4 8 M 4 8 Q 8 8 8 7 M 8 7 Q 8 6 4 6 M 2 1 L 4 7 M 4 7 L 6 1"
     },
     {
         "PIE": "*h₂eǵ-",
@@ -11546,7 +11549,7 @@
     },
     {
         "PIE": "*néh₂s",
-        "char": "自",
+        "char": "鼻",
         "meanings": "nose",
         "pos": "noun",
         "references": [
@@ -11554,10 +11557,11 @@
             "https://www.dong-chinese.com/wiki/自"
         ],
         "id": "NOSE",
-        "character_hint": "Pictograph of a nose. Original form of 鼻 (nose)."
+        "character_hint": "Pictograph of a nose. Similar to Chinese 自.",
+        "path": "M 2.5 7.7 Q 1 7.7 1 6.8 M 1 6.8 Q 1 5.9 1.75 5 M 5.5 7.7 Q 7 7.7 7 6.8 M 7 6.8 Q 7 5.9 6.25 5 M 4 7.7 Q 4.75 7.7 5.5 6.8 M 4 7.7 Q 3.25 7.7 2.5 6.8 M 5.5 6.8 L 6.25 6.8 M 2.5 6.8 L 1.75 6.8 M 1.75 5 Q 3.25 0.5 4 0.5 M 4 0.5 Q 4.75 0.5 6.25 5"
     },
     {
-        "char": "⿰土自",
+        "char": "泥薩",
         "meanings": "city of Nesa",
         "references": [
             "https://en.wikipedia.org/wiki/K%C3%BCltepe"
@@ -11566,7 +11570,7 @@
         "PIE": "*nésa",
         "hittite": "URU:ne-e-sa",
         "pos": "noun",
-        "character_hint": "Land (土) that sounds like *néh₂s (nosa, 自)",
+        "character_hint": "Semantic {EARTH} (earth, land) + phonetic *néh₂s {NOSE}",
         "inflections": {
             "pie": {
                 "": {
@@ -11592,7 +11596,8 @@
                     }
                 }
             }
-        }
+        },
+        "path": "M 2.95 5.6 Q 1.75 5.6 1.75 4.8999999999999995 M 1.75 4.8999999999999995 Q 1.75 4.199999999999999 2.35 3.5 M 5.35 5.6 Q 6.55 5.6 6.55 4.8999999999999995 M 6.55 4.8999999999999995 Q 6.55 4.199999999999999 5.95 3.5 M 4.15 5.6 Q 4.75 5.6 5.35 4.8999999999999995 M 4.15 5.6 Q 3.55 5.6 2.95 4.8999999999999995 M 5.35 4.8999999999999995 L 5.95 4.8999999999999995 M 2.95 4.8999999999999995 L 2.35 4.8999999999999995 M 2.35 3.5 Q 3.55 0 4.15 0 M 4.15 0 Q 4.75 0 5.95 3.5 M 0 8 L 8 8 M 0 8 Q 4 5 8 8"
     },
     {
         "PIE": "*néh₂us",
@@ -13438,7 +13443,7 @@
     },
     {
         "PIE": "*smeḱ-",
-        "char": "須",
+        "char": "鬚",
         "meanings": "beard; chin",
         "pos": "root",
         "references": [
@@ -13446,7 +13451,8 @@
             "https://www.dong-chinese.com/wiki/須"
         ],
         "id": "BEARD",
-        "character_hint": "Pictograph of a person with a bearded face. Based on the original meaning \"beard\", now written as 鬚. The current meaning is a phonetic loan."
+        "character_hint": "Depicts a beard.",
+        "path": "M 7 0 A 3 4 0 0 1 4 4 M 4 4 A 3 4 0 0 1 1 0 M 1 1 L 1 3 M 2 3 L 2 5 M 4 4 L 4 6 M 6 3 L 6 5 M 7 1 L 7 3 M 3 4 L 3 7 M 4 6 L 4 8 M 5 4 L 5 6 M 5 6 L 5 7 M 1 3 L 2 5 M 2 5 L 3 7 M 3 7 L 4 8 M 4 8 L 5 7 M 5 7 L 6 5 M 6 5 L 7 3"
     },
     {
         "PIE": "*sméḱom",
